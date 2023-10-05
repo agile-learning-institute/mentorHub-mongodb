@@ -9,7 +9,7 @@ This is a simple MongoDB that builds a container for development and testing use
 ## Prerequisits
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [Mongo Compass](https://www.mongodb.com/try/download/compass) - if you want a way to look into the database, the connection string will be 
+- [Mongo Compass](https://www.mongodb.com/try/download/compass) - if you want a way to look into the database, the connection string will be
 
 ```html
 mongodb://root:example@localhost:27017/?tls=false&directConnection=true
@@ -35,3 +35,8 @@ docker compose start
 docker compose down
 docker compose up --deatch
 ```
+
+## Refactors and Enhancements
+
+- [ ] Implement Schema Validation
+- [ ] Implement Schema Version Migration
