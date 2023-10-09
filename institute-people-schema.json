@@ -35,63 +35,63 @@
                     ],
                     "properties": {
                         "name": { 
-                            "description": "",
+                            "description": "The persons name, first and last",
                             "bsonType": "string", 
                             "maxLength": 32
                         },
                         "status": { 
-                            "description": "",
+                            "description": "The status of this member",
                             "bsonType": "string",
                             "enum": ["pending", "active", "drip", "archived"]
                         },
                         "member": { 
-                            "description": "",
+                            "description": "Is this person a Member",
                             "bsonType": "bool" 
                         },
                         "mentor": { 
-                            "description": "",
+                            "description": "Is this person a Mentor",
                             "bsonType": "bool" 
                         },
                         "donor": { 
-                            "description": "",
+                            "description": "Is this person a Donor",
                             "bsonType": "bool" 
                         },
                         "contact": { 
-                            "description": "",
+                            "description": "Is this person a Partner Contact",
                             "bsonType": "bool" 
                         },
                         "mentorId": { 
-                            "description": "",
+                            "description": "the _id of this persons Mentor if they have one",
                             "bsonType": "objectId" 
                         },
                         "partnerId": { 
-                            "description": "",
+                            "description": "the _id of this persons partner (contacts and members)",
                             "bsonType": "objectId" 
                         },
                         "title": { 
-                            "description": "",
+                            "description": "The person's title in the career path",
                             "bsonType": "string",
                             "enum": ["Apprentice","Apprentice Candidate","Resident","Distinguished"]
                         },
                         "eMail": { 
-                            "description": "",
+                            "description": "The person's eMail address",
                             "bsonType": "string" ,
                             "maxLength": 256,
-                            "pattern": "^(https?|ftp)://[^\\s/$.?#].[^\\s]*$"
+                            "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
                         },
 
                         "gitHub": { 
-                            "description": "",
+                            "description": "The person's gitHub User ID",
                             "bsonType": "string",
                             "maxLength": 32
                         },
                         "phone": { 
-                            "description": "",
+                            "description": "The person's phone number",
                             "bsonType": "string",
                             "pattern": "^\\d{3}[-.\\s]?\\d{3}[-.\\s]?\\d{4}$"
                         },
                         "device": { 
-                            "description": "",
+                            "description": "The type of PC this person is using",
                             "bsonType": "string",
                             "enum": [
                                 "Mac Intel",
@@ -101,12 +101,12 @@
                             ]
                         },
                         "location": { 
-                            "description": "",
+                            "description": "The location where this person lives",
                             "bsonType": "string",
                             "maxLength": 64
                         },
                         "description": { 
-                            "description": "",
+                            "description": "Notes or other descriptive text",
                             "bsonType": "string",
                             "maxLength": 256
                         }

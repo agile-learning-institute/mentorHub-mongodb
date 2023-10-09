@@ -28,20 +28,22 @@
             "required": ["name", "status"],
             "properties": {
                 "name": { 
-                    "description": "",
+                    "description": "The Partner name",
                     "bsonType": "string", 
                     "maxLength": 32
                 },
                 "status": { 
-                    "description": "",
+                    "description": "The status of this partnership",
                     "bsonType": "string",
                     "enum": ["Lead", "Pending", "Active", "Archived"]
                 },
                 "description": { 
+                    "description": "Notes or other descriptions of the partner",
                     "bsonType": "string", 
                     "maxLength": 256 
                 },
                 "url": {
+                    "description": "Partner Company website",
                     "bsonType": "string",
                     "maxLength": 256,
                     "pattern": "^(https?|ftp)://[^\\s/$.?#].[^\\s]*$"

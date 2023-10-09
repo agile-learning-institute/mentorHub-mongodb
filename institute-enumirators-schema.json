@@ -7,9 +7,18 @@
                 "then": {
                     "required": ["name", "description", "version"],
                     "properties": {
-                        "name": { "bsonType": "string" },
-                        "description": { "bsonType": "string" },
-                        "version": { "bsonType": "string" }
+                      "name": { 
+                        "description":"VERSION is the key that identifies this document as a Scheam Version document",
+                        "bsonType": "string", 
+                        "maxLength": 32 },
+                      "description": { 
+                        "description":"Schema Version is the description on ",
+                        "bsonType": "string", 
+                        "maxLength": 256 },
+                      "version": { 
+                        "description":"",
+                        "bsonType": "string", 
+                        "maxLength": 20 }
                     }
                 }
             },
