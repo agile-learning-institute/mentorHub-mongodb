@@ -1,0 +1,55 @@
+{
+    "bsonType": "object",
+    "switch": {
+      "branches": [
+        {
+          "case": { "$eq": ["$$this.name", "VERSION"] },
+          "then": {
+            "required": ["name", "description", "version"],
+            "properties": {
+              "name": { 
+                "description":"VERSION is the key that identifies this document as a Scheam Version document",
+                "bsonType": "string", 
+                "maxLength": 32 },
+              "description": { 
+                "description":"Schema Version is the description on ",
+                "bsonType": "string", 
+                "maxLength": 256 },
+              "version": { 
+                "description":"",
+                "bsonType": "string", 
+                "maxLength": 20 }
+            }
+          }
+        },
+        {
+          "case": { "$ne": ["$$this.name", "VERSION"] },
+          "then": {
+            "required": ["name", "status"],
+            "properties": {
+                "name": { 
+                    "description": "",
+                    "bsonType": "string", 
+                    "maxLength": 32
+                },
+                "status": { 
+                    "description": "",
+                    "bsonType": "string",
+                    "enum": ["Lead", "Pending", "Active", "Archived"]
+                },
+                "description": { 
+                    "bsonType": "string", 
+                    "maxLength": 256 
+                },
+                "url": {
+                    "bsonType": "string",
+                    "maxLength": 256,
+                    "pattern": "^(https?|ftp)://[^\\s/$.?#].[^\\s]*$"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+  

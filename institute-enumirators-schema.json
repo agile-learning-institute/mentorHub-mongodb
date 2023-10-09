@@ -1,0 +1,31 @@
+{
+    "bsonType": "object",
+    "switch": {
+        "branches": [
+            {
+                "case": { "$eq": ["$$this.name", "VERSION"] },
+                "then": {
+                    "required": ["name", "description", "version"],
+                    "properties": {
+                        "name": { "bsonType": "string" },
+                        "description": { "bsonType": "string" },
+                        "version": { "bsonType": "string" }
+                    }
+                }
+            },
+            {
+                "case": { "$ne": ["$$this.name", "VERSION"] },
+                "then": {
+                    "required": ["name", "enumerations"],
+                    "properties": {
+                        "name": { "bsonType": "string" },
+                        "enumerations": {
+                            "bsonType": "array",
+                            "items": { "bsonType": "string" }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "bsonType": "object",
+    "switch": {
+        "branches": [
+            {
+                "case": { "$eq": ["$$this.name", "VERSION"] },
+                "then": {
+                    "required": ["name", "description", "version"],
+                    "properties": {
+                      "name": { 
+                        "description":"VERSION is the key that identifies this document as a Scheam Version document",
+                        "bsonType": "string", 
+                        "maxLength": 32 },
+                      "description": { 
+                        "description":"Schema Version is the description on ",
+                        "bsonType": "string", 
+                        "maxLength": 256 },
+                      "version": { 
+                        "description":"",
+                        "bsonType": "string", 
+                        "maxLength": 20 }
+                    }
+                }
+            },
+            {
+                "case": { "$ne": ["$$this.name", "VERSION"] },
+                "then": {
+                    "required": [
+                        "name",
+                        "status",
+                        "member",
+                        "mentor",
+                        "donor",
+                        "contact"
+                    ],
+                    "properties": {
+                        "name": { 
+                            "description": "",
+                            "bsonType": "string", 
+                            "maxLength": 32
+                        },
+                        "status": { 
+                            "description": "",
+                            "bsonType": "string",
+                            "enum": ["pending", "active", "drip", "archived"]
+                        },
+                        "member": { 
+                            "description": "",
+                            "bsonType": "bool" 
+                        },
+                        "mentor": { 
+                            "description": "",
+                            "bsonType": "bool" 
+                        },
+                        "donor": { 
+                            "description": "",
+                            "bsonType": "bool" 
+                        },
+                        "contact": { 
+                            "description": "",
+                            "bsonType": "bool" 
+                        },
+                        "mentorId": { 
+                            "description": "",
+                            "bsonType": "objectId" 
+                        },
+                        "partnerId": { 
+                            "description": "",
+                            "bsonType": "objectId" 
+                        },
+                        "title": { 
+                            "description": "",
+                            "bsonType": "string",
+                            "enum": ["Apprentice","Apprentice Candidate","Resident","Distinguished"]
+                        },
+                        "eMail": { 
+                            "description": "",
+                            "bsonType": "string" ,
+                            "maxLength": 256,
+                            "pattern": "^(https?|ftp)://[^\\s/$.?#].[^\\s]*$"
+                        },
+
+                        "gitHub": { 
+                            "description": "",
+                            "bsonType": "string",
+                            "maxLength": 32
+                        },
+                        "phone": { 
+                            "description": "",
+                            "bsonType": "string",
+                            "pattern": "^\\d{3}[-.\\s]?\\d{3}[-.\\s]?\\d{4}$"
+                        },
+                        "device": { 
+                            "description": "",
+                            "bsonType": "string",
+                            "enum": [
+                                "Mac Intel",
+                                "Mac Apple",
+                                "Windows / WSL",
+                                "Linux"
+                            ]
+                        },
+                        "location": { 
+                            "description": "",
+                            "bsonType": "string",
+                            "maxLength": 64
+                        },
+                        "description": { 
+                            "description": "",
+                            "bsonType": "string",
+                            "maxLength": 256
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
