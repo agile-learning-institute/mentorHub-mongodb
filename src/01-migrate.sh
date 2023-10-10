@@ -11,7 +11,7 @@ use agile-learning-institute;
 ##############################
 # Create enumerators collection
 ##############################
-enumerators_schema=$(< /path/to/updated-enumerators-schema.json)
+enumerators_schema=$(< /schemas/institute-enumerators-schema.json)
 db.createCollection("enumerators");
 db.enumerators.createIndex({ "name": 1 }, { unique: true })
 db.runCommand({collMod: "enumerators",validator: {\$jsonSchema: $enumerators_schema}});
@@ -19,7 +19,7 @@ db.runCommand({collMod: "enumerators",validator: {\$jsonSchema: $enumerators_sch
 ##############################
 # Create the partner collection
 ##############################
-partner_schema=$(< ./institute-partner-schema.json)
+partner_schema=$(< /schemas/institute-partner-schema.json)
 db.createCollection("partners");
 db.partners.createIndex({ "name": 1 }, { unique: true });
 db.runCommand({collMod: "partners",validator: {\$jsonSchema: $partner_schema}});
@@ -27,7 +27,7 @@ db.runCommand({collMod: "partners",validator: {\$jsonSchema: $partner_schema}});
 ##############################
 # Create the people collection
 ##############################
-people_schema=$(< ./institute-people-schema.json)
+people_schema=$(< /schemas/institute-people-schema.json)
 db.createCollection("people");
 db.people.createIndex({ "name": 1 }, { unique: true });
 db.runCommand({collMod: "people",validator: {\$jsonSchema: $people_schema}});
