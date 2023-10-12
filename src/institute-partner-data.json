@@ -1,0 +1,83 @@
+[
+    {
+        "name": "VERSION", 
+        "description": "Partner Collection Schema Version", 
+        "version":"1.1.TestData" 
+    },
+    {
+        "name": "Codingcops.com",
+        "status": "Lead",
+        "description": "Offshore coding company, Pakistan"
+    },
+    {
+        "name": "Enok",
+        "status": "Pending"
+    },
+    {
+        "name": "Google Search",
+        "status": "Active",
+        "description": "Members that found us on Google"
+    },
+    {
+        "name": "Greenville Women Who Code",
+        "status": "Pending"
+    },
+    {
+        "name": "Helpmate",
+        "status": "Lead"
+    },
+    {
+        "name": "Leadership Asheville",
+        "status": "Lead"
+    },
+    {
+        "name": "LinkedIn",
+        "status": "Active",
+        "description": "Members that found us on LinkedIn"
+    },
+    {
+        "name": "Operation Gateway",
+        "status": "Pending"
+    },
+    {
+        "name": "Our Voice",
+        "status": "Lead"
+    },
+    {
+        "name": "Persevere",
+        "status": "Active"
+    },
+    {
+        "name": "Referrals",
+        "status": "Active",
+        "description": "Member Referrals"
+    },
+    {
+        "name": "tkxel.com",
+        "status": "Lead",
+        "description": "Offshore coding company"
+    },
+    {
+        "name": "LearningFuze",
+        "status": "Lead",
+        "description": "Code School"
+    },
+    {
+        "name": "Develop Carolina",
+        "status": "Lead",
+        "description": "Code School"
+    },
+    {
+        "name": "Charleston Women in Tech",
+        "status": "Lead",
+        "url": "https://www.linkedin.com/company/charlestonwomenintech/"
+    },
+    {
+        "name": "Build Carolina",
+        "status": "Lead"
+    },
+    {
+        "name": "Asheville Javascript Meetup",
+        "status": "Lead"
+    }
+]

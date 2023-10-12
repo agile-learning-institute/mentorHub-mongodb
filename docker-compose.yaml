@@ -1,13 +1,15 @@
-# Use root/example as user/password credentials
-version: '3.1'
-
+version: '3'
 services:
-
-  mongo:
-    image: institute-person-db
-    restart: always
-    ports:
-      - 127.0.0.1:27017:27017
+  institute-mongodb:
+    image: mongo:latest
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
+    ports:
+      - "27017:27017"
+
+  institute-mongosh:
+    image: institute-mongosh
+    depends_on:
+      - institute-mongodb
+    entrypoint: /bin/sh -c "sleep 10 && mongosh --host institute-mongodb -u root -p example --authenticationDatabase admin agile-learning-institute --eval 'load(\"/src/00-auto.js\")'"

@@ -1,8 +1,6 @@
-# institute-person-db
+# institute-data
 
-This is a simple MongoDB that builds a container for development and testing use. Restarting the container resets data to a know starting state
-
-[Here](https://github.com/orgs/agile-learning-institute/repositories?q=institute-person&type=all&sort=name) are the repositories in the person triplet
+This is project contains database configuration and migration scripts, as well as test data and scripts to load it into the database. This database supports all the Mongo backing services in the institute system.
 
 [here](https://github.com/orgs/agile-learning-institute/repositories?q=institute&type=all&sort=name) are all of the repositories in the [Institute](https://github.com/agile-learning-institute/institute/tree/main) system
 
@@ -15,10 +13,15 @@ This is a simple MongoDB that builds a container for development and testing use
 mongodb://root:example@localhost:27017/?tls=false&directConnection=true
 ```
 
-## Build and run the container
+## Build the container
 
 ```bash
-docker build . --tag institute-person-db
+docker build . --tag institute-mongosh
+```
+
+## Run and Load the database container
+
+```bash
 docker compose up --detach
 ```
 
@@ -38,7 +41,8 @@ docker compose up --deatch
 
 ## Refactors and Enhancements
 
-- [ ] Create more complete test data
-- [ ] Implement Schema Validation
-- [ ] Implement Schema Version Migration
+- [x] Create more complete test data
+- [x] Implement Schema Validation
+- [x] Implement Schema Version Migration
+- [ ] Implement Person transformation in load script
 - [ ] Breadcrumbs
