@@ -1,4 +1,5 @@
-version: '3'
+version: '3.1'
+
 services:
   institute-mongodb:
     image: mongo:latest
@@ -7,9 +8,16 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: example
     ports:
       - "27017:27017"
+    healthcheck:
+      test: ["CMD", "mongosh", "-u", "root", "-p", "example", "--authenticationDatabase", "admin", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
 
   institute-mongosh:
     image: institute-mongosh
     depends_on:
-      - institute-mongodb
-    entrypoint: /bin/sh -c "sleep 10 && mongosh --host institute-mongodb -u root -p example --authenticationDatabase admin agile-learning-institute --eval 'load(\"/src/00-auto.js\")'"
+      institute-mongodb:
+        condition: service_healthy
+    entrypoint: "mongosh --host institute-mongodb -u root -p example --authenticationDatabase admin agile-learning-institute --eval 'load(\"/src/00-auto.js\")'"
+
