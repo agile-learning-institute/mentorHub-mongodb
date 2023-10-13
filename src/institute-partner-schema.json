@@ -1,0 +1,27 @@
+{
+  "bsonType": "object",
+  "required": ["name"],
+  "properties": {
+    "name": { 
+      "description":"VERSION is the key that identifies a document as a Scheam Version document, otherwise it's just the name",
+      "bsonType": "string", 
+      "maxLength": 32 },
+    "description": { 
+      "description":"Description of the partner",
+      "bsonType": "string", 
+      "maxLength": 256 },
+    "version": { 
+      "description":"The Schema Version number (only on VERSION document)",
+      "bsonType": "string", 
+      "maxLength": 20 },
+    "status": { 
+      "description": "The status of this partnership",
+      "bsonType": "string",
+      "enum": ["Lead", "Pending", "Active", "Archived"]},
+    "url": {
+      "description": "Partner Company website",
+      "bsonType": "string",
+      "maxLength": 256,
+      "pattern": "^(https?|ftp)://[^\\s/$.?#].[^\\s]*$" }
+  }
+}  

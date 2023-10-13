@@ -1,0 +1,30 @@
+[
+    {
+        "name": "title", 
+        "enumerations": [
+            "Apprentice Candidate",
+            "Apprentice",
+            "Resident",
+            "Associate",
+            "Senior",
+            "Distinguished",
+            "N/A"
+        ]
+    },{
+        "name": "status", 
+        "enumerations": [
+            "draft",
+            "active",
+            "drip",
+            "archived"
+        ]
+    },{
+        "name": "device", 
+        "enumerations": [
+            "Windows",
+            "Mac (Intel)",
+            "Mac (Apple)",
+            "Linux"
+        ]
+    }
+]
