@@ -1,6 +1,8 @@
 # institute-data
 
-This is project contains database configuration and migration scripts, as well as test data and scripts to load it into the database. This database supports all the Mongo backing services in the institute system.
+This is project contains database configuration, migration scripts, and test data used by the institute system. The Dockerfile creates a mongosh container that connects to a database and runs the scripts to configure the database and load test data.
+
+The docker compose starts the mongodb database container first, and when it is healthy it starts the mongosh container to run the configuration script.
 
 [here](https://github.com/orgs/agile-learning-institute/repositories?q=institute&type=all&sort=name) are all of the repositories in the [Institute](https://github.com/agile-learning-institute/institute/tree/main) system
 

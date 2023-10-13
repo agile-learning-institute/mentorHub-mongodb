@@ -1,9 +1,5 @@
 [
     {
-        "name": "VERSION", 
-        "description": "Schema Version", 
-        "version":"1.0.TestData" 
-    },{
         "name": "title", 
         "enumerations": [
             "Apprentice Candidate",

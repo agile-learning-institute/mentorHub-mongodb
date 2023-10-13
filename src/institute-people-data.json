@@ -1,10 +1,5 @@
 [
 {
-    "name": "VERSION", 
-    "description": "Schema Version", 
-    "version":"1.1.TestData" 
-},
-{
     "name": "Karmen Durbin",
     "status": "active",
     "member": true,
@@ -575,7 +570,6 @@
     "mentor": false,
     "donor": false,
     "contatct": true,
-    "partnerName": "Develop Carolina",
-    "eMail": "https://www.linkedin.com/in/kaitymiller/"
+    "partnerName": "Develop Carolina"
 }
 ]

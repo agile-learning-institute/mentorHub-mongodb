@@ -1,10 +1,5 @@
 [
     {
-        "name": "VERSION", 
-        "description": "Partner Collection Schema Version", 
-        "version":"1.1.TestData" 
-    },
-    {
         "name": "Codingcops.com",
         "status": "Lead",
         "description": "Offshore coding company, Pakistan"
