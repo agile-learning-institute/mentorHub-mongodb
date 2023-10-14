@@ -12,7 +12,7 @@ function checkAndCreateCollection(collectionName) {
 }
 
 // Function to check and create constraints (if no VERSION document exists)
-function checkAndCreateConstraints(collectionName, schemaFile, dataFile, initialVersion) {
+function checkAndCreateConstraints(collectionName, schemaFile, initialVersion) {
     var versionDoc = db[collectionName].findOne({"name": "VERSION"});
     if (!versionDoc) {
         console.log("Version Not Found, Configuring:",collectionName);
@@ -29,13 +29,8 @@ function checkAndCreateConstraints(collectionName, schemaFile, dataFile, initial
         
         // Insert version document
         db[collectionName].insertOne({"name": "VERSION", "version":initialVersion });
-        console.log("\tVersion Configured");
+        console.log("\tVersion Set");
 
-        // Load Test Data
-        const data = require(dataFile);
-        console.log("\tTest Data Loaded");
-        console.log(db.getCollection(collectionName).insertMany(data));
-        console.log("Configured!");
     }
 }
 
@@ -43,16 +38,26 @@ function checkAndCreateConstraints(collectionName, schemaFile, dataFile, initial
 function checkAndUpgradeConstraints(collectionName, targetVersion) {
     var versionDoc = db[collectionName].findOne({ "metadata": { "type": "version" } });
     if (versionDoc && versionDoc.version < targetVersion) {
-        console.log("Version Upgrade Start");
+        console.log("\tVersion Upgrade Start");
         // Code to upgrade constraints goes here
 
         // Update version document
         db[collectionName].update({"name": "VERSION", "version":targetVersion });
-        console.log("Version Upgrade Complete");
+        console.log("\tVersion Upgrade Complete");
     }
 }
 
-// Usage
+// Function to load test data
+function loadTestData (collectionName, dataFile) {
+    // Load Test Data
+    console.log("\tLoading Test Data");
+    const data = require(dataFile);
+    result = db.getCollection(collectionName).insertMany(data);
+    count = Object.keys(result.insertedIds).length;
+    console.log("\t", count, " Documents Inserted");
+}
+
+// Setup Collections
 var collections = [
     { 
         name: "enumerators", 
@@ -77,11 +82,13 @@ var collections = [
     },
     // Add more collections here
 ];
+console.log("############ STARTING ################ loadTestData:", loadTest)
 
 collections.forEach(function(collection) {
     checkAndCreateCollection(collection.name);
-    checkAndCreateConstraints(collection.name, collection.schemaFile, collection.dataFile, collection.initialVersion);
-    checkAndUpgradeConstraints(collection.name, collection.schemaFile, collection.targetVersion);
+    checkAndCreateConstraints(collection.name, collection.schemaFile, collection.initialVersion);
+    checkAndUpgradeConstraints(collection.name, collection.targetVersion);
+    if (loadTest===true) {loadTestData(collection.name, collection.dataFile);}
 });
 
 console.log("############ COMPLETE ################");
