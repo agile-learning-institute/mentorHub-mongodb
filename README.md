@@ -4,7 +4,7 @@ This is project contains database configuration, migration scripts, and test dat
 
 The docker compose starts the mongodb database container first, and when it is healthy it starts the mongosh container to run the configuration script.
 
-[here](https://github.com/orgs/agile-learning-institute/repositories?q=institute&type=all&sort=name) are all of the repositories in the [Institute](https://github.com/agile-learning-institute/institute/tree/main) system
+[Here](https://github.com/orgs/agile-learning-institute/repositories?q=institute&type=all&sort=name) are all of the repositories in the [Institute](https://github.com/agile-learning-institute/institute/tree/main) system
 
 ## Prerequisits
 
@@ -18,7 +18,7 @@ mongodb://root:example@localhost:27017/?tls=false&directConnection=true
 ## Build the container
 
 ```bash
-docker build . --tag institute-mongosh
+./docker-build.sh
 ```
 
 ## Run and Load the database container
