@@ -12,7 +12,7 @@ function checkAndCreateCollection(collectionName) {
 }
 
 // Function to check and create constraints (if no VERSION document exists)
-function checkAndCreateConstraints(collectionName, schemaFile, initialVersion) {
+function checkAndCreateConstraints(collectionName, schemaFile, dataFile, initialVersion) {
     var versionDoc = db[collectionName].findOne({"name": "VERSION"});
     if (!versionDoc) {
         console.log("Version Not Found, Configuring:",collectionName);
@@ -31,6 +31,14 @@ function checkAndCreateConstraints(collectionName, schemaFile, initialVersion) {
         db[collectionName].insertOne({"name": "VERSION", "version":initialVersion });
         console.log("\tVersion Set");
 
+        // Load Test Data
+        if (loadTest===true) {
+            console.log("\tLoading Test Data");
+            const data = require(dataFile);
+            result = db.getCollection(collectionName).insertMany(data);
+            count = Object.keys(result.insertedIds).length;
+            console.log("\t", count, " Documents Inserted");
+        }
     }
 }
 
@@ -45,16 +53,6 @@ function checkAndUpgradeConstraints(collectionName, targetVersion) {
         db[collectionName].update({"name": "VERSION", "version":targetVersion });
         console.log("\tVersion Upgrade Complete");
     }
-}
-
-// Function to load test data
-function loadTestData (collectionName, dataFile) {
-    // Load Test Data
-    console.log("\tLoading Test Data");
-    const data = require(dataFile);
-    result = db.getCollection(collectionName).insertMany(data);
-    count = Object.keys(result.insertedIds).length;
-    console.log("\t", count, " Documents Inserted");
 }
 
 // Setup Collections
@@ -86,9 +84,8 @@ console.log("############ STARTING ################ loadTestData:", loadTest)
 
 collections.forEach(function(collection) {
     checkAndCreateCollection(collection.name);
-    checkAndCreateConstraints(collection.name, collection.schemaFile, collection.initialVersion);
+    checkAndCreateConstraints(collection.name, collection.schemaFile, collection.dataFile, collection.initialVersion);
     checkAndUpgradeConstraints(collection.name, collection.targetVersion);
-    if (loadTest===true) {loadTestData(collection.name, collection.dataFile);}
 });
 
 console.log("############ COMPLETE ################");
