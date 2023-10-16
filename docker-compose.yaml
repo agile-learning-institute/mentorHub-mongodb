@@ -15,7 +15,7 @@ services:
       retries: 10
 
   institute-mongosh:
-    image: institute-mongosh
+    image: ghcr.io/agile-learning-institute/institute-mongosh:latest
     depends_on:
       institute-mongodb:
         condition: service_healthy
