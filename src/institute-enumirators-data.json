@@ -10,7 +10,8 @@
             "Distinguished",
             "N/A"
         ]
-    },{
+    },
+    {
         "name": "status", 
         "enumerations": [
             "draft",
@@ -18,13 +19,21 @@
             "drip",
             "archived"
         ]
-    },{
+    },
+    {
         "name": "device", 
         "enumerations": [
             "Windows",
             "Mac (Intel)",
             "Mac (Apple)",
             "Linux"
+        ]
+    }, 
+    {
+        "name": "modules", 
+        "enumerations": [
+            "TODO - Enums from topics",
+            "Etc."
         ]
     }
 ]

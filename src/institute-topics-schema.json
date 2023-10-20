@@ -1,0 +1,47 @@
+{
+    "description":"A Learning Topic",
+    "bsonType": "object",
+    "required": ["name"],
+    "properties": {
+        "_id": {
+            "description":"Topic Identifier",
+            "bsonType": "objectId"
+        },
+        "domain": {
+            "description":"Module level classification",
+            "bsonType": "string", 
+            "enums": [
+                "Craftsmaship",
+                "Human Experience",
+                "Product Life Cycle",
+                "Computing",
+                "Internet",
+                "Tooling",
+                "Programming Languages",
+                "Automated Testing",
+                "Clean Code",
+                "Data",
+                "Infrastructure", 
+                "Security", 
+                "Monitoring", 
+                "Operations", 
+                "Architecture"
+            ]
+        },
+        "name": { 
+            "description":"The Topic Name",
+            "bsonType": "string", 
+            "maxLength": 32 
+        },
+        "overview": { 
+            "description":"The Topic overview paragraph",
+            "bsonType": "string", 
+            "maxLength": 256 
+        },
+        "skills": {
+            "description":"The list of Skills realted to this topic",
+            "bsonType": "array",
+            "items": { "bsonType": "string" },
+        }
+    }
+}

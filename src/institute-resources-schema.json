@@ -1,0 +1,53 @@
+{
+    "description":"A learning resource",
+    "bsonType": "object" ,
+    "required": ["type","description", "link"],
+    "properties": {
+        "_id": {
+            "description":"Resource ID",
+            "bsonType": "objectId",
+        },
+        "topic": {
+            "description":"Topic ID",
+            "bsonType": "objectId",
+        },
+        "type": {
+            "description":"Learning Resource Type",
+            "bsonType": "string",
+            "enums": [
+                "Article",
+                "Book",
+                "Certification Exam",
+                "Documentation",
+                "Image",
+                "Official Guide",
+                "Official Training",
+                "Video"
+            ]
+        },
+        "description": { 
+            "description":"The Resource description",
+            "bsonType": "string", 
+            "maxLength": 256 
+        },
+        "link": {
+            "description":"",
+            "bsonType": "string",
+            "format": "uri",
+            "maxLength": 128                                 
+        },
+        "isFree": {
+            "description":"Is this a free resource",
+            "bsonType": "bool"
+        },
+        "isGeneralistSkill": {
+            "description":"Is this a generalist skill, or a specialist skill",
+            "bsonType": "bool"
+        },
+        "notes": {
+            "description":"",
+            "bsonType": "string",
+            "maxLength": 255
+        }
+    }
+}   
