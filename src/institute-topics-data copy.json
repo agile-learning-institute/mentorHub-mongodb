@@ -1,0 +1,907 @@
+[
+    {
+        "domain": "Craftsmaship",
+        "name": "History of Craftsmanship",
+        "overview": "With this topic, you'll learn about how craftsmanship has been applied across different trades, cultures, and periods in human history.",
+        "skills": [
+            "Summarize the history of craftsmanship",
+            "Critique ancient craftsmanship patterns and describe some of their benefits and drawbacks",
+            "Propose how craftsmanship might apply to modern society"
+        ],
+        "resources": [
+            {
+                "type": "video",
+                "name": "European Medieval Guilds Video",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.youtube.com/watch?v=vnQlHeee9Dw&t=17s",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Guild coat of arms Image",
+                "type": "image",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Guild overview Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://en.wikipedia.org/wiki/Guild",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Japanese Medieval Za (guilds) Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://en.wikipedia.org/wiki/Za_%28guilds%29",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Shokunin and Devotion Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.kyotojournal.org/culture-arts/shokunin-and-devotion/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Shokunin: How Striving for Perfection Can Help You Live a Better Life Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://medium.com/mind-cafe/shokunin-how-striving-for-perfection-can-help-you-live-a-better-life-88fc09394a09",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Tanners, tailors and candlestick makers: a history of apprenticeships Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.theguardian.com/global/2020/feb/04/tanners-tailors-and-candlestick-makers-a-history-of-apprenticeships",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "The craft guilds overview Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.britannica.com/topic/history-of-work-organization-648000/The-craft-guilds",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Sushi Night",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "https://github.com/engineerkit/engineerkit/blob/main/exercises/craftsmanship/sushi-night.md",
+                "isFree": true,
+                "isGeneralistSkill": true
+            }
+        ]
+    },
+    {
+        "domain": "Craftsmaship",
+        "name": "Principles of Modern Craftsmanship",
+        "overview": "With this topic, you'll learn about the principles of modern craftsmanship and how they can be utilized in any occupation.",
+        "skills": [
+            "List the principles of modern craftsmanship",
+            "Compare the craftsmanship mindset to the contemporary approach to work",
+            "Explain what craftsmanship means to you and how you might apply it in your work",
+            "Theorize why the pursuit of craftsmanship leads to a higher quality of work"
+        ],
+        "resources": [
+            {
+                "name": "Craftsmanship and Creativity: The Art of Showing Up Long After Passion Leaves Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://dallasblowers.medium.com/craftsmanship-and-creativity-the-art-of-showing-up-long-after-passion-leaves-998d3a562aa",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "What is craftsmanship and does it matter? Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://solidgiant.com/what-is-craftsmanship-and-does-it-matter/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "What is Craftsmanship? Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://medium.com/the-markhor/what-is-craftsmanship-771b8db1c5f4",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Why craftsmanship is the future of work – and what it means for organisations and individuals Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.equaltimes.org/why-craftsmanship-is-the-future-of",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Jiro Dreams of Sushi Film",
+                "type": "video",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.youtube.com/watch?v=Gr09oEJqnfI",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Better: A Surgeon's Notes on Performance Book ($)",
+                "type": "book",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.amazon.com/Better-Surgeons-Performance-Atul-Gawande/dp/0312427654",
+                "isFree": false,
+                "isGeneralistSkill": false
+            },
+            {
+                "name": "Universal Craftsmanship",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "https://github.com/engineerkit/engineerkit/blob/main/exercises/craftsmanship/universal-craftsmanship.md",
+                "isFree": true,
+                "isGeneralistSkill": true
+            }
+        ]
+    },
+    {
+        "domain": "Craftsmaship",
+        "name": "The Software Craftsmanship Movement",
+        "overview": "With this topic, you'll learn about the software craftsmanship movement and how it can be applicable far into the future.",
+        "skills": [
+            "Describe the purpose of the software craftsmanship movement",
+            "Compare the software craftsmanship movement with the modern craftsmanship principles",
+            "Propose how you might go about creating positive change in the software engineering community"
+        ],
+        "resources": [
+            {
+                "name": "Manifesto for Agile Software Development Document",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "http://agilemanifesto.org/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Manifesto for Software Craftsmanship Document",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "http://manifesto.softwarecraftsmanship.org/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "r/programming Resource",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.reddit.com/r/programming/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "The Clean Coder: A Code of Conduct for Professional Programmers Book ($)",
+                "type": "book",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073",
+                "isFree": false,
+                "isGeneralistSkill": false
+            },
+            {
+                "name": "Community Involvement",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "https://github.com/engineerkit/engineerkit/blob/main/exercises/craftsmanship/community-involvement.md",
+                "isFree": true,
+                "isGeneralistSkill": true
+            }
+        ]
+    },
+    {
+        "domain": "Craftsmaship",
+        "name": "Learning as an Apprentice",
+        "overview": "With this topic, you'll learn patterns and techniques to learn new topics and effectively build skills as an apprentice.",
+        "skills": [
+            "Describe the responsibilities of an apprentice during an apprenticeship",
+            "Evaluate your preferred learning style(s) using the theory of multiple intelligences",
+            "Compare the apprenticeship learning model of shuhari to a traditional classroom model",
+            "Define what success looks like for you at the end of your apprenticeship"
+        ],
+        "resources": [
+            {
+                "name": "Alistair Cockburn on shuhari Video",
+                "type": "video",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.youtube.com/watch?v=9Z35l238vg4",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Conceptually Resource",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://conceptually.org/concepts",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Ghost CMS Tool",
+                "type": "tool",
+                "duration": 0,
+                "description": "",
+                "link": "https://ghost.org/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Imitate, Assimilate, Innovate: 3 Steps to Learning Improvisation Article Video",
+                "type": "video",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.jazzadvice.com/lessons/clark-terrys-3-steps-to-learning-improvisation/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Learning with shuhari Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.martinfowler.com/bliki/ShuHaRi.html",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Medium Tool",
+                "type": "tool",
+                "duration": 0,
+                "description": "",
+                "link": "https://medium.com/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Steve Jobs: Great ideas don't always translate into great product Video",
+                "type": "video",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.youtube.com/watch?v=Qdplq4cj76I",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Substack Tool",
+                "type": "tool",
+                "duration": 0,
+                "description": "",
+                "link": "https://substack.com/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Apprenticeship Patterns Book ($)",
+                "type": "book",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382",
+                "isFree": false,
+                "isGeneralistSkill": false
+            },
+            {
+                "name": "Create a Blog",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "https://github.com/engineerkit/engineerkit/blob/main/exercises/craftsmanship/create-a-blog.md",
+                "isFree": true,
+                "isGeneralistSkill": true
+            }
+        ]
+    },
+    {
+        "domain": "Craftsmaship",
+        "name": "Coaching as a Mentor",
+        "overview": "With this topic, you'll learn about patterns and techniques to mentor an apprentice in their journey to graduation effectively.",
+        "skills": [
+            "Describe the responsibilities of a mentor during an apprenticeship",
+            "Compare the role of a mentor with the role of a teacher",
+            "Define what success might look like for your mentor at the end of your apprenticeship"
+        ],
+        "resources": [
+            {
+                "topic": "Coaching as a Mentor",
+                "name": "Annie Murphy Paul: Why Teaching Someone Else is the Best Way To Learn Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://ideas.time.com/2011/11/30/the-protege-effect/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "topic": "Coaching as a Mentor",
+                "name": "Awesome Lists Resource",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://github.com/sindresorhus/awesome",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "topic": "Coaching as a Mentor",
+                "name": "DigitalOcean Community Resource",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.digitalocean.com/community",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "topic": "Coaching as a Mentor",
+                "name": "LeanPub Resource",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://leanpub.com/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "topic": "Coaching as a Mentor",
+                "name": "Optimal Learning Exists Between Comfort and Panic Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://medium.com/redsquirrel-tech/optimal-learning-exists-between-comfort-and-panic-142caa0ba0cf",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "topic": "Coaching as a Mentor",
+                "name": "The Pragmatic Bookshelf Resource",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://pragprog.com/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "topic": "Coaching as a Mentor",
+                "name": "Pair with your Mentor",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "https://github.com/engineerkit/engineerkit/blob/main/exercises/craftsmanship/pair-with-your-mentor.md",
+                "isFree": true,
+                "isGeneralistSkill": true
+            }
+        ]
+    },
+    {
+        "domain": "Human Experience",
+        "name": "Design Fundamentals",
+        "overview": "Learn to use basic design terminology, and have an understanding of human experience design as it relates to their work.",
+        "skills": [
+            "Explain the value of human experience in the software development process",
+            "Describe the basics of UI and UX design as it relates to building software",
+            "Distinguish the difference between good and bad design in software"
+        ],
+        "resources": [
+            {
+                "name": "10 Usability Heuristics for User Interface Design - Nielsen Norman Group Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Human-Centered Design Is More Important Than Ever Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.bcg.com/publications/2020/the-importance-of-human-centered-design",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "UX Design vs UI Design - What's The Difference? Video",
+                "type": "video",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.youtube.com/watch?v=5CxXhyhT6Fc",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "What is User Experience (UX) Design? Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.interaction-design.org/literature/topics/ux-design",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "The Design of Everyday Things Book ($)",
+                "type": "book",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654",
+                "isFree": false,
+                "isGeneralistSkill": false
+            },
+            {
+                "name": "Digital Product Design Assessment",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "https://github.com/engineerkit/engineerkit/blob/main/exercises/human-experience/digital-product-design-assessment.md",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Discuss good/favorite designed products",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Collecting inspiration",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Go over ways the engineers can affect UX",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            }
+        ]
+    },
+    {
+        "domain": "Human Experience",
+        "name": "Introduction to Design Thinking",
+        "overview": "Build an understanding of each phase of the design thinking methodology, enough to help and support software teams in their problem-solving processes.",
+        "skills": [
+            "(Empathy) Identify who your users are more clearly, and recognize their pain points",
+            "(Define) Define a testable hypothesis statement that addresses the users' pain points",
+            "(Ideate) Participate in brainstorming exercises amongst yourself or in a team that helps generate many solutions to a user's problem",
+            "(Prototype) Assemble testable prototypes from brainstormed ideas",
+            "(Measure) Evaluate the success of a prototype by testing it with users"
+        ],
+        "resources": [
+            {
+                "name": "Design Thinking - Ideo.com Resource",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://designthinking.ideo.com/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "What is Design Thinking - IDEO U Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.ideou.com/blogs/inspiration/what-is-design-thinking",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "What is Design Thinking and Why Is It So Popular? Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Why Design Thinking Works - Harvard Business Review Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://hbr.org/2018/09/why-design-thinking-works",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Creative Confidence: Unleashing the Creative Potential Within Us All Book ($)",
+                "type": "book",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.amazon.com/Creative-Confidence-Unleashing-Potential-Within/dp/038534936X",
+                "isFree": false,
+                "isGeneralistSkill": false
+            },
+            {
+                "name": "Foundations in Design Thinking Certificate - IDEO U Course ($)",
+                "type": "book",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.ideou.com/collections/design-thinking-courses/products/design-thinking-certificate",
+                "isFree": false,
+                "isGeneralistSkill": false
+            },
+            {
+                "name": "Process Observation (Empathy Mapping)",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "https://github.com/engineerkit/engineerkit/blob/main/exercises/human-experience/process-observation.md",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Empathy Exercises: Observe and document the steps of a process",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Ideation Exercise: Ideate and brainstorm with the team on a topic or task",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Prototyping Exercise: Create a paper prototype",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            }
+        ]
+    },
+    {
+        "domain": "Human Experience",
+        "name": "Introduction to Design Systems",
+        "overview": "Learn how to use, contribute to, and maintain a design system for building web applications.",
+        "skills": [
+            "Explain what a design system is",
+            "Use a design system when working on software projects",
+            "Contribute to an existing design system for software projects"
+        ],
+        "resources": [
+            {
+                "name": "A comprehensive guide to design systems - Invision Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.invisionapp.com/inside-design/guide-to-design-systems/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Apple's Human Interface Guidelines Design System",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://developer.apple.com/design/human-interface-guidelines/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Design Systems 101 - Nielsen Norman Group Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.nngroup.com/articles/design-systems-101/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "DesignSystems.com Resource",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.designsystems.com/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Google's Material Design Design System",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://material.io/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "IBM's Carbon Design System",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://storybook.js.org/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Storybook Tool",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://storybook.js.org/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Login Screen with Material Design",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "https://github.com/engineerkit/engineerkit/blob/main/exercises/human-experience/login-screen-ui.md",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Build a simple UI layout using Material Design",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Read Documentation in popular Design Systems or your company's own",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Storybook exercise: Create reusable and documented UI components",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            }
+        ]
+    },
+    {
+        "domain": "Human Experience",
+        "name": "Accessibility and Universal Design Fundamentals",
+        "overview": "Learn how to build software that meets the accessibility needs of its users.",
+        "skills": [
+            "Explain the importance of accessibility in software",
+            "Develop software that meets standard accessibility requirements set forth by W3C",
+            "Recognize approaches to adapt your software to various languages and regions"
+        ],
+        "resources": [
+            {
+                "name": "A11y Website",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.a11yproject.com/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Can I Use Tool",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://caniuse.com/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Funkify Disability Simulator - Chrome Extension Tool",
+                "type": "tool",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.funkify.org/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "IBM Equal Accessibility Toolkit Tool",
+                "type": "tool",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.ibm.com/able/toolkit/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "W3C Accessibility Fundamentals Resource",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.w3.org/WAI/fundamentals/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Why Digital Accessibility Matters - Invision Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.invisionapp.com/inside-design/why-digital-accessibility-matters/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Using an Accessibility Checker",
+                "type": "resource",
+                "duration": 0,
+                "description": "",
+                "link": "https://github.com/engineerkit/engineerkit/blob/main/exercises/human-experience/using-an-accessibility-checker.md",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Implement a color palette for color blindness in a webpage",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Build a simple webpage using proper HTML semantics",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Quiz: Define internationalization, localization, and accessibility",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            }
+        ]
+    },
+    {
+        "domain": "Human Experience",
+        "name": "Working with Digital Product Designers",
+        "overview": "Learn how to collaborate with designers in the field by understanding the role they play in the creation of quality software.",
+        "skills": [
+            "Explain the role a digital product designer plays on a software team",
+            "Identify what you need from a designer to complete software tasks",
+            "Recognize standard design tools and design methodologies when working with designers"
+        ],
+        "resources": [
+            {
+                "name": "6 ways for designers and developers to collaborate better - Invision Article",
+                "type": "article",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.invisionapp.com/inside-design/designer-developer-collaboration-ideas/",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Intro to Design Terminology Course",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "https://app.uxcel.com/courses/design-lingo",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Abstract - The Art of Design: Netflix Film ($)",
+                "type": "video",
+                "duration": 0,
+                "description": "",
+                "link": "https://www.netflix.com/title/80057883",
+                "isFree": false,
+                "isGeneralistSkill": false
+            },
+            {
+                "name": "Your company's designers!",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Give UI/UX Design Feedback",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "https://github.com/engineerkit/engineerkit/blob/main/exercises/human-experience/give-a-designer-feedback.md",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Shadow or pair with a designer",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Collaborate with a designer on UI tasks",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            },
+            {
+                "name": "Give feedback on a design to a designer (visual, and feasibility feedback)",
+                "type": "exercise",
+                "duration": 0,
+                "description": "",
+                "link": "",
+                "isFree": true,
+                "isGeneralistSkill": true
+            }
+        ]
+    }
+]

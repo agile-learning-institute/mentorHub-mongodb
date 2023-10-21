@@ -61,8 +61,8 @@ var collections = [
         name: "enumerators", 
         schemaFile: '/src/institute-enumirators-schema.json', 
         dataFile: '/src/institute-enumirators-data.json', 
-        initialVersion: "1.1.T", 
-        targetVersion: "1.1.T" 
+        initialVersion: "1.2.T", 
+        targetVersion: "1.2.T" 
     },
     { 
         name: "partners", 
@@ -77,6 +77,13 @@ var collections = [
         dataFile: '/src/institute-people-data.json', 
         initialVersion: "1.2.T", 
         targetVersion: "1.2.T" 
+    },
+    { 
+        name: "topics", 
+        schemaFile: '/src/institute-topics-schema.json', 
+        dataFile: '/src/institute-topics-data.json', 
+        initialVersion: "1.1.T", 
+        targetVersion: "1.1.T" 
     },
     // Add more collections here
 ];

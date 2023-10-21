@@ -30,10 +30,39 @@
         ]
     }, 
     {
-        "name": "modules", 
+        "name": "domain", 
         "enumerations": [
-            "TODO - Enums from topics",
-            "Etc."
+            "Craftsmaship",
+            "Human Experience",
+            "Product Life Cycle",
+            "Computing",
+            "Internet",
+            "Tooling",
+            "Programming Languages",
+            "Automated Testing",
+            "Clean Code",
+            "Data",
+            "Infrastructure", 
+            "Security", 
+            "Monitoring", 
+            "Operations", 
+            "Architecture"
+        ]
+    },
+    {
+        "name": "resourceType", 
+        "enumerations": [
+            "Article",
+            "Book",
+            "Resource",
+            "Image",
+            "Video",
+            "Tool", 
+            "Exercise",
+            "Official Guide",
+            "Official Training",
+            "Certification Exam"
         ]
     }
+
 ]
