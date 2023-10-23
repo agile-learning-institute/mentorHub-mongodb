@@ -3,14 +3,10 @@
     "bsonType": "object",
     "required": ["name"],
     "properties": {
-        "_id": {
-            "description":"Topic Identifier",
-            "bsonType": "objectId"
-        },
         "domain": {
             "description":"Module level classification",
-            "bsonType": "string", 
-            "enums": [
+            "bsonType": "string",
+            "enum": [
                 "Craftsmaship",
                 "Human Experience",
                 "Product Life Cycle",
@@ -31,7 +27,7 @@
         "name": { 
             "description":"The Topic Name",
             "bsonType": "string", 
-            "maxLength": 32 
+            "maxLength": 128 
         },
         "overview": { 
             "description":"The Topic overview paragraph",
@@ -41,7 +37,65 @@
         "skills": {
             "description":"The list of Skills realted to this topic",
             "bsonType": "array",
-            "items": { "bsonType": "string" },
+            "items": { "bsonType": "string" }
+        },
+        "resources": {
+            "description":"The list of learning Resources realted to this topic",
+            "bsonType": "array",
+            "items": { 
+                "bsonType": "object",
+                "required": ["name"],
+                "properties": {
+                    "type": {
+                        "description":"Learning Resource Type",
+                        "bsonType": "string",
+                        "enum": [
+                            "Article",
+                            "Book",
+                            "Resource",
+                            "Image",
+                            "Video",
+                            "Tool", 
+                            "Exercise",
+                            "Official Guide",
+                            "Official Training",
+                            "Certification Exam"
+                        ]
+                    },
+                    "name": { 
+                        "description":"The Resource Name",
+                        "bsonType": "string", 
+                        "maxLength": 128 
+                    },
+                    "duration": { 
+                        "description":"The estimated time in minutes to consume this resource",
+                        "bsonType": "int"
+                    },
+                    "description": { 
+                        "description":"The Resource description",
+                        "bsonType": "string", 
+                        "maxLength": 256 
+                    },
+                    "link": {
+                        "description":"Link to Resource",
+                        "bsonType": "string",
+                        "maxLength": 128                                 
+                    },
+                    "isFree": {
+                        "description":"Is this a free resource",
+                        "bsonType": "bool"
+                    },
+                    "isGeneralistSkill": {
+                        "description":"Is this a generalist skill, or a specialist skill",
+                        "bsonType": "bool"
+                    },
+                    "notes": {
+                        "description":"notes about this resource",
+                        "bsonType": "string",
+                        "maxLength": 255
+                    }
+                }
+            }
         }
     }
 }
