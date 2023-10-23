@@ -10,7 +10,8 @@
             "Distinguished",
             "N/A"
         ]
-    },{
+    },
+    {
         "name": "status", 
         "enumerations": [
             "draft",
@@ -18,7 +19,8 @@
             "drip",
             "archived"
         ]
-    },{
+    },
+    {
         "name": "device", 
         "enumerations": [
             "Windows",
@@ -26,5 +28,41 @@
             "Mac (Apple)",
             "Linux"
         ]
+    }, 
+    {
+        "name": "domain", 
+        "enumerations": [
+            "Craftsmaship",
+            "Human Experience",
+            "Product Life Cycle",
+            "Computing",
+            "Internet",
+            "Tooling",
+            "Programming Languages",
+            "Automated Testing",
+            "Clean Code",
+            "Data",
+            "Infrastructure", 
+            "Security", 
+            "Monitoring", 
+            "Operations", 
+            "Architecture"
+        ]
+    },
+    {
+        "name": "resourceType", 
+        "enumerations": [
+            "Article",
+            "Book",
+            "Resource",
+            "Image",
+            "Video",
+            "Tool", 
+            "Exercise",
+            "Official Guide",
+            "Official Training",
+            "Certification Exam"
+        ]
     }
+
 ]

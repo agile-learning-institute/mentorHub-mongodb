@@ -46,5 +46,8 @@ docker compose up --deatch
 - [x] Create more complete test data
 - [x] Implement Schema Validation
 - [x] Implement Schema Version Migration
-- [ ] Implement Person transformation in load script
-- [ ] Breadcrumbs
+- [x] New Schema's and Collections [topics, resources]
+- [ ] Implement minVersion with version + "T" if test data is loaded
+- [ ] Implement Person transformation in load script (Version Upgrade from x.x.1T to x.x.2T)
+- [ ] Breadcrumbs, define and include type in all schemas
+- [ ] Improve URI schema pattern
