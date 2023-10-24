@@ -47,6 +47,7 @@ docker compose up --deatch
 - [x] Implement Schema Validation
 - [x] Implement Schema Version Migration
 - [x] New Schema's and Collections [topics, resources]
+- [ ] Abstract enumeration arrays so they can be used in schema and test data
 - [ ] Implement minVersion with version + "T" if test data is loaded
 - [ ] Implement Person transformation in load script (Version Upgrade from x.x.1T to x.x.2T)
 - [ ] Breadcrumbs, define and include type in all schemas
