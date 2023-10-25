@@ -9,6 +9,7 @@ The docker compose starts the mongodb database container first, and when it is h
 ## Prerequisits
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+  - For Mac ```brew install docker```
 - [Mongo Compass](https://www.mongodb.com/try/download/compass) - if you want a way to look into the database, the connection string will be
 
 ```html
