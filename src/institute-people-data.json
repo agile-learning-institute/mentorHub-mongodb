@@ -1,7 +1,7 @@
 [
     {
       "name": "James Smith",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -24,7 +24,7 @@
     },
     {
       "name": "Michael Smith",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -47,7 +47,7 @@
     },
     {
       "name": "Thomas Smith",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -70,7 +70,7 @@
     },
     {
       "name": "Emily Smith",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -93,7 +93,7 @@
     },
     {
       "name": "Elizabeth Smith",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -115,7 +115,7 @@
     },
     {
       "name": "Samuel Smith",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -137,7 +137,7 @@
     },
     {
       "name": "Jacob Smith",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -159,7 +159,7 @@
     },
     {
       "name": "Emma Smith",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -181,7 +181,7 @@
     },
     {
       "name": "Benjamin Smith",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -204,7 +204,7 @@
     },
     {
       "name": "Olivia Smith",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -227,7 +227,7 @@
     },
     {
       "name": "David Smith",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -250,7 +250,7 @@
     },
     {
       "name": "Alexander Smith",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -273,7 +273,7 @@
     },
     {
       "name": "Noah Smith",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -295,7 +295,7 @@
     },
     {
       "name": "Joshua Smith",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -317,7 +317,7 @@
     },
     {
       "name": "Matthew Smith",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -339,7 +339,7 @@
     },
     {
       "name": "Isabella Smith",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -361,7 +361,7 @@
     },
     {
       "name": "Ethan Smith",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -384,7 +384,7 @@
     },
     {
       "name": "Anthony Smith",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -407,7 +407,7 @@
     },
     {
       "name": "Grace Smith",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -430,7 +430,7 @@
     },
     {
       "name": "Sophia Smith",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -453,7 +453,7 @@
     },
     {
       "name": "Mia Smith",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -475,7 +475,7 @@
     },
     {
       "name": "Abigail Smith",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -497,7 +497,7 @@
     },
     {
       "name": "Ava Smith",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -519,7 +519,7 @@
     },
     {
       "name": "Lucas Smith",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -541,7 +541,7 @@
     },
     {
       "name": "James Jones",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -564,7 +564,7 @@
     },
     {
       "name": "Michael Jones",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -587,7 +587,7 @@
     },
     {
       "name": "Thomas Jones",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -610,7 +610,7 @@
     },
     {
       "name": "Emily Jones",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -633,7 +633,7 @@
     },
     {
       "name": "Elizabeth Jones",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -655,7 +655,7 @@
     },
     {
       "name": "Samuel Jones",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -677,7 +677,7 @@
     },
     {
       "name": "Jacob Jones",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -699,7 +699,7 @@
     },
     {
       "name": "Emma Jones",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -721,7 +721,7 @@
     },
     {
       "name": "Benjamin Jones",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -744,7 +744,7 @@
     },
     {
       "name": "Olivia Jones",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -767,7 +767,7 @@
     },
     {
       "name": "David Jones",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -790,7 +790,7 @@
     },
     {
       "name": "Alexander Jones",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -813,7 +813,7 @@
     },
     {
       "name": "Noah Jones",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -835,7 +835,7 @@
     },
     {
       "name": "Joshua Jones",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -857,7 +857,7 @@
     },
     {
       "name": "Matthew Jones",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -879,7 +879,7 @@
     },
     {
       "name": "Isabella Jones",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -901,7 +901,7 @@
     },
     {
       "name": "Ethan Jones",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -924,7 +924,7 @@
     },
     {
       "name": "Anthony Jones",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -947,7 +947,7 @@
     },
     {
       "name": "Grace Jones",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -970,7 +970,7 @@
     },
     {
       "name": "Sophia Jones",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -993,7 +993,7 @@
     },
     {
       "name": "Mia Jones",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -1015,7 +1015,7 @@
     },
     {
       "name": "Abigail Jones",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -1037,7 +1037,7 @@
     },
     {
       "name": "Ava Jones",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1059,7 +1059,7 @@
     },
     {
       "name": "Lucas Jones",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1081,7 +1081,7 @@
     },
     {
       "name": "James Williams",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -1104,7 +1104,7 @@
     },
     {
       "name": "Michael Williams",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -1127,7 +1127,7 @@
     },
     {
       "name": "Thomas Williams",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1150,7 +1150,7 @@
     },
     {
       "name": "Emily Williams",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1173,7 +1173,7 @@
     },
     {
       "name": "Elizabeth Williams",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -1195,7 +1195,7 @@
     },
     {
       "name": "Samuel Williams",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -1217,7 +1217,7 @@
     },
     {
       "name": "Jacob Williams",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1239,7 +1239,7 @@
     },
     {
       "name": "Emma Williams",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1261,7 +1261,7 @@
     },
     {
       "name": "Benjamin Williams",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -1284,7 +1284,7 @@
     },
     {
       "name": "Olivia Williams",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -1307,7 +1307,7 @@
     },
     {
       "name": "David Williams",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1330,7 +1330,7 @@
     },
     {
       "name": "Alexander Williams",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1353,7 +1353,7 @@
     },
     {
       "name": "Noah Williams",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -1375,7 +1375,7 @@
     },
     {
       "name": "Joshua Williams",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -1397,7 +1397,7 @@
     },
     {
       "name": "Matthew Williams",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1419,7 +1419,7 @@
     },
     {
       "name": "Isabella Williams",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1441,7 +1441,7 @@
     },
     {
       "name": "Ethan Williams",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -1464,7 +1464,7 @@
     },
     {
       "name": "Anthony Williams",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -1487,7 +1487,7 @@
     },
     {
       "name": "Grace Williams",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1510,7 +1510,7 @@
     },
     {
       "name": "Sophia Williams",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1533,7 +1533,7 @@
     },
     {
       "name": "Mia Williams",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -1555,7 +1555,7 @@
     },
     {
       "name": "Abigail Williams",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -1577,7 +1577,7 @@
     },
     {
       "name": "Ava Williams",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1599,7 +1599,7 @@
     },
     {
       "name": "Lucas Williams",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1621,7 +1621,7 @@
     },
     {
       "name": "James Taylor",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -1644,7 +1644,7 @@
     },
     {
       "name": "Michael Taylor",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -1667,7 +1667,7 @@
     },
     {
       "name": "Thomas Taylor",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1690,7 +1690,7 @@
     },
     {
       "name": "Emily Taylor",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1713,7 +1713,7 @@
     },
     {
       "name": "Elizabeth Taylor",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -1735,7 +1735,7 @@
     },
     {
       "name": "Samuel Taylor",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -1757,7 +1757,7 @@
     },
     {
       "name": "Jacob Taylor",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1779,7 +1779,7 @@
     },
     {
       "name": "Emma Taylor",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1801,7 +1801,7 @@
     },
     {
       "name": "Benjamin Taylor",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -1824,7 +1824,7 @@
     },
     {
       "name": "Olivia Taylor",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -1847,7 +1847,7 @@
     },
     {
       "name": "David Taylor",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1870,7 +1870,7 @@
     },
     {
       "name": "Alexander Taylor",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1893,7 +1893,7 @@
     },
     {
       "name": "Noah Taylor",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -1915,7 +1915,7 @@
     },
     {
       "name": "Joshua Taylor",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -1937,7 +1937,7 @@
     },
     {
       "name": "Matthew Taylor",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1959,7 +1959,7 @@
     },
     {
       "name": "Isabella Taylor",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1981,7 +1981,7 @@
     },
     {
       "name": "Ethan Taylor",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -2004,7 +2004,7 @@
     },
     {
       "name": "Anthony Taylor",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -2027,7 +2027,7 @@
     },
     {
       "name": "Grace Taylor",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2050,7 +2050,7 @@
     },
     {
       "name": "Sophia Taylor",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2073,7 +2073,7 @@
     },
     {
       "name": "Mia Taylor",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -2095,7 +2095,7 @@
     },
     {
       "name": "Abigail Taylor",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -2117,7 +2117,7 @@
     },
     {
       "name": "Ava Taylor",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2139,7 +2139,7 @@
     },
     {
       "name": "Lucas Taylor",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2161,7 +2161,7 @@
     },
     {
       "name": "James Brown",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -2184,7 +2184,7 @@
     },
     {
       "name": "Michael Brown",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -2207,7 +2207,7 @@
     },
     {
       "name": "Thomas Brown",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2230,7 +2230,7 @@
     },
     {
       "name": "Emily Brown",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2253,7 +2253,7 @@
     },
     {
       "name": "Elizabeth Brown",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -2275,7 +2275,7 @@
     },
     {
       "name": "Samuel Brown",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -2297,7 +2297,7 @@
     },
     {
       "name": "Jacob Brown",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2319,7 +2319,7 @@
     },
     {
       "name": "Emma Brown",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2341,7 +2341,7 @@
     },
     {
       "name": "Benjamin Brown",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -2364,7 +2364,7 @@
     },
     {
       "name": "Olivia Brown",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -2387,7 +2387,7 @@
     },
     {
       "name": "David Brown",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2410,7 +2410,7 @@
     },
     {
       "name": "Alexander Brown",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2433,7 +2433,7 @@
     },
     {
       "name": "Noah Brown",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -2455,7 +2455,7 @@
     },
     {
       "name": "Joshua Brown",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -2477,7 +2477,7 @@
     },
     {
       "name": "Matthew Brown",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2499,7 +2499,7 @@
     },
     {
       "name": "Isabella Brown",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2521,7 +2521,7 @@
     },
     {
       "name": "Ethan Brown",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -2544,7 +2544,7 @@
     },
     {
       "name": "Anthony Brown",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -2567,7 +2567,7 @@
     },
     {
       "name": "Grace Brown",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2590,7 +2590,7 @@
     },
     {
       "name": "Sophia Brown",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2613,7 +2613,7 @@
     },
     {
       "name": "Mia Brown",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -2635,7 +2635,7 @@
     },
     {
       "name": "Abigail Brown",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -2657,7 +2657,7 @@
     },
     {
       "name": "Ava Brown",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2679,7 +2679,7 @@
     },
     {
       "name": "Lucas Brown",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2701,7 +2701,7 @@
     },
     {
       "name": "James Davies",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -2724,7 +2724,7 @@
     },
     {
       "name": "Michael Davies",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -2747,7 +2747,7 @@
     },
     {
       "name": "Thomas Davies",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2770,7 +2770,7 @@
     },
     {
       "name": "Emily Davies",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2793,7 +2793,7 @@
     },
     {
       "name": "Elizabeth Davies",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -2815,7 +2815,7 @@
     },
     {
       "name": "Samuel Davies",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -2837,7 +2837,7 @@
     },
     {
       "name": "Jacob Davies",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2859,7 +2859,7 @@
     },
     {
       "name": "Emma Davies",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2881,7 +2881,7 @@
     },
     {
       "name": "Benjamin Davies",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -2904,7 +2904,7 @@
     },
     {
       "name": "Olivia Davies",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -2927,7 +2927,7 @@
     },
     {
       "name": "David Davies",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2950,7 +2950,7 @@
     },
     {
       "name": "Alexander Davies",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2973,7 +2973,7 @@
     },
     {
       "name": "Noah Davies",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -2995,7 +2995,7 @@
     },
     {
       "name": "Joshua Davies",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -3017,7 +3017,7 @@
     },
     {
       "name": "Matthew Davies",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3039,7 +3039,7 @@
     },
     {
       "name": "Isabella Davies",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3061,7 +3061,7 @@
     },
     {
       "name": "Ethan Davies",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -3084,7 +3084,7 @@
     },
     {
       "name": "Anthony Davies",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -3107,7 +3107,7 @@
     },
     {
       "name": "Grace Davies",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -3130,7 +3130,7 @@
     },
     {
       "name": "Sophia Davies",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -3153,7 +3153,7 @@
     },
     {
       "name": "Mia Davies",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -3175,7 +3175,7 @@
     },
     {
       "name": "Abigail Davies",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -3197,7 +3197,7 @@
     },
     {
       "name": "Ava Davies",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3219,7 +3219,7 @@
     },
     {
       "name": "Lucas Davies",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3241,7 +3241,7 @@
     },
     {
       "name": "James Evans",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -3264,7 +3264,7 @@
     },
     {
       "name": "Michael Evans",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -3287,7 +3287,7 @@
     },
     {
       "name": "Thomas Evans",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -3310,7 +3310,7 @@
     },
     {
       "name": "Emily Evans",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -3333,7 +3333,7 @@
     },
     {
       "name": "Elizabeth Evans",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -3355,7 +3355,7 @@
     },
     {
       "name": "Samuel Evans",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -3377,7 +3377,7 @@
     },
     {
       "name": "Jacob Evans",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3399,7 +3399,7 @@
     },
     {
       "name": "Emma Evans",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3421,7 +3421,7 @@
     },
     {
       "name": "Benjamin Evans",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -3444,7 +3444,7 @@
     },
     {
       "name": "Olivia Evans",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -3467,7 +3467,7 @@
     },
     {
       "name": "David Evans",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -3490,7 +3490,7 @@
     },
     {
       "name": "Alexander Evans",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -3513,7 +3513,7 @@
     },
     {
       "name": "Noah Evans",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -3535,7 +3535,7 @@
     },
     {
       "name": "Joshua Evans",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -3557,7 +3557,7 @@
     },
     {
       "name": "Matthew Evans",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3579,7 +3579,7 @@
     },
     {
       "name": "Isabella Evans",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3601,7 +3601,7 @@
     },
     {
       "name": "Ethan Evans",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -3624,7 +3624,7 @@
     },
     {
       "name": "Anthony Evans",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -3647,7 +3647,7 @@
     },
     {
       "name": "Grace Evans",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -3670,7 +3670,7 @@
     },
     {
       "name": "Sophia Evans",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -3693,7 +3693,7 @@
     },
     {
       "name": "Mia Evans",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -3715,7 +3715,7 @@
     },
     {
       "name": "Abigail Evans",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -3737,7 +3737,7 @@
     },
     {
       "name": "Ava Evans",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3759,7 +3759,7 @@
     },
     {
       "name": "Lucas Evans",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3781,7 +3781,7 @@
     },
     {
       "name": "James Thomas",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -3804,7 +3804,7 @@
     },
     {
       "name": "Michael Thomas",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -3827,7 +3827,7 @@
     },
     {
       "name": "Thomas Thomas",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -3850,7 +3850,7 @@
     },
     {
       "name": "Emily Thomas",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -3873,7 +3873,7 @@
     },
     {
       "name": "Elizabeth Thomas",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -3895,7 +3895,7 @@
     },
     {
       "name": "Samuel Thomas",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -3917,7 +3917,7 @@
     },
     {
       "name": "Jacob Thomas",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3939,7 +3939,7 @@
     },
     {
       "name": "Emma Thomas",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3961,7 +3961,7 @@
     },
     {
       "name": "Benjamin Thomas",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -3984,7 +3984,7 @@
     },
     {
       "name": "Olivia Thomas",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -4007,7 +4007,7 @@
     },
     {
       "name": "David Thomas",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -4030,7 +4030,7 @@
     },
     {
       "name": "Alexander Thomas",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -4053,7 +4053,7 @@
     },
     {
       "name": "Noah Thomas",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -4075,7 +4075,7 @@
     },
     {
       "name": "Joshua Thomas",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -4097,7 +4097,7 @@
     },
     {
       "name": "Matthew Thomas",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4119,7 +4119,7 @@
     },
     {
       "name": "Isabella Thomas",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4141,7 +4141,7 @@
     },
     {
       "name": "Ethan Thomas",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -4164,7 +4164,7 @@
     },
     {
       "name": "Anthony Thomas",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -4187,7 +4187,7 @@
     },
     {
       "name": "Grace Thomas",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -4210,7 +4210,7 @@
     },
     {
       "name": "Sophia Thomas",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -4233,7 +4233,7 @@
     },
     {
       "name": "Mia Thomas",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -4255,7 +4255,7 @@
     },
     {
       "name": "Abigail Thomas",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -4277,7 +4277,7 @@
     },
     {
       "name": "Ava Thomas",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4299,7 +4299,7 @@
     },
     {
       "name": "Lucas Thomas",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4321,7 +4321,7 @@
     },
     {
       "name": "James Wilson",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -4344,7 +4344,7 @@
     },
     {
       "name": "Michael Wilson",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -4367,7 +4367,7 @@
     },
     {
       "name": "Thomas Wilson",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -4390,7 +4390,7 @@
     },
     {
       "name": "Emily Wilson",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -4413,7 +4413,7 @@
     },
     {
       "name": "Elizabeth Wilson",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -4435,7 +4435,7 @@
     },
     {
       "name": "Samuel Wilson",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -4457,7 +4457,7 @@
     },
     {
       "name": "Jacob Wilson",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4479,7 +4479,7 @@
     },
     {
       "name": "Emma Wilson",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4501,7 +4501,7 @@
     },
     {
       "name": "Benjamin Wilson",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -4524,7 +4524,7 @@
     },
     {
       "name": "Olivia Wilson",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -4547,7 +4547,7 @@
     },
     {
       "name": "David Wilson",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -4570,7 +4570,7 @@
     },
     {
       "name": "Alexander Wilson",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -4593,7 +4593,7 @@
     },
     {
       "name": "Noah Wilson",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -4615,7 +4615,7 @@
     },
     {
       "name": "Joshua Wilson",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -4637,7 +4637,7 @@
     },
     {
       "name": "Matthew Wilson",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4659,7 +4659,7 @@
     },
     {
       "name": "Isabella Wilson",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4681,7 +4681,7 @@
     },
     {
       "name": "Ethan Wilson",
-      "status": "pending",
+      "status": "Pending",
       "member": true,
       "mentor": false,
       "donor": false,
@@ -4704,7 +4704,7 @@
     },
     {
       "name": "Anthony Wilson",
-      "status": "active",
+      "status": "Active",
       "member": true,
       "mentor": true,
       "donor": false,
@@ -4727,7 +4727,7 @@
     },
     {
       "name": "Grace Wilson",
-      "status": "archived",
+      "status": "Archived",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -4750,7 +4750,7 @@
     },
     {
       "name": "Sophia Wilson",
-      "status": "drip",
+      "status": "Drip",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -4773,7 +4773,7 @@
     },
     {
       "name": "Mia Wilson",
-      "status": "pending",
+      "status": "Pending",
       "member": false,
       "mentor": true,
       "donor": true,
@@ -4795,7 +4795,7 @@
     },
     {
       "name": "Abigail Wilson",
-      "status": "active",
+      "status": "Active",
       "member": false,
       "mentor": false,
       "donor": true,
@@ -4817,7 +4817,7 @@
     },
     {
       "name": "Ava Wilson",
-      "status": "archived",
+      "status": "Archived",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4839,7 +4839,7 @@
     },
     {
       "name": "Lucas Wilson",
-      "status": "drip",
+      "status": "Drip",
       "member": false,
       "mentor": false,
       "donor": false,

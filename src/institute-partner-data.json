@@ -1,7 +1,7 @@
 [
     {
         "name": "Codingcops.com",
-        "status": "Lead",
+        "status": "Pending",
         "description": "Offshore coding company, Pakistan"
     },
     {
@@ -19,11 +19,11 @@
     },
     {
         "name": "Helpmate",
-        "status": "Lead"
+        "status": "Pending"
     },
     {
         "name": "Leadership Asheville",
-        "status": "Lead"
+        "status": "Pending"
     },
     {
         "name": "LinkedIn",
@@ -36,7 +36,7 @@
     },
     {
         "name": "Our Voice",
-        "status": "Lead"
+        "status": "Pending"
     },
     {
         "name": "Persevere",
@@ -49,30 +49,30 @@
     },
     {
         "name": "tkxel.com",
-        "status": "Lead",
+        "status": "Pending",
         "description": "Offshore coding company"
     },
     {
         "name": "LearningFuze",
-        "status": "Lead",
+        "status": "Pending",
         "description": "Code School"
     },
     {
         "name": "Develop Carolina",
-        "status": "Lead",
+        "status": "Pending",
         "description": "Code School"
     },
     {
         "name": "Charleston Women in Tech",
-        "status": "Lead",
+        "status": "Pending",
         "url": "https://www.linkedin.com/company/charlestonwomenintech/"
     },
     {
         "name": "Build Carolina",
-        "status": "Lead"
+        "status": "Pending"
     },
     {
         "name": "Asheville Javascript Meetup",
-        "status": "Lead"
+        "status": "Pending"
     }
 ]
