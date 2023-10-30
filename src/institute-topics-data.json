@@ -2,6 +2,7 @@
     {
         "domain": "Craftsmaship",
         "name": "History of Craftsmanship",
+        "status": "Active",
         "overview": "With this topic, you'll learn about how craftsmanship has been applied across different trades, cultures, and periods in human history.",
         "skills": [
             "Summarize the history of craftsmanship",
@@ -95,6 +96,7 @@
     {
         "domain": "Craftsmaship",
         "name": "Principles of Modern Craftsmanship",
+        "status": "Active",
         "overview": "With this topic, you'll learn about the principles of modern craftsmanship and how they can be utilized in any occupation.",
         "skills": [
             "List the principles of modern craftsmanship",
@@ -171,6 +173,7 @@
     {
         "domain": "Craftsmaship",
         "name": "The Software Craftsmanship Movement",
+        "status": "Active",
         "overview": "With this topic, you'll learn about the software craftsmanship movement and how it can be applicable far into the future.",
         "skills": [
             "Describe the purpose of the software craftsmanship movement",
@@ -228,6 +231,7 @@
     {
         "domain": "Craftsmaship",
         "name": "Learning as an Apprentice",
+        "status": "Active",
         "overview": "With this topic, you'll learn patterns and techniques to learn new topics and effectively build skills as an apprentice.",
         "skills": [
             "Describe the responsibilities of an apprentice during an apprenticeship",
@@ -331,6 +335,7 @@
     {
         "domain": "Craftsmaship",
         "name": "Coaching as a Mentor",
+        "status": "Active",
         "overview": "With this topic, you'll learn about patterns and techniques to mentor an apprentice in their journey to graduation effectively.",
         "skills": [
             "Describe the responsibilities of a mentor during an apprenticeship",
@@ -413,6 +418,7 @@
     {
         "domain": "Human Experience",
         "name": "Design Fundamentals",
+        "status": "Active",
         "overview": "Learn to use basic design terminology, and have an understanding of human experience design as it relates to their work.",
         "skills": [
             "Explain the value of human experience in the software development process",
@@ -506,6 +512,7 @@
     {
         "domain": "Human Experience",
         "name": "Introduction to Design Thinking",
+        "status": "Active",
         "overview": "Build an understanding of each phase of the design thinking methodology, enough to help and support software teams in their problem-solving processes.",
         "skills": [
             "(Empathy) Identify who your users are more clearly, and recognize their pain points",
@@ -610,6 +617,7 @@
     {
         "domain": "Human Experience",
         "name": "Introduction to Design Systems",
+        "status": "Active",
         "overview": "Learn how to use, contribute to, and maintain a design system for building web applications.",
         "skills": [
             "Explain what a design system is",
@@ -721,6 +729,7 @@
     {
         "domain": "Human Experience",
         "name": "Accessibility and Universal Design Fundamentals",
+        "status": "Active",
         "overview": "Learn how to build software that meets the accessibility needs of its users.",
         "skills": [
             "Explain the importance of accessibility in software",
@@ -823,6 +832,7 @@
     {
         "domain": "Human Experience",
         "name": "Working with Digital Product Designers",
+        "status": "Active",
         "overview": "Learn how to collaborate with designers in the field by understanding the role they play in the creation of quality software.",
         "skills": [
             "Explain the role a digital product designer plays on a software team",

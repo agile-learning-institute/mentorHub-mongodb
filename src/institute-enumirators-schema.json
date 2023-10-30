@@ -1,22 +1,3 @@
 {
-    "bsonType": "object",
-    "required": ["name"],
-    "properties": {
-        "name": { 
-            "description":"VERSION is the key that identifies the document Scheam Version document, otherwise it's the name of the enumerators",
-            "bsonType": "string", 
-            "maxLength": 32 },
-        "description": { 
-            "description":"Schema Version is the description on ",
-            "bsonType": "string", 
-            "maxLength": 256 },
-        "version": { 
-            "description":"",
-            "bsonType": "string", 
-            "maxLength": 20 },
-        "enumerations": {
-            "bsonType": "array",
-            "items": { "bsonType": "string" }
-        }
-    }
+    "bsonType": "object"
 }
