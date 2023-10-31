@@ -22,7 +22,7 @@ mongodb://root:example@localhost:27017/?tls=false&directConnection=true
 ## Run the database container(s) locally
 
 ```bash
-curl -LJO https://raw.githubusercontent.com/agile-learning-institute/institute-mongodb/main/src/docker/run-local-db.sh | bash
+curl https://raw.githubusercontent.com/agile-learning-institute/institute-mongodb/main/src/docker/run-local-db.sh | /bin/bash
 ```
 
 If you need to confirm that the script is secure, view /src/docker/run-local-db.sh
