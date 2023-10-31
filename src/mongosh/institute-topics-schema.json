@@ -7,21 +7,21 @@
             "description":"Module level classification",
             "bsonType": "string",
             "enum": [
-                "Craftsmaship",
-                "Human Experience",
-                "Product Life Cycle",
-                "Computing",
-                "Internet",
-                "Tooling",
-                "Programming Languages",
+                "Architecture",
                 "Automated Testing",
                 "Clean Code",
+                "Computing",
+                "Craftsmanship",
                 "Data",
+                "Human Experience",
                 "Infrastructure", 
-                "Security", 
+                "Internet",
                 "Monitoring", 
                 "Operations", 
-                "Architecture"
+                "Product Life Cycle",
+                "Programming Languages",
+                "Security", 
+                "Tooling"
             ]
         },
         "name": { 
@@ -57,14 +57,25 @@
                         "enum": [
                             "Article",
                             "Book",
-                            "Resource",
-                            "Image",
-                            "Video",
-                            "Tool", 
+                            "Certification Exam",
+                            "Course",
+                            "Design System",
+                            "Document",
                             "Exercise",
+                            "EngineerKit Resource",
+                            "Film",
+                            "Game",
+                            "Guide",
+                            "Image",
                             "Official Guide",
                             "Official Training",
-                            "Certification Exam"
+                            "Resource",
+                            "Tool", 
+                            "Thread",
+                            "Tutorial",
+                            "Video",
+                            "Video Series",
+                            "Website"
                         ]
                     },
                     "name": { 
@@ -84,7 +95,7 @@
                     "link": {
                         "description":"Link to Resource",
                         "bsonType": "string",
-                        "maxLength": 128                                 
+                        "maxLength": 256                                 
                     },
                     "isFree": {
                         "description":"Is this a free resource",

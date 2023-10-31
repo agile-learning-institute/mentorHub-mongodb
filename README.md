@@ -19,13 +19,23 @@ The docker compose starts the mongodb database container first, and when it is h
 mongodb://root:example@localhost:27017/?tls=false&directConnection=true
 ```
 
-## Run the database container(s) locally
+## Run the database container(s) locally for API development
 
 ```bash
 curl https://raw.githubusercontent.com/agile-learning-institute/institute-mongodb/main/src/docker/run-local-db.sh | /bin/bash
 ```
 
 If you need to confirm that the script is secure, view /src/docker/run-local-db.sh
+
+## Build and run the Topic Scraper
+
+The python topic scraper creates a topics JSON file by scraping EngineerKit Markdown files. This topics json file is used to laod testing data into the topics collection.
+
+```bash
+cd ./src/topic-scraper
+pip install -r requirements.txt
+python scrape_engineerkit.py
+```
 
 ## Build the container locally
 
@@ -36,12 +46,14 @@ If you need to confirm that the script is secure, view /src/docker/run-local-db.
 ## Run and Load the database container
 
 ```bash
+cd ./src/docker
 docker compose up --detach
 ```
 
 ## Stop and Start the container without loosing data
 
 ```bash
+cd ./src/docker
 docker compose stop
 docker compose start
 ```
@@ -49,6 +61,7 @@ docker compose start
 ## Restart the container (reset data)
 
 ```bash
+cd ./src/docker
 docker compose down
 docker compose up --deatch
 ```
