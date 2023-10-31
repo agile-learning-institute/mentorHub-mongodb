@@ -16,10 +16,18 @@ The docker compose starts the mongodb database container first, and when it is h
 mongodb://root:example@localhost:27017/?tls=false&directConnection=true
 ```
 
-## Build the container
+## Run the database container(s)
 
 ```bash
-./docker-build.sh
+curl -LJO https://raw.githubusercontent.com/agile-learning-institute/institute-mongodb/main/src/docker/run-local-db.sh | bash
+```
+
+If you need to confirm that the script is secure, view /src/docker/run-local-db.sh
+
+## Build the container locally
+
+```bash
+./src/docker/docker-build.sh
 ```
 
 ## Run and Load the database container
