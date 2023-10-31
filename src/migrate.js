@@ -61,8 +61,8 @@ var collections = [
         name: "enumerators", 
         schemaFile: '/src/institute-enumirators-schema.json', 
         dataFile: '/src/institute-enumirators-data.json', 
-        initialVersion: "2.0.0", 
-        targetVersion: "2.0.0" 
+        initialVersion: "2.0.1", 
+        targetVersion: "2.0.1" 
     },
     { 
         name: "partners", 

@@ -1,4 +1,6 @@
 [{
+    "name": "Enumerations",
+    "status": "Active",
     "title": [
         "Apprentice Candidate",
         "Apprentice",
@@ -8,7 +10,7 @@
         "Distinguished",
         "N/A"
     ],
-    "status": [
+    "statuses": [
         "Pending",
         "Active",
         "Drip",
