@@ -27,6 +27,16 @@ curl https://raw.githubusercontent.com/agile-learning-institute/institute-mongod
 
 If you need to confirm that the script is secure, view /src/docker/run-local-db.sh
 
+## Build and run the Topic Scraper
+
+The python topic scraper creates a topics JSON file by scraping EngineerKit Markdown files. This topics json file is used to laod testing data into the topics collection.
+
+```bash
+cd ./src/topic-scraper
+pip install -r requirements.txt
+python scrape_engineerkit.py
+```
+
 ## Build the container locally
 
 ```bash
