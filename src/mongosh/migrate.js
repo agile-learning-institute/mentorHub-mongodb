@@ -61,29 +61,29 @@ var collections = [
         name: "enumerators", 
         schemaFile: '/src/institute-enumirators-schema.json', 
         dataFile: '/src/institute-enumirators-data.json', 
-        initialVersion: "1.2.T", 
-        targetVersion: "1.2.T" 
+        initialVersion: "2.0.1", 
+        targetVersion: "2.0.1" 
     },
     { 
         name: "partners", 
         schemaFile: '/src/institute-partner-schema.json', 
         dataFile: '/src/institute-partner-data.json', 
-        initialVersion: "1.1.T", 
-        targetVersion: "1.1.T" 
+        initialVersion: "1.1.1", 
+        targetVersion: "1.1.1" 
     },
     { 
         name: "people", 
         schemaFile: '/src/institute-people-schema.json', 
         dataFile: '/src/institute-people-data.json', 
-        initialVersion: "1.2.T", 
-        targetVersion: "1.2.T" 
+        initialVersion: "1.2.1", 
+        targetVersion: "1.2.1" 
     },
     { 
         name: "topics", 
         schemaFile: '/src/institute-topics-schema.json', 
         dataFile: '/src/institute-topics-data.json', 
-        initialVersion: "1.1.T", 
-        targetVersion: "1.1.T" 
+        initialVersion: "1.0.1", 
+        targetVersion: "1.0.1" 
     },
     // Add more collections here
 ];

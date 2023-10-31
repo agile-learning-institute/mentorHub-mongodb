@@ -1,0 +1,54 @@
+[{
+    "name": "Enumerations",
+    "status": "Active",
+    "title": [
+        "Apprentice Candidate",
+        "Apprentice",
+        "Resident",
+        "Associate",
+        "Senior",
+        "Distinguished",
+        "N/A"
+    ],
+    "statuses": [
+        "Pending",
+        "Active",
+        "Drip",
+        "Archived"
+    ],
+    "device": [
+        "Windows",
+        "Mac (Intel)",
+        "Mac (Apple)",
+        "Linux"
+    ],
+    "domain":[
+        "Craftsmaship",
+        "Human Experience",
+        "Product Life Cycle",
+        "Computing",
+        "Internet",
+        "Tooling",
+        "Programming Languages",
+        "Automated Testing",
+        "Clean Code",
+        "Data",
+        "Infrastructure", 
+        "Security", 
+        "Monitoring", 
+        "Operations", 
+        "Architecture"
+    ],
+    "resourceType": [
+        "Article",
+        "Book",
+        "Resource",
+        "Image",
+        "Video",
+        "Tool", 
+        "Exercise",
+        "Official Guide",
+        "Official Training",
+        "Certification Exam"
+    ]
+}]

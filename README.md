@@ -9,16 +9,28 @@ The docker compose starts the mongodb database container first, and when it is h
 ## Prerequisits
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+  - For Mac ```brew install docker```
+
+### Optionally
+
 - [Mongo Compass](https://www.mongodb.com/try/download/compass) - if you want a way to look into the database, the connection string will be
 
 ```html
 mongodb://root:example@localhost:27017/?tls=false&directConnection=true
 ```
 
-## Build the container
+## Run the database container(s) locally
 
 ```bash
-./docker-build.sh
+curl -LJO https://raw.githubusercontent.com/agile-learning-institute/institute-mongodb/main/src/docker/run-local-db.sh | bash
+```
+
+If you need to confirm that the script is secure, view /src/docker/run-local-db.sh
+
+## Build the container locally
+
+```bash
+./src/docker/docker-build.sh
 ```
 
 ## Run and Load the database container
@@ -48,6 +60,7 @@ docker compose up --deatch
 - [x] Implement Schema Version Migration
 - [x] New Schema's and Collections [topics, resources]
 - [ ] Abstract enumeration arrays so they can be used in schema and test data
+- [ ] Create Python script to scrape engineerkit markdown
 - [ ] Implement minVersion with version + "T" if test data is loaded
 - [ ] Implement Person transformation in load script (Version Upgrade from x.x.1T to x.x.2T)
 - [ ] Breadcrumbs, define and include type in all schemas
