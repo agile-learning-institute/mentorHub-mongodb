@@ -10,13 +10,16 @@ The docker compose starts the mongodb database container first, and when it is h
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
   - For Mac ```brew install docker```
+
+### Optionally
+
 - [Mongo Compass](https://www.mongodb.com/try/download/compass) - if you want a way to look into the database, the connection string will be
 
 ```html
 mongodb://root:example@localhost:27017/?tls=false&directConnection=true
 ```
 
-## Run the database container(s)
+## Run the database container(s) locally
 
 ```bash
 curl -LJO https://raw.githubusercontent.com/agile-learning-institute/institute-mongodb/main/src/docker/run-local-db.sh | bash
