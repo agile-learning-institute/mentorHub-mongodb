@@ -13,7 +13,6 @@ def fetch_markdown_from_uri(uri):
 # Function to parse Markdown content and return a list of dictionaries
 def parse_markdown_to_dict(md_content):
     lines = md_content.split('\n')
-    types = {}
     topics = []
     current_topic = None
     type = None
@@ -67,7 +66,6 @@ def parse_markdown_to_dict(md_content):
                     if type.endswith(' ($)'):
                         type = type[:-4]  # Remove the last 4 characters ' ($)'
                         isFree = False
-                    types[type] = 1
                     resource['type'] = type
                     resource['isFree'] = isFree
                     
@@ -76,7 +74,6 @@ def parse_markdown_to_dict(md_content):
     if current_topic:  # Save the last topic if it exists
         topics.append(current_topic)
 
-    print(types)
     return topics
 
 # List of sample URIs (replace with the URIs to your Markdown files)
