@@ -19,20 +19,30 @@ The docker compose starts the mongodb database container first, and when it is h
 mongodb://root:example@localhost:27017/?tls=false&directConnection=true
 ```
 
+### Setup an environment variable for project navigation
+
+Navigate to your institue-mongodb folder. Setup an environment variable to save this location. Use the environment variable to ensure you are in the proper pwd for each set of commands.
+
+```bash
+cd PATH_TO_REPO/institute-mongodb
+ROOT=$PWD
+echo $ROOT
+```
+
 ## Run the database container(s) locally for API development
 
 ```bash
 curl https://raw.githubusercontent.com/agile-learning-institute/institute-mongodb/main/src/docker/run-local-db.sh | /bin/bash
 ```
 
-If you need to confirm that the script is secure, view /src/docker/run-local-db.sh
+If you need to confirm that the script is secure, view $ROOT/src/docker/run-local-db.sh
 
 ## Build and run the Topic Scraper
 
 The python topic scraper creates a topics JSON file by scraping EngineerKit Markdown files. This topics json file is used to laod testing data into the topics collection.
 
 ```bash
-cd ./src/topic-scraper
+cd $ROOT/src/topic-scraper
 pip install -r requirements.txt
 python scrape_engineerkit.py
 ```
@@ -40,20 +50,20 @@ python scrape_engineerkit.py
 ## Build the container locally
 
 ```bash
-./src/docker/docker-build.sh
+$ROOT/src/docker/docker-build.sh
 ```
 
 ## Run and Load the database container
 
 ```bash
-cd ./src/docker
+cd $ROOT/src/docker
 docker compose up --detach
 ```
 
 ## Stop and Start the container without loosing data
 
 ```bash
-cd ./src/docker
+cd $ROOT/src/docker
 docker compose stop
 docker compose start
 ```
@@ -61,7 +71,7 @@ docker compose start
 ## Restart the container (reset data)
 
 ```bash
-cd ./src/docker
+cd $ROOT/src/docker
 docker compose down
 docker compose up --deatch
 ```
