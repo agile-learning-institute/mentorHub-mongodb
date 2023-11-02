@@ -2,8 +2,6 @@
 
 This is project contains database configuration, migration scripts, and test data used by the institute system. The Dockerfile creates a mongosh container that connects to a database and runs the scripts to configure the database and load test data.
 
-The docker compose starts the mongodb database container first, and when it is healthy it starts the mongosh container to run the configuration script.
-
 [Here](https://github.com/orgs/agile-learning-institute/repositories?q=institute&type=all&sort=name) are all of the repositories in the [Institute](https://github.com/agile-learning-institute/institute/tree/main) system
 
 ## Prerequisits
@@ -13,19 +11,12 @@ The docker compose starts the mongodb database container first, and when it is h
 
 ### Optionally
 
+- [Python](https://www.python.org/downloads/) - if you want to run the Topic Scraper
 - [Mongo Compass](https://www.mongodb.com/try/download/compass) - if you want a way to look into the database, the connection string will be
 
 ```html
 mongodb://root:example@localhost:27017/?tls=false&directConnection=true
 ```
-
-## Run the database container(s) locally for API development
-
-```bash
-curl https://raw.githubusercontent.com/agile-learning-institute/institute-mongodb/main/src/docker/run-local-db.sh | /bin/bash
-```
-
-If you need to confirm that the script is secure, view /src/docker/run-local-db.sh
 
 ## Build and run the Topic Scraper
 
@@ -37,33 +28,12 @@ pip install -r requirements.txt
 python scrape_engineerkit.py
 ```
 
-## Build the container locally
+### Manually build and test UI container
+
+After executing the docker-build script as outlined below, you can [start the database](https://github.com/agile-learning-institute/institute/tree/main/docker-compose#run-the-mongodb-backing-database) to test your changes before opening a pull request.
 
 ```bash
-./src/docker/docker-build.sh
-```
-
-## Run and Load the database container
-
-```bash
-cd ./src/docker
-docker compose up --detach
-```
-
-## Stop and Start the container without loosing data
-
-```bash
-cd ./src/docker
-docker compose stop
-docker compose start
-```
-
-## Restart the container (reset data)
-
-```bash
-cd ./src/docker
-docker compose down
-docker compose up --deatch
+.src/docker-build.sh
 ```
 
 ## Refactors and Enhancements
