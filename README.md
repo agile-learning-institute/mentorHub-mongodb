@@ -7,7 +7,12 @@ This is project contains database configuration, migration scripts, and test dat
 ## Prerequisits
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-  - For Mac ```brew install docker```
+- Docker buildx configured - use the following commands
+
+```bash
+docker buildx create --name institutebuilder --use
+docker buildx inspect institutebuilder --bootstrap
+```
 
 ### Optionally
 
@@ -28,9 +33,9 @@ pip install -r requirements.txt
 python scrape_engineerkit.py
 ```
 
-### Manually build and test UI container
+### Manually build and test the container
 
-After executing the docker-build script as outlined below, you can [start the database](https://github.com/agile-learning-institute/institute/tree/main/docker-compose#run-the-mongodb-backing-database) to test your changes before opening a pull request.
+Use the following comand to build and run the container locally. See [here for details](https://github.com/agile-learning-institute/institute/blob/main/docker-compose/README.md) on how to stop/start the database.
 
 ```bash
 .src/docker-build.sh
