@@ -1,15 +1,24 @@
-# Build Docker image
-docker build . --tag ghcr.io/agile-learning-institute/institute-mongosh:latest
+#!/bin/bash
+
+# Build Docker Image
+docker build --file src/docker/Dockerfile --tag ghcr.io/agile-learning-institute/institute-mongosh:latest .
 if [ $? -ne 0 ]; then
     echo "Docker build failed"
     exit 1
 fi
 
-# Push Docker image
-if [ $1 -eq '--push' ]; then
-    docker push ghcr.io/agile-learning-institute/institute-mongosh:latest
+# Run the Database, API, and UI containers
+if [ "$1" = '--run' ]; then
+    curl https://raw.githubusercontent.com/agile-learning-institute/institute/main/docker-compose/run-local-db.sh | /bin/bash
+fi
+
+# Push Docker image (To be removed when CI works)
+if [ "$1" = '--push' ]; then
+    docker push ghcr.io/agile-learning-institute/institute-mongosh:latest:latest
     if [ $? -ne 0 ]; then
-        echo "Docker Push failed"
+    echo "Docker build failed"
+    exit 1
+        echo "Docker push failed"
         exit 1
     fi
     echo "image pushed"
