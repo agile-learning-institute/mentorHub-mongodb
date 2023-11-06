@@ -95,4 +95,4 @@ collections.forEach(function(collection) {
     checkAndUpgradeConstraints(collection.name, collection.targetVersion);
 });
 
-console.log("############ COMPLETE ################");
+console.log("############ COMPLETE ################ Version 2.0.4");

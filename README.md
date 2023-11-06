@@ -41,6 +41,12 @@ Use the following comand to build and run the container locally. See [here for d
 .src/docker-build.sh
 ```
 
+### Manually build and push multi-platform image
+
+```bash
+.src/docker-push.sh
+```
+
 ## Refactors and Enhancements
 
 - [x] Create more complete test data
