@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Build Docker Image
-docker build --file src/docker/Dockerfile --tag ghcr.io/agile-learning-institute/institute-mongosh:latest .
+docker buildx build --platform linux/amd64,linux/arm64 --file src/docker/Dockerfile --tag ghcr.io/agile-learning-institute/institute-mongosh:latest . $1
 if [ $? -ne 0 ]; then
     echo "Docker build failed"
     exit 1

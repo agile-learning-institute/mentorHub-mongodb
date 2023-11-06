@@ -7,12 +7,6 @@ This is project contains database configuration, migration scripts, and test dat
 ## Prerequisits
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- Docker buildx configured - use the following commands
-
-```bash
-docker buildx create --name institutebuilder --use
-docker buildx inspect institutebuilder --bootstrap
-```
 
 ### Optionally
 
