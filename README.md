@@ -32,7 +32,7 @@ python scrape_engineerkit.py
 Use the following comand to build and run the container locally. See [here for details](https://github.com/agile-learning-institute/institute/blob/main/docker-compose/README.md) on how to stop/start the database.
 
 ```bash
-.src/docker-build.sh
+./src/docker/docker-build.sh
 ```
 
 ## Refactors and Enhancements
