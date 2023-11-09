@@ -19,7 +19,7 @@ mongodb://root:example@localhost:27017/?tls=false&directConnection=true
 
 ## Contributing
 
-The javascript files found in ```./src/mongosh``` are used to build the institute-mongosh container. This container connects to a mongo database and runs a mongosh script to create collections, version documents, load test data, and implement schema based constraints. The entrypoint.sh script, connects to the database based on environment variables, and then executes the migrate.js script.
+The javascript files found in ```./src/mongosh``` are used to build the institute-mongosh container. This container connects to a mongo database and runs a mongosh script to create collections, version documents, load test data, and implement json schema based constraints. The entrypoint.sh script, connects to the database based on environment variables, and then executes the migrate.js script.
 
 The ```main``` branch is locked as read-only. You should do all work in a feature branch, and when you are ready to have your code deployed to the cloud open a pull request against that feature branch. Do not open a pull request without first building and testing the containers locally
 
