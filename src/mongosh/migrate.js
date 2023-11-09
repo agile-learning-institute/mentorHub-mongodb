@@ -75,8 +75,8 @@ var collections = [
         name: "people", 
         schemaFile: '/src/institute-people-schema.json', 
         dataFile: '/src/institute-people-data.json', 
-        initialVersion: "1.2.1", 
-        targetVersion: "1.2.1" 
+        initialVersion: "1.2.2", 
+        targetVersion: "1.2.2" 
     },
     { 
         name: "topics", 
