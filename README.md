@@ -17,6 +17,18 @@ This is project contains database configuration, migration scripts, and test dat
 mongodb://root:example@localhost:27017/?tls=false&directConnection=true
 ```
 
+## Contributing
+
+The javascript files found in ./src/mongosh are used to build the institute-mongosh container. This container connects to a mongo database and runs a mongosh script to create collections, version documents, load test data, and implement schema based constraints. The entrypoint.sh script, connects to the database based on environment variables, and then executes the migrate.js script.
+
+The ```main``` branch is locked as read-only. You should do all work in a feature branch, and when you are ready to have your code deployed to the cloud open a pull request against that feature branch. Do not open a pull request without first building and testing the containers locally
+
+```bash
+cd ./src/topic-scraper
+pip install -r requirements.txt
+python scrape_engineerkit.py
+```
+
 ## Build and run the Topic Scraper
 
 The python topic scraper creates a topics JSON file by scraping EngineerKit Markdown files. This topics json file is used to laod testing data into the topics collection.
@@ -27,13 +39,18 @@ pip install -r requirements.txt
 python scrape_engineerkit.py
 ```
 
-### Manually build and test the container
+### Build and test the container
 
 Use the following comand to build and run the container locally. See [here for details](https://github.com/agile-learning-institute/institute/blob/main/docker-compose/README.md) on how to stop/start the database.
 
 ```bash
-.src/docker-build.sh
+../src/docker/docker-build.sh
 ```
+
+After that command completes successfully you can verify it worked successfly by
+
+- checking the logs from your institute-mongosh container
+- Connect to the database with the Mongo Compass and verify collections and data
 
 ## Refactors and Enhancements
 
@@ -41,9 +58,9 @@ Use the following comand to build and run the container locally. See [here for d
 - [x] Implement Schema Validation
 - [x] Implement Schema Version Migration
 - [x] New Schema's and Collections [topics, resources]
-- [ ] Abstract enumeration arrays so they can be used in schema and test data
-- [ ] Create Python script to scrape engineerkit markdown
-- [ ] Implement minVersion with version + "T" if test data is loaded
-- [ ] Implement Person transformation in load script (Version Upgrade from x.x.1T to x.x.2T)
+- [x] Create Python script to scrape engineerkit markdown
+- [ ] Abstract enumeration arrays so they can be used in schema and enumerator data
+- [ ] Implement Person transformation in load script (Version Upgrade Logic)
 - [ ] Breadcrumbs, define and include type in all schemas
 - [ ] Improve URI schema pattern
+- [ ] Improve Phone schema pattern
