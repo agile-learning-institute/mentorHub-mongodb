@@ -29,11 +29,6 @@
             "bsonType": "string", 
             "maxLength": 128 
         },
-        "status": { 
-            "description": "The status of this partnership",
-            "bsonType": "string",
-            "enum": ["Pending", "Active", "Drip", "Archived"]
-        },
         "overview": { 
             "description":"The Topic overview paragraph",
             "bsonType": "string", 
