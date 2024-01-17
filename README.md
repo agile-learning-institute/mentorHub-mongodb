@@ -1,4 +1,4 @@
-# institute-data
+# mentorhub-mongodb
 
 This is project contains database configuration, migration scripts, and test data used by the institute system. The Dockerfile creates a mongosh container that connects to a database and runs the scripts to configure the database and load test data.
 
