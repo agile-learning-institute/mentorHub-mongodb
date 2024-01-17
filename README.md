@@ -1,8 +1,8 @@
-# institute-data
+# mentorhub-mongodb
 
 This is project contains database configuration, migration scripts, and test data used by the institute system. The Dockerfile creates a mongosh container that connects to a database and runs the scripts to configure the database and load test data.
 
-[Here](https://github.com/orgs/agile-learning-institute/repositories?q=institute&type=all&sort=name) are all of the repositories in the [Institute](https://github.com/agile-learning-institute/institute/tree/main) system
+[Here](https://github.com/orgs/agile-learning-institute/repositories?q=mentorHub-&type=all&sort=name) are all of the repositories in the [mentorHub](https://github.com/agile-learning-institute/mentorhub/tree/main) system
 
 ## Prerequisits
 
@@ -41,7 +41,7 @@ python scrape_engineerkit.py
 
 ### Build and test the container
 
-Use the following comand to build and run the container locally. See [here for details](https://github.com/agile-learning-institute/institute/blob/main/docker-compose/README.md) on how to stop/start the database.
+Use the following comand to build and run the container locally. See [here for details](https://github.com/agile-learning-institute/mentorHub/blob/main/docker-configurations/README.md) on how to stop/start the database.
 
 ```bash
 ../src/docker/docker-build.sh
@@ -51,16 +51,3 @@ After that command completes successfully you can verify it worked successfly by
 
 - checking the logs from your institute-mongosh container
 - Connect to the database with the Mongo Compass and verify collections and data
-
-## Refactors and Enhancements
-
-- [x] Create more complete test data
-- [x] Implement Schema Validation
-- [x] Implement Schema Version Migration
-- [x] New Schema's and Collections [topics, resources]
-- [x] Create Python script to scrape engineerkit markdown
-- [ ] Abstract enumeration arrays so they can be used in schema and enumerator data
-- [ ] Implement Person transformation in load script (Version Upgrade Logic)
-- [ ] Breadcrumbs, define and include type in all schemas
-- [ ] Improve URI schema pattern
-- [ ] Improve Phone schema pattern

@@ -8,4 +8,4 @@ if [ $? -ne 0 ]; then
 fi
 
 # Run the Database, API, and UI containers
-curl https://raw.githubusercontent.com/agile-learning-institute/mentorhub/main/docker-compose/run-local-db.sh | /bin/bash
+/bin/bash =(curl -o - https://raw.githubusercontent.com/agile-learning-institute/mentorhub/main/docker-configurations/run-local.sh) db
