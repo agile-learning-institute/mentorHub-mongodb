@@ -40,12 +40,12 @@
             "maxLength": 256 
         },
         "skills": {
-            "description":"The list of Skills realted to this topic",
+            "description":"The list of Skills related to this topic",
             "bsonType": "array",
             "items": { "bsonType": "string" }
         },
         "resources": {
-            "description":"The list of learning Resources realted to this topic",
+            "description":"The list of learning Resources related to this topic",
             "bsonType": "array",
             "items": { 
                 "bsonType": "object",
