@@ -17,11 +17,11 @@
     "status": { 
       "description": "The status of this partnership",
       "bsonType": "string",
-      "enum": ["Pending", "Active", "Drip", "Archived"]},
+      "enum": ["Pending", "Active", "Inactive", "Archived"]},
     "url": {
       "description": "Partner Company website",
       "bsonType": "string",
       "maxLength": 256,
       "pattern": "^(https?|ftp)://[^\\s/$.?#].[^\\s]*$" }
   }
-}  
+}
