@@ -70,7 +70,7 @@
     },
     {
       "name": "Emily Smith",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -159,7 +159,7 @@
     },
     {
       "name": "Emma Smith",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -250,7 +250,7 @@
     },
     {
       "name": "Alexander Smith",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -339,7 +339,7 @@
     },
     {
       "name": "Isabella Smith",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -430,7 +430,7 @@
     },
     {
       "name": "Sophia Smith",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -519,7 +519,7 @@
     },
     {
       "name": "Lucas Smith",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -610,7 +610,7 @@
     },
     {
       "name": "Emily Jones",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -699,7 +699,7 @@
     },
     {
       "name": "Emma Jones",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -790,7 +790,7 @@
     },
     {
       "name": "Alexander Jones",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -879,7 +879,7 @@
     },
     {
       "name": "Isabella Jones",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -970,7 +970,7 @@
     },
     {
       "name": "Sophia Jones",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1059,7 +1059,7 @@
     },
     {
       "name": "Lucas Jones",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1150,7 +1150,7 @@
     },
     {
       "name": "Emily Williams",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -1239,7 +1239,7 @@
     },
     {
       "name": "Emma Williams",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1330,7 +1330,7 @@
     },
     {
       "name": "Alexander Williams",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1419,7 +1419,7 @@
     },
     {
       "name": "Isabella Williams",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1510,7 +1510,7 @@
     },
     {
       "name": "Sophia Williams",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -1599,7 +1599,7 @@
     },
     {
       "name": "Lucas Williams",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1690,7 +1690,7 @@
     },
     {
       "name": "Emily Taylor",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -1779,7 +1779,7 @@
     },
     {
       "name": "Emma Taylor",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -1870,7 +1870,7 @@
     },
     {
       "name": "Alexander Taylor",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -1959,7 +1959,7 @@
     },
     {
       "name": "Isabella Taylor",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2050,7 +2050,7 @@
     },
     {
       "name": "Sophia Taylor",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -2139,7 +2139,7 @@
     },
     {
       "name": "Lucas Taylor",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2230,7 +2230,7 @@
     },
     {
       "name": "Emily Brown",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -2319,7 +2319,7 @@
     },
     {
       "name": "Emma Brown",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2410,7 +2410,7 @@
     },
     {
       "name": "Alexander Brown",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -2499,7 +2499,7 @@
     },
     {
       "name": "Isabella Brown",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2590,7 +2590,7 @@
     },
     {
       "name": "Sophia Brown",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -2679,7 +2679,7 @@
     },
     {
       "name": "Lucas Brown",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2770,7 +2770,7 @@
     },
     {
       "name": "Emily Davies",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -2859,7 +2859,7 @@
     },
     {
       "name": "Emma Davies",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -2950,7 +2950,7 @@
     },
     {
       "name": "Alexander Davies",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -3039,7 +3039,7 @@
     },
     {
       "name": "Isabella Davies",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3130,7 +3130,7 @@
     },
     {
       "name": "Sophia Davies",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -3219,7 +3219,7 @@
     },
     {
       "name": "Lucas Davies",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3310,7 +3310,7 @@
     },
     {
       "name": "Emily Evans",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -3399,7 +3399,7 @@
     },
     {
       "name": "Emma Evans",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3490,7 +3490,7 @@
     },
     {
       "name": "Alexander Evans",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -3579,7 +3579,7 @@
     },
     {
       "name": "Isabella Evans",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3670,7 +3670,7 @@
     },
     {
       "name": "Sophia Evans",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -3759,7 +3759,7 @@
     },
     {
       "name": "Lucas Evans",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -3850,7 +3850,7 @@
     },
     {
       "name": "Emily Thomas",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -3939,7 +3939,7 @@
     },
     {
       "name": "Emma Thomas",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4030,7 +4030,7 @@
     },
     {
       "name": "Alexander Thomas",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": true,
       "donor": true,
@@ -4119,7 +4119,7 @@
     },
     {
       "name": "Isabella Thomas",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4210,7 +4210,7 @@
     },
     {
       "name": "Sophia Thomas",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -4299,7 +4299,7 @@
     },
     {
       "name": "Lucas Thomas",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4390,7 +4390,7 @@
     },
     {
       "name": "Emily Wilson",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -4479,7 +4479,7 @@
     },
     {
       "name": "Emma Wilson",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4570,7 +4570,7 @@
     },
     {
       "name": "Alexander Wilson",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -4659,7 +4659,7 @@
     },
     {
       "name": "Isabella Wilson",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
@@ -4750,7 +4750,7 @@
     },
     {
       "name": "Sophia Wilson",
-      "status": "Drip",
+      "status": "Inactive",
       "member": true,
       "mentor": false,
       "donor": true,
@@ -4839,7 +4839,7 @@
     },
     {
       "name": "Lucas Wilson",
-      "status": "Drip",
+      "status": "Inactive",
       "member": false,
       "mentor": false,
       "donor": false,
