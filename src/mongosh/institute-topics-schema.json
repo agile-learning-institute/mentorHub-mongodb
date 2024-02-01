@@ -1,117 +1,42 @@
 {
-    "description":"A Learning Topic",
-    "bsonType": "object",
-    "required": ["name"],
-    "properties": {
-        "domain": {
-            "description":"Module level classification",
-            "bsonType": "string",
-            "enum": [
-                "Architecture",
-                "Automated Testing",
-                "Clean Code",
-                "Computing",
-                "Craftsmanship",
-                "Data",
-                "Human Experience",
-                "Infrastructure", 
-                "Internet",
-                "Monitoring", 
-                "Operations", 
-                "Product Life Cycle",
-                "Programming Languages",
-                "Security", 
-                "Tooling"
-            ]
-        },
-        "name": { 
-            "description":"The Topic Name",
-            "bsonType": "string", 
-            "maxLength": 128 
-        },
-        "status": { 
-            "description": "The status of this topic",
-            "bsonType": "string",
-            "enum": ["Active", "Archived"]
-        },
-        "overview": { 
-            "description":"The Topic overview paragraph",
-            "bsonType": "string", 
-            "maxLength": 256 
-        },
-        "skills": {
-            "description":"The list of Skills related to this topic",
-            "bsonType": "array",
-            "items": { "bsonType": "string" }
-        },
-        "resources": {
-            "description":"The list of learning Resources related to this topic",
-            "bsonType": "array",
-            "items": { 
-                "bsonType": "object",
-                "required": ["name"],
-                "properties": {
-                    "type": {
-                        "description":"Learning Resource Type",
-                        "bsonType": "string",
-                        "enum": [
-                            "Article",
-                            "Book",
-                            "Certification Exam",
-                            "Course",
-                            "Design System",
-                            "Document",
-                            "Exercise",
-                            "EngineerKit Resource",
-                            "Film",
-                            "Game",
-                            "Guide",
-                            "Image",
-                            "Official Guide",
-                            "Official Training",
-                            "Resource",
-                            "Tool", 
-                            "Thread",
-                            "Tutorial",
-                            "Video",
-                            "Video Series",
-                            "Website"
-                        ]
-                    },
-                    "name": { 
-                        "description":"The Resource Name",
-                        "bsonType": "string", 
-                        "maxLength": 128 
-                    },
-                    "duration": { 
-                        "description":"The estimated time in minutes to consume this resource",
-                        "bsonType": "int"
-                    },
-                    "description": { 
-                        "description":"The Resource description",
-                        "bsonType": "string", 
-                        "maxLength": 256 
-                    },
-                    "link": {
-                        "description":"Link to Resource",
-                        "bsonType": "string",
-                        "maxLength": 256                                 
-                    },
-                    "isFree": {
-                        "description":"Is this a free resource",
-                        "bsonType": "bool"
-                    },
-                    "isGeneralistSkill": {
-                        "description":"Is this a generalist skill, or a specialist skill",
-                        "bsonType": "bool"
-                    },
-                    "notes": {
-                        "description":"notes about this resource",
-                        "bsonType": "string",
-                        "maxLength": 255
-                    }
-                }
+    "Topics": {
+        "TopicID": "Unique identifier",
+        "Name": "Topic name",
+        "Domain": "Broad category",
+        "Status": "Active, Archived, or Upcoming",
+        "Overview": "Brief description",
+        "Skills": [
+            {
+                "SkillID": "Linked skill identifier",
+                "Level": "Generalist, Specialist, etc.",
+                "Importance": "Core, Supplementary, Emerging"
             }
-        }
+        ],
+        "Resources": [
+            {
+                "ResourceID": "Unique identifier",
+                "Title": "Resource title",
+                "MediaType": "Primary media type (Text, Video, Audio, Interactive)",
+                "Format": ["E-book", "Interactive Tutorial", "Lecture Video", "Podcast"],
+                "Duration": "Estimated completion time",
+                "AccessibilityOptions": ["Subtitles", "Screen Reader Friendly", "Interactive Transcripts"],
+                "Link": "URL or access point",
+                "IsFree": "Boolean indicating if the resource is free",
+                "UserFeedback": {
+                    "Ratings": "User rating out of 5",
+                    "Comments": "User comments and reviews"
+                },
+                "AssociatedSkills": ["List of skill IDs related to the resource"],
+                "UpdatedDate": "Last updated date for content relevancy"
+            }
+        ]
+    },
+    "Skills": {
+        "SkillID": "Unique identifier",
+        "Name": "Skill name",
+        "Description": "Detailed description",
+        "Category": "Technical, Soft Skill, Theoretical, Practical",
+        "RelevanceToCurriculum": "Core, Elective, Supplementary",
+        "LearningStrategies": ["Spaced Repetition", "Problem-Based Learning"]
     }
 }
