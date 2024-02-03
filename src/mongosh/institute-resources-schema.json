@@ -1,0 +1,48 @@
+{
+	"description": "A Learning resource",
+	"bsonType": "object",
+	"required": ["name"],
+	"properties": {
+		"name": {
+			"description": "The Resource Name",
+			"bsonType": "string",
+			"maxLength": 128
+		},
+		"mediaType": {
+			"description": "Primary media type(s) of the resource",
+			"bsonType": "array",
+			"items": {
+				"bsonType": "string",
+				"enum": [
+					"video",
+					"text",
+					"audio",
+					"image"
+				]
+			}
+		},
+		"tags": {
+			"description": "More granular classification of resources for filtering purposes",
+			"bsonType": "array",
+			"items": { "bsonType": "string" }
+		},
+		"duration": {
+			"description": "The estimated time in minutes to consume this resource",
+			"bsonType": "int"
+		},
+		"description": {
+			"description": "The Resource description",
+			"bsonType": "string",
+			"maxLength": 256
+		},
+		"link": {
+			"description": "Link to Resource",
+			"bsonType": "string",
+			"maxLength": 256
+		},
+		"isFree": {
+			"description": "Is this a free resource",
+			"bsonType": "bool"
+		}
+	}
+}
