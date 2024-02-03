@@ -1,42 +1,79 @@
 {
+  "definitions": {
+    "Skill": {
+      "type": "object",
+      "properties": {
+        "SkillID": {"type": "string", "description": "Unique identifier for the skill"},
+        "Name": {"type": "string", "description": "Name of the skill"},
+        "Description": {"type": "string", "description": "Detailed description of the skill"},
+        "Category": {"type": "string", "description": "Category of the skill (e.g., Technical, Soft Skill)"},
+        "RelevanceToCurriculum": {"type": "string", "enum": ["Core", "Elective", "Supplementary"], "description": "Relevance of the skill to the curriculum"}
+      },
+      "required": ["SkillID", "Name"],
+      "additionalProperties": false
+    },
+    "Resource": {
+      "type": "object",
+      "properties": {
+        "ResourceID": {"type": "string", "description": "Unique identifier for the resource"},
+        "Title": {"type": "string", "description": "Title of the resource"},
+        "MediaType": {"type": "string", "enum": ["Text", "Video", "Audio", "Interactive"], "description": "Primary media type of the resource"},
+        "Format": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Specific format(s) of the resource (e.g., E-book, Interactive Tutorial)"
+        },
+        "Duration": {"type": "string", "description": "Estimated completion time for the resource"},
+        "AccessibilityOptions": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "List of accessibility options available (e.g., Subtitles, Screen Reader Friendly)"
+        },
+        "Link": {"type": "string", "description": "URL or access point for the resource"},
+        "IsFree": {"type": "boolean", "description": "Indicates if the resource is freely available"},
+        "UserFeedback": {
+          "type": "object",
+          "properties": {
+            "Ratings": {"type": "number", "description": "User rating out of 5"},
+            "Comments": {"type": "array", "items": {"type": "string"}, "description": "User comments and reviews"}
+          },
+          "required": ["Ratings"]
+        },
+        "AssociatedSkills": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "List of skill IDs related to the resource"
+        },
+        "UpdatedDate": {"type": "string", "format": "date-time", "description": "Last updated date for content relevancy"}
+      },
+      "required": ["ResourceID", "Title", "MediaType"],
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "properties": {
     "Topics": {
-        "TopicID": "Unique identifier",
-        "Name": "Topic name",
-        "Domain": "Broad category",
-        "Status": "Active, Archived, or Upcoming",
-        "Overview": "Brief description",
-        "Skills": [
-            {
-                "SkillID": "Linked skill identifier",
-                "Level": "Generalist, Specialist, etc.",
-                "Importance": "Core, Supplementary, Emerging"
-            }
-        ],
-        "Resources": [
-            {
-                "ResourceID": "Unique identifier",
-                "Title": "Resource title",
-                "MediaType": "Primary media type (Text, Video, Audio, Interactive)",
-                "Format": ["E-book", "Interactive Tutorial", "Lecture Video", "Podcast"],
-                "Duration": "Estimated completion time",
-                "AccessibilityOptions": ["Subtitles", "Screen Reader Friendly", "Interactive Transcripts"],
-                "Link": "URL or access point",
-                "IsFree": "Boolean indicating if the resource is free",
-                "UserFeedback": {
-                    "Ratings": "User rating out of 5",
-                    "Comments": "User comments and reviews"
-                },
-                "AssociatedSkills": ["List of skill IDs related to the resource"],
-                "UpdatedDate": "Last updated date for content relevancy"
-            }
-        ]
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "TopicID": {"type": "string", "description": "Unique identifier for the topic"},
+          "Name": {"type": "string", "description": "Name of the topic"},
+          "Domain": {"type": "string", "description": "Broad category the topic belongs to"},
+          "Status": {"type": "string", "enum": ["Active", "Archived", "Upcoming"], "description": "Current status of the topic"},
+          "Overview": {"type": "string", "description": "Brief description of the topic"},
+          "Skills": {"type": "array", "items": {"$ref": "#/definitions/Skill"}, "description": "Skills related to the topic"},
+          "Resources": {"type": "array", "items": {"$ref": "#/definitions/Resource"}, "description": "Learning resources related to the topic"}
+        },
+        "required": ["TopicID", "Name", "Status"],
+        "additionalProperties": false
+      }
     },
     "Skills": {
-        "SkillID": "Unique identifier",
-        "Name": "Skill name",
-        "Description": "Detailed description",
-        "Category": "Technical, Soft Skill, Theoretical, Practical",
-        "RelevanceToCurriculum": "Core, Elective, Supplementary",
-        "LearningStrategies": ["Spaced Repetition", "Problem-Based Learning"]
+      "type": "array",
+      "items": {"$ref": "#/definitions/Skill"}
     }
+  },
+  "required": ["Topics", "Skills"],
+  "additionalProperties": false
 }
