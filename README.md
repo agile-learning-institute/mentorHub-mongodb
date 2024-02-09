@@ -4,9 +4,10 @@ This is project contains database configuration, migration scripts, and test dat
 
 [Here](https://github.com/orgs/agile-learning-institute/repositories?q=mentorHub-&type=all&sort=name) are all of the repositories in the [mentorHub](https://github.com/agile-learning-institute/mentorhub/tree/main) system
 
-## Prerequisits
+## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Install mongosh](https://www.mongodb.com/docs/mongodb-shell/install/)
 
 ### Optionally
 
@@ -31,7 +32,7 @@ python scrape_engineerkit.py
 
 ## Build and run the Topic Scraper
 
-The python topic scraper creates a topics JSON file by scraping EngineerKit Markdown files. This topics json file is used to laod testing data into the topics collection.
+The python topic scraper creates a topics JSON file by scraping EngineerKit Markdown files. This topics json file is used to load testing data into the topics collection.
 
 ```bash
 cd ./src/topic-scraper
@@ -41,13 +42,13 @@ python scrape_engineerkit.py
 
 ### Build and test the container
 
-Use the following comand to build and run the container locally. See [here for details](https://github.com/agile-learning-institute/mentorHub/blob/main/docker-configurations/README.md) on how to stop/start the database.
+Use the following command to build and run the container locally. See [here for details](https://github.com/agile-learning-institute/mentorHub/blob/main/docker-configurations/README.md) on how to stop/start the database.
 
 ```bash
 ../src/docker/docker-build.sh
 ```
 
-After that command completes successfully you can verify it worked successfly by
+After that command completes successfully you can verify it worked successfully by
 
 - checking the logs from your institute-mongosh container
 - Connect to the database with the Mongo Compass and verify collections and data

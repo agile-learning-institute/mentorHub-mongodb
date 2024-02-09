@@ -2,8 +2,11 @@
   "bsonType": "object",
   "required": ["name"],
   "properties": {
+    "_id": { 
+      "description":"The unique identifier for a partner",
+      "bsonType": "objectId" },
     "name": { 
-      "description":"VERSION is the key that identifies a document as a Scheam Version document, otherwise it's just the name",
+      "description":"VERSION is the key that identifies a document as a Schema Version document, otherwise it's just the name",
       "bsonType": "string", 
       "maxLength": 32 },
     "description": { 
@@ -25,3 +28,9 @@
       "pattern": "^(https?|ftp)://[^\\s/$.?#].[^\\s]*$" }
   }
 }
+
+
+
+
+
+
