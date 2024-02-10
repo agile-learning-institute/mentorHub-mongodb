@@ -19,6 +19,7 @@
 			"maxLength": 256
 		},
 		"partOfSeries": {
+			"description": "The name of the course, curriculum, or other collection in which this topic comprises a cohesive unit of learning",
 			"bsonType": "string",
 			"maxLength": 128
 		},
