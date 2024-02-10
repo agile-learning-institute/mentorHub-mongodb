@@ -4,10 +4,12 @@
 	"required": ["name"],
 	"properties": {
 		"name": {
-			"bsonType": "string"
+			"bsonType": "string",
+			"maxLength": 128
 		},
 		"description": {
-			"bsonType": "string"
+			"bsonType": "string",
+			"maxLength": 256
 		},
 		"level": {
 			"bsonType": "string",

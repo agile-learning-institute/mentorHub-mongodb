@@ -28,7 +28,9 @@
 		},
 		"duration": {
 			"description": "The estimated time in minutes to consume this resource",
-			"bsonType": "int"
+			"bsonType": "int",
+			"minimum": 1,
+			"maximum": 2880
 		},
 		"description": {
 			"description": "The Resource description",

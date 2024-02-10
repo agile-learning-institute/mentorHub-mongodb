@@ -24,7 +24,8 @@
 			"items": { "bsonType": "string" }
 		},
 		"partOfSeries": {
-			"bsonType": "string"
+			"bsonType": "string",
+			"maxLength": 128
 		},
 		"resources": {
 			"bsonType": "array",
