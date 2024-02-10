@@ -3,9 +3,19 @@
 	"bsonType": "object",
 	"required": ["name"],
 	"properties": {
-		"name": { "bsonType": "string" },
-		"description": { "bsonType": "string" },
-		"level": { "bsonType": "string", "enum": [ "Generalist", "Resident", "Master", "Senior", "Distinguished" ] },
-		"domain": { "bsonType": "string", "enum": [ "Generalist", "Specialist-Data", "Specialist-SRE", "Specialist-UX", "Specialist-API" ] }
+		"name": {
+			"bsonType": "string"
+		},
+		"description": {
+			"bsonType": "string"
+		},
+		"level": {
+			"bsonType": "string",
+			"enum": [ "Generalist", "Resident", "Master", "Senior", "Distinguished" ]
+		},
+		"domain": {
+			"bsonType": "string",
+			"enum": [ "Generalist", "Specialist-Data", "Specialist-SRE", "Specialist-UX", "Specialist-API" ]
+		}
 	}
 }

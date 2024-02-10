@@ -28,7 +28,9 @@
 		},
 		"resources": {
 			"bsonType": "array",
-			"items": { "bsonType": "string" }
+			"items": {
+				"bsonType": "string"
+			}
 		}
 	}
 }
