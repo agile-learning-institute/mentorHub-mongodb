@@ -3,7 +3,6 @@
 		"name": "Common Architecture Patterns",
 		"status": "Active",
 		"overview": "With this topic, you'll learn about common patterns used in architecture to create software systems.",
-		"skills": [],
 		"partOfSeries": "EngineerKit",
 		"resources": [
 			"Boundaries",
@@ -14,7 +13,6 @@
 		"name": "JavaScript Course",
 		"status": "Active",
 		"overview": "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This module includes projects where you will learn how to manipulate the DOM, use object-oriented programming principles, and fetch real-world data using APIs.",
-		"skills": [],
 		"partOfSeries": "The Odin Project",
 		"resources": [
 			"Objects and Object Constructors"

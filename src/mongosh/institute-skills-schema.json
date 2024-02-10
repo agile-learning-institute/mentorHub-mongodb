@@ -18,6 +18,13 @@
 		"domain": {
 			"bsonType": "string",
 			"enum": [ "Generalist", "Specialist-Data", "Specialist-SRE", "Specialist-UX", "Specialist-API" ]
+		},
+		"topic": {
+			"bsonType": "array",
+			"description": "The topics this skill is associated with",
+			"items": {
+				"bsonType": "objectId"
+			}
 		}
 	}
 }

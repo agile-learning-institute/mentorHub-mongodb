@@ -18,11 +18,6 @@
 			"bsonType": "string",
 			"maxLength": 256
 		},
-		"skills": {
-			"description": "The list of Skills related to this topic",
-			"bsonType": "array",
-			"items": { "bsonType": "string" }
-		},
 		"partOfSeries": {
 			"bsonType": "string",
 			"maxLength": 128
