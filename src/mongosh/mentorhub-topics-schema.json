@@ -30,7 +30,7 @@
 		"resources": {
 			"bsonType": "array",
 			"items": {
-				"bsonType": "string"
+				"bsonType": "objectId"
 			}
 		}
 	}
