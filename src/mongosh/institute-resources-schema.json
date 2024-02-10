@@ -21,11 +21,6 @@
 				]
 			}
 		},
-		"tags": {
-			"description": "More granular classification of resources for filtering purposes",
-			"bsonType": "array",
-			"items": { "bsonType": "string" }
-		},
 		"duration": {
 			"description": "The estimated time in minutes to consume this resource",
 			"bsonType": "int",

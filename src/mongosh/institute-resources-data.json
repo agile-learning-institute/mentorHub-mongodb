@@ -1,8 +1,7 @@
 [
 	{
 		"name": "Boundaries",
-		"mediaType": [ "video", "audio" ]
-		"tags": [ "talk", "testing", "programming paradigms" ],
+		"mediaType": [ "video", "audio" ],
 		"duration": 33,
 		"link": "https://www.destroyallsoftware.com/talks/boundaries",
 		"isFree": true
@@ -10,7 +9,6 @@
 	{
 		"name": "Using Clean Architecture for Microservice APIs in Node.js with MongoDB and Express",
 		"mediaType": [ "video", "audio" ],
-		"tags": [ "demo", "api" ],
 		"duration": 33,
 		"link": "https://www.youtube.com/watch?v=CnailTcJV_U",
 		"isFree": true
@@ -18,7 +16,6 @@
 	{
 		"name": "Objects and Object Constructors",
 		"mediaType": [ "text" ],
-		"tags": [ "javascript", "code samples" ],
 		"duration": 3,
 		"link": "https://www.theodinproject.com/lessons/node-path-javascript-organizing-your-javascript-code-introduction",
 		"isFree": true
