@@ -5,8 +5,8 @@
 		"overview": "With this topic, you'll learn about common patterns used in architecture to create software systems.",
 		"partOfSeries": "EngineerKit",
 		"resources": [
-			"Boundaries",
-			"Using Clean Architecture for Microservice APIs in Node.js with MongoDB and Express"
+			{ "$oid": "551137c2f9e1fac808a5f572" },
+			{ "$oid": "537eed02ed345b2e039652d2" }
 		]
 	},
 	{
@@ -15,7 +15,7 @@
 		"overview": "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This module includes projects where you will learn how to manipulate the DOM, use object-oriented programming principles, and fetch real-world data using APIs.",
 		"partOfSeries": "The Odin Project",
 		"resources": [
-			"Objects and Object Constructors"
+			{ "$oid": "551137c2f9e1fac808a5f572" }
 		]
 	}
 ]
