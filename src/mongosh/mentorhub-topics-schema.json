@@ -16,7 +16,7 @@
 		"overview": {
 			"description": "The Topic overview paragraph",
 			"bsonType": "string",
-			"maxLength": 256
+			"maxLength": 512
 		},
 		"partOfSeries": {
 			"description": "The name of the course, curriculum, or other collection in which this topic comprises a cohesive unit of learning",
