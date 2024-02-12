@@ -4,10 +4,10 @@
     "name"
   ],
   "properties": {
-    "partnerId": {
+  "_id": {
       "description": "The unique identifier for a partner",
-      "bsonType": "string"
-    },
+      "bsonType": "objectId"
+  },
     "name": {
       "description": "VERSION is the key that identifies a document as a Schema Version document, otherwise it's just the name",
       "bsonType": "string",
