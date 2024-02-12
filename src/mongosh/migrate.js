@@ -11,32 +11,24 @@ function checkAndCreateCollection(collectionName) {
 }
 
 // Function to check and create constraints (if no VERSION document exists)
-function checkAndCreateConstraints(
-  collectionName,
-  schemaFile,
-  dataFile,
-  initialVersion
-) {
-  var versionDoc = db[collectionName].findOne({ name: "VERSION" });
-  if (!versionDoc) {
-    console.log("Version Not Found, Configuring:", collectionName);
+function checkAndCreateConstraints(collectionName, schemaFile, dataFile, initialVersion) {
+    var versionDoc = db[collectionName].findOne({"name": "VERSION"});
+    if (!versionDoc) {
+        console.log("Version Not Found, Configuring:",collectionName);
+        
+        // create name index
+        db[collectionName].createIndex({ "name": 1 }, { unique: true });
+        console.log("\tName Index created");
 
-    // create name index
-    db[collectionName].createIndex({ name: 1 }, { unique: true });
-    console.log("\tName Index created");
-
-    // Configure schema validation
-    const schema = require(schemaFile);
-    console.log("\tSchema read");
-    db.runCommand({
-      collMod: collectionName,
-      validator: { $jsonSchema: schema },
-    });
-    console.log("\tValidator Configured");
-
-    // Insert version document
-    db[collectionName].insertOne({ name: "VERSION", version: initialVersion });
-    console.log("\tVersion Set");
+        // Confiure schema validation
+        const schema = require(schemaFile);
+        console.log("\tSchema read");
+        db.runCommand({collMod: collectionName, validator: {$jsonSchema: schema}});
+        console.log("\tValidator Configured");
+        
+        // Insert version document
+        db[collectionName].insertOne({"name": "VERSION", "version":initialVersion });
+        console.log("\tVersion Set");
 
     // Load Test Data
     if (loadTest === true) {
@@ -72,35 +64,35 @@ function checkAndUpgradeConstraints(collectionName, targetVersion) {
 
 // Setup Collections
 var collections = [
-  {
-    name: "enumerators",
-    schemaFile: "./mentorhub-enumerators-schema.json",
-    dataFile: "./mentorhub-enumerators-data.json",
-    initialVersion: "2.0.2",
-    targetVersion: "2.0.2",
-  },
-  {
-    name: "partners",
-    schemaFile: "./mentorhub-partner-schema.json",
-    dataFile: "./mentorhub-partner-data.json",
-    initialVersion: "1.1.1",
-    targetVersion: "1.1.1",
-  },
-  {
-    name: "people",
-    schemaFile: "./mentorhub-people-schema.json",
-    dataFile: "./mentorhub-people-data.json",
-    initialVersion: "1.2.2",
-    targetVersion: "1.2.2",
-  },
-  {
-    name: "topics",
-    schemaFile: "./mentorhub-topics-schema.json",
-    dataFile: "./mentorhub-topics-data.json",
-    initialVersion: "1.1.0",
-    targetVersion: "1.1.0",
-  },
-  // Add more collections here
+    { 
+        name: "enumerators", 
+        schemaFile: '/src/institute-enumirators-schema.json', 
+        dataFile: '/src/institute-enumirators-data.json', 
+        initialVersion: "2.0.2", 
+        targetVersion: "2.0.2" 
+    },
+    { 
+        name: "partners", 
+        schemaFile: '/src/institute-partner-schema.json', 
+        dataFile: '/src/institute-partner-data.json', 
+        initialVersion: "1.1.1", 
+        targetVersion: "1.1.1" 
+    },
+    { 
+        name: "people", 
+        schemaFile: '/src/institute-people-schema.json', 
+        dataFile: '/src/institute-people-data.json', 
+        initialVersion: "1.2.2", 
+        targetVersion: "1.2.2" 
+    },
+    { 
+        name: "topics", 
+        schemaFile: '/src/institute-topics-schema.json', 
+        dataFile: '/src/institute-topics-data.json', 
+        initialVersion: "1.1.0", 
+        targetVersion: "1.1.0" 
+    },
+    // Add more collections here
 ];
 console.log("############ STARTING ################ loadTestData:", loadTest);
 
