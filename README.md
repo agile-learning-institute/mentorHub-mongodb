@@ -30,6 +30,9 @@ pip install -r requirements.txt
 python scrape_engineerkit.py
 ```
 
+## Collections Standards
+
+
 ## Build and run the Topic Scraper
 
 The python topic scraper creates a topics JSON file by scraping EngineerKit Markdown files. This topics json file is used to load testing data into the topics collection.
@@ -39,6 +42,15 @@ cd ./src/topic-scraper
 pip install -r requirements.txt
 python scrape_engineerkit.py
 ```
+
+### Testing changes locally
+
+Use the following command: 
+```bash
+cd into src/mongosh
+./test.sh
+```
+
 
 ### Build and test the container
 
@@ -52,3 +64,6 @@ After that command completes successfully you can verify it worked successfully 
 
 - checking the logs from your institute-mongosh container
 - Connect to the database with the Mongo Compass and verify collections and data
+
+
+

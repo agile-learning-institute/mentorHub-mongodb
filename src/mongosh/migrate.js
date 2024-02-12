@@ -38,22 +38,20 @@ function checkAndCreateConstraints(
     db[collectionName].insertOne({ name: "VERSION", version: initialVersion });
     console.log("\tVersion Set");
 
+
     // Load Test Data
     if (loadTest === true) {
       console.log("\tLoading Test Data");
-      const data = require(dataFile);
-      // Generate ObjectIds for each document
-       doc._id = new ObjectId(doc.number); 
-      data.forEach((doc) => {
-        doc._id = new ObjectId();
-        
-      });
-      result = db.getCollection(collectionName).insertMany(data);
+      result = db
+        .getCollection(collectionName)
+        .insertMany(
+          EJSON.deserialize(JSON.parse(fs.readFileSync(dataFile, "utf-8")))
+        );
       count = Object.keys(result.insertedIds).length;
       console.log("\t", count, " Documents Inserted");
     }
   }
-
+}
 
 // Function to check and upgrade constraints
 function checkAndUpgradeConstraints(collectionName, targetVersion) {
