@@ -1,5 +1,6 @@
 [
 	{
+		"_id": { "$oid": "111111111111111111000001" },
 		"name": "Boundaries",
 		"mediaType": [ "video", "audio" ],
 		"duration": 33,
@@ -7,6 +8,7 @@
 		"isFree": true
 	},
 	{
+		"_id": { "$oid": "111111111111111111000002" },
 		"name": "Using Clean Architecture for Microservice APIs in Node.js with MongoDB and Express",
 		"mediaType": [ "video", "audio" ],
 		"duration": 33,
@@ -14,6 +16,7 @@
 		"isFree": true
 	},
 	{
+		"_id": { "$oid": "111111111111111111000003" },
 		"name": "Objects and Object Constructors",
 		"mediaType": [ "text" ],
 		"duration": 3,
