@@ -20,7 +20,7 @@ function checkAndCreateConstraints(collectionName, schemaFile, dataFile, initial
         db[collectionName].createIndex({ "name": 1 }, { unique: true });
         console.log("\tName Index created");
 
-        // Confiure schema validation
+        // Configure schema validation
         const schema = require(schemaFile);
         console.log("\tSchema read");
         db.runCommand({collMod: collectionName, validator: {$jsonSchema: schema}});
@@ -66,8 +66,8 @@ function checkAndUpgradeConstraints(collectionName, targetVersion) {
 var collections = [
     { 
         name: "enumerators", 
-        schemaFile: '/src/institute-enumirators-schema.json', 
-        dataFile: '/src/institute-enumirators-data.json', 
+        schemaFile: '/src/institute-enumerators-schema.json', 
+        dataFile: '/src/institute-enumerators-data.json', 
         initialVersion: "2.0.2", 
         targetVersion: "2.0.2" 
     },
@@ -108,3 +108,4 @@ collections.forEach(function (collection) {
 });
 
 console.log("############ COMPLETE ################ Version 2.0.4");
+}
