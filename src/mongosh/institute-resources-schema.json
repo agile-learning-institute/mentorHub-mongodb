@@ -10,16 +10,8 @@
 		},
 		"mediaType": {
 			"description": "Primary media type(s) of the resource",
-			"bsonType": "array",
-			"items": {
-				"bsonType": "string",
-				"enum": [
-					"video",
-					"text",
-					"audio",
-					"image"
-				]
-			}
+			"bsonType": "string",
+			"enum": [ "text", "audio", "video-only", "video-with-audio", "image", "interactive" ]
 		},
 		"duration": {
 			"description": "The estimated time in minutes to consume this resource",
