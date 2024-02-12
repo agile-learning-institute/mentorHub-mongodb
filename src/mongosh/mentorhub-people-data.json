@@ -1,7 +1,7 @@
 [
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000000"
+      "$oid": "aaaa00000000000000000000"
     },
     "name": "James Smith",
     "status": "Pending",
@@ -11,7 +11,7 @@
     "contact": false,
     "mentorName": "Michael Smith",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000007"
+      "$oid": "bbbb00000000000000000007"
     },
     "title": "Apprentice",
     "eMail": "JamesSmith@fakemail.com",
@@ -29,7 +29,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000001"
+      "$oid": "aaaa00000000000000000001"
     },
     "name": "Michael Smith",
     "status": "Active",
@@ -39,7 +39,7 @@
     "contact": false,
     "mentorName": "Olivia Jones",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000005"
+      "$oid": "bbbb00000000000000000005"
     },
     "title": "Apprentice",
     "eMail": "MichaelSmith@fakemail.com",
@@ -57,7 +57,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000002"
+      "$oid": "aaaa00000000000000000002"
     },
     "name": "Thomas Smith",
     "status": "Archived",
@@ -67,7 +67,7 @@
     "contact": false,
     "mentorName": "Jacob Brown",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000005"
+      "$oid": "bbbb00000000000000000005"
     },
     "title": "Resident",
     "eMail": "ThomasSmith@fakemail.com",
@@ -85,7 +85,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000003"
+      "$oid": "aaaa00000000000000000003"
     },
     "name": "Emily Smith",
     "status": "Inactive",
@@ -95,7 +95,7 @@
     "contact": true,
     "mentorName": "Abigail Evans",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000005"
+      "$oid": "bbbb00000000000000000005"
     },
     "title": "Distinguished",
     "eMail": "EmilySmith@fakemail.com",
@@ -113,7 +113,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000004"
+      "$oid": "aaaa00000000000000000004"
     },
     "name": "Elizabeth Smith",
     "status": "Pending",
@@ -123,7 +123,7 @@
     "contact": true,
     "mentorName": "",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000007"
+      "$oid": "bbbb00000000000000000007"
     },
     "eMail": "ElizabethSmith@fakemail.com",
     "gitHub": "ElizabethSmith",
@@ -140,7 +140,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000005"
+      "$oid": "aaaa00000000000000000005"
     },
     "name": "Samuel Smith",
     "status": "Active",
@@ -150,7 +150,7 @@
     "contact": true,
     "mentorName": "",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000007"
+      "$oid": "bbbb00000000000000000007"
     },
     "eMail": "SamuelSmith@fakemail.com",
     "gitHub": "SamuelSmith",
@@ -167,7 +167,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000006"
+      "$oid": "aaaa00000000000000000006"
     },
     "name": "Jacob Smith",
     "status": "Archived",
@@ -177,7 +177,7 @@
     "contact": true,
     "mentorName": "",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000005"
+      "$oid": "bbbb00000000000000000005"
     },
     "eMail": "JacobSmith@fakemail.com",
     "gitHub": "JacobSmith",
@@ -194,7 +194,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000007"
+      "$oid": "aaaa00000000000000000007"
     },
     "name": "Emma Smith",
     "status": "Inactive",
@@ -219,7 +219,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000008"
+      "$oid": "aaaa00000000000000000008"
     },
     "name": "Benjamin Smith",
     "status": "Pending",
@@ -229,7 +229,7 @@
     "contact": false,
     "mentorName": "Olivia Jones",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000007"
+      "$oid": "bbbb00000000000000000007"
     },
     "title": "Apprentice Candidate",
     "eMail": "BenjaminSmith@fakemail.com",
@@ -247,7 +247,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000009"
+      "$oid": "aaaa00000000000000000009"
     },
     "name": "Olivia Smith",
     "status": "Active",
@@ -257,7 +257,7 @@
     "contact": false,
     "mentorName": "Jacob Brown",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000005"
+      "$oid": "bbbb00000000000000000005"
     },
     "title": "Apprentice Candidate",
     "eMail": "OliviaSmith@fakemail.com",
@@ -275,7 +275,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000010"
+      "$oid": "aaaa00000000000000000010"
     },
     "name": "David Smith",
     "status": "Archived",
@@ -285,7 +285,7 @@
     "contact": false,
     "mentorName": "Abigail Evans",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000001"
+      "$oid": "bbbb00000000000000000001"
     },
     "title": "Resident",
     "eMail": "DavidSmith@fakemail.com",
@@ -303,7 +303,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000011"
+      "$oid": "aaaa00000000000000000011"
     },
     "name": "Alexander Smith",
     "status": "Inactive",
@@ -313,7 +313,7 @@
     "contact": true,
     "mentorName": "Graham Paasch",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000005"
+      "$oid": "bbbb00000000000000000005"
     },
     "title": "Distinguished",
     "eMail": "AlexanderSmith@fakemail.com",
@@ -331,7 +331,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000012"
+      "$oid": "aaaa00000000000000000012"
     },
     "name": "Noah Smith",
     "status": "Pending",
@@ -341,7 +341,7 @@
     "contact": true,
     "mentorName": "",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000005"
+      "$oid": "bbbb00000000000000000005"
     },
     "eMail": "NoahSmith@fakemail.com",
     "gitHub": "NoahSmith",
@@ -358,7 +358,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000013"
+      "$oid": "aaaa00000000000000000013"
     },
     "name": "Joshua Smith",
     "status": "Active",
@@ -367,7 +367,9 @@
     "donor": true,
     "contact": true,
     "mentorName": "",
-    "partnerId": {"$oid()": "bbbb00000000000000000003"},
+    "partnerId": {
+      "$oid": "bbbb00000000000000000003"
+    },
     "eMail": "JoshuaSmith@fakemail.com",
     "gitHub": "JoshuaSmith",
     "device": "Mac Intel",
@@ -383,7 +385,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000014"
+      "$oid": "aaaa00000000000000000014"
     },
     "name": "Matthew Smith",
     "status": "Archived",
@@ -393,7 +395,7 @@
     "contact": true,
     "mentorName": "",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000005"
+      "$oid": "bbbb00000000000000000005"
     },
     "eMail": "MatthewSmith@fakemail.com",
     "gitHub": "MatthewSmith",
@@ -410,7 +412,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000015"
+      "$oid": "aaaa00000000000000000015"
     },
     "name": "Isabella Smith",
     "status": "Inactive",
@@ -435,7 +437,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000016"
+      "$oid": "aaaa00000000000000000016"
     },
     "name": "Ethan Smith",
     "status": "Pending",
@@ -445,7 +447,7 @@
     "contact": false,
     "mentorName": "Jacob Brown",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000004"
+      "$oid": "bbbb00000000000000000004"
     },
     "title": "Apprentice",
     "eMail": "EthanSmith@fakemail.com",
@@ -463,7 +465,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000017"
+      "$oid": "aaaa00000000000000000017"
     },
     "name": "Anthony Smith",
     "status": "Active",
@@ -473,7 +475,7 @@
     "contact": false,
     "mentorName": "Abigail Evans",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000007"
+      "$oid": "bbbb00000000000000000007"
     },
     "title": "Apprentice",
     "eMail": "AnthonySmith@fakemail.com",
@@ -491,7 +493,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000018"
+      "$oid": "aaaa00000000000000000018"
     },
     "name": "Grace Smith",
     "status": "Archived",
@@ -500,7 +502,9 @@
     "donor": true,
     "contact": false,
     "mentorName": "Graham Paasch",
-    "partnerId": {"$oid()": "bbbb00000000000000000005"},
+    "partnerId": {
+      "$oid": "bbbb00000000000000000005"
+    },
     "title": "Resident",
     "eMail": "GraceSmith@fakemail.com",
     "gitHub": "GraceSmith",
@@ -517,7 +521,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000019"
+      "$oid": "aaaa00000000000000000019"
     },
     "name": "Sophia Smith",
     "status": "Inactive",
@@ -526,7 +530,9 @@
     "donor": true,
     "contact": true,
     "mentorName": "Michael Smith",
-    "partnerId": {"$oid()": "bbbb00000000000000000003"},
+    "partnerId": {
+      "$oid": "bbbb00000000000000000003"
+    },
     "title": "Distinguished",
     "eMail": "SophiaSmith@fakemail.com",
     "gitHub": "SophiaSmith",
@@ -543,7 +549,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000020"
+      "$oid": "aaaa00000000000000000020"
     },
     "name": "Mia Smith",
     "status": "Pending",
@@ -552,7 +558,9 @@
     "donor": true,
     "contact": true,
     "mentorName": "",
-    "partnerId": {"$oid()": "bbbb00000000000000000005"},
+    "partnerId": {
+      "$oid": "bbbb00000000000000000005"
+    },
     "eMail": "MiaSmith@fakemail.com",
     "gitHub": "MiaSmith",
     "device": "Windows / WSL",
@@ -568,7 +576,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000021"
+      "$oid": "aaaa00000000000000000021"
     },
     "name": "Abigail Smith",
     "status": "Active",
@@ -578,7 +586,7 @@
     "contact": true,
     "mentorName": "",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000007"
+      "$oid": "bbbb00000000000000000007"
     },
     "eMail": "AbigailSmith@fakemail.com",
     "gitHub": "AbigailSmith",
@@ -595,7 +603,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000022"
+      "$oid": "aaaa00000000000000000022"
     },
     "name": "Ava Smith",
     "status": "Archived",
@@ -605,7 +613,7 @@
     "contact": true,
     "mentorName": "",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000007"
+      "$oid": "bbbb00000000000000000007"
     },
     "eMail": "AvaSmith@fakemail.com",
     "gitHub": "AvaSmith",
@@ -622,7 +630,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000023"
+      "$oid": "aaaa00000000000000000023"
     },
     "name": "Lucas Smith",
     "status": "Inactive",
@@ -647,7 +655,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000024"
+      "$oid": "aaaa00000000000000000024"
     },
     "name": "James Jones",
     "status": "Pending",
@@ -656,7 +664,9 @@
     "donor": false,
     "contact": false,
     "mentorName": "Abigail Evans",
-    "partnerId": {"$oid()": "bbbb00000000000000000002"},
+    "partnerId": {
+      "$oid": "bbbb00000000000000000002"
+    },
     "title": "Apprentice Candidate",
     "eMail": "JamesJones@fakemail.com",
     "gitHub": "JamesJones",
@@ -673,7 +683,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000025"
+      "$oid": "aaaa00000000000000000025"
     },
     "name": "Michael Jones",
     "status": "Active",
@@ -683,7 +693,7 @@
     "contact": false,
     "mentorName": "Graham Paasch",
     "partnerId": {
-      "$oid()": "bbbb00000000000000000007"
+      "$oid": "bbbb00000000000000000007"
     },
     "title": "Apprentice Candidate",
     "eMail": "MichaelJones@fakemail.com",
@@ -701,7 +711,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000026"
+      "$oid": "aaaa00000000000000000026"
     },
     "name": "Thomas Jones",
     "status": "Archived",
@@ -710,7 +720,9 @@
     "donor": true,
     "contact": false,
     "mentorName": "Michael Smith",
-    "partnerId": {"$oid()": "bbbb00000000000000000005"},
+    "partnerId": {
+      "$oid": "bbbb00000000000000000005"
+    },
     "title": "Resident",
     "eMail": "ThomasJones@fakemail.com",
     "gitHub": "ThomasJones",
@@ -727,7 +739,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000027"
+      "$oid": "aaaa00000000000000000027"
     },
     "name": "Emily Jones",
     "status": "Inactive",
@@ -736,7 +748,9 @@
     "donor": true,
     "contact": true,
     "mentorName": "",
-    "partnerId": {"$oid()": "bbbb00000000000000000001"},
+    "partnerId": {
+      "$oid": "bbbb00000000000000000001"
+    },
     "title": "Distinguished",
     "eMail": "EmilyJones@fakemail.com",
     "gitHub": "EmilyJones",
@@ -753,7 +767,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000028"
+      "$oid": "aaaa00000000000000000028"
     },
     "name": "Elizabeth Jones",
     "status": "Pending",
@@ -762,7 +776,9 @@
     "donor": true,
     "contact": true,
     "mentorName": "",
-    "partnerId": {"$oid()": "bbbb00000000000000000005"},
+    "partnerId": {
+      "$oid": "bbbb00000000000000000005"
+    },
     "eMail": "ElizabethJones@fakemail.com",
     "gitHub": "ElizabethJones",
     "device": "Mac Apple",
@@ -778,7 +794,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000029"
+      "$oid": "aaaa00000000000000000029"
     },
     "name": "Samuel Jones",
     "status": "Active",
@@ -787,7 +803,9 @@
     "donor": true,
     "contact": true,
     "mentorName": "",
-    "partnerId": {"$oid()": "bbbb00000000000000000005"},
+    "partnerId": {
+      "$oid": "bbbb00000000000000000005"
+    },
     "eMail": "SamuelJones@fakemail.com",
     "gitHub": "SamuelJones",
     "device": "Windows / WSL",
@@ -803,7 +821,7 @@
   },
   {
     "_id": {
-      "$oid()": "aaaa00000000000000000030"
+      "$oid": "aaaa00000000000000000030"
     },
     "name": "Jacob Jones",
     "status": "Archived",
@@ -812,7 +830,9 @@
     "donor": false,
     "contact": true,
     "mentorName": "",
-    "partnerId": {"$oid()": "bbbb00000000000000000003"},
+    "partnerId": {
+      "$oid": "bbbb00000000000000000003"
+    },
     "eMail": "JacobJones@fakemail.com",
     "gitHub": "JacobJones",
     "device": "Linux",
