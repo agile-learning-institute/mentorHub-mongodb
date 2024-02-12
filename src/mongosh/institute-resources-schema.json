@@ -29,9 +29,9 @@
 			"bsonType": "string",
 			"maxLength": 256
 		},
-		"isFree": {
-			"description": "Is this a free resource",
-			"bsonType": "bool"
+		"meansOfAccess": {
+			"bsonType": "string",
+			"enum": [ "free-public", "free-account", "pay" ]
 		}
 	}
 }
