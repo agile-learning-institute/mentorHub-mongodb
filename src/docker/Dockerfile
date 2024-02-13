@@ -2,4 +2,4 @@
 FROM mongo:latest
 
 # Copy files in
-COPY ./src/mongosh/* /src/
+COPY ./src/mongosh/* /
