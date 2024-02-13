@@ -50,7 +50,7 @@ function checkAndCreateConstraints(
           const count = Object.keys(result.insertedIds).length;
           console.log("\t", count, " Documents Inserted");
         } catch (error) {
-          console.log("\t Load Error Occured", error);
+          console.log("\t Load Error Occurred", error);
           exit(1);
         }
     }
@@ -79,23 +79,23 @@ var collections = [
   {
     name: "enumerators",
     schemaFile: "./mentorhub-enumerators-schema.json",
-    dataFile: "./mentorhub-enumerators-data.json",
-    initialVersion: "2.0.2",
-    targetVersion: "2.0.2",
+    dataFile: "./mentorhub-enumirators-data.json",
+    initialVersion: "3.0.0",
+    targetVersion: "3.0.0",
   },
   {
     name: "partners",
     schemaFile: "./mentorhub-partner-schema.json",
     dataFile: "./mentorhub-partner-data.json",
-    initialVersion: "1.1.1",
-    targetVersion: "1.1.1",
+    initialVersion: "1.1.2",
+    targetVersion: "1.1.2",
   },
   {
     name: "people",
     schemaFile: "./mentorhub-people-schema.json",
     dataFile: "./mentorhub-people-data.json",
-    initialVersion: "1.2.2",
-    targetVersion: "1.2.2",
+    initialVersion: "1.3.0",
+    targetVersion: "1.3.0",
   },
   {
     name: "topics",

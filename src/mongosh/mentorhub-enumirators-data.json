@@ -21,7 +21,7 @@
             "Mac (Intel)":"",
             "Mac (Apple)":"",
             "Linux":"",
-            "Windows":""
+            "Windows / WSL":""
         }
     }, 
     "partner": {
