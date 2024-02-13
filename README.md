@@ -46,6 +46,30 @@ From the `src/topic-scraper` directory, install the dependencies as follows
 
 ```bash
 pip install -r requirements.txt
+python scrape_engineerkit.py
+```
+
+## Collections Standards
+
+**People**: contains data related to the individuals associated with the institute
+
+- individual profiles, roles or positions, and any other relevant personal details
+
+**Partners**: represents entities or organizations that collaborate with the institute
+
+- information about partner organizations, including names, contact information, nature of partnership
+
+**Topics**: contains information regarding different educational topics and includes resources
+
+- includes the name, skills, and resources available for specific topic
+
+**Enumerators**: houses predefined lists or sets of values used throughout the database (the term 'enumerator' is commonly used to refer to such sets)
+
+- includes lists of fixed values, like status codes, categories, or any standardized data used for consistency
+
+## Build and run the Topic Scraper
+
+The python topic scraper creates a topics JSON file by scraping EngineerKit Markdown files. This topics json file is used to load testing data into the topics collection.
 ```
 
 You may then run the script
