@@ -16,7 +16,7 @@ export SCRIPT_PATH=migrate.js
 export LOAD_TEST=true
 
 #  sleep for 10 seconds; this is to ensure that the mongo container is up and running before the script is executed
-sleep 3
+sleep 5
 
 # execute the following script
 ./entrypoint.sh
