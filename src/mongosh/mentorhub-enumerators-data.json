@@ -34,10 +34,17 @@
             "Mac (Intel)":"",
             "Mac (Apple)":"",
             "Linux":"",
+<<<<<<< HEAD
             "Windows / WSL":""
+<<<<<<< HEAD
 >>>>>>> a2fbe4a (Improve People/Partner Schema's and Test Data #58):src/mongosh/mentorhub-enumirators-data.json
 =======
 >>>>>>> 9a4a2a6 (fix conflict)
+=======
+=======
+            "Windows":""
+>>>>>>> fb6b6af (Rename enumerators data file)
+>>>>>>> fe9c011 (Rename enumerators data file)
         }
     }, 
     "partner": {
