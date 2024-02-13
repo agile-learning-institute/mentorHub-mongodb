@@ -2,6 +2,10 @@
     "bsonType": "object",
     "required": ["name"],
     "properties": {
+        "_id": {
+            "description": "The unique identifier for a person",
+            "bsonType": "objectId"
+        },
         "name": { 
             "description": "The persons name, first and last, or VERSION for the Schema Version document",
             "bsonType": "string", 
@@ -105,7 +109,8 @@
             }
         },
             
-        "mentorName": { "bsonType": "string" },
-        "partnerName": { "bsonType": "string" }
+        "mentorName": { "bsonType": "string" }
+       
     }
 }
+
