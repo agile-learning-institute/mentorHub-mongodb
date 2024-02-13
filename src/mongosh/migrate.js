@@ -104,6 +104,13 @@ var collections = [
     initialVersion: "1.1.0",
     targetVersion: "1.1.0",
   },
+  {
+    name: "resources",
+    schemaFile: "./mentorhub-resources-schema.json",
+    dataFile: "./mentorhub-resources-data.json",
+    initialVersion: "1.1.0",
+    targetVersion: "1.1.0",
+  },
   // Add more collections here
 ];
 console.log("############ STARTING ################ loadTestData:", loadTest);
