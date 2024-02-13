@@ -27,7 +27,6 @@
       "description": "The status of this partnership",
       "bsonType": "string",
       "enum": [
-        "Pending",
         "Active",
         "Inactive",
         "Archived"
