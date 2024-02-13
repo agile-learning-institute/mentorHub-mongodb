@@ -1,87 +1,102 @@
 {
     "bsonType": "object",
-    "required": ["name"],
+    "required": [
+        "name"
+    ],
     "properties": {
         "_id": {
             "description": "The unique identifier for a person",
             "bsonType": "objectId"
         },
-        "name": { 
+        "name": {
             "description": "The persons name, first and last, or VERSION for the Schema Version document",
-            "bsonType": "string", 
+            "bsonType": "string",
             "maxLength": 32
         },
-        "description": { 
+        "description": {
             "description": "Notes or other descriptive text",
             "bsonType": "string",
-            "maxLength": 256 
+            "maxLength": 256
         },
-        "version": { 
-            "description":"",
-            "bsonType": "string", 
-            "maxLength": 20 
+        "version": {
+            "description": "",
+            "bsonType": "string",
+            "maxLength": 20
         },
-        "status": { 
+        "status": {
             "description": "The status of this member",
             "bsonType": "string",
-            "enum": ["Pending", "Active", "Inactive", "Archived"]
+            "enum": [
+                "Pending",
+                "Active",
+                "Inactive",
+                "Archived"
+            ]
         },
-        "member": { 
+        "member": {
             "description": "Is this person a Member",
             "bsonType": "bool"
         },
-        "mentor": { 
+        "mentor": {
             "description": "Is this person a Mentor",
-            "bsonType": "bool" 
+            "bsonType": "bool"
         },
-        "donor": { 
+        "donor": {
             "description": "Is this person a Donor",
-            "bsonType": "bool" 
+            "bsonType": "bool"
         },
-        "contact": { 
+        "contact": {
             "description": "Is this person a Partner Contact",
-            "bsonType": "bool" 
+            "bsonType": "bool"
         },
-        "mentorId": { 
+        "mentorId": {
             "description": "the _id of this persons Mentor if they have one",
-            "bsonType": "objectId" 
+            "bsonType": "objectId"
         },
-        "partnerId": { 
+        "partnerId": {
             "description": "the _id of this persons partner (contacts and members)",
-            "bsonType": "objectId" 
+            "bsonType": "objectId"
         },
-        "title": { 
+        "title": {
             "description": "The person's title in the career path",
             "bsonType": "string",
-            "enum": ["Apprentice","Apprentice Candidate","Resident","Distinguished"]
+            "enum": [
+                "Apprentice Candidate",
+                "Apprentice",
+                "Resident",
+                "Associate",
+                "Senior",
+                "Distinguished",
+                "N/A"
+            ]
         },
-        "eMail": { 
+        "eMail": {
             "description": "The person's eMail address",
-            "bsonType": "string" ,
+            "bsonType": "string",
             "maxLength": 256,
             "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
         },
-        "gitHub": { 
+        "gitHub": {
             "description": "The person's gitHub User ID",
             "bsonType": "string",
             "maxLength": 32
         },
-        "phone": { 
+        "phone": {
             "description": "The person's phone number",
             "bsonType": "string",
             "pattern": "^\\d{3}[-.\\s]?\\d{3}[-.\\s]?\\d{4}$"
         },
-        "device": { 
+        "device": {
             "description": "The type of PC this person is using",
             "bsonType": "string",
             "enum": [
-                "Mac Intel",
-                "Mac Apple",
-                "Windows / WSL",
-                "Linux"
+                "Mac (Intel)",
+                "Mac (Apple)",
+                "Linux",
+                "Windows"
             ]
         },
-        "location": { 
+        "location": {
             "description": "The location where this person lives",
             "bsonType": "string",
             "maxLength": 64
@@ -90,27 +105,23 @@
             "description": "The location where this person lives",
             "bsonType": "object",
             "properties": {
-                "fromIp": { 
+                "fromIp": {
                     "description": "Http Request remote IP address",
-                    "bsonType": "string" 
-               },
-                "byUser": { 
+                    "bsonType": "string"
+                },
+                "byUser": {
                     "description": "UUID Of User",
                     "bsonType": "string"
-               },
-                "atTime": { 
+                },
+                "atTime": {
                     "description": "The date-time when last updated",
-                    "bsonType": "string" 
-               },
-                "correlationId": { 
+                    "bsonType": "string"
+                },
+                "correlationId": {
                     "description": "The logging correlation ID of the update transaction",
                     "bsonType": "string"
-               }
+                }
             }
-        },
-            
-        "mentorName": { "bsonType": "string" }
-       
+        }
     }
 }
-
