@@ -90,10 +90,10 @@
             "description": "The type of PC this person is using",
             "bsonType": "string",
             "enum": [
-                "Mac Intel",
-                "Mac Apple",
+                "Mac (Intel)",
+                "Mac (Apple)",
                 "Linux",
-                "Windows / WSL"
+                "Windows"
             ]
         },
         "location": {
