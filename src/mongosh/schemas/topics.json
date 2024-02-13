@@ -1,0 +1,117 @@
+{
+    "description":"A Learning Topic",
+    "bsonType": "object",
+    "required": ["name"],
+    "properties": {
+        "domain": {
+            "description":"Module level classification",
+            "bsonType": "string",
+            "enum": [
+                "Architecture",
+                "Automated Testing",
+                "Clean Code",
+                "Computing",
+                "Craftsmanship",
+                "Data",
+                "Human Experience",
+                "Infrastructure", 
+                "Internet",
+                "Monitoring", 
+                "Operations", 
+                "Product Life Cycle",
+                "Programming Languages",
+                "Security", 
+                "Tooling"
+            ]
+        },
+        "name": { 
+            "description":"The Topic Name",
+            "bsonType": "string", 
+            "maxLength": 128 
+        },
+        "status": { 
+            "description": "The status of this topic",
+            "bsonType": "string",
+            "enum": ["Active", "Archived"]
+        },
+        "overview": { 
+            "description":"The Topic overview paragraph",
+            "bsonType": "string", 
+            "maxLength": 256 
+        },
+        "skills": {
+            "description":"The list of Skills related to this topic",
+            "bsonType": "array",
+            "items": { "bsonType": "string" }
+        },
+        "resources": {
+            "description":"The list of learning Resources related to this topic",
+            "bsonType": "array",
+            "items": { 
+                "bsonType": "object",
+                "required": ["name"],
+                "properties": {
+                    "type": {
+                        "description":"Learning Resource Type",
+                        "bsonType": "string",
+                        "enum": [
+                            "Article",
+                            "Book",
+                            "Certification Exam",
+                            "Course",
+                            "Design System",
+                            "Document",
+                            "Exercise",
+                            "EngineerKit Resource",
+                            "Film",
+                            "Game",
+                            "Guide",
+                            "Image",
+                            "Official Guide",
+                            "Official Training",
+                            "Resource",
+                            "Tool", 
+                            "Thread",
+                            "Tutorial",
+                            "Video",
+                            "Video Series",
+                            "Website"
+                        ]
+                    },
+                    "name": { 
+                        "description":"The Resource Name",
+                        "bsonType": "string", 
+                        "maxLength": 128 
+                    },
+                    "duration": { 
+                        "description":"The estimated time in minutes to consume this resource",
+                        "bsonType": "int"
+                    },
+                    "description": { 
+                        "description":"The Resource description",
+                        "bsonType": "string", 
+                        "maxLength": 256 
+                    },
+                    "link": {
+                        "description":"Link to Resource",
+                        "bsonType": "string",
+                        "maxLength": 256                                 
+                    },
+                    "isFree": {
+                        "description":"Is this a free resource",
+                        "bsonType": "bool"
+                    },
+                    "isGeneralistSkill": {
+                        "description":"Is this a generalist skill, or a specialist skill",
+                        "bsonType": "bool"
+                    },
+                    "notes": {
+                        "description":"notes about this resource",
+                        "bsonType": "string",
+                        "maxLength": 255
+                    }
+                }
+            }
+        }
+    }
+}

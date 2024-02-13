@@ -1,0 +1,25 @@
+[
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000000"
+        },
+        "name": "Junior Jobs",
+        "status": "Active"
+
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000001"
+        },
+        "name": "Enok",
+        "status": "Pending"
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000002"
+        },
+        "name": "Google Search",
+        "status": "Active",
+        "description": "Members that found us on Google"
+    }
+]
