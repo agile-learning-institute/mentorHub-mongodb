@@ -9,7 +9,10 @@
     "mentor": false,
     "donor": false,
     "contact": false,
-    "mentorName": "Michael Smith",
+    "mentorId":
+    {
+      "$oid": "aaaa00000000000000000001"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000007"
     },
@@ -37,7 +40,9 @@
     "mentor": false,
     "donor": false,
     "contact": false,
-    "mentorName": "Olivia Jones",
+    "mentorId": {
+      "$oid": "aaaa00000000000000000009"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -65,7 +70,9 @@
     "mentor": false,
     "donor": true,
     "contact": false,
-    "mentorName": "Jacob Brown",
+    "mentorId": {
+      "$oid": "aaaa00000000000000000010"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -93,7 +100,9 @@
     "mentor": false,
     "donor": true,
     "contact": true,
-    "mentorName": "Abigail Evans",
+    "mentorId": {
+      "$oid": "aaaa00000000000000000021"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -121,7 +130,6 @@
     "mentor": false,
     "donor": true,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000007"
     },
@@ -148,7 +156,6 @@
     "mentor": false,
     "donor": true,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000007"
     },
@@ -175,7 +182,6 @@
     "mentor": false,
     "donor": false,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -202,7 +208,6 @@
     "mentor": false,
     "donor": false,
     "contact": false,
-    "mentorName": "",
     "eMail": "EmmaSmith@fakemail.com",
     "gitHub": "EmmaSmith",
     "device": "Mac Apple",
@@ -226,7 +231,9 @@
     "mentor": false,
     "donor": false,
     "contact": false,
-    "mentorName": "Olivia Jones",
+    "mentorId": {
+      "$oid": "aaaa00000000000000000009"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000007"
     },
@@ -254,7 +261,9 @@
     "mentor": false,
     "donor": false,
     "contact": false,
-    "mentorName": "Jacob Brown",
+    "mentorId": {
+      "$oid": "aaaa00000000000000000001"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -282,7 +291,8 @@
     "mentor": false,
     "donor": true,
     "contact": false,
-    "mentorName": "Abigail Evans",
+    "mentorId": {
+      "$oid": "aaaa00000000000000000001"},
     "partnerId": {
       "$oid": "bbbb00000000000000000001"
     },
@@ -310,7 +320,9 @@
     "mentor": false,
     "donor": true,
     "contact": true,
-    "mentorName": "Graham Paasch",
+    "mentorId": {
+      "$oid": "aaaa00000000000000000007"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -338,7 +350,6 @@
     "mentor": false,
     "donor": true,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -365,7 +376,6 @@
     "mentor": false,
     "donor": true,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000003"
     },
@@ -392,7 +402,6 @@
     "mentor": false,
     "donor": false,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -419,7 +428,6 @@
     "mentor": false,
     "donor": false,
     "contact": false,
-    "mentorName": "",
     "eMail": "IsabellaSmith@fakemail.com",
     "gitHub": "IsabellaSmith",
     "device": "Mac Intel",
@@ -443,7 +451,9 @@
     "mentor": false,
     "donor": false,
     "contact": false,
-    "mentorName": "Jacob Brown",
+    "mentorId": {
+      "$oid": "aaaa00000000000000000021"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000004"
     },
@@ -471,7 +481,9 @@
     "mentor": false,
     "donor": false,
     "contact": false,
-    "mentorName": "Abigail Evans",
+    "mentorId": {
+      "$oid": "aaaa00000000000000000021"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000007"
     },
@@ -499,7 +511,9 @@
     "mentor": false,
     "donor": true,
     "contact": false,
-    "mentorName": "Graham Paasch",
+    "mentorId": {
+      "$oid": "aaaa00000000000000000020"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -527,7 +541,10 @@
     "mentor": false,
     "donor": true,
     "contact": true,
-    "mentorName": "Michael Smith",
+    "mentorId":
+    {
+      "$oid": "aaaa00000000000000000001"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000003"
     },
@@ -555,7 +572,6 @@
     "mentor": false,
     "donor": true,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -582,7 +598,6 @@
     "mentor": false,
     "donor": true,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000007"
     },
@@ -609,7 +624,6 @@
     "mentor": false,
     "donor": false,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000007"
     },
@@ -636,7 +650,6 @@
     "mentor": false,
     "donor": false,
     "contact": false,
-    "mentorName": "",
     "eMail": "LucasSmith@fakemail.com",
     "gitHub": "LucasSmith",
     "device": "Mac Apple",
@@ -660,7 +673,9 @@
     "mentor": false,
     "donor": false,
     "contact": false,
-    "mentorName": "Abigail Evans",
+    "mentorId": {
+      "$oid": "aaaa00000000000000000020"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000002"
     },
@@ -688,7 +703,9 @@
     "mentor": false,
     "donor": false,
     "contact": false,
-    "mentorName": "Graham Paasch",
+    "mentorId": {
+      "$oid": "aaaa00000000000000000019"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000007"
     },
@@ -716,7 +733,10 @@
     "mentor": false,
     "donor": true,
     "contact": false,
-    "mentorName": "Michael Smith",
+    "mentorId":
+    {
+      "$oid": "aaaa00000000000000000001"
+    },
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -744,7 +764,6 @@
     "mentor": true,
     "donor": true,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000001"
     },
@@ -772,7 +791,6 @@
     "mentor": false,
     "donor": true,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -799,7 +817,6 @@
     "mentor": false,
     "donor": true,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000005"
     },
@@ -826,7 +843,6 @@
     "mentor": false,
     "donor": false,
     "contact": true,
-    "mentorName": "",
     "partnerId": {
       "$oid": "bbbb00000000000000000003"
     },

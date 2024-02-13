@@ -33,6 +33,7 @@ python scrape_engineerkit.py
 ## Collections Standards
 
 
+
 ## Build and run the Topic Scraper
 
 The python topic scraper creates a topics JSON file by scraping EngineerKit Markdown files. This topics json file is used to load testing data into the topics collection.
@@ -57,6 +58,7 @@ cd into src/mongosh
 Use the following command to build and run the container locally. See [here for details](https://github.com/agile-learning-institute/mentorHub/blob/main/docker-configurations/README.md) on how to stop/start the database.
 
 ```bash
+cd into src/mongosh
 ../src/docker/docker-build.sh
 ```
 

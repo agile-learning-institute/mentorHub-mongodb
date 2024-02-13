@@ -1,7 +1,7 @@
 [
     {
         "_id": {
-            "$oid": "bbbb00000000000000000000"
+            "$oid()": "bbbb00000000000000000000"
         },
         "name": "Junior Jobs",
         "status": "Active"
@@ -9,17 +9,54 @@
     },
     {
         "_id": {
-            "$oid": "bbbb00000000000000000001"
+            "$oid()": "bbbb00000000000000000001"
         },
         "name": "Enok",
         "status": "Pending"
     },
     {
         "_id": {
-            "$oid": "bbbb00000000000000000002"
+            "$oid()": "bbbb00000000000000000002"
         },
         "name": "Google Search",
         "status": "Active",
         "description": "Members that found us on Google"
+    },
+    {
+        "_id": {
+            "$oid()": "bbbb00000000000000000003"
+        },
+        "name": "LinkedIn",
+        "status": "Active",
+        "description": "Members that found us on LinkedIn"
+    },
+    {
+        "_id": {
+            "$oid()": "bbbb00000000000000000004"
+        },
+        "name": "Persevere",
+        "status": "Active"
+    },
+    {
+        "_id": {
+            "$oid()": "bbbb00000000000000000005"
+        },
+        "name": "Referrals",
+        "status": "Active",
+        "description": "Member Referrals"
+    },
+    {
+        "_id": {
+            "$oid()": "bbbb00000000000000000006"
+        },
+        "name": "Asheville Javascript Meetup",
+        "status": "Pending"
+    },
+    {
+        "_id": {
+            "$oid()": "bbbb00000000000000000007"
+        },
+        "name": "Greenville Women Who Code",
+        "status": "Pending"
     }
 ]
