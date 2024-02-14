@@ -21,17 +21,23 @@
             "Archived":"Soft Delete Indicator"
         },
         "device": {
+<<<<<<< HEAD
 <<<<<<< HEAD:src/mongosh/mentorhub-enumerators-data.json
+=======
+>>>>>>> 9a4a2a6 (fix conflict)
             "Mac (Intel)":"Mac with Intel silicon",
             "Mac (Apple)":"Mac with Apple sillicon",
             "Linux":"Boots to Linux (dual boot or vm)",
             "Windows":"Uses WSL for bash/linux"
+<<<<<<< HEAD
 =======
             "Mac (Intel)":"",
             "Mac (Apple)":"",
             "Linux":"",
             "Windows / WSL":""
 >>>>>>> a2fbe4a (Improve People/Partner Schema's and Test Data #58):src/mongosh/mentorhub-enumirators-data.json
+=======
+>>>>>>> 9a4a2a6 (fix conflict)
         }
     }, 
     "partner": {
