@@ -3,32 +3,35 @@
     "status": "Active",
     "people": {
         "title": {
-            "Apprentice Candidate":"",
-            "Apprentice":"",
-            "Resident":"",
-            "Associate":"",
-            "Senior":"",
-            "Distinguished":"",
+            "Apprentice Candidate":"Learning any full-stack",
+            "Apprentice":"Completed full-stack, working through EngineerKit",
+            "Resident":"Completed EngineerKit, working within a speciality",
+            "Master":"Master Engineer within a speciality",
+            "Distinguished":"Recognized thought leader in a domain",
             "N/A":""
         },
         "status": {
-            "Pending":"",
-            "Active":"",
-            "Inactive":"",
-            "Archived":""
+            "Pending":"Registered Online",
+            "Onboarding":"Introduction Call Scheduled",
+            "Matching":"Completed introduction, waiting on mentor match",
+            "Active":"Matched with a mentor and having regular encounters",
+            "Hold":"Member who was active, initiated pause in mentor work",
+            "Inactive":"Member who was active, has indicated that they are no long interested in mentorship services",
+            "TimedOut":"Member did not schedule introduction call within 2-weeks.",
+            "Archived":"Soft Delete Indicator"
         },
         "device": {
-            "Mac (Intel)":"",
-            "Mac (Apple)":"",
-            "Linux":"",
-            "Windows":""
+            "Mac (Intel)":"Mac with Intel silicon",
+            "Mac (Apple)":"Mac with Apple sillicon",
+            "Linux":"Boots to Linux (dual boot or vm)",
+            "Windows":"Uses WSL for bash/linux"
         }
     }, 
     "partner": {
         "status": {
-            "Active":"",
-            "Inactive":"",
-            "Archived":""
+            "Active":"An active partner",
+            "Inactive":"A partner that has discontinued relationships",
+            "Archived":"Soft Delete Indicator"
         }
     },
     "topic": {
