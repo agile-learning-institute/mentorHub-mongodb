@@ -9,7 +9,9 @@ For a list of all repositories in the [mentorHub](https://github.com/agile-learn
 ## Layout
 
 `src/docker` contains files relevant to building the `mentorhub-mongosh` docker image. Note that the database is initialized at runtime via a MongoDB Shell script `migrate.js`.
+
 `src/mongosh` contains the [MongoDB JSON Schema](https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema/#json-schema) definitions and test data for each collection along with helper scripts to initialize or perform schema migration on the database
+
 `src/topic-scraper` contains files to extract data for the topics collection from external sources
 
 ## Running the database
