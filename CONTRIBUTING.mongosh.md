@@ -1,14 +1,14 @@
-# Workflow
+# Contributing to mongosh
+
+## Workflow
 
 > [IMPORTANT!]
 Use the standard mentorHub workflow, see [Software Engineer Workflow](https://github.com/agile-learning-institute/mentorHub/tree/main#software-engineer-workflow) for details. You should test both locally and containerized code before submitting a pull request.
 
-## mentorHub MongoDB Collection Standards
+## Prerequisites
 
-- Every collection has a name attribute with a unique index
-- Every collection has a status attribute with at least ``Active`` and ``Archived`` status. Archived is our soft-delete indicator.
-- Every collection has a version document with a name and version attribute. Ther name of the version document is ``VERSION``
-- Something about testdata and $oid
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Mongosh](https://www.mongodb.com/docs/mongodb-shell/install/)
 
 ## mongosh execution entry Points
 

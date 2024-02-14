@@ -8,20 +8,17 @@ For a list of all repositories in the [mentorHub](https://github.com/agile-learn
 
 ## Layout
 
-`src/docker` contains files relevant to building the `mentorhub-mongosh` docker image. This container is used to initialize a mongo databaser by defining the datatabase, creating collections, assigning schemas, and optionally loading test data.
+`src/docker` contains files relevant to building the `mentorhub-mongosh` docker image. This container is used to initialize a mongo database by defining the datatabase, creating collections, assigning schemas, and optionally loading test data.
 
-`src/mongosh` contains the [MongoDB JSON Schema](https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema/#json-schema) definitions and test data for each collection along with helper scripts to initialize or perform schema migration on the database.
+`src/mongosh` contains the the scripts that initilize the database, along with the [MongoDB JSON Schema](https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema/#json-schema) definitions and test data for each collection. See [Contributing to mongosh](./CONTRIBUTING.mongosh.md) document for details on how to contribute to this work.
 
-`src/topic-scraper` contains files to extract data for the topics collection from external sources
+`src/topic-scraper` contains files to extract data for the topics collection from external sources. See the [Contributing to topic-scraper](./CONTRIBUTING.topic-scraper.md) document for details on how to contribute to this work.
 
-## Running the database
+## Running the database locally
 
 ### Mongo Prerequisites
 
-At minimum, you will need Docker and the MongoDB shell (`mongosh`) installed
-
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [Mongosh](https://www.mongodb.com/docs/mongodb-shell/install/)
 
 ### Starting the Database Container
 
