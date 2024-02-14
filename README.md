@@ -170,15 +170,19 @@ Importance in Testing
 
 "_id" Field in Extended JSON Format
 
-- When represented in Extended JSON format, the "_id" field is represented using the "$oid" syntax followed by the hexidecimal representation of the ObjectID value. Here is an example: 
+- When represented in Extended JSON format, the "_id" field is represented using the "$oid" syntax followed by the hexidecimal representation of the ObjectID value. Here is an example:
 
-`"_id": {
+    `"_id": {
     "$oid": "bbbb00000000000000000000"
-} `
+    }`
 
 - When manipulating documents in MongoDB using Extended JSON, ensure the correct representation of the "_id" field using the "$oid" syntax.
 
+### BreadCrumbs
 
+- The "lastSaved" object in `mentorhub-people-schema.json` contains details such as the IP address, user UUID, timestamp, and correlation ID of the update transaction.
+
+- This is associated with the last update of a person entity, such as who made the update, when it was made, and from where (IP address), along with the correlation ID for logging purposes.
 
 ## Build and run the Topic Scraper
 
