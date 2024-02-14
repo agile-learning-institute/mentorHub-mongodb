@@ -2,27 +2,23 @@
 
 This project contains database configuration, migration scripts, and test data used by the institute system. The Dockerfile creates a mongosh container that connects to a database and runs the scripts to configure the database and load test data.
 
-[Here](https://github.com/orgs/agile-learning-institute/repositories?q=mentorHub-&type=all&sort=name) are all of the repositories in the [mentorHub](https://github.com/agile-learning-institute/mentorhub/tree/main) system
+To learn how to contribute, see [CONTRIBUTING.md](CONTRIBUTING.md)
 
-## Prerequisites
+For a list of all repositories in the [mentorHub](https://github.com/agile-learning-institute/mentorhub/tree/main) system, please click [here](https://github.com/orgs/agile-learning-institute/repositories?q=mentorHub-&type=all&sort=name)
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [Install mongosh](https://www.mongodb.com/docs/mongodb-shell/install/)
+## Layout
 
-### Optionally
+`src/docker` contains files relevant to building the `mentorhub-mongosh` docker image. Note that the database is initialized at runtime via a MongoDB Shell script `migrate.js`.
 
-- [Python](https://www.python.org/downloads/) - if you want to run the Topic Scraper
-- [Mongo Compass](https://www.mongodb.com/try/download/compass) - if you want a way to look into the database, the connection string will be
+`src/mongosh` contains the [MongoDB JSON Schema](https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema/#json-schema) definitions and test data for each collection along with helper scripts to initialize or perform schema migration on the database
 
-```html
-mongodb://root:example@localhost:27017/?tls=false&directConnection=true
-```
+`src/topic-scraper` contains files to extract data for the topics collection from external sources
 
-## Contributing
+## Running the database
 
-The javascript files found in ```./src/mongosh``` are used to build the institute-mongosh container. This container connects to a mongo database and runs a mongosh script to create collections, version documents, load test data, and implement json schema based constraints. The entrypoint.sh script, connects to the database based on environment variables, and then executes the migrate.js script.
+### Prerequisites
 
-The ```main``` branch is locked as read-only. You should do all work in a feature branch, and when you are ready to have your code deployed to the cloud open a pull request against that feature branch. Do not open a pull request without first building and testing the containers locally
+At minimum, you will need Docker and the MongoDB shell (`mongosh`) installed
 
 ```bash
 cd ./src/topic-scraper
@@ -164,33 +160,42 @@ Importance in Testing
 - The "lastSaved" object in `mentorhub-people-schema.json` contains details such as the IP address, user UUID, timestamp, and correlation ID of the update transaction.
 
 - This is associated with the last update of a person entity, such as who made the update, when it was made, and from where (IP address), along with the correlation ID for logging purposes.
+=======
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Mongosh](https://www.mongodb.com/docs/mongodb-shell/install/)
 
-## Build and run the Topic Scraper
+#### Other resources
 
-The python topic scraper creates a topics JSON file by scraping EngineerKit Markdown files. This topics json file is used to load testing data into the topics collection.
+- [Mongo Compass](https://www.mongodb.com/try/download/compass) - for a graphical user interface to inspect the database
+
+You will need to use the following connection string with Compass to access the database:
+
+```
+mongodb://root:example@localhost:27017/?tls=false&directConnection=true
+```
+
+## Running the Topic Scraper
+
+### Prerequisites
+
+- [Python](https://www.python.org/downloads/) - to run the Topic scraper
+
+### Execution
+
+From the `src/topic-scraper` directory, install the dependencies as follows
 
 ```bash
-cd ./src/topic-scraper
 pip install -r requirements.txt
-python scrape_engineerkit.py
-```
-
-### Testing changes locally
-
-Use the following command: 
-```bash
-cd into src/mongosh
-./test.sh
-```
-### Build and test the container
-
-Use the following command to build and run the container locally. See [here for details](https://github.com/agile-learning-institute/mentorHub/blob/main/docker-configurations/README.md) on how to stop/start the database.
-
-```bash
-../src/docker/docker-build.sh
 ```
 
 After that command completes successfully you can verify it worked successfully by
 
 - checking the logs from your institute-mongosh container
 - Connect to the database with the Mongo Compass and verify collections and data
+You may then run the script
+
+```bash
+python scrape_engineerkit.py
+```
+
+This will create a JSON file containing the sample data for the topics collection

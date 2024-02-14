@@ -4,7 +4,8 @@
             "$oid": "bbbb00000000000000000000"
         },
         "name": "Junior Jobs",
-        "status": "Active"
+        "status": "Inactive",
+        "description": "Members that are looking for junior level jobs"
 
     },
     {
@@ -12,7 +13,9 @@
             "$oid": "bbbb00000000000000000001"
         },
         "name": "Enok",
-        "status": "Pending"
+        "status": "Archived",
+        "description": "Members that found us on Enok",
+        "url": "https://www.enok.co/"
     },
     {
         "_id": {
@@ -21,5 +24,46 @@
         "name": "Google Search",
         "status": "Active",
         "description": "Members that found us on Google"
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000003"
+        },
+        "name": "LinkedIn",
+        "status": "Active",
+        "description": "Members that found us on LinkedIn"
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000004"
+        },
+        "name": "Persevere",
+        "status": "Active",
+        "description": "Members that graduated from Persevere",
+        "url": "https://www.perseverenow.org/"
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000005"
+        },
+        "name": "Referrals",
+        "status": "Active",
+        "description": "Member Referrals"
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000006"
+        },
+        "name": "Asheville Javascript Meetup",
+        "status": "Archived",
+        "description": "Members that found us on Asheville Javascript Meetup"
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000007"
+        },
+        "name": "Greenville Women Who Code",
+        "status": "Inactive",
+        "description": "Members that found us with Greenville"
     }
 ]
