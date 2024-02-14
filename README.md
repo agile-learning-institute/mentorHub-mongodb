@@ -1,6 +1,6 @@
 # mentorhub-mongodb
 
-This project contains the data model for all collections in the mentorHub database, along with code and sample data to support 
+This project contains the data model for all collections in the mentorHub database, along with code and sample data to support testing and migration
 
 To learn how to contibute, see [CONTRIBUTING.md](CONTRIBUTING.md)
 
