@@ -1,0 +1,84 @@
+[{
+    "name": "Enumerations",
+    "status": "Active",
+    "people": {
+        "title": {
+            "Apprentice Candidate":"Learning any full-stack",
+            "Apprentice":"Completed full-stack, working through EngineerKit",
+            "Resident":"Completed EngineerKit, working within a speciality",
+            "Master":"Master Engineer within a speciality",
+            "Distinguished":"Recognized thought leader in a domain",
+            "N/A":""
+        },
+        "status": {
+            "Pending":"Registered Online",
+            "Onboarding":"Introduction Call Scheduled",
+            "Matching":"Completed introduction, waiting on mentor match",
+            "Active":"Matched with a mentor and having regular encounters",
+            "Hold":"Member who was active, initiated pause in mentor work",
+            "Inactive":"Member who was active, has indicated that they are no long interested in mentorship services",
+            "TimedOut":"Member did not schedule introduction call within 2-weeks.",
+            "Archived":"Soft Delete Indicator"
+        },
+        "device": {
+            "Mac (Intel)":"Mac with Intel silicon",
+            "Mac (Apple)":"Mac with Apple sillicon",
+            "Linux":"Boots to Linux (dual boot or vm)",
+            "Windows":"Uses WSL for bash/linux"
+        }
+    }, 
+    "partner": {
+        "status": {
+            "Active":"An active partner",
+            "Inactive":"A partner that has discontinued relationships",
+            "Archived":"Soft Delete Indicator"
+        }
+    },
+    "topic": {
+        "status": {
+            "Active":"",
+            "Inactive":"",
+            "Archived":""
+        },
+        "domain": {
+            "Architecture":"",
+            "Automated Testing":"",
+            "Clean Code":"",
+            "Computing":"",
+            "Craftsmanship":"",
+            "Data":"",
+            "Human Experience":"",
+            "Infrastructure":"", 
+            "Internet":"",
+            "Monitoring":"", 
+            "Operations":"", 
+            "Product Life Cycle":"",
+            "Programming Languages":"",
+            "Security":"", 
+            "Tooling":""
+        },
+        "resourceType": {            
+            "Article":"",
+            "Book":"",
+            "Certification Exam":"",
+            "Course":"",
+            "Design System":"",
+            "Document":"",
+            "Exercise":"",
+            "EngineerKit Resource":"",
+            "Film":"",
+            "Game":"",
+            "Guide":"",
+            "Image":"",
+            "Official Guide":"",
+            "Official Training":"",
+            "Resource":"",
+            "Tool":"", 
+            "Thread":"",
+            "Tutorial":"",
+            "Video":"",
+            "Video Series":"",
+            "Website":""
+        }
+    }
+}]
