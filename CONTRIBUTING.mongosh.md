@@ -9,20 +9,28 @@ Use the standard mentorHub workflow, see [Software Engineer Workflow](https://gi
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Mongosh](https://www.mongodb.com/docs/mongodb-shell/install/)
+- [Mongo Compass](https://www.mongodb.com/try/download/compass)
+
+Use the following connection string with Compass:
+
+```bash
+mongodb://root:example@localhost:27017/?tls=false&directConnection=true
+```
 
 ## mongosh execution entry Points
 
-- The ``entrypoint.sh`` script is run on container startup, and iterates over all the files in the ``config`` folder and runs ``migrate.js`` for each one.
-- The ``test.sh`` script will setup and run ``entrypoint.sh`` locally.
+The [mongosh miagrate script](./src/mongosh/migrate.js) Is responsible for configuring a mongo database with the appropriate Collections, Indexes, Schemas, and test Data. The [``test.sh``](./src/mongosh/test.sh) script will setup Environment variables, and run [``entrypoint.sh``](./src/mongosh/entrypoint.sh) locally.
+
+For the Mongosh Container, the environment variables are configured with a docker compose file, and the [``entrypoint.sh``](./src/mongosh/entrypoint.sh) script is run on container startup.
 
 ## monghsh file structure
 
 The following directories are in the ``mongosh`` folder
 
-- ``config`` Contains configuration files, one for each collection
-- ``data`` Contains test data to be loaded, one for each collection.
-- ``schemas`` Contains schema files, one for each version of each collection, named colection-version.
-- ``modules`` Contains javascript modules and migration scripts
+- [**``/config``**](./src/mongosh/config/) contains configuration files, one for each collection. The [entrypoint.sh](./src/mongosh/entrypoint.sh) iterates over the files in this folder, and executes the [migrate.js](./src/mongosh/migrate.js) for each configuration file.
+- [**``/data``**](./src/mongosh/data/) contains test data to be loaded, one for each collection.
+- [**``/schemas``**](./src/mongosh/schemas/) contains [MongoDB JSON Schema](https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema/#json-schema) files, one for each version of each collection, named colection-version. (people-2.3.1)
+- [**``/modules``**](./src/mongosh/modules/) contains javascript modules and is the location where migration scripts will be kept.
 
 ## Configuration File Structure
 

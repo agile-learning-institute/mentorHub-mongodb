@@ -1,18 +1,18 @@
 # mentorhub-mongodb
 
-This project contains the data model for all collections in the mentorHub database, along with code and sample data to support testing and migration
+This project contains the data model for all collections in the mentorHub database, along with code and sample data to support testing and migration.
 
-To learn how to contribute, see [CONTRIBUTING.md](CONTRIBUTING.md)
-
-For a list of all repositories in the [mentorHub](https://github.com/agile-learning-institute/mentorhub/tree/main) system, please click [here](https://github.com/orgs/agile-learning-institute/repositories?q=mentorHub-&type=all&sort=name)
+- See [Contributing to Mongosh](./CONTRIBUTING.mongosh.md) for instructions on contributing to the mongosh container.
+- See [Contributing to the Topic Scraper](./CONTRIBUTING.topic-scraper.md) for instructions on that automation.
+- See [Database Standards](./STANDARDS.md) for information about our Mongodb standards.
 
 ## Layout
 
 `src/docker` contains files relevant to building the `mentorhub-mongosh` docker image. This container is used to initialize a mongo database by defining the datatabase, creating collections, assigning schemas, and optionally loading test data.
 
-`src/mongosh` contains the the scripts that initilize the database, along with the [MongoDB JSON Schema](https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema/#json-schema) definitions and test data for each collection. See [Contributing to mongosh](./CONTRIBUTING.mongosh.md) document for details on how to contribute to this work.
+`src/mongosh` contains the the scripts that initilize the database, along with the [MongoDB JSON Schema](https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema/#json-schema) definitions and test data for each collection. See [Contributing to mongosh](./CONTRIBUTING.mongosh.md) for details on how to contribute to this work.
 
-`src/topic-scraper` contains files to extract data for the topics collection from external sources. See the [Contributing to topic-scraper](./CONTRIBUTING.topic-scraper.md) document for details on how to contribute to this work.
+`src/topic-scraper` contains files to extract data for the topics collection from external sources. See the [Contributing to topic-scraper](./CONTRIBUTING.topic-scraper.md) for details on how to contribute to this work.
 
 ## Running the database locally
 
