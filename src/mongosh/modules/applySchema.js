@@ -1,6 +1,6 @@
 // Function to check and create constraints (if no VERSION document exists)
 function applySchema(config) {
-  const schemaFile = "./schema/" + config.name + ".json";
+  const schemaFile = "./schemas/" + config.name + "-" + config.version + ".json";
 
   // Check to see if a Version document exits
   var versionDoc = db[config.name].findOne({ name: "VERSION" });
@@ -22,7 +22,7 @@ function applySchema(config) {
     console.log("- Schema Configured");
 
     // Insert version document
-    db[collectionName].insertOne({ name: "VERSION", version: config.version });
+    db[config.name].insertOne({ name: "VERSION", version: config.version });
     console.log("-Version Set", config.version);
   }
 }
