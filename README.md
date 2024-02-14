@@ -67,6 +67,39 @@ python scrape_engineerkit.py
 
 - includes lists of fixed values, like status codes, categories, or any standardized data used for consistency
 
+## Standard Version Document
+
+Database Schema Version Management
+
+The migrate.js file found in ```./src/mongosh``` employs an automated script for managing and tracking the versions of our database schema. This script ensures that each collection in our database maintains a record of its schema version, facilitating easier upgrades and consistency across the database.
+
+## Implementing Slug System for Unique Name Attributes
+
+In our database, we use a 'slug' system for generating unique, URL-friendly names for various records. This approach enhances the usability and accessibility of our dta, especially when integrating with interfaces. 
+
+### Implementing Slugs in the database
+
+A slug is a short, URL-friendly representation of a string, typically used for attributes like names. Below are guidelines for implementing slugs in the database:
+
+Name Attribute
+
+- **Standard Attribute**: The `name` attribute is a standard attribute in the database schema.
+
+- **Slug Usage**: While accepting any string value for a name, it's preferred to use slugs for automation purposes.
+
+- **Slug Definition**: A slug is a short, spaceless representation of a string that facilitates automation.
+
+Slug Pattern
+
+- **Character Limit**: The slug should be limited to a certain number of characters, typically ranging between 32 to 64 characters.
+- **Pattern Constraints**: The slug should consist of non-white-space characters only.
+
+Example: People data
+
+- **Name Attribute**: For the test data, `mentorhub-people-data.json`, the name attribute should be represent by `userName`.
+
+- **Separate Properties**: To accommodate the first name and last name, it's recommended to have separate properties in additon to the `userName` slug. (firstName/lastName)
+
 ## Build and run the Topic Scraper
 
 The python topic scraper creates a topics JSON file by scraping EngineerKit Markdown files. This topics json file is used to load testing data into the topics collection.
