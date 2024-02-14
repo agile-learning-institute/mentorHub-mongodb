@@ -1,122 +1,29 @@
-// Function to check and create collection
-function checkAndCreateCollection(collectionName) {
-  console.log("*************************************");
-  console.log("***** ", collectionName);
-  console.log("*************************************");
-  var collectionNames = db.getCollectionNames();
-  if (collectionNames.indexOf(collectionName) === -1) {
-    db.createCollection(collectionName);
-    console.log("Collection Created:", collectionName);
-  }
+// This script is used to create a collection, 
+//  load a schema, and optionally load test data.
+// The script assumes that the following variables have been established
+// - loadTest is a string with a value of "true" or "false"
+// - configFile is the configuration file to be used
+//
+// See entrypoint.sh for the code that calls this script
+
+load('./modules/createCollection.js');
+load('./modules/applySchema.js');
+load('./modules/loadTestData.js');
+const config = require(configFile);
+
+console.log("############ STARTING ################");
+console.log("***** ", config.name, " loadTestData: ", loadTest);
+console.log("**************************************");
+
+createCollection(config);
+applySchema(config);
+if (loadTest === "true") {
+  loadTestData(config);
 }
 
-// Function to check and create constraints (if no VERSION document exists)
-function checkAndCreateConstraints(
-  collectionName,
-  schemaFile,
-  dataFile,
-  initialVersion
-) {
-  var versionDoc = db[collectionName].findOne({ name: "VERSION" });
-  if (!versionDoc) {
-    console.log("Version Not Found, Configuring:", collectionName);
+// Future migration features - requires scripts to self execute
+// for script in config.migrations {
+//    load(script);
+// }
 
-    // create name index
-    db[collectionName].createIndex({ name: 1 }, { unique: true });
-    console.log("\tName Index created");
-
-    // Configure schema validation
-    const schema = require(schemaFile);
-    console.log("\tSchema read");
-    db.runCommand({
-      collMod: collectionName,
-      validator: { $jsonSchema: schema },
-    });
-    console.log("\tValidator Configured");
-
-    // Insert version document
-    db[collectionName].insertOne({ name: "VERSION", version: initialVersion });
-    console.log("\tVersion Set");
-
-    // Load Test Data
-    if (loadTest === true) {
-      console.log("\tLoading Test Data");
-      try {
-        const result = db
-        .getCollection(collectionName)
-        .insertMany(
-          EJSON.deserialize(JSON.parse(fs.readFileSync(dataFile, "utf-8")))
-          );
-          const count = Object.keys(result.insertedIds).length;
-          console.log("\t", count, " Documents Inserted");
-        } catch (error) {
-          console.log("\t Load Error Occurred", error);
-          exit(1);
-        }
-    }
-  }
-}
-
-
-
-// Function to check and upgrade constraints
-function checkAndUpgradeConstraints(collectionName, targetVersion) {
-  var versionDoc = db[collectionName].findOne({
-    metadata: { type: "version" },
-  });
-  if (versionDoc && versionDoc.version < targetVersion) {
-    console.log("\tVersion Upgrade Start");
-    // Code to upgrade constraints goes here
-
-    // Update version document
-    db[collectionName].update({ name: "VERSION", version: targetVersion });
-    console.log("\tVersion Upgrade Complete");
-  }
-}
-
-// Setup Collections
-var collections = [
-  {
-    name: "enumerators",
-    schemaFile: "./mentorhub-enumerators-schema.json",
-    dataFile: "./mentorhub-enumirators-data.json",
-    initialVersion: "3.0.0",
-    targetVersion: "3.0.0",
-  },
-  {
-    name: "partners",
-    schemaFile: "./mentorhub-partner-schema.json",
-    dataFile: "./mentorhub-partner-data.json",
-    initialVersion: "1.1.2",
-    targetVersion: "1.1.2",
-  },
-  {
-    name: "people",
-    schemaFile: "./mentorhub-people-schema.json",
-    dataFile: "./mentorhub-people-data.json",
-    initialVersion: "1.3.0",
-    targetVersion: "1.3.0",
-  },
-  {
-    name: "topics",
-    schemaFile: "./mentorhub-topics-schema.json",
-    dataFile: "./mentorhub-topics-data.json",
-    initialVersion: "1.1.0",
-    targetVersion: "1.1.0",
-  },
-  // Add more collections here
-];
-console.log("############ STARTING ################ loadTestData:", loadTest);
-
-collections.forEach(function (collection) {
-  checkAndCreateCollection(collection.name);
-  checkAndCreateConstraints(
-    collection.name,
-    collection.schemaFile,
-    collection.dataFile,
-    collection.initialVersion
-  );
-  checkAndUpgradeConstraints(collection.name, collection.targetVersion);
-});
-
-console.log("############ COMPLETE ################ Version 2.0.4");
+console.log("############ COMPLETE ################");
