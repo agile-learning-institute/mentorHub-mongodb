@@ -40,21 +40,21 @@ Every collection has a ``name`` attribute, with a unique index. Any string value
 
 ## Status attribute
 
-Every collection has a status attribute with a numerator list valid values. Every status should support at least ``Active`` and ``Archived`` statuses. The archived status is our soft delete indicator.
+Every collection has a status attribute with an enumerated list valid values. Every collection should support at least ``Active`` and ``Archived`` statuses. The archived status is our soft delete indicator.
 
 ## Test Data
 
-- Test data is used to validate the functionality and performance of the software during testing. The [migrate.js](./src/mongosh/migrate.js) script takes advantage of a predefined value (``loadTest``) which is set in the [``entrypoint.sh``](./src/mongosh/entrypoint.sh) script based on the ``LOAD_TEST`` environment variable to indicate that test data should be loaded. This value is set to ``true`` in the [test.sh](./src/mongosh/test.sh), or in the appropriate [docker-compose.yaml](https://github.com/agile-learning-institute/mentorHub/blob/main/docker-configurations/docker-compose.yaml) file.
+- Test data is used to validate the functionality and performance of the software during testing. The [migrate.js](./src/mongosh/migrate.js) script takes advantage of a predefined variable (``loadTest``) which is set in the [``entrypoint.sh``](./src/mongosh/entrypoint.sh) script based on the ``LOAD_TEST`` environment variable. This is the indicator that test data should be loaded. This value is set to ``true`` in the [test.sh](./src/mongosh/test.sh), or in the appropriate [docker-compose.yaml](https://github.com/agile-learning-institute/mentorHub/blob/main/docker-configurations/docker-compose.yaml) file.
 
 ### ObjectIDs
 
-- **Definition**: ObjectIDs are unique identifiers assigned to objects within a database, particularly in MongoDB databases. Mongodb object id's are typically 24-byte strings, containing a hexidecimal values. The _id property is required in every mongo document, and if a unique value is not provided it is generated for you.
+- **Definition**: ObjectIDs are unique identifiers assigned to objects within a database, particularly in MongoDB databases. Mongodb object id's are typically 24-byte strings, containing a hexidecimal value. The _id property is required in every mongo document, and if a unique value is not provided it is generated for you.
 
 Importance in Testing
 
 - Test data should include ObjectIDs to simulate realistic data scenarios and ensure data integrity during testing. This requires that we specifiy predictible values, so that our test data can have referential integerty ensuring that cross collection references contain the proper objectId value.
 
-Our scripts take advantage of mongodb EJSON (extended JSON) standards. This allows us to leverage the ``$oid`` relaxed definition and generate predectible object IDs. Properties that should have ObjectID values will using the "$oid" syntax followed by the hexidecimal representation of the ObjectID value. Here is an example:
+Our scripts take advantage of mongodb EJSON (extended JSON) standards. This allows us to leverage the ``$oid`` relaxed definition and generate predectible object IDs. Properties that should have ObjectID values will use the "$oid" syntax followed by the hexidecimal representation of the ObjectID value. Here is an example:
 
     `"_id": {
     "$oid": "bbbb00000000000000000001"
