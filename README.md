@@ -2,7 +2,7 @@
 
 This project contains the data model for all collections in the mentorHub database, along with code and sample data to support testing and migration
 
-To learn how to contibute, see [CONTRIBUTING.md](CONTRIBUTING.md)
+To learn how to contribute, see [CONTRIBUTING.md](CONTRIBUTING.md)
 
 For a list of all repositories in the [mentorHub](https://github.com/agile-learning-institute/mentorhub/tree/main) system, please click [here](https://github.com/orgs/agile-learning-institute/repositories?q=mentorHub-&type=all&sort=name)
 
