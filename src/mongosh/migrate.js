@@ -11,9 +11,9 @@ load('./modules/applySchema.js');
 load('./modules/loadTestData.js');
 const config = require(configFile);
 
-console.log("############ STARTING ################ loadTestData:", loadTest);
-console.log("***** ", config.name );
-console.log("*************************************");
+console.log("############ STARTING ################");
+console.log("***** ", config.name, " loadTestData: ", loadTest);
+console.log("**************************************");
 
 createCollection(config);
 applySchema(config);
