@@ -15,10 +15,10 @@ From the `src/mongosh` directory, run `test.sh` like so
 
 ## Building and testing the container
 
-Use the following command to build and run the container locally. See [here](https://github.com/agile-learning-institute/mentorHub/blob/main/docker-configurations/README.md) for details on how to start and stop the database.
+Use the following command from the `src/docker` directory to build and run the container locally. See [here](https://github.com/agile-learning-institute/mentorHub/blob/main/docker-configurations/README.md) for details on how to start and stop the database.
 
 ```bash
-../src/docker/docker-build.sh
+./docker-build.sh
 ```
 
 If the command completes without error, you can verify it worked successfully by:
