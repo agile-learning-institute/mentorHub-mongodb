@@ -4,10 +4,10 @@
     "name"
   ],
   "properties": {
-  "_id": {
+    "_id": {
       "description": "The unique identifier for a partner",
       "bsonType": "objectId"
-  },
+    },
     "name": {
       "description": "VERSION is the key that identifies a document as a Schema Version document, otherwise it's just the name",
       "bsonType": "string",
@@ -27,7 +27,6 @@
       "description": "The status of this partnership",
       "bsonType": "string",
       "enum": [
-        "Pending",
         "Active",
         "Inactive",
         "Archived"
@@ -38,6 +37,28 @@
       "bsonType": "string",
       "maxLength": 256,
       "pattern": "^(https?|ftp)://[^\\s/$.?#].[^\\s]*$"
+    },
+    "lastSaved": {
+      "description": "The location where this person lives",
+      "bsonType": "object",
+      "properties": {
+        "fromIp": {
+          "description": "Http Request remote IP address",
+          "bsonType": "string"
+        },
+        "byUser": {
+          "description": "UUID Of User",
+          "bsonType": "string"
+        },
+        "atTime": {
+          "description": "The date-time when last updated",
+          "bsonType": "string"
+        },
+        "correlationId": {
+          "description": "The logging correlation ID of the update transaction",
+          "bsonType": "string"
+        }
+      }
     }
   }
 }
