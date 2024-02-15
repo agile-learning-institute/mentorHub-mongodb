@@ -8,7 +8,7 @@
 #   DB_NAME - Database Name, typically agile-learning-institute
 #   LOAD_TEST - Boolean to control loading test data true/false
 
-cd mongosh
+cd "$(dirname "$(realpath "$0")")"
 
 for FILE in ./config/*; do
   # Skip hidden files
