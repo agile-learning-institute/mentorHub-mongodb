@@ -40,7 +40,7 @@ Every collection has a ``name`` attribute, with a unique index. Any string value
 
 ## Status attribute
 
-Every collection has a status attribute with an enumerated list valid values. Every collection should support at least ``Active`` and ``Archived`` statuses. The archived status is our soft delete indicator.
+Every collection has a status attribute with an enumerated list of valid values. Every collection should support at least ``Active`` and ``Archived`` statuses. The archived status is our soft delete indicator.
 
 ## Test Data
 
