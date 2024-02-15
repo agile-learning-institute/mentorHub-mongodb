@@ -19,5 +19,5 @@ export DB_NAME=agile-learning-institute
 export LOAD_TEST=true
 
 # execute the entrypoint script (also used by the container)
-script_path="$(dirname "$(realpath "$0")")"
-"$script_path/entrypoint.sh"
+export SCRIPT_PATH="$(dirname "$(realpath "$0")")"
+"$SCRIPT_PATH/entrypoint.sh"

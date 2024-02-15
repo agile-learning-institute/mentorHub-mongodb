@@ -1,7 +1,7 @@
 // Load Test Data
 function loadTestData(config) {
   console.log("\tLoading Test Data");
-  const dataFile = "./data/" + config.name + ".json";
+  const dataFile = path.join(process.env.SCRIPT_PATH, 'data', config.name + ".json");
 
   try {
     const result = db

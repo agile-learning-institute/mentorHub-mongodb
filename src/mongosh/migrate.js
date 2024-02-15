@@ -6,9 +6,11 @@
 //
 // See entrypoint.sh for the code that calls this script
 
-load('./modules/createCollection.js');
-load('./modules/applySchema.js');
-load('./modules/loadTestData.js');
+const path = require('node:path')
+
+load(path.join(process.env.SCRIPT_PATH, 'modules/createCollection.js'));
+load(path.join(process.env.SCRIPT_PATH, 'modules/applySchema.js'));
+load(path.join(process.env.SCRIPT_PATH, 'modules/loadTestData.js'));
 const config = require(configFile);
 
 console.log("############ STARTING ################");

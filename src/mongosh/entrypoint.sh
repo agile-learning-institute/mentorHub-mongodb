@@ -8,9 +8,7 @@
 #   DB_NAME - Database Name, typically agile-learning-institute
 #   LOAD_TEST - Boolean to control loading test data true/false
 
-cd "$(dirname "$(realpath "$0")")"
-
-for FILE in ./config/*; do
+for FILE in $SCRIPT_PATH/config/*; do
   # Skip hidden files
   if [[ $(basename "$FILE") == .* ]]; then
     continue
@@ -18,6 +16,6 @@ for FILE in ./config/*; do
 
   echo "----------------------------------------------------------------------"
   echo "entrypoint.sh is Processing $FILE..."
-  mongosh --host $HOST -u $USER -p $PASSWORD --authenticationDatabase $AUTH_DB $DB_NAME --eval "var loadTest='$LOAD_TEST'; var configFile='$FILE'; load('migrate.js')"
+  mongosh --host $HOST -u $USER -p $PASSWORD --authenticationDatabase $AUTH_DB $DB_NAME --eval "var loadTest='$LOAD_TEST'; var configFile='$FILE'; load('$SCRIPT_PATH/migrate.js')"
 done
 

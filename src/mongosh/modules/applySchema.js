@@ -1,6 +1,6 @@
 // Function to check and create constraints (if no VERSION document exists)
 function applySchema(config) {
-  const schemaFile = "./schemas/" + config.name + "-" + config.version + ".json";
+  const schemaFile = path.join(process.env.SCRIPT_PATH, 'schemas', config.name + "-" + config.version + ".json");
 
   // Check to see if a Version document exits
   var versionDoc = db[config.name].findOne({ name: "VERSION" });
