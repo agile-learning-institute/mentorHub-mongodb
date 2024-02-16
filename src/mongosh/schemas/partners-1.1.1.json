@@ -42,23 +42,7 @@
       "description": "Array of contacts associated with this partner",
       "bsonType": "array",
       "items": {
-        "bsonType": "objectId",
-        "properties": {
-          "_id": {
-            "description": "The unique identifier for a contact",
-            "bsonType": "objectId"
-          },
-          "name": {
-            "description": "The name of the contact",
-            "bsonType": "string",
-            "maxLength": 32
-          },
-          "eMail": {
-            "description": "The email address of the contact",
-            "bsonType": "string",
-            "pattern": "^\\S+@\\S+\\.\\S+$"
-          }
-        }
+        "bsonType": "objectId"
       }
     },
     "lastSaved": {
@@ -84,6 +68,4 @@
       }
     }
   }
-  
 }
-

@@ -8,18 +8,10 @@
         "description": "Members that are looking for junior level jobs",
         "contacts": [
             {
-                "_id": {
-                    "$oid": "aaaa00000000000000000003"
-                },
-                "name": "Emily Smith",
-                "eMail": "EmilySmith@fakeemail.com"
+                "$oid": "aaaa00000000000000000003"
             },
             {
-                "_id": {
-                    "$oid": "aaaa00000000000000000004"
-                },
-                "name": "Elizabeth Smith",
-                "eMail": "ElizabethSmith@fakemail.com"
+                "$oid": "bbbb00000000000000000001"
             }
         ]
     },
@@ -33,116 +25,84 @@
         "url": "https://www.enok.co/",
         "contacts": [
             {
-                "_id": {
-                    "$oid": "aaaa00000000000000000005"
-                },
-                "name": "Samuel Smith",
-                "eMail": "SamuelSmith@fakemail.com"
+                "$oid": "aaaa00000000000000000005"
             },
             {
-                "_id": {
-                    "$oid": "aaaa00000000000000000006"
-                },
-                "name": "Jacob Smith",
-                "eMail": "JacobSmith@fakemail.com"
-            }
-                ]
-            },
-            {
-                "_id": {
-                    "$oid": "bbbb00000000000000000002"
-                },
-                "name": "Google Search",
-                "status": "Active",
-                "description": "Members that found us on Google"
-            },
-            {
-                "_id": {
-                    "$oid": "bbbb00000000000000000003"
-                },
-                "name": "LinkedIn",
-                "status": "Active",
-                "description": "Members that found us on LinkedIn"
-            },
-            {
-                "_id": {
-                    "$oid": "bbbb00000000000000000004"
-                },
-                "name": "Persevere",
-                "status": "Active",
-                "description": "Members that graduated from Persevere",
-                "url": "https://www.perseverenow.org/",
-                "contacts": [
-                    {
-                        "_id": {
-                            "$oid": "aaaa00000000000000000011"
-                        },
-                        "name": "Alexander Smith",
-                        "eMail": "AlexanderSmith@fakemail.com"
-                    },
-                    {
-                        "_id": {
-                            "$oid": "aaaa00000000000000000012"
-                        },
-                        "name": "Noah Smith",
-                        "eMail": "NoahSmith@fakemail.com"
-                    }
-                ]
-            },
-            {
-                "_id": {
-                    "$oid": "bbbb00000000000000000005"
-                },
-                "name": "Referrals",
-                "status": "Active",
-                "description": "Member Referrals"
-            },
-            {
-                "_id": {
-                    "$oid": "bbbb00000000000000000006"
-                },
-                "name": "Asheville Javascript Meetup",
-                "status": "Archived",
-                "description": "Members that found us on Asheville Javascript Meetup",
-                "contacts": [
-                    {
-                        "_id": {
-                            "$oid": "aaaa00000000000000000013"
-                        },
-                        "name": "Joshua Smith",
-                        "eMail": "JoshuaSmith@fakemail.com"
-                    },
-                    {
-                        "_id": {
-                            "$oid": "aaaa00000000000000000014"
-                        },
-                        "name": "Matthew Smith",
-                        "eMail": "MatthewSmith@fakemail.com"
-                    }
-                ]
-            },
-            {
-                "_id": {
-                    "$oid": "bbbb00000000000000000007"
-                },
-                "name": "Greenville Women Who Code",
-                "status": "Inactive",
-                "description": "Members that found us with Greenville",
-                "contacts": [
-                    {
-                        "_id": {
-                            "$oid": "aaaa00000000000000000019"
-                        },
-                        "name": "Sophia Smith",
-                        "eMail": "SophiaSmith@fakemail.com"
-                    },
-                    {
-                        "_id": {
-                            "$oid": "aaaa00000000000000000020"
-                        },
-                        "name": "Mia Smith",
-                        "eMail": "MiaSmith@fakemail.com"
-                    }
-                ]
+                "$oid": "aaaa00000000000000000006"
             }
         ]
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000002"
+        },
+        "name": "Google Search",
+        "status": "Active",
+        "description": "Members that found us on Google"
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000003"
+        },
+        "name": "LinkedIn",
+        "status": "Active",
+        "description": "Members that found us on LinkedIn"
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000004"
+        },
+        "name": "Persevere",
+        "status": "Active",
+        "description": "Members that graduated from Persevere",
+        "url": "https://www.perseverenow.org/",
+        "contacts": [
+            {
+                "$oid": "aaaa00000000000000000011"
+            },
+            {
+                "$oid": "aaaa00000000000000000012"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000005"
+        },
+        "name": "Referrals",
+        "status": "Active",
+        "description": "Member Referrals"
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000006"
+        },
+        "name": "Asheville Javascript Meetup",
+        "status": "Archived",
+        "description": "Members that found us on Asheville Javascript Meetup",
+        "contacts": [
+            {
+                "$oid": "aaaa00000000000000000013"
+            },
+            {
+                "$oid": "aaaa00000000000000000014"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "bbbb00000000000000000007"
+        },
+        "name": "Greenville Women Who Code",
+        "status": "Inactive",
+        "description": "Members that found us with Greenville",
+        "contacts": [
+            {
+                "$oid": "aaaa00000000000000000019"
+            },
+            {
+                "$oid": "aaaa00000000000000000020"
+            }
+        ]
+    }
+]
