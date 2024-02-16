@@ -4,6 +4,8 @@
 
 > [IMPORTANT!]
 Use the standard mentorHub workflow, see [Software Engineer Workflow](https://github.com/agile-learning-institute/mentorHub/tree/main#software-engineer-workflow) for details. You should test both locally and containerized code before submitting a pull request.
+---
+> DO NOT Edit the schema files! [See here for key information.](./src/mongosh/schemas/README.md) about making schema changes.
 
 ## Prerequisites
 
@@ -51,10 +53,10 @@ NOTE: Migration script support is not yet implemented.
 
 ## Testing changes locally
 
-From the `src` directory, run `test.sh` like so
+From the `mongosh` directory, run `test.sh` like so
 
 ```bash
-./mongosh/test.sh
+./test.sh
 ```
 
 ## Building and testing the container
@@ -68,4 +70,4 @@ Use the following command from the project root directory to build and run the c
 If the command completes without error, you can verify it worked successfully by:
 
 - Checking the logs from your mentorhub-mongosh container
-- Connecting to the database with the Mongo Compass to inspect the collections and data
+- Connecting to the database with the Mongo Compass to inspect the collections and data. You should confirm that the new version numbers show up in the appropriate VERSION documents in each collection you made chagnes to.
