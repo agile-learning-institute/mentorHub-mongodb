@@ -10,6 +10,11 @@ docker run -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=exam
 # sleep to give the mongo container time to get started before the script is executed
 sleep 5
 
+# Set environment variable
+export HOST=localhost
+export AUTH_DB=admin
+export DB_NAME=agile-learning-institute
+export LOAD_TEST=true
 export USER=root
 export PASSWORD=example
 
