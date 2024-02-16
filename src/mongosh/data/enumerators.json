@@ -27,12 +27,12 @@
             "Windows":"Uses WSL for bash/linux"
         },
         "cadence": {
-            "As Needed": "",
-            "Monthly": "",
-            "Bi-Weekly": "",
-            "Weekly": "",
-            "Semi-Weekly": "",
-            "Daily": ""
+            "As Needed": "Meetings are not fixed",
+            "Monthly": "Meetings are once a month",
+            "Bi-Weekly": "Meetings are once every two weeks",
+            "Weekly": "Meetings are once every week",
+            "Semi-Weekly": "Meetings are twice every week",
+            "Daily": "Meetings are every day"
         }
     }, 
     "partner": {
