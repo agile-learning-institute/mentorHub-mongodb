@@ -51,10 +51,10 @@ NOTE: Migration script support is not yet implemented.
 
 ## Testing changes locally
 
-From the `src` directory, run `test.sh` like so
+From the `mongosh` directory, run `test.sh` like so
 
 ```bash
-./mongosh/test.sh
+./test.sh
 ```
 
 ## Building and testing the container
