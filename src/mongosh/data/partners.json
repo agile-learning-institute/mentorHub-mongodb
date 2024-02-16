@@ -5,8 +5,23 @@
         },
         "name": "Junior Jobs",
         "status": "Inactive",
-        "description": "Members that are looking for junior level jobs"
-
+        "description": "Members that are looking for junior level jobs",
+        "contacts": [
+            {
+                "_id": {
+                    "$oid": "aaaa00000000000000000003"
+                },
+                "name": "Emily Smith",
+                "eMail": "EmilySmith@fakeemail.com"
+            },
+            {
+                "_id": {
+                    "$oid": "aaaa00000000000000000004"
+                },
+                "name": "Elizabeth Smith",
+                "eMail": "ElizabethSmith@fakemail.com"
+            }
+        ]
     },
     {
         "_id": {
