@@ -38,6 +38,13 @@
       "maxLength": 256,
       "pattern": "^(https?|ftp)://[^\\s/$.?#].[^\\s]*$"
     },
+    "contacts": {
+      "description": "Array of contacts associated with this partner",
+      "bsonType": "array",
+      "items": {
+        "bsonType": "objectId"
+      }
+    },
     "lastSaved": {
       "description": "The location where this person lives",
       "bsonType": "object",

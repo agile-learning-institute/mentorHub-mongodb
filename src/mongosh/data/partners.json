@@ -5,8 +5,15 @@
         },
         "name": "Junior Jobs",
         "status": "Inactive",
-        "description": "Members that are looking for junior level jobs"
-
+        "description": "Members that are looking for junior level jobs",
+        "contacts": [
+            {
+                "$oid": "aaaa00000000000000000003"
+            },
+            {
+                "$oid": "bbbb00000000000000000001"
+            }
+        ]
     },
     {
         "_id": {
@@ -15,7 +22,15 @@
         "name": "Enok",
         "status": "Archived",
         "description": "Members that found us on Enok",
-        "url": "https://www.enok.co/"
+        "url": "https://www.enok.co/",
+        "contacts": [
+            {
+                "$oid": "aaaa00000000000000000005"
+            },
+            {
+                "$oid": "aaaa00000000000000000006"
+            }
+        ]
     },
     {
         "_id": {
@@ -40,7 +55,15 @@
         "name": "Persevere",
         "status": "Active",
         "description": "Members that graduated from Persevere",
-        "url": "https://www.perseverenow.org/"
+        "url": "https://www.perseverenow.org/",
+        "contacts": [
+            {
+                "$oid": "aaaa00000000000000000011"
+            },
+            {
+                "$oid": "aaaa00000000000000000012"
+            }
+        ]
     },
     {
         "_id": {
@@ -56,7 +79,15 @@
         },
         "name": "Asheville Javascript Meetup",
         "status": "Archived",
-        "description": "Members that found us on Asheville Javascript Meetup"
+        "description": "Members that found us on Asheville Javascript Meetup",
+        "contacts": [
+            {
+                "$oid": "aaaa00000000000000000013"
+            },
+            {
+                "$oid": "aaaa00000000000000000014"
+            }
+        ]
     },
     {
         "_id": {
@@ -64,6 +95,14 @@
         },
         "name": "Greenville Women Who Code",
         "status": "Inactive",
-        "description": "Members that found us with Greenville"
+        "description": "Members that found us with Greenville",
+        "contacts": [
+            {
+                "$oid": "aaaa00000000000000000019"
+            },
+            {
+                "$oid": "aaaa00000000000000000020"
+            }
+        ]
     }
 ]
