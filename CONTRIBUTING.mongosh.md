@@ -31,17 +31,19 @@ The following directories are in the ``mongosh`` folder
 
 - [**``/config``**](./src/mongosh/config/) contains configuration files, one for each collection. The [entrypoint.sh](./src/mongosh/entrypoint.sh) iterates over the files in this folder, and executes the [migrate.js](./src/mongosh/migrate.js) for each configuration file.
 - [**``/data``**](./src/mongosh/data/) contains test data to be loaded, one for each collection.
-- [**``/schemas``**](./src/mongosh/schemas/) contains [MongoDB JSON Schema](https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema/#json-schema) files, one for each version of each collection, named colection-version. (people-2.3.1)
+- [**``/schemas``**](./src/mongosh/schemas/) contains [MongoDB JSON Schema](https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema/#json-schema) files, one for each version of each collection, named collection-version. (people-2.3.1)
+  - When changes are made to a schema, create a new version in [**``/schemas``**](./src/mongosh/schemas/) to update the document
+  - Change the version number in the [**``/config``**](./src/mongosh/config/) file for the appropriate collection
 - [**``/modules``**](./src/mongosh/modules/) contains javascript modules and is the location where migration scripts will be kept.
 
 ## Configuration File Structure
 
-Each config file is a json data file, that describes a collection to be initilizred.
+Each config file is a json data file, that describes a collection to be initialized.
 
 ```json
 {
     "name": "documents",        // Collection Name
-    "version": "1.0.0",         // Version to Initilize
+    "version": "1.0.0",         // Version to Initialize
     "migrations": [             // Migration scripts
         "documents-1.0.0-to-1.0.1.js",
         "documents-1.0.1-to-1.2.0.js",
