@@ -76,9 +76,9 @@
             "enum": [
                 "As Needed",
                 "Monthly",
-                "Bi-Weekly",
+                "Every 2 Weeks",
                 "Weekly",
-                "Semi-Weekly",
+                "Twice a Week",
                 "Daily"
             ]
         },

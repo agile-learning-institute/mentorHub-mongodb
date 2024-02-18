@@ -29,9 +29,9 @@
         "cadence": {
             "As Needed": "Meetings are not fixed",
             "Monthly": "Meetings are once a month",
-            "Bi-Weekly": "Meetings are once every two weeks",
+            "Every 2 Weeks": "Meetings are once every two weeks",
             "Weekly": "Meetings are once every week",
-            "Semi-Weekly": "Meetings are twice every week",
+            "Twice a Week": "Meetings are twice every week",
             "Daily": "Meetings are every day"
         }
     }, 

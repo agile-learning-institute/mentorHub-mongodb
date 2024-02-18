@@ -109,7 +109,7 @@
       "$oid": "bbbb00000000000000000005"
     },
     "title": "Distinguished",
-    "cadence": "Bi-Weekly",
+    "cadence": "Every 2 Weeks",
     "eMail": "EmilySmith@fakemail.com",
     "gitHub": "EmilySmith",
     "device": "Linux",
@@ -272,7 +272,7 @@
       "$oid": "bbbb00000000000000000005"
     },
     "title": "Apprentice Candidate",
-    "cadence": "Semi-Weekly",
+    "cadence": "Twice a Week",
     "eMail": "OliviaSmith@fakemail.com",
     "gitHub": "OliviaSmith",
     "device": "Mac Intel",
@@ -497,7 +497,7 @@
       "$oid": "bbbb00000000000000000007"
     },
     "title": "Apprentice",
-    "cadence": "Semi-Weekly",
+    "cadence": "Twice a Week",
     "eMail": "AnthonySmith@fakemail.com",
     "gitHub": "AnthonySmith",
     "device": "Mac Intel",
@@ -528,7 +528,7 @@
       "$oid": "bbbb00000000000000000005"
     },
     "title": "Resident",
-    "cadence": "Bi-Weekly",
+    "cadence": "Every 2 Weeks",
     "eMail": "GraceSmith@fakemail.com",
     "gitHub": "GraceSmith",
     "device": "Mac Intel",
