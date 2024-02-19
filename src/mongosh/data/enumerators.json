@@ -25,6 +25,14 @@
             "Mac (Apple)":"Mac with Apple sillicon",
             "Linux":"Boots to Linux (dual boot or vm)",
             "Windows":"Uses WSL for bash/linux"
+        },
+        "cadence": {
+            "As Needed": "Meetings are not fixed",
+            "Monthly": "Meetings are once a month",
+            "Every 2 Weeks": "Meetings are once every two weeks",
+            "Weekly": "Meetings are once every week",
+            "Twice a Week": "Meetings are twice every week",
+            "Daily": "Meetings are every day"
         }
     }, 
     "partner": {

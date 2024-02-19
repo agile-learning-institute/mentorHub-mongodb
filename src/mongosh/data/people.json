@@ -16,6 +16,7 @@
       "$oid": "bbbb00000000000000000007"
     },
     "title": "Apprentice",
+    "cadence": "Daily",
     "eMail": "JamesSmith@fakemail.com",
     "gitHub": "JamesSmith",
     "device": "Mac Intel",
@@ -46,6 +47,7 @@
       "$oid": "bbbb00000000000000000005"
     },
     "title": "Apprentice",
+    "cadence": "Monthly",
     "eMail": "MichaelSmith@fakemail.com",
     "gitHub": "MichaelSmith",
     "device": "Mac Apple",
@@ -76,6 +78,7 @@
       "$oid": "bbbb00000000000000000005"
     },
     "title": "Resident",
+    "cadence": "As Needed",
     "eMail": "ThomasSmith@fakemail.com",
     "gitHub": "ThomasSmith",
     "device": "Windows / WSL",
@@ -106,6 +109,7 @@
       "$oid": "bbbb00000000000000000005"
     },
     "title": "Distinguished",
+    "cadence": "Every 2 Weeks",
     "eMail": "EmilySmith@fakemail.com",
     "gitHub": "EmilySmith",
     "device": "Linux",
@@ -237,6 +241,7 @@
       "$oid": "bbbb00000000000000000007"
     },
     "title": "Apprentice Candidate",
+    "cadence": "Weekly",
     "eMail": "BenjaminSmith@fakemail.com",
     "gitHub": "BenjaminSmith",
     "device": "Mac Intel",
@@ -267,6 +272,7 @@
       "$oid": "bbbb00000000000000000005"
     },
     "title": "Apprentice Candidate",
+    "cadence": "Twice a Week",
     "eMail": "OliviaSmith@fakemail.com",
     "gitHub": "OliviaSmith",
     "device": "Mac Intel",
@@ -297,6 +303,7 @@
       "$oid": "bbbb00000000000000000001"
     },
     "title": "Resident",
+    "cadence": "As Needed",
     "eMail": "DavidSmith@fakemail.com",
     "gitHub": "DavidSmith",
     "device": "Mac Apple",
@@ -327,6 +334,7 @@
       "$oid": "bbbb00000000000000000005"
     },
     "title": "Distinguished",
+    "cadence": "Daily",
     "eMail": "AlexanderSmith@fakemail.com",
     "gitHub": "AlexanderSmith",
     "device": "Windows / WSL",
@@ -458,6 +466,7 @@
       "$oid": "bbbb00000000000000000004"
     },
     "title": "Apprentice",
+    "cadence": "Monthly",
     "eMail": "EthanSmith@fakemail.com",
     "gitHub": "EthanSmith",
     "device": "Mac Apple",
@@ -488,6 +497,7 @@
       "$oid": "bbbb00000000000000000007"
     },
     "title": "Apprentice",
+    "cadence": "Twice a Week",
     "eMail": "AnthonySmith@fakemail.com",
     "gitHub": "AnthonySmith",
     "device": "Mac Intel",
@@ -518,6 +528,7 @@
       "$oid": "bbbb00000000000000000005"
     },
     "title": "Resident",
+    "cadence": "Every 2 Weeks",
     "eMail": "GraceSmith@fakemail.com",
     "gitHub": "GraceSmith",
     "device": "Mac Intel",
@@ -548,6 +559,7 @@
       "$oid": "bbbb00000000000000000003"
     },
     "title": "Distinguished",
+    "cadence": "Weekly",
     "eMail": "SophiaSmith@fakemail.com",
     "gitHub": "SophiaSmith",
     "device": "Mac Apple",
@@ -679,6 +691,7 @@
       "$oid": "bbbb00000000000000000002"
     },
     "title": "Apprentice Candidate",
+    "cadence": "Monthly",
     "eMail": "JamesJones@fakemail.com",
     "gitHub": "JamesJones",
     "device": "Mac Intel",
@@ -709,6 +722,7 @@
       "$oid": "bbbb00000000000000000007"
     },
     "title": "Apprentice Candidate",
+    "cadence": "Weekly",
     "eMail": "MichaelJones@fakemail.com",
     "gitHub": "MichaelJones",
     "device": "Mac Apple",
@@ -739,6 +753,7 @@
       "$oid": "bbbb00000000000000000005"
     },
     "title": "Resident",
+    "cadence": "As Needed",
     "eMail": "ThomasJones@fakemail.com",
     "gitHub": "ThomasJones",
     "device": "Mac Intel",
@@ -766,6 +781,7 @@
       "$oid": "bbbb00000000000000000001"
     },
     "title": "Distinguished",
+    "cadence": "Daily",
     "eMail": "EmilyJones@fakemail.com",
     "gitHub": "EmilyJones",
     "device": "Mac Intel",
