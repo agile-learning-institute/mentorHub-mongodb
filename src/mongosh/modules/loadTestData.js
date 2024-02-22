@@ -13,5 +13,6 @@ function loadTestData(config) {
     console.log("\t", count, " Documents Inserted");
   } catch (error) {
     console.log("\t Load Error Occured", error);
+    throw error; 
   }
 }
