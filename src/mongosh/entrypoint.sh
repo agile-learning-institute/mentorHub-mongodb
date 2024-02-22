@@ -15,15 +15,21 @@ for FILE in ./config/*; do
   fi
 
   echo "================================================================================"
-  echo "==========  entrypoint.sh is Processing $FILE..."
+  echo "==========  entrypoint.sh is Processing $FILE $(date)"
   mongosh --host $HOST -u $USER -p $PASSWORD --authenticationDatabase $AUTH_DB $DB_NAME --eval "var loadTest='$LOAD_TEST'; var configFile='$FILE'; load('migrate.js')"
   if [ $? -ne 0 ]; then
       echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-      echo "Processing Collection $FILE has failed"
+      echo "!!!!! Processing Collection $FILE has failed at $(date)"
       echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
       exit 1
   fi
-  echo "==========  entrypoint.sh Processed $FILE successfully"
+  echo "==========  entrypoint.sh Processed $FILE successfully $(date)"
   echo "================================================================================"
-  done
+  echo 
+done
 
+echo 
+echo
+echo "================================================================================"
+echo "========== SUCCESS!!!!                                                =========="
+echo "================================================================================"
