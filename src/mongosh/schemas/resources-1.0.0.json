@@ -1,0 +1,37 @@
+{
+	"description": "A Learning resource",
+	"bsonType": "object",
+	"required": ["name"],
+	"properties": {
+		"name": {
+			"description": "The Resource Name",
+			"bsonType": "string",
+			"maxLength": 128
+		},
+		"mediaType": {
+			"description": "Primary media type(s) of the resource",
+			"bsonType": "string",
+			"enum": [ "text", "audio", "video-only", "video-with-audio", "image", "interactive" ]
+		},
+		"duration": {
+			"description": "The estimated time in minutes to consume this resource",
+			"bsonType": "int",
+			"minimum": 1,
+			"maximum": 2880
+		},
+		"description": {
+			"description": "The Resource description",
+			"bsonType": "string",
+			"maxLength": 256
+		},
+		"link": {
+			"description": "Link to Resource",
+			"bsonType": "string",
+			"maxLength": 256
+		},
+		"meansOfAccess": {
+			"bsonType": "string",
+			"enum": [ "free-public", "free-account", "pay" ]
+		}
+	}
+}
