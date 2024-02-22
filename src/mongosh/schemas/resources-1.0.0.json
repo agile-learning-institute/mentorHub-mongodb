@@ -1,17 +1,28 @@
 {
 	"description": "A Learning resource",
 	"bsonType": "object",
-	"required": ["name"],
+	"required": [
+		"name"
+	],
 	"properties": {
+		"_id": {
+			"description": "The unique identifier for a resource",
+			"bsonType": "objectId"
+		},
 		"name": {
-			"description": "The Resource Name",
+			"description": "The Resource Shrot Name (slug)",
 			"bsonType": "string",
 			"maxLength": 128
 		},
-		"mediaType": {
-			"description": "Primary media type(s) of the resource",
+		"status": {
+			"description": "The status of this resource",
 			"bsonType": "string",
-			"enum": [ "text", "audio", "video-only", "video-with-audio", "image", "interactive" ]
+			"enum": ["Active", "Archived"]
+		},
+		"description": {
+			"description": "The Resource description",
+			"bsonType": "string",
+			"maxLength": 256
 		},
 		"duration": {
 			"description": "The estimated time in minutes to consume this resource",
@@ -19,19 +30,38 @@
 			"minimum": 1,
 			"maximum": 2880
 		},
-		"description": {
-			"description": "The Resource description",
-			"bsonType": "string",
-			"maxLength": 256
-		},
 		"link": {
 			"description": "Link to Resource",
 			"bsonType": "string",
-			"maxLength": 256
+			"maxLength": 256,
+			"pattern": "^(https|ftp)://[^\\s/$.?#].[^\\s]*$"
 		},
-		"meansOfAccess": {
-			"bsonType": "string",
-			"enum": [ "free-public", "free-account", "pay" ]
+		"skills": {
+			"description": "The list of skills this resource contributes to",
+			"bsonType": "array",
+			"items": {
+				"bsonType": "objectId"
+			}
+		},
+		"tags": {
+			"description": "Tags to assist with classification of this resource",
+			"bsonType": "array",
+			"items": {
+				"bsonType": "string",
+				"enum": [
+					"$",
+					"Article",
+					"Book",
+					"Exam",
+					"Interactive",
+					"Lecture",
+					"Lesson",
+					"Reference",
+					"Tutorial",
+					"User Guide",
+					"Video"
+				]
+			}
 		}
 	}
 }

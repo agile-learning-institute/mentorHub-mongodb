@@ -1,5 +1,57 @@
 [
     {
-        "name": "Test"
+      "_id": { "$oid": "61fc4fc54b752829b61a14c4" },
+      "name": "Introduction to Incident Management",
+      "status": "Active",
+      "description": "This topic provides an introduction to incident management.",
+      "catagory": "Foundations of ITSM",
+      "skills": [{ "$oid": "61fc4fc54b752829b61a14c7" }],
+      "resources": []
+    },
+    {
+      "_id": { "$oid": "61fc4fc54b752829b61a14c6" },
+      "name": "Refactoring Techniques",
+      "status": "Active",
+      "description": "This topic covers various refactoring techniques in software development.",
+      "catagory": "Design and Development",
+      "skills": [{ "$oid": "61fc4fc54b752829b61a14c7" }],
+      "resources": []
+    },
+    {
+      "_id": { "$oid": "61fc4fc54b752829b61a14c8" },
+      "name": "Infrastructure as Code",
+      "status": "Active",
+      "description": "This topic explores the concept of infrastructure as code.",
+      "catagory": "Infrastructure and Operations",
+      "skills": [{ "$oid": "61fc4fc54b752829b61a14c9" }],
+      "resources": []
+    },
+    {
+      "_id": { "$oid": "61fc4fc54b752829b61a14ca" },
+      "name": "Networking Fundamentals",
+      "status": "Active",
+      "description": "This topic provides an description of networking fundamentals.",
+      "catagory": "Networking and Security",
+      "skills": [{ "$oid": "61fc4fc54b752829b61a14cb" }],
+      "resources": []
+    },
+    {
+      "_id": { "$oid": "61fc4fc54b752829b61a14cc" },
+      "name": "Continuous Integration Basics",
+      "status": "Active",
+      "description": "This topic covers the basics of continuous integration.",
+      "catagory": "Continuous Integration and Deployment",
+      "skills": [{ "$oid": "61fc4fc54b752829b61a14cd" }],
+      "resources": []
+    },
+    {
+      "_id": { "$oid": "61fc4fc54b752829b61a14ce" },
+      "name": "Monitoring and Performance Best Practices",
+      "status": "Active",
+      "description": "This topic discusses best practices for monitoring and performance management.",
+      "catagory": "Monitoring and Performance",
+      "skills": [{ "$oid": "61fc4fc54b752829b61a14cf" }],
+      "resources": []
     }
-]
+  ]
+  

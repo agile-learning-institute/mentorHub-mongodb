@@ -1,5 +1,83 @@
 [
     {
-        "name": "Test"
+      "_id": { "$oid": "FFFF00000000000000000001" },
+      "name": "JavaScript",
+      "status": "Active",
+      "description": "Proficient in JavaScript for front-end web development.",
+      "level": "Apprentice",
+      "speciality": "Generalist"
+    },
+    {
+      "_id": { "$oid": "FFFF00000000000000000002" },
+      "name": "UI/UX Design",
+      "status": "Active",
+      "description": "Skilled in UI/UX design principles and tools.",
+      "level": "Resident",
+      "speciality": "UI/UX Engineer"
+    },
+    {
+      "_id": { "$oid": "FFFF00000000000000000003" },
+      "name": "RESTful APIs",
+      "status": "Active",
+      "description": "Experienced in designing and implementing RESTful APIs.",
+      "level": "Master",
+      "speciality": "API Engineer"
+    },
+    {
+      "_id": { "$oid": "FFFF00000000000000000004" },
+      "name": "Data Analysis",
+      "status": "Active",
+      "description": "Proficient in data analysis using SQL and Python.",
+      "level": "Distinguished",
+      "speciality": "Data Engineer"
+    },
+    {
+      "_id": { "$oid": "FFFF00000000000000000005" },
+      "name": "DevOps",
+      "status": "Active",
+      "description": "Experienced in DevOps practices for scalable and reliable infrastructure.",
+      "level": "Apprentice",
+      "speciality": "SRE Engineer"
+    },
+    {
+      "_id": { "$oid": "FFFF00000000000000000006" },
+      "name": "Python",
+      "status": "Active",
+      "description": "Proficient in Python programming language for various applications.",
+      "level": "Apprentice",
+      "speciality": "Generalist"
+    },
+    {
+      "_id": { "$oid": "FFFF00000000000000000007" },
+      "name": "Agile Methodologies",
+      "status": "Active",
+      "description": "Skilled in Agile methodologies for iterative and incremental software development.",
+      "level": "Resident",
+      "speciality": "Generalist"
+    },
+    {
+      "_id": { "$oid": "FFFF00000000000000000008" },
+      "name": "Java",
+      "status": "Active",
+      "description": "Experienced in Java programming language for enterprise applications.",
+      "level": "Master",
+      "speciality": "Generalist"
+    },
+    {
+      "_id": { "$oid": "FFFF00000000000000000009" },
+      "name": "Cloud Computing",
+      "status": "Active",
+      "description": "Skilled in cloud computing technologies such as AWS and Azure.",
+      "level": "Distinguished",
+      "speciality": "SRE Engineer"
+    },
+    {
+      "_id": { "$oid": "FFFF00000000000000000010" },
+      "name": "Machine Learning",
+      "status": "Active",
+      "description": "Proficient in machine learning algorithms and techniques.",
+      "level": "Apprentice",
+      "speciality": "Data Engineer"
     }
-]
+  ]
+  

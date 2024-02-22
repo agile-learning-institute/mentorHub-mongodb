@@ -1,30 +1,53 @@
 {
 	"description": "A skill",
 	"bsonType": "object",
-	"required": ["name"],
+	"required": [
+		"name"
+	],
 	"properties": {
+		"_id": {
+			"description": "The unique identifier for a Skill",
+			"bsonType": "objectId"
+		},
 		"name": {
+			"description": "The short name (slug) for this skill",
 			"bsonType": "string",
-			"maxLength": 128
+			"maxLength": 32
+		},
+		"status": {
+			"description": "The status of this skill",
+			"bsonType": "string",
+			"enum": [
+				"Active", 
+				"Archived"
+			]
 		},
 		"description": {
+			"description": "A description of the skill, a phrase that would go on a resume",
 			"bsonType": "string",
 			"maxLength": 256
 		},
 		"level": {
+			"description": "The level of mastery for this skill",
 			"bsonType": "string",
-			"enum": [ "Generalist", "Resident", "Master", "Senior", "Distinguished" ]
+			"enum": [
+				"Candidate",
+				"Apprentice",
+				"Resident",
+				"Master",
+				"Distinguished"
+			]
 		},
-		"domain": {
+		"speciality": {
+			"description": "The speciality this skill applies to",
 			"bsonType": "string",
-			"enum": [ "Generalist", "Specialist-Data", "Specialist-SRE", "Specialist-UX", "Specialist-API" ]
-		},
-		"topic": {
-			"bsonType": "array",
-			"description": "The topics this skill is associated with",
-			"items": {
-				"bsonType": "objectId"
-			}
+			"enum": [
+				"Generalist",
+				"UI/UX Engineer",
+				"API Engineer",
+				"Data Engineer",
+				"SRE Engineer"
+			]
 		}
 	}
 }
