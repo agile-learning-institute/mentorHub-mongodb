@@ -68,11 +68,11 @@
                 "Candidate":"An Apprentice Candidate learning a full-stack",
                 "Apprentice": "A software engineer gaining broad skills",
                 "Resident": "A well-rounded software engineer with a Specialization",
-                "Master": "A senior software engineer recognized as a leader within their specialization",
-                "Distinguished": "A senior software engineer that has been recognized by his peers as a distinguished contributor"
+                "Master": "A senior software engineer recognized as a leader within their specialty",
+                "Distinguished": "A senior software engineer that has been recognized by their peers as a distinguished contributor"
             },
             "speciality": {
-                "Generalist": "General skills not associated with his specific specialty",
+                "Generalist": "General skills not associated with a specific specialty",
                 "UI/UX Engineer": "UI/UX software engineer",
                 "API Engineer": "API Engineer",
                 "Data Engineer": "Data Engineer",
