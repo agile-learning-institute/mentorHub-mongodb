@@ -41,6 +41,18 @@
 				"Monitoring and Performance"
 			]
 		},
+		"path": {
+			"description": "A learning path through topics, list to grow as needed",
+			"bsonType": "string",
+			"enum": [
+				"Odin Full Stack JS",
+				"EngineerKit",
+				"SRE speciality",
+				"Data speciality",
+				"AWS Cloud Hosting",
+				"Salesforce"
+			]
+		},
 		"skills": {
 			"description": "The list of skills related to this topic",
 			"bsonType": "array",

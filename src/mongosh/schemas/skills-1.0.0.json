@@ -28,7 +28,7 @@
 			"maxLength": 256
 		},
 		"level": {
-			"description": "The level of mastery for this skill",
+			"description": "The level of mastery for this skill, it aligns with person.title",
 			"bsonType": "string",
 			"enum": [
 				"Candidate",
