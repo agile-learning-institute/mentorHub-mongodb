@@ -1,12 +1,13 @@
 {
 	"description": "A Learning Topic",
 	"bsonType": "object",
-	"required": ["name"],
+	"required": [
+		"name"
+	],
 	"properties": {
 		"_id": {
 			"description": "The Topic ID",
-			"bsonType": "objectId",
-			"maxLength": 128
+			"bsonType": "objectId"
 		},
 		"name": {
 			"description": "The Topic Name",
@@ -16,7 +17,10 @@
 		"status": {
 			"description": "The status of this topic",
 			"bsonType": "string",
-			"enum": ["Active", "Archived"]
+			"enum": [
+				"Active",
+				"Archived"
+			]
 		},
 		"description": {
 			"description": "The Topic overview paragraph",
@@ -49,6 +53,28 @@
 			"bsonType": "array",
 			"items": {
 				"bsonType": "objectId"
+			}
+		},
+		"lastSaved": {
+			"description": "The location where this person lives",
+			"bsonType": "object",
+			"properties": {
+				"fromIp": {
+					"description": "Http Request remote IP address",
+					"bsonType": "string"
+				},
+				"byUser": {
+					"description": "UUID Of User",
+					"bsonType": "string"
+				},
+				"atTime": {
+					"description": "The date-time when last updated",
+					"bsonType": "string"
+				},
+				"correlationId": {
+					"description": "The logging correlation ID of the update transaction",
+					"bsonType": "string"
+				}
 			}
 		}
 	}

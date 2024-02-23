@@ -48,6 +48,28 @@
 				"Data Engineer",
 				"SRE Engineer"
 			]
+        },
+        "lastSaved": {
+            "description": "The location where this person lives",
+            "bsonType": "object",
+            "properties": {
+                "fromIp": {
+                    "description": "Http Request remote IP address",
+                    "bsonType": "string"
+                },
+                "byUser": {
+                    "description": "UUID Of User",
+                    "bsonType": "string"
+                },
+                "atTime": {
+                    "description": "The date-time when last updated",
+                    "bsonType": "string"
+                },
+                "correlationId": {
+                    "description": "The logging correlation ID of the update transaction",
+                    "bsonType": "string"
+                }
+            }
 		}
 	}
 }

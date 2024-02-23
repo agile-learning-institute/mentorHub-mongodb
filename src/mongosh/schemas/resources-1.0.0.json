@@ -12,12 +12,15 @@
 		"name": {
 			"description": "The Resource Shrot Name (slug)",
 			"bsonType": "string",
-			"maxLength": 128
+			"maxLength": 32
 		},
 		"status": {
 			"description": "The status of this resource",
 			"bsonType": "string",
-			"enum": ["Active", "Archived"]
+			"enum": [
+				"Active",
+				"Archived"
+			]
 		},
 		"description": {
 			"description": "The Resource description",
@@ -31,10 +34,10 @@
 			"maximum": 2880
 		},
 		"link": {
-			"description": "Link to Resource",
+			"description": "Link to Resource, must be https",
 			"bsonType": "string",
 			"maxLength": 256,
-			"pattern": "^(https|ftp)://[^\\s/$.?#].[^\\s]*$"
+			"pattern": "^(https)://[^\\s/$.?#].[^\\s]*$"
 		},
 		"skills": {
 			"description": "The list of skills this resource contributes to",
@@ -61,6 +64,46 @@
 					"User Guide",
 					"Video"
 				]
+			}
+		},
+		"rating": {
+			"description": "The rating given by members to this resource",
+			"bsonType": "object",
+			"properties": {
+				"count": {
+					"description": "Number of Reviews",
+					"bsonType": "int",
+					"minimum": 1,
+					"maximum": 16777216
+				},
+				"sum": {
+					"description": "The sum of all ratings (1-5) Stars",
+					"bsonType": "int",
+					"minimum": 1,
+					"maximum": 4294967296
+				}
+			}
+		},
+		"lastSaved": {
+			"description": "The location where this person lives",
+			"bsonType": "object",
+			"properties": {
+				"fromIp": {
+					"description": "Http Request remote IP address",
+					"bsonType": "string"
+				},
+				"byUser": {
+					"description": "UUID Of User",
+					"bsonType": "string"
+				},
+				"atTime": {
+					"description": "The date-time when last updated",
+					"bsonType": "string"
+				},
+				"correlationId": {
+					"description": "The logging correlation ID of the update transaction",
+					"bsonType": "string"
+				}
 			}
 		}
 	}
