@@ -72,7 +72,7 @@
                 "Active": "An active skill",
                 "Archived": "Soft Delete Indicator"
             },
-            "level": {
+            "mastery": {
                 "Candidate":"An Apprentice Candidate learning a full-stack",
                 "Apprentice": "A software engineer gaining broad skills",
                 "Resident": "A well-rounded software engineer with a grasp of technologies across all ITIL/ITSM domains and an area of Specialization",
@@ -103,7 +103,11 @@
                 "Reference": "Official reference documentation",
                 "Tutorial": "A step-by-step guided tutorial",
                 "User Guide": "An official user guide or getting started guide",
-                "Video": "Video"
+                "Video": "Video",
+                "UI/UX":"Resource of interest for UI/UX Engineers",
+                "API":"Resource of interest for API Engineers",
+                "Data":"Resource of interest for Data Engineers",
+                "SRE":"Resource of interest for SRE"
             }
         }
     }

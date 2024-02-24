@@ -53,6 +53,11 @@
 				"Salesforce"
 			]
 		},
+		"sequence": {
+			"description": "A sortable string value used to organize topics on a path",
+			"bsonType": "string",
+			"maxLength": 256
+		},
 		"skills": {
 			"description": "The list of skills related to this topic",
 			"bsonType": "array",
