@@ -36,14 +36,14 @@
                 "Daily": "Meetings are every day"
             }
         },
-        "partner": {
+        "partners": {
             "status": {
                 "Active": "An active partner",
                 "Inactive": "A partner that has discontinued relationships",
                 "Archived": "Soft Delete Indicator"
             }
         },
-        "topic": {
+        "topics": {
             "status": {
                 "Active": "An active topic",
                 "Archived": "Soft Delete Indicator"
