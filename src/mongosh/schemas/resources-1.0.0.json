@@ -97,15 +97,15 @@
 				},
 				"byUser": {
 					"description": "UUID Of User",
-					"bsonType": "string"
+					"bsonType": "objectId"
 				},
 				"atTime": {
 					"description": "The date-time when last updated",
-					"bsonType": "string"
+					"bsonType": "date"
 				},
 				"correlationId": {
 					"description": "The logging correlation ID of the update transaction",
-					"bsonType": "string"
+					"bsonType": "objectId"
 				}
 			}
 		}
