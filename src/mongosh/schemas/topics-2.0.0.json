@@ -90,7 +90,7 @@
 				},
 				"correlationId": {
 					"description": "The logging correlation ID of the update transaction",
-					"bsonType": "objectId"
+					"bsonType": "string"
 				}
 			}
 		}

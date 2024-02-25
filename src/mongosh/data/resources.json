@@ -8,8 +8,6 @@
         "description": "Computer History Timeline Article",
         "link": "https://somevalidlink.com",
         "duration": 25,
-        "rating.count": 105,
-        "rating.sum": 920,
         "skills": [
             {
                 "$oid": "BBBB00000000000000000005"
@@ -29,7 +27,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.39",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -41,10 +39,7 @@
         "description": "History of Computing Article",
         "link": "https://somevalidlink.com",
         "duration": 333,
-        "rating": {
-            "count": 143,
-            "sum": 2
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000003"
@@ -62,7 +57,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.3",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -74,10 +69,7 @@
         "description": "Pirates of Silicon Valley Film",
         "link": "https://somevalidlink.com",
         "duration": 219,
-        "rating": {
-            "count": 78,
-            "sum": 305
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000004"
@@ -94,7 +86,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.4",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -106,10 +98,7 @@
         "description": "Apple 1984 Super Bowl Commercial Video",
         "link": "https://somevalidlink.com",
         "duration": 367,
-        "rating": {
-            "count": 177,
-            "sum": 2
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000004"
@@ -130,7 +119,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.5",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -142,10 +131,7 @@
         "description": "Bret Victor The Future of Programming Video",
         "link": "https://somevalidlink.com",
         "duration": 493,
-        "rating": {
-            "count": 149,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000004"
@@ -164,7 +150,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.6",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -176,10 +162,7 @@
         "description": "Awesome Computer History Resource",
         "link": "https://somevalidlink.com",
         "duration": 418,
-        "rating": {
-            "count": 45,
-            "sum": 2
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000005"
@@ -198,7 +181,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.7",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -210,10 +193,7 @@
         "description": "Jean Bartik and the ENIAC Women Video",
         "link": "https://somevalidlink.com",
         "duration": 188,
-        "rating": {
-            "count": 70,
-            "sum": 674
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000005"
@@ -234,7 +214,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.8",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -246,10 +226,7 @@
         "description": "Exploring How Computers Work Video",
         "link": "https://somevalidlink.com",
         "duration": 3,
-        "rating": {
-            "count": 15,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000007"
@@ -269,7 +246,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.9",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -281,10 +258,7 @@
         "description": "Digital Logic Sim Tool",
         "link": "https://somevalidlink.com",
         "duration": 373,
-        "rating": {
-            "count": 24,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000006"
@@ -300,7 +274,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.10",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -312,10 +286,7 @@
         "description": "History and Theory of Electricity Video",
         "link": "https://somevalidlink.com",
         "duration": 205,
-        "rating": {
-            "count": 62,
-            "sum": 408
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000008"
@@ -334,7 +305,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.11",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -346,10 +317,7 @@
         "description": "Building an 8-bit computer Video Series",
         "link": "https://somevalidlink.com",
         "duration": 17,
-        "rating": {
-            "count": 116,
-            "sum": 891
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000007"
@@ -368,7 +336,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.12",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -380,10 +348,7 @@
         "description": "nand2tetris: building a computer from first principles Course",
         "link": "https://somevalidlink.com",
         "duration": 260,
-        "rating": {
-            "count": 176,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000006"
@@ -404,7 +369,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.13",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -416,10 +381,7 @@
         "description": "8 Standard Computer Components Article",
         "link": "https://somevalidlink.com",
         "duration": 19,
-        "rating": {
-            "count": 171,
-            "sum": 378
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000007"
@@ -436,7 +398,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.14",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -448,10 +410,7 @@
         "description": "DigitalOcean Learning Library Resource",
         "link": "https://somevalidlink.com",
         "duration": 8,
-        "rating": {
-            "count": 27,
-            "sum": 221
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000010"
@@ -466,7 +425,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.15",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -478,10 +437,7 @@
         "description": "Docker in 100 Seconds Video",
         "link": "https://somevalidlink.com",
         "duration": 419,
-        "rating": {
-            "count": 97,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000010"
@@ -501,7 +457,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.16",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -513,10 +469,7 @@
         "description": "Learn Docker in 7 Easy Steps Video",
         "link": "https://somevalidlink.com",
         "duration": 219,
-        "rating": {
-            "count": 181,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000009"
@@ -534,7 +487,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.17",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -546,10 +499,6 @@
         "description": "Understanding Operating Systems Article",
         "link": "https://somevalidlink.com",
         "duration": 100,
-        "rating": {
-            "count": 113,
-            "sum": 209
-        },
         "skills": [
             {
                 "$oid": "BBBB00000000000000000009"
@@ -567,7 +516,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.18",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -579,10 +528,7 @@
         "description": "Using Docker Dev Containers Resource",
         "link": "https://somevalidlink.com",
         "duration": 233,
-        "rating": {
-            "count": 35,
-            "sum": 646
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000010"
@@ -600,7 +546,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.19",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -612,10 +558,7 @@
         "description": "VirtualBox Tool",
         "link": "https://somevalidlink.com",
         "duration": 464,
-        "rating": {
-            "count": 38,
-            "sum": 501
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000010"
@@ -637,7 +580,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.20",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -649,10 +592,7 @@
         "description": "The Programming Process Article",
         "link": "https://somevalidlink.com",
         "duration": 141,
-        "rating": {
-            "count": 170,
-            "sum": 838
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000014"
@@ -670,7 +610,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.21",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -682,10 +622,7 @@
         "description": "How do computers read code? Video",
         "link": "https://somevalidlink.com",
         "duration": 160,
-        "rating": {
-            "count": 44,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000013"
@@ -706,7 +643,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.22",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -718,10 +655,7 @@
         "description": "rbenv Tool",
         "link": "https://somevalidlink.com",
         "duration": 143,
-        "rating": {
-            "count": 145,
-            "sum": 125
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000014"
@@ -738,7 +672,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.23",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -750,10 +684,7 @@
         "description": "pyenv Tool",
         "link": "https://somevalidlink.com",
         "duration": 388,
-        "rating": {
-            "count": 53,
-            "sum": 930
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000012"
@@ -773,7 +704,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.24",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -785,10 +716,7 @@
         "description": "nodenv Tool",
         "link": "https://somevalidlink.com",
         "duration": 170,
-        "rating": {
-            "count": 59,
-            "sum": 875
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000013"
@@ -807,7 +735,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.25",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -819,10 +747,7 @@
         "description": "goenv Tool",
         "link": "https://somevalidlink.com",
         "duration": 304,
-        "rating": {
-            "count": 78,
-            "sum": 2
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000014"
@@ -841,7 +766,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.26",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -853,10 +778,7 @@
         "description": "rustup Tool",
         "link": "https://somevalidlink.com",
         "duration": 506,
-        "rating": {
-            "count": 32,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000014"
@@ -877,7 +799,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.27",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -889,10 +811,7 @@
         "description": "C# language versioning",
         "link": "https://somevalidlink.com",
         "duration": 277,
-        "rating": {
-            "count": 160,
-            "sum": 2
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000014"
@@ -910,7 +829,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.28",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -922,10 +841,7 @@
         "description": "Computer Basics Course Course ($)",
         "link": "https://somevalidlink.com",
         "duration": 75,
-        "rating": {
-            "count": 149,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000014"
@@ -944,7 +860,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.29",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -956,10 +872,7 @@
         "description": "BrowserStack list of platforms Resource",
         "link": "https://somevalidlink.com",
         "duration": 82,
-        "rating": {
-            "count": 58,
-            "sum": 14
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000016"
@@ -983,7 +896,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.30",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -995,10 +908,7 @@
         "description": "Computing platform Article",
         "link": "https://somevalidlink.com",
         "duration": 94,
-        "rating": {
-            "count": 21,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000017"
@@ -1017,7 +927,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.31",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1029,10 +939,7 @@
         "description": "Structured vs. Unstructured Data Article",
         "link": "https://somevalidlink.com",
         "duration": 68,
-        "rating": {
-            "count": 158,
-            "sum": 325
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000020"
@@ -1051,7 +958,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.32",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1063,10 +970,7 @@
         "description": "7 Database Paradigms Video",
         "link": "https://somevalidlink.com",
         "duration": 312,
-        "rating": {
-            "count": 175,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000022"
@@ -1083,7 +987,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.33",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1095,10 +999,7 @@
         "description": "AWS Databases Resource",
         "link": "https://somevalidlink.com",
         "duration": 230,
-        "rating": {
-            "count": 4,
-            "sum": 829
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000023"
@@ -1114,7 +1015,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.34",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1126,10 +1027,7 @@
         "description": "AWS Storage Resource",
         "link": "https://somevalidlink.com",
         "duration": 342,
-        "rating": {
-            "count": 126,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000023"
@@ -1149,7 +1047,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.35",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1161,10 +1059,7 @@
         "description": "Cloud Firestore Tool",
         "link": "https://somevalidlink.com",
         "duration": 154,
-        "rating": {
-            "count": 40,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000023"
@@ -1181,7 +1076,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.36",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1193,10 +1088,7 @@
         "description": "Database normalization Resource",
         "link": "https://somevalidlink.com",
         "duration": 280,
-        "rating": {
-            "count": 15,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000025"
@@ -1215,7 +1107,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.37",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1227,10 +1119,7 @@
         "description": "Normal Data Forms Video",
         "link": "https://somevalidlink.com",
         "duration": 354,
-        "rating": {
-            "count": 174,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000025"
@@ -1252,7 +1141,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.38",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1264,10 +1153,7 @@
         "description": "SQL Explained in 100 Seconds Video",
         "link": "https://somevalidlink.com",
         "duration": 70,
-        "rating": {
-            "count": 137,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000024"
@@ -1287,7 +1173,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.39",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1299,10 +1185,7 @@
         "description": "SQL playground Tool",
         "link": "https://somevalidlink.com",
         "duration": 88,
-        "rating": {
-            "count": 21,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000025"
@@ -1320,7 +1203,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.40",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1332,10 +1215,7 @@
         "description": "SQLZOO Tutorial",
         "link": "https://somevalidlink.com",
         "duration": 363,
-        "rating": {
-            "count": 101,
-            "sum": 540
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000025"
@@ -1354,7 +1234,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.41",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1366,10 +1246,7 @@
         "description": "Modifying Data with SQL Course ($)",
         "link": "https://somevalidlink.com",
         "duration": 46,
-        "rating": {
-            "count": 151,
-            "sum": 2
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000025"
@@ -1388,7 +1265,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.42",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1400,10 +1277,7 @@
         "description": "Querying Relational Databases Course ($)",
         "link": "https://somevalidlink.com",
         "duration": 210,
-        "rating": {
-            "count": 134,
-            "sum": 201
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000025"
@@ -1422,7 +1296,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.43",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1434,10 +1308,7 @@
         "description": "SQL Basics Course ($)",
         "link": "https://somevalidlink.com",
         "duration": 195,
-        "rating": {
-            "count": 167,
-            "sum": 2
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000025"
@@ -1457,7 +1328,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.44",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1469,10 +1340,7 @@
         "description": "Missing Semester: Data Wrangling Video",
         "link": "https://somevalidlink.com",
         "duration": 363,
-        "rating": {
-            "count": 129,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000028"
@@ -1489,7 +1357,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.45",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1501,10 +1369,7 @@
         "description": "Regex in 100 Seconds Video",
         "link": "https://somevalidlink.com",
         "duration": 125,
-        "rating": {
-            "count": 154,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000027"
@@ -1523,7 +1388,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.46",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1535,10 +1400,7 @@
         "description": "What is ETL? Article",
         "link": "https://somevalidlink.com",
         "duration": 113,
-        "rating": {
-            "count": 19,
-            "sum": 163
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000028"
@@ -1556,7 +1418,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.47",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1568,10 +1430,7 @@
         "description": "3 Tips That Will Simplify Your Application State Management Article",
         "link": "https://somevalidlink.com",
         "duration": 209,
-        "rating": {
-            "count": 84,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000031"
@@ -1591,7 +1450,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.48",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1603,10 +1462,7 @@
         "description": "Caching in a PWA Tutorial",
         "link": "https://somevalidlink.com",
         "duration": 123,
-        "rating": {
-            "count": 95,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000031"
@@ -1623,7 +1479,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.49",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1635,10 +1491,7 @@
         "description": "Event-driven architecture Article",
         "link": "https://somevalidlink.com",
         "duration": 393,
-        "rating": {
-            "count": 40,
-            "sum": 110
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000031"
@@ -1656,7 +1509,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.50",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1668,10 +1521,7 @@
         "description": "Implementing a simple state machine library in JavaScript Article",
         "link": "https://somevalidlink.com",
         "duration": 213,
-        "rating": {
-            "count": 144,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000031"
@@ -1691,7 +1541,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.51",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1703,10 +1553,7 @@
         "description": "What do you mean by Event-Driven? Article",
         "link": "https://somevalidlink.com",
         "duration": 291,
-        "rating": {
-            "count": 116,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000031"
@@ -1728,7 +1575,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.52",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1740,10 +1587,7 @@
         "description": "What is caching? Article",
         "link": "https://somevalidlink.com",
         "duration": 475,
-        "rating": {
-            "count": 178,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000032"
@@ -1764,7 +1608,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.53",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1776,10 +1620,7 @@
         "description": "How This Course Will Work",
         "link": "https://somevalidlink.com",
         "duration": 356,
-        "rating": {
-            "count": 128,
-            "sum": 19
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000035"
@@ -1801,7 +1642,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.54",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1813,10 +1654,7 @@
         "description": "Introduction to Web Development",
         "link": "https://somevalidlink.com",
         "duration": 70,
-        "rating": {
-            "count": 57,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000033"
@@ -1832,7 +1670,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.55",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1844,10 +1682,7 @@
         "description": "Motivation and Mindset",
         "link": "https://somevalidlink.com",
         "duration": 307,
-        "rating": {
-            "count": 9,
-            "sum": 533
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000033"
@@ -1868,7 +1703,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.56",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1880,10 +1715,7 @@
         "description": "Asking For Help",
         "link": "https://somevalidlink.com",
         "duration": 330,
-        "rating": {
-            "count": 183,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000034"
@@ -1901,7 +1733,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.57",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1913,10 +1745,7 @@
         "description": "Join the Odin Community",
         "link": "https://somevalidlink.com",
         "duration": 217,
-        "rating": {
-            "count": 110,
-            "sum": 487
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000035"
@@ -1937,7 +1766,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.58",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1949,10 +1778,7 @@
         "description": "Computer Basics",
         "link": "https://somevalidlink.com",
         "duration": 105,
-        "rating": {
-            "count": 102,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000038"
@@ -1972,7 +1798,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.59",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -1984,10 +1810,7 @@
         "description": "How Does the Web Work?",
         "link": "https://somevalidlink.com",
         "duration": 362,
-        "rating": {
-            "count": 76,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000036"
@@ -2008,7 +1831,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.60",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2020,10 +1843,7 @@
         "description": "Installation Overview",
         "link": "https://somevalidlink.com",
         "duration": 243,
-        "rating": {
-            "count": 110,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000037"
@@ -2042,7 +1862,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.61",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2054,10 +1874,7 @@
         "description": "Installations",
         "link": "https://somevalidlink.com",
         "duration": 109,
-        "rating": {
-            "count": 19,
-            "sum": 323
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000037"
@@ -2076,7 +1893,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.62",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2088,10 +1905,7 @@
         "description": "Text Editors",
         "link": "https://somevalidlink.com",
         "duration": 137,
-        "rating": {
-            "count": 54,
-            "sum": 112
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000038"
@@ -2111,7 +1925,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.63",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2123,10 +1937,7 @@
         "description": "Command Line Basics",
         "link": "https://somevalidlink.com",
         "duration": 58,
-        "rating": {
-            "count": 50,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000037"
@@ -2145,7 +1956,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.64",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2157,10 +1968,7 @@
         "description": "Setting up Git",
         "link": "https://somevalidlink.com",
         "duration": 247,
-        "rating": {
-            "count": 186,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000037"
@@ -2180,7 +1988,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.65",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2192,10 +2000,7 @@
         "description": "Introduction to Git",
         "link": "https://somevalidlink.com",
         "duration": 359,
-        "rating": {
-            "count": 60,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000040"
@@ -2213,7 +2018,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.66",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2225,10 +2030,7 @@
         "description": "Git Basics",
         "link": "https://somevalidlink.com",
         "duration": 104,
-        "rating": {
-            "count": 70,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000039"
@@ -2246,7 +2048,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.67",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2258,10 +2060,7 @@
         "description": "Introduction",
         "link": "https://somevalidlink.com",
         "duration": 128,
-        "rating": {
-            "count": 152,
-            "sum": 282
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000043"
@@ -2279,7 +2078,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.68",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2291,10 +2090,7 @@
         "description": "Emmet",
         "link": "https://somevalidlink.com",
         "duration": 465,
-        "rating": {
-            "count": 109,
-            "sum": 445
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000043"
@@ -2313,7 +2109,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.69",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2325,10 +2121,7 @@
         "description": "SVG",
         "link": "https://somevalidlink.com",
         "duration": 48,
-        "rating": {
-            "count": 39,
-            "sum": 596
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000043"
@@ -2346,7 +2139,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.70",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2358,10 +2151,7 @@
         "description": "Tables",
         "link": "https://somevalidlink.com",
         "duration": 468,
-        "rating": {
-            "count": 62,
-            "sum": 827
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000043"
@@ -2380,7 +2170,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.71",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2392,10 +2182,7 @@
         "description": "Default Styles",
         "link": "https://somevalidlink.com",
         "duration": 480,
-        "rating": {
-            "count": 133,
-            "sum": 515
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000046"
@@ -2413,7 +2200,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.72",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2425,10 +2212,7 @@
         "description": "CSS Units",
         "link": "https://somevalidlink.com",
         "duration": 518,
-        "rating": {
-            "count": 163,
-            "sum": 2
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000047"
@@ -2450,7 +2234,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.73",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2462,10 +2246,7 @@
         "description": "More Text Styles",
         "link": "https://somevalidlink.com",
         "duration": 332,
-        "rating": {
-            "count": 35,
-            "sum": 593
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000046"
@@ -2485,7 +2266,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.74",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2497,10 +2278,7 @@
         "description": "More CSS Properties",
         "link": "https://somevalidlink.com",
         "duration": 311,
-        "rating": {
-            "count": 31,
-            "sum": 111
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000046"
@@ -2518,7 +2296,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.75",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2530,10 +2308,7 @@
         "description": "Advanced Selectors",
         "link": "https://somevalidlink.com",
         "duration": 358,
-        "rating": {
-            "count": 47,
-            "sum": 631
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000047"
@@ -2552,7 +2327,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.76",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2564,10 +2339,7 @@
         "description": "Positioning",
         "link": "https://somevalidlink.com",
         "duration": 524,
-        "rating": {
-            "count": 62,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000045"
@@ -2587,7 +2359,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.77",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2599,10 +2371,7 @@
         "description": "CSS Functions",
         "link": "https://somevalidlink.com",
         "duration": 402,
-        "rating": {
-            "count": 170,
-            "sum": 237
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000046"
@@ -2622,7 +2391,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.78",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2634,10 +2403,7 @@
         "description": "Custom Properties",
         "link": "https://somevalidlink.com",
         "duration": 143,
-        "rating": {
-            "count": 99,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000046"
@@ -2656,7 +2422,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.79",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2668,10 +2434,7 @@
         "description": "Browser Compatibility",
         "link": "https://somevalidlink.com",
         "duration": 79,
-        "rating": {
-            "count": 174,
-            "sum": 2
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000046"
@@ -2691,7 +2454,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.80",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     },
     {
@@ -2703,10 +2466,7 @@
         "description": "Frameworks and Preprocessors",
         "link": "https://somevalidlink.com",
         "duration": 288,
-        "rating": {
-            "count": 57,
-            "sum": 1
-        },
+        
         "skills": [
             {
                 "$oid": "BBBB00000000000000000045"
@@ -2725,7 +2485,7 @@
             "atTime": {"$date": "4/3/2024 18:17:58"},
             "byUser": {"$oid": 1},
             "fromIp": "192.168.1.81",
-            "correlationId": {"$oid": 1}
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
         }
     }
 ]
