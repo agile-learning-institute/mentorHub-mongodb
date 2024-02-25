@@ -1,3899 +1,442 @@
 [
-    {
-        "domain": "Architecture",
-        "name": "Common Architecture Patterns",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about common patterns used in architecture to create software systems.",
-        "skills": [
-            "Compare monolithic, microservices, and serverless architectures",
-            "Describe benefits with a monolithic architecture",
-            "Describe benefits with a microservices architecture",
-            "Describe benefits with a serverless architecture",
-            "Explain what kind of architecture might be most productive for you to build with"
-        ],
-        "resources": [
-            {
-                "name": "Boundaries",
-                "link": "https://www.destroyallsoftware.com/talks/boundaries",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Microservice Tradeoffs",
-                "link": "https://www.martinfowler.com/articles/microservice-trade-offs.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Microservices",
-                "link": "https://www.martinfowler.com/articles/microservices.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Microservices Architecture",
-                "link": "https://microservices.io/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Monolith vs Microservice vs Serverless",
-                "link": "https://hackernoon.com/monolith-vs-microservice-vs-serverless-the-real-winner-the-developer-8aae6042fb48",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "The Architecture of a Web 3.0 application",
-                "link": "https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Clean \ud83e\uddfc Architecture \ud83d\udee0 At Hyper \u26a1\ufe0f",
-                "link": "https://blog.hyper.io/clean-architecture-at-hyper/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "The Clean Architecture",
-                "link": "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Using Clean Architecture for Microservice APIs in Node.js with MongoDB and Express",
-                "link": "https://www.youtube.com/watch?v=CnailTcJV_U",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Web2 vs Web3",
-                "link": "https://ethereum.org/en/developers/docs/web2-vs-web3/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What is a microservice architecture and it's advantages?",
-                "link": "https://www.youtube.com/watch?v=qYhRvH9tJKw",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Clean Architecture: A Craftsman's Guide to Software Structure and Design",
-                "link": "https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Architecture",
-        "name": "Common Tech Stacks",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about common tech stacks used on projects worldwide.",
-        "skills": [
-            "Describe what a tech stack is",
-            "List some common tech stacks",
-            "Theorize how you might improve on existing tech stacks"
-        ],
-        "resources": [
-            {
-                "name": "Stackshare",
-                "link": "https://stackshare.io/stacks",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "StackOverflow 2022 Developer Survey",
-                "link": "https://survey.stackoverflow.co/2022",
-                "type": "Resource",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Architecture",
-        "name": "Assembling a Tech Stack",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to put together a tech stack that balances the needs of an application and the team building it.",
-        "skills": [
-            "Explain some considerations you'll need to make when putting a tech stack together",
-            "Theorize how you might recommend a tech stack to a team when starting a project"
-        ],
-        "resources": [
-            {
-                "name": "Demystifying Conway's Law",
-                "link": "https://www.thoughtworks.com/insights/blog/demystifying-conways-law",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Agile Inception Deck",
-                "link": "https://agilewarrior.wordpress.com/2010/11/06/the-agile-inception-deck/",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Architecture",
-        "name": "Tech Stack Ramping",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about techniques that enable you to quickly ramp up on new tech stacks and start shipping new features.",
-        "skills": [
-            "List some considerations you might have when ramping on new tech stacks",
-            "Explain how you might use the 12 Factor App methodology to help ramp on a new tech stack"
-        ],
-        "resources": [
-            {
-                "name": "12 Factor App",
-                "link": "https://12factor.net/",
-                "type": "Resource",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Architecture",
-        "name": "Living Documentation",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to create helpful documentation that evolves along with the system it describes.",
-        "skills": [
-            "Describe what living documentation is",
-            "Explain how you might use automated tests to create documentation",
-            "Theorize when you might not create documentation"
-        ],
-        "resources": [
-            {
-                "name": "Swagger",
-                "link": "https://swagger.io/",
-                "type": "Resource",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Automated Testing",
-        "name": "Requirements Gathering",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to gather requirements for features, bugs, and other tasks so that you know what to build.",
-        "skills": [
-            "Describe the concept of a user story",
-            "Describe the concept of acceptance criteria",
-            "Compare manual and automated testing methods",
-            "List the team perspectives that should be considered in task requirements",
-            "Theorize how you might validate and simplify requirements given to you"
-        ],
-        "resources": [
-            {
-                "name": "Acceptance Criteria for User Stories: Purposes, Formats, Examples, and Best Practices",
-                "link": "https://www.altexsoft.com/blog/business/acceptance-criteria-purposes-formats-and-best-practices/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Definition of Done: What Product Managers Need to Know",
-                "link": "https://www.productplan.com/learn/agile-definition-of-done/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Gathering requirements, go away please!",
-                "link": "https://www.pmi.org/learning/library/gathering-requirements-go-away-please-7448",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Introduction on how to write User Stories",
-                "link": "https://www.youtube.com/watch?v=Pn-QMvDTuEY",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "How to know what to test",
-                "link": "https://kentcdodds.com/blog/how-to-know-what-to-test",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "User Stories",
-                "link": "https://www.mountaingoatsoftware.com/agile/user-stories",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What is a User Story?",
-                "link": "https://www.productplan.com/glossary/user-story/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What is Acceptance Criteria?",
-                "link": "https://www.productplan.com/glossary/acceptance-criteria/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "The Clean Coder",
-                "link": "https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Automated Testing",
-        "name": "Testing Strategies",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about test-driven development, the testing pyramid, and how to apply unit, integration, and end-to-end testing when creating software.",
-        "skills": [
-            "Describe the four common testing strategies and their purpose",
-            "Draw the \"testing pyramid\" and its components",
-            "Compare automated testing with manual testing and the benefits of automated testing",
-            "Theorize why building products with automated tests is ultimately faster",
-            "Describe the red, green, refactor cycle",
-            "Compare the red, green, refactor cycle to retroactive testing",
-            "Create unit tests using the red, green, refactor cycle",
-            "Create integration tests using the red, green, refactor cycle",
-            "Create end-to-end tests using the red, green, refactor cycle"
-        ],
-        "resources": [
-            {
-                "name": "Another Testing Pyramid",
-                "link": "https://github.com/testdouble/contributing-tests/wiki/Testing-Pyramid",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Confidently Shipping Code",
-                "link": "https://kentcdodds.com/blog/confidently-shipping-code",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Fundamentals of TDD",
-                "link": "https://thoughtbot.com/upcase/videos/fundamentals-of-tdd-overview",
-                "type": "Video Series",
-                "isFree": true
-            },
-            {
-                "name": "Integrated Tests Are A Scam",
-                "link": "https://www.youtube.com/watch?v=VDfX44fZoMc",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Red, Green, Refactor",
-                "link": "https://www.codecademy.com/article/tdd-red-green-refactor",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Software Testing Explained in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=u6QfIXgjwGQ",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "TDD",
-                "link": "https://github.com/testdouble/contributing-tests/wiki/Test-Driven-Development",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Testing Library",
-                "link": "https://testing-library.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "The Practical Test Pyramid",
-                "link": "https://martinfowler.com/articles/practical-test-pyramid.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "The Testing Trophy",
-                "link": "https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Why Write the Minimum Code to Pass the Test?",
-                "link": "https://codingitwrong.com/2020/12/23/why-write-the-minimum-code-to-pass-the-test.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Write tests. Not too many. Mostly integration.",
-                "link": "https://kentcdodds.com/blog/write-tests",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "expect(umbrellaOpens).toBe(true)",
-                "link": "https://twitter.com/erinfranmc/status/1148986961207730176",
-                "type": "Thread",
-                "isFree": true
-            },
-            {
-                "name": "Test-Driven Development",
-                "link": "https://www.youtube.com/watch?v=Jv2uxzhPFl4",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Clean Coders: TDD",
-                "link": "https://cleancoders.com/episode/clean-code-episode-6-p1",
-                "type": "Video",
-                "isFree": false
-            },
-            {
-                "name": "Test Driven Development",
-                "link": "https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Testing JavaScript",
-                "link": "https://testingjavascript.com/",
-                "type": "Course",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Automated Testing",
-        "name": "Test Patterns",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about common test patterns such as the four-phase test, inside-out testing, and other practical techniques to make writing automated tests more efficient and enjoyable.",
-        "skills": [
-            "Describe the four phases of a test and their purpose",
-            "Create unit tests using the four-phase approach",
-            "Explain why the four-phase test pattern is important and how you'd apply it",
-            "List common test patterns",
-            "Describe common test fixture patterns and their use cases",
-            "Describe the inside-out and outside-in test patterns and their purpose",
-            "Explain a scenario where you would use the inside-out test pattern",
-            "Explain a scenario where you would use the outside-in test pattern",
-            "Create a component using the inside-out test pattern",
-            "Create a component using the outside-in test pattern"
-        ],
-        "resources": [
-            {
-                "name": "Arrange, Act, Assert",
-                "link": "https://github.com/testdouble/contributing-tests/wiki/Arrange-Act-Assert",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Four-phase test",
-                "link": "https://thoughtbot.com/blog/four-phase-test",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "From the Inside Out or the Outside In?",
-                "link": "https://8thlight.com/blog/georgina-mcfadyen/2016/06/27/inside-out-tdd-vs-outside-in.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "How to stop hating your tests.",
-                "link": "https://blog.testdouble.com/talks/2015-11-16-how-to-stop-hating-your-tests/",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "xUnit Patterns Website",
-                "link": "http://xunitpatterns.com/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "xUnit Patterns",
-                "link": "https://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Automated Testing",
-        "name": "Test Doubles",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about test doubles (stubs, spies, and mocks), how they can be used in your project, and when to use them in your tests.",
-        "skills": [
-            "List the types of test doubles",
-            "Explain the role of each test double type",
-            "Explain why you might need a test double when creating automated tests"
-        ],
-        "resources": [
-            {
-                "name": "Mocks Aren't Stubs",
-                "link": "https://www.martinfowler.com/articles/mocksArentStubs.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "But really, what is a JavaScript mock?",
-                "link": "https://kentcdodds.com/blog/but-really-what-is-a-javascript-mock",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "C++ testing with mocks is EASY and awesome!",
-                "link": "https://www.youtube.com/watch?v=gqe6eo2-9_Q",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "JavaScript testing: Jest mocks",
-                "link": "https://www.youtube.com/watch?v=OS5mVVM5vAg",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Test Double xUnit Patterns",
-                "link": "http://xunitpatterns.com/Test%20Double.html",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Test Doubles",
-                "link": "https://github.com/testdouble/contributing-tests/wiki/Test-Double",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "What is Mocking?",
-                "link": "https://stackoverflow.com/questions/2665812/what-is-mocking",
-                "type": "Thread",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Automated Testing",
-        "name": "Test Smells and Flakiness",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about common anti-patterns when writing automated tests and some techniques to help your test suite run soundly every time.",
-        "skills": [
-            "List common test smells",
-            "Describe the concept of test flakiness",
-            "Explain some approaches to fixing test flakiness and improving reliability",
-            "Explain why it is important to be confident in your test suite"
-        ],
-        "resources": [
-            {
-                "name": "What's a flaky test?",
-                "link": "https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "How to Deal With and Eliminate Flaky Tests",
-                "link": "https://semaphoreci.com/community/tutorials/how-to-deal-with-and-eliminate-flaky-tests",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Methods for identifying and dealing with flaky tests",
-                "link": "https://engineering.atspotify.com/2019/11/18/test-flakiness-methods-for-identifying-and-dealing-with-flaky-tests/",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Clean Code",
-        "name": "Code Quality",
-        "status": "Active",
-        "overview": "With this topic, you'll learn why the quality of your code is important and how it affects the safety and reliability of your codebase.",
-        "skills": [
-            "List some of the metrics that might determine the quality of your code",
-            "Compare high-quality with low-quality code",
-            "Consider why you should care about the quality of your code",
-            "Theorize how you might manage technical debt"
-        ],
-        "resources": [
-            {
-                "name": "Clean Code Lessons",
-                "link": "https://www.youtube.com/watch?v=7EmboKQH8lM&t=65s&list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj",
-                "type": "Video Series",
-                "isFree": true
-            },
-            {
-                "name": "Code quality metrics",
-                "link": "https://blog.ndepend.com/code-quality-metrics-signal-noise/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Pragmatic Programmer",
-                "link": "https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Clean Code",
-        "name": "Code Smells",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about signals in your codebase that can indicate poor design or the lack of best practices.",
-        "skills": [
-            "List some common code smells",
-            "Find some refactorings that clean up common code smells",
-            "Theorize how you might better identify code smells"
-        ],
-        "resources": [
-            {
-                "name": "Code smells",
-                "link": "https://refactoring.guru/refactoring/smells",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Clean Code",
-                "link": "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Clean Code",
-        "name": "Four Rules of Simple Design",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about writing simple code that is tested, singular, and easy to understand.",
-        "skills": [
-            "Describe the four rules of simple design",
-            "Theorize why clean code and testing are often associated with one another",
-            "Consider how you might apply the four rules of simple design",
-            "Compare simple and complex solutions and theorize which last longer"
-        ],
-        "resources": [
-            {
-                "name": "BeckDesignRules",
-                "link": "https://martinfowler.com/bliki/BeckDesignRules.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Conway's Game of Life",
-                "link": "https://copy.sh/life/",
-                "type": "Game",
-                "isFree": true
-            },
-            {
-                "name": "Inventing Game of Life (John Conway)",
-                "link": "https://www.youtube.com/watch?v=R9Plq-D1gEk",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "4 Rules of Simple Design",
-                "link": "https://leanpub.com/4rulesofsimpledesign",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Clean Code",
-        "name": "Design Patterns",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about typical solutions to common problems in software design.",
-        "skills": [
-            "List some common design patterns",
-            "Consider some of the criticisms of design patterns and when it is applicable to use them",
-            "Compare creational, structural, and behavioral patterns and explain their differences"
-        ],
-        "resources": [
-            {
-                "name": "Dependency injection",
-                "link": "https://en.wikipedia.org/wiki/Dependency_injection",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Design Patterns",
-                "link": "https://refactoring.guru/design-patterns",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "On Writing Software Well",
-                "link": "https://www.youtube.com/watch?v=wXaC0YvDgIo&list=PL9wALaIpe0Py6E_oHCgTrD6FvFETwJLlx&index=1",
-                "type": "Video Series",
-                "isFree": true
-            },
-            {
-                "name": "Premature Optimization",
-                "link": "http://wiki.c2.com/?PrematureOptimization",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "SOLID Principles",
-                "link": "https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Yagni",
-                "link": "https://martinfowler.com/bliki/Yagni.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Clean Coders: SOLID Principles",
-                "link": "https://cleancoders.com/series/clean-code/solid-principles",
-                "type": "Video Series",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Clean Code",
-        "name": "Refactoring Techniques",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about common ways to better restructure existing code without changing its underlying behavior.",
-        "skills": [
-            "List some common refactoring techniques",
-            "Find some code smells that refactorings clean up",
-            "Compare refactoring legacy code and greenfield code; what are the different approaches you might take?"
-        ],
-        "resources": [
-            {
-                "name": "Composing Methods",
-                "link": "https://refactoring.guru/refactoring/techniques/composing-methods",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Dealing with Generalization",
-                "link": "https://refactoring.guru/refactoring/techniques/dealing-with-generalization",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Moving Features between Objects",
-                "link": "https://refactoring.guru/refactoring/techniques/moving-features-between-objects",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Organizing Data",
-                "link": "https://refactoring.guru/refactoring/techniques/organizing-data",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Refactoring",
-                "link": "https://refactoring.guru/refactoring",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Simplifying Conditional Expressions",
-                "link": "https://refactoring.guru/refactoring/techniques/simplifying-conditional-expressions",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Simplifying Method Calls",
-                "link": "https://refactoring.guru/refactoring/techniques/simplifying-method-calls",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Writing Good Tests for the Gilded Rose Kata",
-                "link": "https://archive.ph/2021.10.27-191732/https://coding-is-like-cooking.info/2013/03/writing-good-tests-for-the-gilded-rose-kata/",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Computing",
-        "name": "History of Computing",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the history of computing and some of the most important events that shaped the Information Age.",
-        "skills": [
-            "List the four generations of computing",
-            "Explain Moore's Law and the rate of exponential change in computing hardware",
-            "Compare the rate of change in hardware to the rate of change in software",
-            "Theorize how you can stay current with the rapid changes in our industry"
-        ],
-        "resources": [
-            {
-                "name": "Computer History Timeline",
-                "link": "https://www.computerhistory.org/timeline/computers/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "History of Computing",
-                "link": "https://en.wikipedia.org/wiki/History_of_computing",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Pirates of Silicon Valley",
-                "link": "https://www.imdb.com/title/tt0168122/",
-                "type": "Film",
-                "isFree": true
-            },
-            {
-                "name": "Apple 1984 Super Bowl Commercial",
-                "link": "https://www.youtube.com/watch?v=2zfqw8nhUwA",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Bret Victor The Future of Programming",
-                "link": "https://www.youtube.com/watch?v=8pTEmbeENF4",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Awesome Computer History",
-                "link": "https://github.com/watson/awesome-computer-history#readme",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Jean Bartik and the ENIAC Women",
-                "link": "https://www.youtube.com/watch?v=aPweFhhXFvY",
-                "type": "Video",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Computing",
-        "name": "Hardware",
-        "status": "Active",
-        "overview": "With this topic, you will learn about the essential computer components and the different roles they play.",
-        "skills": [
-            "Describe the four components of a computer",
-            "Compare processing and storage and how they interact with each other",
-            "List some common and uncommon peripherals",
-            "Theorize how you might use peripherals in your work"
-        ],
-        "resources": [
-            {
-                "name": "Exploring How Computers Work",
-                "link": "https://www.youtube.com/watch?v=QZwneRb-zqA&list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq&index=1",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Digital Logic Sim",
-                "link": "https://sebastian.itch.io/digital-logic-sim",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "History and Theory of Electricity",
-                "link": "https://www.youtube.com/watch?v=TttHkDRuyZw",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Building an 8-bit computer",
-                "link": "https://www.youtube.com/watch?v=HyznrdDSSGM&list=PLowKtXNTBypGqImE405J2565dvjafglHU",
-                "type": "Video Series",
-                "isFree": true
-            },
-            {
-                "name": "nand2tetris: building a computer from first principles",
-                "link": "https://www.nand2tetris.org/",
-                "type": "Course",
-                "isFree": true
-            },
-            {
-                "name": "8 Standard Computer Components",
-                "link": "https://www.houkconsulting.com/2017/03/standard-computer-components/",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Computing",
-        "name": "Operating Systems",
-        "status": "Active",
-        "overview": "With this topic, you will learn about the underlying software that coordinates the different components of a computer.",
-        "skills": [
-            "Describe what an operating system does",
-            "List some popular operating systems",
-            "Setup and use another operating system using virtualization",
-            "Compare containerization with virtualization and highlight the differences",
-            "Compare some features of your original operating system with the operating system you tried out"
-        ],
-        "resources": [
-            {
-                "name": "DigitalOcean Learning Library",
-                "link": "https://www.digitalocean.com/community",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Docker in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=Gjnup-PuquQ",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Learn Docker in 7 Easy Steps",
-                "link": "https://www.youtube.com/watch?v=gAkwW2tuIqE",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Understanding Operating Systems",
-                "link": "https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Using Docker Dev Containers",
-                "link": "https://code.visualstudio.com/docs/remote/create-dev-container",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "VirtualBox",
-                "link": "https://www.virtualbox.org/",
-                "type": "Tool",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Computing",
-        "name": "Runtimes",
-        "status": "Active",
-        "overview": "With this topic, you will learn about the process of turning human-readable code into commands that the computer can understand.",
-        "skills": [
-            "Describe how a computer compiles source code into machine code",
-            "Compare the different processes that occur in compiled languages vs. interpreted languages",
-            "Explain why language compatibility is essential to keep track of",
-            "Setup a language runtime on your machine"
-        ],
-        "resources": [
-            {
-                "name": "The Programming Process",
-                "link": "http://www2.hawaii.edu/~takebaya/ics111/process_of_programming/process_of_programming.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "How do computers read code?",
-                "link": "https://www.youtube.com/watch?v=QXjU9qTsYCc",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "rbenv",
-                "link": "https://github.com/rbenv/rbenv",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "pyenv",
-                "link": "https://github.com/pyenv/pyenv",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "nodenv",
-                "link": "https://github.com/nodenv/nodenv",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "goenv",
-                "link": "https://github.com/syndbg/goenv",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "rustup",
-                "link": "https://rustup.rs/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "C# language versioning](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/configure-language-version",
-                "link": "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/configure-language-version"
-            },
-            {
-                "name": "Computer Basics Course",
-                "link": "https://teamtreehouse.com/library/computer-basics",
-                "type": "Course",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Computing",
-        "name": "Spectrum of Platforms",
-        "status": "Active",
-        "overview": "With this topic, you will learn about the different combinations of hardware, operating systems, and runtimes used to run software applications.",
-        "skills": [
-            "Describe the anatomy of a platform",
-            "List some common platforms where your software might run",
-            "Theorize how you use platform identification with your projects"
-        ],
-        "resources": [
-            {
-                "name": "BrowserStack list of platforms",
-                "link": "https://www.browserstack.com/list-of-browsers-and-platforms/live",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Computing platform",
-                "link": "https://en.wikipedia.org/wiki/Computing_platform",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Craftsmanship",
-        "name": "History of Craftsmanship",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about how craftsmanship has been applied across different trades, cultures, and periods in human history.",
-        "skills": [
-            "Summarize the history of craftsmanship",
-            "Critique ancient craftsmanship patterns and describe some of their benefits and drawbacks",
-            "Propose how craftsmanship might apply to modern society"
-        ],
-        "resources": [
-            {
-                "name": "European Medieval Guilds",
-                "link": "https://www.youtube.com/watch?v=vnQlHeee9Dw&t=17s",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Guild coat of arms",
-                "link": "https://user-images.githubusercontent.com/894178/133146886-a3bb211d-bfa6-404e-89e6-68372db59a6b.png",
-                "type": "Image",
-                "isFree": true
-            },
-            {
-                "name": "Guild overview",
-                "link": "https://en.wikipedia.org/wiki/Guild",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Japanese Medieval Za (guilds)",
-                "link": "https://en.wikipedia.org/wiki/Za_%28guilds%29",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Shokunin and Devotion",
-                "link": "https://www.kyotojournal.org/culture-arts/shokunin-and-devotion/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Shokunin: How Striving for Perfection Can Help You Live a Better Life",
-                "link": "https://medium.com/mind-cafe/shokunin-how-striving-for-perfection-can-help-you-live-a-better-life-88fc09394a09",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Tanners, tailors and candlestick makers: a history of apprenticeships",
-                "link": "https://www.theguardian.com/global/2020/feb/04/tanners-tailors-and-candlestick-makers-a-history-of-apprenticeships",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "The craft guilds overview",
-                "link": "https://www.britannica.com/topic/history-of-work-organization-648000/The-craft-guilds",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Craftsmanship",
-        "name": "Principles of Modern Craftsmanship",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the principles of modern craftsmanship and how they can be utilized in any occupation.",
-        "skills": [
-            "List the principles of modern craftsmanship",
-            "Compare the craftsmanship mindset to the contemporary approach to work",
-            "Explain what craftsmanship means to you and how you might apply it in your work",
-            "Theorize why the pursuit of craftsmanship leads to a higher quality of work"
-        ],
-        "resources": [
-            {
-                "name": "Craftsmanship and Creativity: The Art of Showing Up Long After Passion Leaves",
-                "link": "https://dallasblowers.medium.com/craftsmanship-and-creativity-the-art-of-showing-up-long-after-passion-leaves-998d3a562aa",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What is craftsmanship and does it matter?",
-                "link": "https://solidgiant.com/what-is-craftsmanship-and-does-it-matter/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What is Craftsmanship?",
-                "link": "https://medium.com/the-markhor/what-is-craftsmanship-771b8db1c5f4",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Why craftsmanship is the future of work \u2013 and what it means for organisations and individuals",
-                "link": "https://www.equaltimes.org/why-craftsmanship-is-the-future-of",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Jiro Dreams of Sushi",
-                "link": "https://www.youtube.com/watch?v=Gr09oEJqnfI",
-                "type": "Film",
-                "isFree": true
-            },
-            {
-                "name": "Better: A Surgeon's Notes on Performance",
-                "link": "https://www.amazon.com/Better-Surgeons-Performance-Atul-Gawande/dp/0312427654",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Craftsmanship",
-        "name": "The Software Craftsmanship Movement",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the software craftsmanship movement and how it can be applicable far into the future.",
-        "skills": [
-            "Describe the purpose of the software craftsmanship movement",
-            "Compare the software craftsmanship movement with the modern craftsmanship principles",
-            "Propose how you might go about creating positive change in the software engineering community"
-        ],
-        "resources": [
-            {
-                "name": "Manifesto for Agile Software Development",
-                "link": "http://agilemanifesto.org/",
-                "type": "Document",
-                "isFree": true
-            },
-            {
-                "name": "Manifesto for Software Craftsmanship",
-                "link": "http://manifesto.softwarecraftsmanship.org/",
-                "type": "Document",
-                "isFree": true
-            },
-            {
-                "name": "r/programming",
-                "link": "https://www.reddit.com/r/programming/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "The Clean Coder: A Code of Conduct for Professional Programmers",
-                "link": "https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Craftsmanship",
-        "name": "Learning as an Apprentice",
-        "status": "Active",
-        "overview": "With this topic, you'll learn patterns and techniques to learn new topics and effectively build skills as an apprentice.",
-        "skills": [
-            "Describe the responsibilities of an apprentice during an apprenticeship",
-            "Evaluate your preferred learning style(s) using the theory of multiple intelligences",
-            "Compare the apprenticeship learning model of shuhari to a traditional classroom model",
-            "Define what success looks like for you at the end of your apprenticeship"
-        ],
-        "resources": [
-            {
-                "name": "Alistair Cockburn on _shuhari_",
-                "link": "https://www.youtube.com/watch?v=9Z35l238vg4",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Conceptually",
-                "link": "https://conceptually.org/concepts",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Ghost CMS",
-                "link": "https://ghost.org/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Imitate, Assimilate, Innovate: 3 Steps to Learning Improvisation",
-                "link": "https://www.jazzadvice.com/lessons/clark-terrys-3-steps-to-learning-improvisation/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Learning with _shuhari_",
-                "link": "https://www.martinfowler.com/bliki/ShuHaRi.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Medium",
-                "link": "https://medium.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Steve Jobs: Great ideas don't always translate into great product",
-                "link": "https://www.youtube.com/watch?v=Qdplq4cj76I",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Substack",
-                "link": "https://substack.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Apprenticeship Patterns",
-                "link": "https://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Craftsmanship",
-        "name": "Coaching as a Mentor",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about patterns and techniques to mentor an apprentice in their journey to graduation effectively.",
-        "skills": [
-            "Describe the responsibilities of a mentor during an apprenticeship",
-            "Compare the role of a mentor with the role of a teacher",
-            "Define what success might look like for your mentor at the end of your apprenticeship"
-        ],
-        "resources": [
-            {
-                "name": "Annie Murphy Paul: Why Teaching Someone Else is the Best Way To Learn",
-                "link": "https://ideas.time.com/2011/11/30/the-protege-effect/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Awesome Lists",
-                "link": "https://github.com/sindresorhus/awesome",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "DigitalOcean Community",
-                "link": "https://www.digitalocean.com/community",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "LeanPub",
-                "link": "https://leanpub.com/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Optimal Learning Exists Between Comfort and Panic",
-                "link": "https://medium.com/redsquirrel-tech/optimal-learning-exists-between-comfort-and-panic-142caa0ba0cf",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "The Pragmatic Bookshelf",
-                "link": "https://pragprog.com/",
-                "type": "Resource",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Data",
-        "name": "Types of Data",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the spectrum of unstructured to structured data types and how to classify data correctly.",
-        "skills": [
-            "Describe binary data",
-            "Compare structured and unstructured data types",
-            "Theorize what data types you might use in an application"
-        ],
-        "resources": [
-            {
-                "name": "Structured vs. Unstructured Data",
-                "link": "https://www.ibm.com/cloud/blog/structured-vs-unstructured-data",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Data",
-        "name": "Data Storage",
-        "status": "Active",
-        "overview": "With this topic, you'll learn techniques to store data of all types for usage in an application.",
-        "skills": [
-            "Compare storing data in a relational and non-relational database",
-            "Explain storing data using object storage providers such as AWS S3",
-            "Describe three different approaches to persist data for an application"
-        ],
-        "resources": [
-            {
-                "name": "7 Database Paradigms",
-                "link": "https://www.youtube.com/watch?v=W2Z7fbCLSTw",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "AWS Databases",
-                "link": "https://aws.amazon.com/products/databases",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "AWS Storage",
-                "link": "https://aws.amazon.com/products/storage",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Cloud Firestore",
-                "link": "https://firebase.google.com/products/firestore",
-                "type": "Tool",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Data",
-        "name": "Data Manipulation",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to interact with and manipulate data from storage providers using techniques such as SQL or SSH. ",
-        "skills": [
-            "Explain what CRUD operations are",
-            "Explain what relational database schema is",
-            "Retrieve data from a database using a SELECT query",
-            "Use an ORM to retrieve data from a database in an application",
-            "Download a file from a server using SSH",
-            "Create a new item in a database table using an INSERT INTO query",
-            "Update an existing item in a database table using an UPDATE query",
-            "Delete an existing item in a database table using a DELETE query",
-            "Use migrations to update the schema of a database"
-        ],
-        "resources": [
-            {
-                "name": "Database normalization",
-                "link": "https://en.wikipedia.org/wiki/Database_normalization",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Normal Data Forms",
-                "link": "https://www.youtube.com/watch?v=J-drts33N8g",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "SQL Explained in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=zsjvFFKOm3c",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "SQL playground",
-                "link": "https://sql-playground.wizardzines.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "SQLZOO",
-                "link": "https://sqlzoo.net/wiki/SQL_Tutorial",
-                "type": "Tutorial",
-                "isFree": true
-            },
-            {
-                "name": "Modifying Data with SQL",
-                "link": "https://teamtreehouse.com/library/modifying-data-with-sql",
-                "type": "Course",
-                "isFree": false
-            },
-            {
-                "name": "Querying Relational Databases",
-                "link": "https://teamtreehouse.com/library/querying-relational-databases",
-                "type": "Course",
-                "isFree": false
-            },
-            {
-                "name": "SQL Basics",
-                "link": "https://teamtreehouse.com/library/sql-basics",
-                "type": "Course",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Data",
-        "name": "Data Wrangling",
-        "status": "Active",
-        "overview": "With this topic, you'll learn to convert data from one type to another using data wrangling techniques.",
-        "skills": [
-            "Describe the ETL (extract, transform, load) process",
-            "Use a regular expression (Regex) to grep for IP addresses in log files",
-            "Convert a WAV audio file to an MP3 audio file using FFmpeg"
-        ],
-        "resources": [
-            {
-                "name": "Missing Semester: Data Wrangling",
-                "link": "https://missing.csail.mit.edu/2020/data-wrangling/",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Regex in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=sXQxhojSdZM",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "What is ETL?",
-                "link": "https://cloud.google.com/learn/what-is-etl",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Data",
-        "name": "Managing State",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about effectively using different patterns to manage the state in an application.",
-        "skills": [
-            "Describe application \"state\"",
-            "Explain the factors to consider when caching data",
-            "Describe the purpose of offline data storage",
-            "Compare using global and local state in an application",
-            "Compare eventual and strong consistency and explain their differences"
-        ],
-        "resources": [
-            {
-                "name": "3 Tips That Will Simplify Your Application State Management",
-                "link": "https://codemachine.dev/3-tips-that-will-simplify-your-application-state-management?ref=hackernoon.com",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Caching in a PWA",
-                "link": "https://web.dev/learn/pwa/caching/",
-                "type": "Tutorial",
-                "isFree": true
-            },
-            {
-                "name": "Event-driven architecture",
-                "link": "https://en.wikipedia.org/wiki/Event-driven_architecture",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Implementing a simple state machine library in JavaScript",
-                "link": "https://kentcdodds.com/blog/implementing-a-simple-state-machine-library-in-javascript",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What do you mean by \"Event-Driven\"?",
-                "link": "https://www.martinfowler.com/articles/201701-event-driven.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What is caching?",
-                "link": "https://www.cloudflare.com/learning/cdn/what-is-caching/",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Human Experience",
-        "name": "Design Fundamentals",
-        "status": "Active",
-        "skills": [
-            "Explain the value of human experience in the software development process",
-            "Describe the basics of UI and UX design as it relates to building software",
-            "Distinguish the difference between good and bad design in software"
-        ],
-        "resources": [
-            {
-                "name": "10 Usability Heuristics for User Interface Design - Nielsen Norman Group",
-                "link": "https://www.nngroup.com/articles/ten-usability-heuristics/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Human-Centered Design Is More Important Than Ever",
-                "link": "https://www.bcg.com/publications/2020/the-importance-of-human-centered-design",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "UX Design vs UI Design - What's The Difference?",
-                "link": "https://www.youtube.com/watch?v=5CxXhyhT6Fc",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "What is User Experience (UX) Design?",
-                "link": "https://www.interaction-design.org/literature/topics/ux-design",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "The Design of Everyday Things",
-                "link": "https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Human Experience",
-        "name": "Introduction to Design Thinking",
-        "status": "Active",
-        "skills": [
-            "(Empathy) Identify who your users are more clearly, and recognize their pain points",
-            "(Define) Define a testable hypothesis statement that addresses the users' pain points",
-            "(Ideate) Participate in brainstorming exercises amongst yourself or in a team that helps generate many solutions to a user's problem",
-            "(Prototype) Assemble testable prototypes from brainstormed ideas",
-            "(Measure) Evaluate the success of a prototype by testing it with users"
-        ],
-        "resources": [
-            {
-                "name": "Design Thinking - Ideo.com",
-                "link": "https://designthinking.ideo.com/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "What is Design Thinking - IDEO U",
-                "link": "https://www.ideou.com/blogs/inspiration/what-is-design-thinking",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What is Design Thinking and Why Is It So Popular?",
-                "link": "https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Why Design Thinking Works - Harvard Business Review",
-                "link": "https://hbr.org/2018/09/why-design-thinking-works",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Creative Confidence: Unleashing the Creative Potential Within Us All",
-                "link": "https://www.amazon.com/Creative-Confidence-Unleashing-Potential-Within/dp/038534936X",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Foundations in Design Thinking Certificate - IDEO U",
-                "link": "https://www.ideou.com/collections/design-thinking-courses/products/design-thinking-certificate",
-                "type": "Course",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Human Experience",
-        "name": "Introduction to Design Systems",
-        "status": "Active",
-        "skills": [
-            "Explain what a design system is",
-            "Use a design system when working on software projects",
-            "Contribute to an existing design system for software projects"
-        ],
-        "resources": [
-            {
-                "name": "A comprehensive guide to design systems - Invision",
-                "link": "https://www.invisionapp.com/inside-design/guide-to-design-systems/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Apple's Human Interface Guidelines",
-                "link": "https://developer.apple.com/design/human-interface-guidelines/",
-                "type": "Design System",
-                "isFree": true
-            },
-            {
-                "name": "Design Systems 101 - Nielsen Norman Group",
-                "link": "https://www.nngroup.com/articles/design-systems-101/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "DesignSystems.com",
-                "link": "https://www.designsystems.com/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Google's Material Design",
-                "link": "https://material.io/",
-                "type": "Design System",
-                "isFree": true
-            },
-            {
-                "name": "IBM's Carbon",
-                "link": "https://www.carbondesignsystem.com/",
-                "type": "Design System",
-                "isFree": true
-            },
-            {
-                "name": "Storybook",
-                "link": "https://storybook.js.org/",
-                "type": "Tool",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Human Experience",
-        "name": "Accessibility and Universal Design Fundamentals",
-        "status": "Active",
-        "skills": [
-            "Explain the importance of accessibility in software",
-            "Develop software that meets standard accessibility requirements set forth by W3C",
-            "Recognize approaches to adapt your software to various languages and regions"
-        ],
-        "resources": [
-            {
-                "name": "A11y",
-                "link": "https://www.a11yproject.com/",
-                "type": "Website",
-                "isFree": true
-            },
-            {
-                "name": "Can I Use",
-                "link": "https://caniuse.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Funkify Disability Simulator - Chrome Extension",
-                "link": "https://www.funkify.org/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "IBM Equal Accessibility Toolkit",
-                "link": "https://www.ibm.com/able/toolkit/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "W3C Accessibility Fundamentals",
-                "link": "https://www.w3.org/WAI/fundamentals/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Why Digital Accessibility Matters - Invision",
-                "link": "https://www.invisionapp.com/inside-design/why-digital-accessibility-matters/",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Human Experience",
-        "name": "Working with Digital Product Designers",
-        "status": "Active",
-        "skills": [
-            "Explain the role a digital product designer plays on a software team",
-            "Identify what you need from a designer to complete software tasks",
-            "Recognize standard design tools and design methodologies when working with designers"
-        ],
-        "resources": [
-            {
-                "name": "6 ways for designers and developers to collaborate better - Invision",
-                "link": "https://www.invisionapp.com/inside-design/designer-developer-collaboration-ideas/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Intro to Design Terminology",
-                "link": "https://app.uxcel.com/courses/design-lingo",
-                "type": "Course",
-                "isFree": true
-            },
-            {
-                "name": "Abstract - The Art of Design: Netflix",
-                "link": "https://www.netflix.com/title/80057883",
-                "type": "Film",
-                "isFree": false
-            },
-            {
-                "name": "* Your company's designers",
-                "link": "* Your company's designers"
-            }
-        ]
-    },
-    {
-        "domain": "Infrastructure",
-        "name": "Cloud Providers",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about cloud computing and the wide range of services an application can use with this topic.",
-        "skills": [
-            "Describe Infrastructure as a Service (IaaS)",
-            "Describe Platform as a Service (PaaS)",
-            "Describe Software as a Service (SaaS)",
-            "List some typical cloud providers",
-            "List some commonly used services from cloud providers",
-            "Compare using cloud computing with on-premise computing"
-        ],
-        "resources": [
-            {
-                "name": "A Cloud Guru",
-                "link": "https://acloudguru.com/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "AWS",
-                "link": "https://aws.amazon.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Azure",
-                "link": "https://azure.microsoft.com/en-us/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "DigitalOcean",
-                "link": "https://www.digitalocean.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Google Cloud Platform",
-                "link": "https://cloud.google.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Kubernetes Explained in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=PziYflu8cB8",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Kubernetes starter kit",
-                "link": "https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers",
-                "type": "Tutorial",
-                "isFree": true
-            },
-            {
-                "name": "Top 50+ AWS Services Explained in 10 Minutes",
-                "link": "https://www.youtube.com/watch?v=JIbIYCM48to",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "What is Kubernetes?",
-                "link": "https://www.youtube.com/watch?v=cC46cg5FFAM&list=PLIivdWyY5sqLmnGdKSdQIXq2sd_1bWSnx",
-                "type": "Video Series",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Infrastructure",
-        "name": "Infrastructure as Code",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to provision cloud services quickly and reliably using infrastructure as code techniques.",
-        "skills": [
-            "Describe Infrastructure as Code",
-            "Use Terraform to provision infrastructure with a cloud provider",
-            "Explain some of the benefits of infrastructure as code compared to manually provisioning infrastructure"
-        ],
-        "resources": [
-            {
-                "name": "AWS CloudFormation",
-                "link": "https://aws.amazon.com/cloudformation/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Infrastructure as Code with Terraform",
-                "link": "https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/aws-get-started",
-                "type": "Tutorial",
-                "isFree": true
-            },
-            {
-                "name": "Terraform",
-                "link": "https://www.terraform.io/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Terraform in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=tomUWcQ0P3k",
-                "type": "Video",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Infrastructure",
-        "name": "Backing Services",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to work with the attached services required for an application to run.",
-        "skills": [
-            "Describe a backing service",
-            "Explain how you might create resilient backing services",
-            "Theorize how you might monitor backing services to ensure they are up"
-        ],
-        "resources": [
-            {
-                "name": "12 Factor App: Backing Services",
-                "link": "https://12factor.net/backing-services",
-                "type": "Resource",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Infrastructure",
-        "name": "Managing Multiple Environments",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to manage multiple environments such as dev, staging, and production for an application.",
-        "skills": [
-            "Describe what an environment is",
-            "Explain the purpose of development, staging, and production environments"
-        ],
-        "resources": [
-            {
-                "name": "Terraform Workspaces",
-                "link": "https://www.terraform.io/docs/cloud/workspaces/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "12 Factor App: Dev/Prod Parity",
-                "link": "https://12factor.net/dev-prod-parity",
-                "type": "Resource",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Infrastructure",
-        "name": "Working with Cloud Engineers",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the role of a cloud engineer and how to work with them on your team effectively.",
-        "skills": [
-            "Describe the role of a cloud engineer",
-            "Identify what you need from a cloud engineer to complete software engineering tasks",
-            "Explain how you might collaborate with a cloud engineer to design and provision infrastructure for an application"
-        ],
-        "resources": [
-            {
-                "name": "What is a Cloud Engineer?",
-                "link": "https://www.youtube.com/watch?v=NBHc6tatwvo",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
-                "link": "https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "The Unicorn Project: A Novel about Developers, Digital Disruption, and Thriving in the Age of Data",
-                "link": "https://www.amazon.com/Unicorn-Project-Developers-Disruption-Thriving-ebook/dp/B07QT9QR41",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Internet",
-        "name": "History of the Internet",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the history of the internet and how connected computing changed humanity forever.",
-        "skills": [
-            "List some of the key events in the internet's history",
-            "Describe some of the challenges the inventors went through",
-            "Theorize whether or not the internet's impact on society was beneficial"
-        ],
-        "resources": [
-            {
-                "name": "40th Anniversary of the Net - October 29, 1969",
-                "link": "https://www.youtube.com/watch?v=7duyl0ZZ5BQ",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Browse the first website",
-                "link": "http://info.cern.ch/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Discussing the Web @ 30 Years Old",
-                "link": "https://www.youtube.com/watch?v=D40wPq1e2Sk",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "History of TCP/IP and OSI",
-                "link": "https://www.youtube.com/watch?v=CRdL1PcherM&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P&t=23s",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Internet History from 1962 to 1992",
-                "link": "https://www.computerhistory.org/internethistory/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Nerds 2.0.1 - A Brief History of the Internet",
-                "link": "https://www.youtube.com/watch?v=L4D2nxQBmOM",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "NeXT web browser rebuild",
-                "link": "https://worldwideweb.cern.ch/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "UCLA's Leonard Kleinrock on packet switching, early Internet",
-                "link": "https://www.youtube.com/watch?v=rHHpwcZiEW4",
-                "type": "Video",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Internet",
-        "name": "Internet Protocols",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the TCP/IP protocol suite that powers the internet and how it practically applies to the software you create.",
-        "skills": [
-            "List the 7 Layers of the OSI model",
-            "Compare the TCP/IP model with the OSI model",
-            "Explain the purpose of the TCP/IP protocols",
-            "Theorize what protocols you might interact with the most"
-        ],
-        "resources": [
-            {
-                "name": "Computer Networking in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=keeqnciDVOo",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Networking by Ben Eater",
-                "link": "https://www.youtube.com/watch?v=XaGXPObx2Gs&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW",
-                "type": "Video Series",
-                "isFree": true
-            },
-            {
-                "name": "Networking Zine",
-                "link": "https://wizardzines.com/zines/networking/",
-                "type": "Book",
-                "isFree": true
-            },
-            {
-                "name": "Questions about network layers",
-                "link": "https://questions.wizardzines.com/network-layers.html",
-                "type": "Course",
-                "isFree": true
-            },
-            {
-                "name": "Real life example of TCP/IP and OSI layers",
-                "link": "https://www.youtube.com/watch?v=3kfO61Mensg",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "What is TCP/IP?",
-                "link": "https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What is UDP?",
-                "link": "https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Wireshark",
-                "link": "https://www.wireshark.org/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "How I use Wireshark",
-                "link": "https://jvns.ca/blog/2018/06/19/what-i-use-wireshark-for/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "How the Internet Really Works: An Illustrated Guide",
-                "link": "https://www.amazon.com/Cats-Guide-Internet-Freedom-ebook/dp/B07ZC7GYCS",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "How the Internet Works by Treehouse",
-                "link": "https://teamtreehouse.com/library/how-the-internet-works",
-                "type": "Course",
-                "isFree": false
-            },
-            {
-                "name": "\ud83d\udc31 HTTP Status Cats",
-                "link": "https://http.cat/",
-                "type": "Resource",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Internet",
-        "name": "Network Configuration",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the basics of configuring networks, including setting up firewall rules, subnets, and assigning static IPs to machines.",
-        "skills": [
-            "List common network topology patterns",
-            "Explain the purpose of subnets",
-            "Configure a firewall rule on a network",
-            "Create a virtual private cloud network with a cloud provider"
-        ],
-        "resources": [
-            {
-                "name": "Building a Modular and Scalable Virtual Network Architecture with Amazon VPC",
-                "link": "https://docs.aws.amazon.com/quickstart/latest/vpc/overview.html",
-                "type": "Tutorial",
-                "isFree": true
-            },
-            {
-                "name": "Subnet Cheat Sheet",
-                "link": "https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/",
-                "type": "Resource",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Internet",
-        "name": "Domains and DNS",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how the DNS system works and create DNS records connecting domains to web services.",
-        "skills": [
-            "Explain the purpose of DNS",
-            "List some typical DNS providers",
-            "Connect a domain name to a DNS provider using nameservers",
-            "Create a DNS entry"
-        ],
-        "resources": [
-            {
-                "name": "DNS Explained in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=UVR9lhUGAyU",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "How DNS Works",
-                "link": "https://www.youtube.com/watch?v=uOfonONtIuk",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Mess with DNS",
-                "link": "https://messwithdns.net/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Questions about DNS",
-                "link": "https://questions.wizardzines.com/dns.html",
-                "type": "Course",
-                "isFree": true
-            },
-            {
-                "name": "What is DNS?",
-                "link": "https://www.cloudflare.com/learning/dns/what-is-dns/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Why was Facebook down for five hours? (DNS and BGP)",
-                "link": "https://www.youtube.com/watch?v=-wMU8vmfaYo",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "How the Web Works",
-                "link": "https://teamtreehouse.com/library/how-the-web-works",
-                "type": "Course",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Internet",
-        "name": "TLS/SSL Certificates",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the certificate authorities and how to encrypt traffic to web services using TLS/SSL certificates.",
-        "skills": [
-            "Describe how CAs (certificate authorities) provision TLS/SSL certificates",
-            "Explain why you might want to encrypt data in-flight using TLS",
-            "Compare encryption of data at rest and encryption of data in-flight"
-        ],
-        "resources": [
-            {
-                "name": "Dissecting a TLS certificate",
-                "link": "https://jvns.ca/blog/2017/01/31/whats-tls/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Let's Encrypt",
-                "link": "https://letsencrypt.org/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Questions about TLS certificates",
-                "link": "https://questions.wizardzines.com/tls-certificates.html",
-                "type": "Course",
-                "isFree": true
-            },
-            {
-                "name": "TLS Handshake Explained",
-                "link": "https://www.youtube.com/watch?v=86cQJ0MMses",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What is TLS/SSL?",
-                "link": "https://www.cloudflare.com/learning/ssl/what-is-ssl/",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Monitoring",
-        "name": "Collecting Logs, Errors, Metrics, and Traces",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the different types of telemetry data that can be collected in an application.",
-        "skills": [
-            "List the different types of telemetry data that can be collected",
-            "Explain how you could collect telemetry data in an application",
-            "Theorize why you might want to collect telemetry data"
-        ],
-        "resources": [
-            {
-                "name": "DataDog",
-                "link": "https://datadoghq.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Docker Container DataDog Agent Installation",
-                "link": "https://docs.datadoghq.com/agent/docker/log/?tab=containerinstallation",
-                "type": "Tutorial",
-                "isFree": true
-            },
-            {
-                "name": "Grafana",
-                "link": "https://grafana.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Grafana Explained in Under 5 Minutes",
-                "link": "https://www.youtube.com/watch?v=lILY8eSspEo",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Monitor what matters",
-                "link": "https://www.youtube.com/watch?v=EnvKjTw-xTo",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "OpenTelemetry",
-                "link": "https://opentelemetry.io/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Sentry",
-                "link": "https://sentry.io/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "When to use the different log levels",
-                "link": "https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels/64806781#64806781",
-                "type": "Thread",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Monitoring",
-        "name": "The Golden Signals",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about four valuable metrics to measure the health of an application.",
-        "skills": [
-            "List the four golden signals",
-            "Explain how you might keep track of the golden signals"
-        ],
-        "resources": [
-            {
-                "name": "Distributed Monitoring 101",
-                "link": "https://medium.com/forepaas/distributed-monitoring-101-the-four-golden-signals-305bbbc33d35",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "SRE: Monitoring Distributed Systems",
-                "link": "https://sre.google/sre-book/monitoring-distributed-systems/",
-                "type": "Book",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Monitoring",
-        "name": "Effective Alerting",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about signal vs. noise and how to create valuable alerts that raise the alarm when something goes wrong in an application.",
-        "skills": [
-            "Describe what being on-call means",
-            "Explain what signal and noise is",
-            "Explain how you might use the golden signals to create useful alerts"
-        ],
-        "resources": [
-            {
-                "name": "What is signal and noise?",
-                "link": "https://conceptually.org/concepts/signal-and-noise",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Alerting on what matters",
-                "link": "https://www.datadoghq.com/blog/monitoring-101-alerting/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "AWS CloudWatch",
-                "link": "https://aws.amazon.com/cloudwatch/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Analysis shows pilots often ignore Boeing 737 cockpit alarm",
-                "link": "https://www.travelweekly.com/Travel-News/Airline-News/Analysis-shows-pilots-often-ignore-Boeing-737-cockpit-alarm",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Monitoring",
-        "name": "Debugging",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about techniques to debug and resolve application issues using telemetry data.",
-        "skills": [
-            "Describe debugging",
-            "Explain how you might use telemetry data to help you debug an issue",
-            "Explain what breakpoints are",
-            "Setup debugging tools in your IDE"
-        ],
-        "resources": [
-            {
-                "name": "Debugging and Profiling",
-                "link": "https://missing.csail.mit.edu/2020/debugging-profiling/",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "How do Ruby & Python profilers work?",
-                "link": "https://jvns.ca/blog/2017/12/17/how-do-ruby---python-profilers-work-/",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Monitoring",
-        "name": "Improving Performance",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to improve the scalability and reliability of an application based on its utilization.",
-        "skills": [
-            "Describe a performance benchmark",
-            "Explain how you might use metrics to improve the performance of a feature"
-        ],
-        "resources": [
-            {
-                "name": "Lighthouse",
-                "link": "https://developers.google.com/web/tools/lighthouse/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Web Vitals",
-                "link": "https://web.dev/vitals/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What is StatsD and how can it help you?",
-                "link": "https://www.datadoghq.com/blog/statsd/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "StatsD",
-                "link": "https://github.com/statsd/statsd",
-                "type": "Tool",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Operations",
-        "name": "Managing Releases",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about change management and how to release new versions of an application with as little downtime as possible.",
-        "skills": [
-            "Describe what release management is",
-            "Create a release checklist with release and rollback steps",
-            "Theorize what approval you'd need to get before releasing a change"
-        ],
-        "resources": [
-            {
-                "name": "Shipping to Production",
-                "link": "https://blog.pragmaticengineer.com/shipping-to-production/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "12 Factor App: Build, release, run",
-                "link": "https://12factor.net/build-release-run",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Build pipelines, deployment, and immutable artifacts",
-                "link": "https://www.brunton-spall.co.uk/post/2016/08/23/Build-pipelines-deployment-and-immutable-artifacts-48ae926178a5/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "How we managed 49 monthly releases [at GitLab]",
-                "link": "https://about.gitlab.com/blog/2015/12/17/gitlab-release-process/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Release Frequency: A Need for Speed",
-                "link": "https://dzone.com/articles/release-frequency-a-need-for-speed",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "The Rust Release Process",
-                "link": "https://forge.rust-lang.org/release/process.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What Is Release Management?",
-                "link": "https://www.productplan.com/glossary/release-management/",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Operations",
-        "name": "Managing Incidents",
-        "status": "Active",
-        "overview": "With this topic, you'll learn to keep calm under the stress of resolving production application incidents.",
-        "skills": [
-            "Describe what incident management is",
-            "Describe what a runbook is",
-            "Explain what an SLO means",
-            "Explain what an SLA means",
-            "Create a runbook with step-by-step instructions to solve a common problem"
-        ],
-        "resources": [
-            {
-                "name": "DataDog Incident Management",
-                "link": "https://docs.datadoghq.com/monitors/incident_management/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Gitlab Runbooks",
-                "link": "https://gitlab.com/gitlab-com/runbooks",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Service-level agreement",
-                "link": "https://en.wikipedia.org/wiki/Service-level_agreement",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "SLA vs. SLO vs. SLI: What's the difference?",
-                "link": "https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What is incident management?",
-                "link": "https://www.atlassian.com/incident-management",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Operations",
-        "name": "Continuous Integration and Deployment",
-        "status": "Active",
-        "overview": "With this topic, you'll learn to automate the release process using continuous integration and deployment (CI/CD) pipelines.",
-        "skills": [
-            "Describe what a CI/CD pipeline is",
-            "Create a CI pipeline to run automated tests and compile build artifacts",
-            "Create a CD pipeline to deploy build artifacts for development, staging, and production environments"
-        ],
-        "resources": [
-            {
-                "name": "CircleCI",
-                "link": "https://circleci.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "ContinuousDelivery",
-                "link": "https://martinfowler.com/bliki/ContinuousDelivery.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "DevOps CI/CD Explained in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=scEDHsr3APg",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "GitHub Actions",
-                "link": "https://docs.github.com/en/actions",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Awesome Actions",
-                "link": "https://github.com/sdras/awesome-actions",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Gitlab Pipelines",
-                "link": "https://docs.gitlab.com/ee/ci/pipelines/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "What's DevOps?",
-                "link": "https://jvns.ca/blog/2016/10/16/whats-devops/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "DevOps Handbook",
-                "link": "https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations-ebook/dp/B01M9ASFQ3",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Operations",
-        "name": "Performance Testing",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to verify the performance of an application using load tests, smoke tests, and black-box testing.",
-        "skills": [
-            "Describe what performance testing is",
-            "Explain how you might create a performance test for an application",
-            "Integrate performance testing into your CI/CD pipeline"
-        ],
-        "resources": [
-            {
-                "name": "Artillery",
-                "link": "https://artillery.io/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "K6",
-                "link": "https://k6.io/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Writing your first artillery test",
-                "link": "https://www.artillery.io/docs/guides/getting-started/writing-your-first-test",
-                "type": "Resource",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Operations",
-        "name": "Working with Site Reliability Engineers",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the role of a site reliability engineer and how to work with them on your team effectively.",
-        "skills": [
-            "Describe what toil is",
-            "Describe the role of a site reliability engineer",
-            "Identify what you need from a site reliability engineer to complete software engineering tasks",
-            "Explain how you might collaborate with a site reliability engineer to maintain resilience for an application"
-        ],
-        "resources": [
-            {
-                "name": "Building Secure & Reliable Systems",
-                "link": "https://static.googleusercontent.com/media/sre.google/en//static/pdf/building_secure_and_reliable_systems.pdf",
-                "type": "Book",
-                "isFree": true
-            },
-            {
-                "name": "Site Reliability Engineering",
-                "link": "https://sre.google/sre-book/table-of-contents/",
-                "type": "Book",
-                "isFree": true
-            },
-            {
-                "name": "The History of SRE",
-                "link": "https://www.youtube.com/watch?v=1NF6N2RwVoc",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "The Site Reliability Workbook",
-                "link": "https://sre.google/workbook/table-of-contents/",
-                "type": "Book",
-                "isFree": true
-            },
-            {
-                "name": "What's the Difference Between DevOps and SRE?",
-                "link": "https://www.youtube.com/watch?v=uTEL8Ff1Zvk",
-                "type": "Video",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Product Life Cycle",
-        "name": "Product-Market Fit (PMF)",
-        "status": "Active",
-        "overview": "With this topic, you'll learn the influence product-market fit has on the overarching mission of a business.",
-        "skills": [
-            "Define what product-market fit is",
-            "State the core indicator that a business's product has reached PMF",
-            "Assess if a business's product has reached PMF",
-            "Theorize why PMF is the destination a business uses to set their course"
-        ]
-    },
-    {
-        "domain": "Product Life Cycle",
-        "name": "Stages of a Company",
-        "status": "Active",
-        "overview": "With this topic you'll learn how to correlate the stages of a company to its journey toward product-market fit.",
-        "skills": [
-            "State the stages of a company",
-            "Correlate the stages of a company and their relation to product-market fit",
-            "Recite what matters to a company at the different stages of its growth"
-        ],
-        "resources": [
-            {
-                "name": "Stages of a Company Introduction",
-                "link": "* [Stages of a Company Introduction `EngineerKit Resource`](../resources/stages-of-a-company-intro.md",
-                "type": "EngineerKit Resource",
-                "isFree": true
-            },
-            {
-                "name": "Lean Startup Summary",
-                "link": "https://leanstartup.co/a-playbook-for-achieving-product-market-fit/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "\"Scale\": Crossing the Chasm",
-                "link": "https://www.amazon.com/Crossing-Chasm-3rd-Disruptive-Mainstream/dp/0062292986",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "\"Scale\": Measure what Matters Most",
-                "link": "https://www.amazon.com/Measure-What-Matters-Google-Foundation/dp/0525536221",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "\"Start\": Inspired: How to create tech products customers love",
-                "link": "https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "\"Start\": Jobs to be Done",
-                "link": "https://www.amazon.com/Jobs-Be-Done-Theory-Practice/dp/B08R8ZGPXP",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "\"Start\": Start with Why",
-                "link": "https://www.amazon.com/Start-Why-Leaders-Inspire-Everyone/dp/1591846447",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "\"Start\": The Lean Product Playbook",
-                "link": "https://www.amazon.com/Lean-Product-Playbook-Innovate-Products/dp/1118960874",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "\"Start\": The Lean Startup",
-                "link": "https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "\"Start\": The Startup Way",
-                "link": "https://www.amazon.com/Startup-Way-Companies-Entrepreneurial-Management/dp/1101903201",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "\"Start\": When Coffee and Kale Compete",
-                "link": "https://www.amazon.com/When-Coffee-Kale-Compete-products/dp/1534873066",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "\"Sustain/Shift\": Blue Ocean Strategy",
-                "link": "https://www.amazon.com/Blue-Ocean-Strategy-Expanded-Uncontested/dp/1625274491",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "\"Sustain/Shift\": The Innovator's Dilemma",
-                "link": "https://www.amazon.com/Innovators-Dilemma-Technologies-Management-Innovation/dp/1633691780",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Product Life Cycle",
-        "name": "Product Life Cycle Stages",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how a software engineer's focus may change as the goals of a product change.",
-        "skills": [
-            "State the stages of a product's life cycle",
-            "Correlate the stages of a product to stages of a company ",
-            "Explain what matters to a company/product team at the different stages of its product",
-            "Theorize how the priority a product team places on various product development strategies might change through the different product stages"
-        ],
-        "resources": [
-            {
-                "name": "Product Life Cycle Stages Introduction",
-                "link": "* [Product Life Cycle Stages Introduction `EngineerKit Resource`](../resources/stages-of-a-product-intro.md",
-                "type": "EngineerKit Resource",
-                "isFree": true
-            },
-            {
-                "name": "The Influencing Theory Behind Product Life Cycles",
-                "link": "https://en.wikipedia.org/wiki/Product_life-cycle_theory",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Product Roadmaps: Relaunched",
-                "link": "https://www.amazon.com/Product-Roadmaps-Relaunched-Direction-Uncertainty/dp/B08VL1BNQB",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Product Life Cycle",
-        "name": "Inter-team Coordination",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how most companies coordinate software development between their product teams and the surrounding business.",
-        "skills": [
-            "Describe the Agile and Waterfall software development core philosophies",
-            "Describe the typical practices/frameworks of each philosophy",
-            "Deduce what philosophy and practice a particular company adheres to",
-            "Theorize what philosophy is best for \"the job at hand\""
-        ],
-        "resources": [
-            {
-                "name": "Inter-team Coordination Introduction",
-                "link": "* [Inter-team Coordination Introduction `EngineerKit Resource`](../resources/inter-team-coordination-intro.md",
-                "type": "EngineerKit Resource",
-                "isFree": true
-            },
-            {
-                "name": "12 Agile Principles",
-                "link": "https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Agile Frameworks",
-                "link": "https://www.mendix.com/agile-framework/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Agile Manifesto",
-                "link": "https://agilemanifesto.org/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Choosing the right agile framework for you",
-                "link": "https://www.linkedin.com/pulse/choosing-right-agile-framework-you-paul-j-heidema/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Empirical Process Control",
-                "link": "https://worldofagile.com/blog/empirical-process-control/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Empirical vs Define Process Control",
-                "link": "https://slideplayer.com/slide/10538020/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Kanban Description",
-                "link": "https://www.microtool.de/en/knowledge-base/what-is-kanban/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "More on Agile Frameworks",
-                "link": "https://www.digite.com/blog/scaled-agile-frameworks/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Plainview's view on Agile Frameworks",
-                "link": "https://www.planview.com/resources/guide/what-is-agile-program-management/agile-frameworks/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Process Control",
-                "link": "https://www.visual-paradigm.com/scrum/empirical-vs-defined-process-control/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Product School's Agile v Waterfall Description",
-                "link": "https://productschool.com/blog/product-management-2/agile-product-management-study-guide/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "ProductPlan's view on Agile Frameworks",
-                "link": "https://www.productplan.com/glossary/agile-framework/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Scrum Guide",
-                "link": "https://www.scrum.org/resources/scrum-guide",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Using Agile Scrum",
-                "link": "https://www.neonrain.com/agile-scrum-web-development/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Waterfall Methodology",
-                "link": "https://medium.com/@chathmini96/waterfall-vs-agile-methodology-28001a9ca487",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Wideview of digital project manager methods/frameworks",
-                "link": "https://thedigitalprojectmanager.com/agile-methodologies/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Agile Retrospectives",
-                "link": "https://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Coaching Agile Teams",
-                "link": "https://www.amazon.com/Coaching-Agile-Teams-ScrumMasters-Addison-Wesley-dp-B08QTX31HV/dp/B08QTX31HV",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Collaborative Intelligence: Using teams to solve hard problems",
-                "link": "https://www.amazon.com/Collaborative-Intelligence-Using-Teams-Problems/dp/B00B5AOGTA",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Creative Confidence",
-                "link": "https://www.amazon.com/Creative-Confidence-Unleashing-Potential-Within/dp/038534936X",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Crucial Conversations",
-                "link": "https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/0071771328",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Empowered: ordinary people, extraordinary products",
-                "link": "https://www.amazon.com/EMPOWERED-Ordinary-Extraordinary-Products-Silicon/dp/111969129X",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Extreme Programming Explained",
-                "link": "https://www.amazon.com/Extreme-Programming-Explained-5-Oct-1999-Paperback/dp/B011T86NIY",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Getting Started with Kanban",
-                "link": "https://www.amazon.com/Getting-Started-Kanban-Paul-Klipp/dp/149531197X",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Lean Software Development",
-                "link": "https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Mythical Man-Month",
-                "link": "https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Scrum: The art of doing twice the work in half the time",
-                "link": "https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Sprint: how to solve big problems and test new ideas in just five days",
-                "link": "https://www.amazon.com/Sprint-Solve-Problems-Test-Ideas/dp/150112174X",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "The Coaching Habit",
-                "link": "https://www.amazon.com/Coaching-Habit-Less-Change-Forever/dp/0978440749",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "User Stories Applied",
-                "link": "https://www.amazon.com/User-Stories-Applied-Software-Development/dp/0321205685",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Product Life Cycle",
-        "name": "Intra-team Coordination",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how most product teams organize their composition of skill sets within the team and how a software engineer can work specifically with a product manager on their team.",
-        "skills": [
-            "Describe the disciplines needed for balanced digital product development",
-            "Describe the responsibilities of various \"manager\" roles a developer may encounter",
-            "Explain what a developer should expect of a product manager",
-            "Explain what a typical product manager expects of a developer on their team"
-        ],
-        "resources": [
-            {
-                "name": "Intra-team Coordination Introduction",
-                "link": "* [Intra-team Coordination Introduction `EngineerKit Resource`](../resources/intra-team-coordination-intro.md",
-                "type": "EngineerKit Resource",
-                "isFree": true
-            },
-            {
-                "name": "Agile Product Management",
-                "link": "https://productschool.com/blog/product-management-2/agile-product-management-study-guide/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Project Manager vs Program Manager vs Portfolio Manager",
-                "link": "https://www.planview.com/resources/guide/ppm-solution-guide-beginners/project-management-vs-program-management-vs-portfolio-management/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "What is a product owner?",
-                "link": "https://productschool.com/blog/product-management-2/what-is-product-owner/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Agile Estimating and Planning",
-                "link": "https://www.amazon.com/Agile-Estimating-Planning-Mike-Cohn/dp/0131479415",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Creative Confidence",
-                "link": "https://www.amazon.com/Creative-Confidence-Unleashing-Potential-Within/dp/038534936X",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Everyday Business Storytelling",
-                "link": "https://www.amazon.com/dp/1119704669",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Inspired: How to create tech products customers love",
-                "link": "https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Start with Why",
-                "link": "https://www.amazon.com/Start-Why-Leaders-Inspire-Everyone/dp/1591846447",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Storytelling with Data - A data visualization guide for business professionals",
-                "link": "https://www.amazon.com/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "The Making of a Manager",
-                "link": "https://www.amazon.com/Making-Manager-What-Everyone-Looks/dp/0735219567",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "The Product Book",
-                "link": "https://www.amazon.com/Product-Book-Become-Great-Manager/dp/0998973815",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Programming Languages",
-        "name": "Types of Languages",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the landscape of programming languages, their common features, and how to recognize them regardless of syntax.",
-        "skills": [
-            "List the types of programming languages",
-            "List the common features of programming languages",
-            "Describe the properties of a functional language",
-            "Describe the properties of an object-oriented language",
-            "Explain why you might choose to use a particular language on a project"
-        ],
-        "resources": [
-            {
-                "name": "4 Programming Paradigms In 40 Minutes",
-                "link": "https://www.youtube.com/watch?v=cgVVZMfLjEI",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Classifying Programming Languages",
-                "link": "https://cs.lmu.edu/~ray/notes/pltypes/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Different Types of Programming Languages",
-                "link": "https://www.youtube.com/watch?v=GI_V3yzVDtA",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Programming Languages in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=U3aXWizDbQ4&list=PLBc0KZbISF7KdOcfCnt9pSgJgRKbmD1tq",
-                "type": "Video Series",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Programming Languages",
-        "name": "Deep Language Learning",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to gain fluency in a programming language and develop a deep understanding of its functionality and idiosyncrasies.",
-        "skills": [
-            "Explain how you might use documentation to learn more about a language",
-            "List some features you find strange about a language",
-            "Theorize how you might learn a language fluently"
-        ],
-        "resources": [
-            {
-                "name": "Awesome Katas",
-                "link": "https://github.com/gamontal/awesome-katas",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "CodeWars",
-                "link": "https://codewars.com/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Katas, how it all started",
-                "link": "http://codekata.com/kata/codekata-how-it-started/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Execute Program",
-                "link": "https://www.executeprogram.com/",
-                "type": "Course",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Programming Languages",
-        "name": "Polyglot Learning",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to adapt your understanding of one programming language to gain proficiency in another.",
-        "skills": [
-            "List some methods to learn new programming languages quickly",
-            "Compare when to use koans or katas",
-            "Theorize how you might learn a new language quickly"
-        ],
-        "resources": [
-            {
-                "name": "Edgecase Ruby Koans",
-                "link": "http://www.rubykoans.com/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Essential Programming Books",
-                "link": "https://www.programming-books.io/index-grid",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Exercism Language Learning",
-                "link": "https://exercism.org/tracks",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Koans.in",
-                "link": "https://koans.in/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "The Codeless Code",
-                "link": "http://thecodelesscode.com/contents",
-                "type": "Resource",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Programming Languages",
-        "name": "Dependencies",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about package management and the ecosystem of third-party dependencies for a programming language.",
-        "skills": [
-            "Describe a dependency and its purpose",
-            "Explain how you might evaluate whether or not to use a dependency",
-            "Theorize how to maintain a project with a third-party dependency"
-        ],
-        "resources": [
-            {
-                "name": "Cocoapods",
-                "link": "https://cocoapods.org/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Factors to consider when adding third party dependencies",
-                "link": "https://dev.to/brpaz/factors-to-consider-when-adding-third-party-dependencies-to-a-project-46hf",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Maven",
-                "link": "https://search.maven.org/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "NPM",
-                "link": "https://www.npmjs.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Snyk",
-                "link": "https://snyk.io/",
-                "type": "Tool",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Programming Languages",
-        "name": "Power of Pair Programming",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to solve problems with other software engineers (and have fun while doing it) using pair programming techniques.",
-        "skills": [
-            "List some benefits when pair programming",
-            "Describe pair programming and mob programming techniques",
-            "Explain why you might collaborate with another software engineer",
-            "Compare solo programming with collaborative programming"
-        ],
-        "resources": [
-            {
-                "name": "How to Pair Program",
-                "link": "https://www.youtube.com/watch?v=YhV4TaZaB84",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Pairing Guidelines",
-                "link": "https://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "I've Pair Programmed for 30,000 Hours: Ask Me Anything!",
-                "link": "https://www.youtube.com/watch?v=RCDfBioUgts",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "On Pair Programming",
-                "link": "https://martinfowler.com/articles/on-pair-programming.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Remote Pair Programming Tips",
-                "link": "https://about.gitlab.com/blog/2021/02/04/remote-pair-programming-tips/",
-                "type": "Article",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Security",
-        "name": "OWASP Top 10",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the most common application security issues and how to mitigate them.",
-        "skills": [
-            "Describe each of the vulnerabilities in the OWASP Top 10",
-            "Describe what threat modeling is",
-            "Explain how you might prevent the \"Broken Access Control\" vulnerability",
-            "Explain what remediation is and how you might remediate an \"Injection\" vulnerability"
-        ],
-        "resources": [
-            {
-                "name": "OWASP Top 10:2021",
-                "link": "https://owasp.org/Top10/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "OWASP Top 10:2021 Overview",
-                "link": "https://youtu.be/uLBCDBnMEt0?t=929",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Port Swigger Web Security Academy",
-                "link": "https://portswigger.net/web-security/learning-path",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "What is web application security?",
-                "link": "https://www.cloudflare.com/learning/security/what-is-web-application-security/",
-                "type": "Resource",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Security",
-        "name": "Authentication and Authorization",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about identity providers and how to use OAuth 2.0 to manage authentication and authorization in an application.",
-        "skills": [
-            "Compare authentication with authorization and explain their differences",
-            "Use an identity provider to authenticate users in an application",
-            "Explain what \"federated identities\" are",
-            "Explain what the OAuth 2.0 standard is"
-        ],
-        "resources": [
-            {
-                "name": "Auth0",
-                "link": "https://auth0.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Auth0 in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=yufqeJLP1rI",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "AWS Cognito",
-                "link": "https://aws.amazon.com/cognito/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Calling an API",
-                "link": "https://auth0.com/docs/videos/learn-identity-series/calling-an-api",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Ethereum Accounts",
-                "link": "https://ethereum.org/en/developers/docs/accounts/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Firebase Authentication",
-                "link": "https://firebase.google.com/products/auth",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Identity and Reputation in Web 3",
-                "link": "https://sinahab.com/identity-and-reputation-in-web-3/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Introduction to Identity",
-                "link": "https://auth0.com/docs/videos/learn-identity-series/introduction-to-identity",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "OAuth 2.0 Protocol",
-                "link": "https://tools.ietf.org/html/rfc6749",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "OpenID Connect and OAuth2",
-                "link": "https://auth0.com/docs/videos/learn-identity-series/openid-connect-and-oauth2",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "OWASP Authentication Cheatsheet",
-                "link": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "OWASP Authorization Cheatsheet",
-                "link": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Signing in with Ethereum",
-                "link": "https://youtu.be/f9XRH7bjV8M?t=1479",
-                "type": "Video",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Security",
-        "name": "Managing Secrets",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about application secrets and how to manage them effectively.",
-        "skills": [
-            "Describe what an application secret is",
-            "Describe what an environment variable is",
-            "Explain why you might want to secure an application secret",
-            "Explain how you might inject secrets into an application using environment variables"
-        ],
-        "resources": [
-            {
-                "name": "12 Factor App: Config",
-                "link": "https://12factor.net/config",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "1Password Secrets Automation",
-                "link": "https://1password.com/secrets/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "7 Cryptography Concepts EVERY Developer Should Know",
-                "link": "https://www.youtube.com/watch?v=NuyzuNBFWxQ",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "AWS Systems Manager (check out Parameter Store)",
-                "link": "https://aws.amazon.com/systems-manager/features/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Removing sensitive data from a repository",
-                "link": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Security and Cryptography",
-                "link": "https://missing.csail.mit.edu/2020/security/",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Working with AWS Parameter Store",
-                "link": "https://docs.aws.amazon.com/systems-manager/latest/userguide/parameter-store-working-with.html",
-                "type": "Resource",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Security",
-        "name": "Continuous Security",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about methods to integrate security scanning into a project CI/CD pipeline.",
-        "skills": [
-            "Describe what continuous security is",
-            "List out some tools you might use to scan a project for vulnerabilities",
-            "Explain how you might go about remediating vulnerabilities found from automated scanning"
-        ],
-        "resources": [
-            {
-                "name": "GitHub Security",
-                "link": "https://github.com/features/security",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Snyk Code",
-                "link": "https://snyk.io/product/snyk-code/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Sonarqube",
-                "link": "https://www.sonarqube.org/",
-                "type": "Tool",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Security",
-        "name": "Working with Security Engineers",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the role of a security engineer and how to work with them on your team effectively.",
-        "skills": [
-            "Describe the role of a security engineer",
-            "Identify what you need from a security engineer to complete software engineering tasks",
-            "Explain how you might work with a security engineer to remediate vulnerabilities"
-        ],
-        "resources": [
-            {
-                "name": "Threat Modeling",
-                "link": "https://owasp.org/www-community/Threat_Modeling",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Threat Modeling 101",
-                "link": "https://www.youtube.com/watch?v=xSk7JrxOMGE",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Threat Modeling Worksheet",
-                "link": "https://saweis.net/threatworksheet/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "What is Threat Modeling and Why Is It Important?",
-                "link": "https://www.youtube.com/watch?v=h_BC6QMWDbA",
-                "type": "Video",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Tooling",
-        "name": "Editors",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the landscape of editors, IDEs, and how to choose an editor and make it your own.",
-        "skills": [
-            "Compare an IDE with a simple code editor",
-            "List some common IDEs and code editors",
-            "Determine what editor you might need for web, native, and API projects"
-        ],
-        "resources": [
-            {
-                "name": "Android Studio",
-                "link": "https://developer.android.com/studio",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Atom",
-                "link": "https://atom.io/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Chrome DevTools",
-                "link": "https://developers.google.com/web/tools/chrome-devtools/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "GitHub Codespaces",
-                "link": "https://github.com/features/codespaces/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "GNU Emacs",
-                "link": "https://www.gnu.org/software/emacs/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "JetBrains",
-                "link": "https://www.jetbrains.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Sublime Text",
-                "link": "https://www.sublimetext.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Vim",
-                "link": "https://missing.csail.mit.edu/2020/editors/",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Vim Adventures",
-                "link": "https://vim-adventures.com/",
-                "type": "Game",
-                "isFree": true
-            },
-            {
-                "name": "Vim in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=-txKSRn0qeA",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Visual Studio",
-                "link": "https://visualstudio.microsoft.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Visual Studio Code",
-                "link": "https://code.visualstudio.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "WebStorm",
-                "link": "https://www.jetbrains.com/webstorm/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Xcode",
-                "link": "https://developer.apple.com/xcode/",
-                "type": "Tool",
-                "isFree": true
-            }
-        ]
-    },
-    {
-        "domain": "Tooling",
-        "name": "Command Line",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to use the command line (also known as the shell) and create scripts to make running complex commands easier.",
-        "skills": [
-            "Describe what a command line interface is and how you might use it",
-            "Use the command line to navigate to your projects directory and clone a git repo",
-            "Use SSH to remote into a server",
-            "Use the command line to monitor your system resources",
-            "Theorize how you can use the command line and scripts to automate daily tasks"
-        ],
-        "resources": [
-            {
-                "name": "A Linux Command Line Primer",
-                "link": "https://www.digitalocean.com/community/tutorials/a-linux-command-line-primer",
-                "type": "Tutorial",
-                "isFree": true
-            },
-            {
-                "name": "Awesome Shell",
-                "link": "https://github.com/alebcay/awesome-shell#readme",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Bash in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=I4EWvMFj37g",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Command-line Environment",
-                "link": "https://missing.csail.mit.edu/2020/command-line/",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Hyper",
-                "link": "https://hyper.is/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Linux debugging tools you'll love",
-                "link": "https://jvns.ca/debugging-zine.pdf",
-                "type": "Book",
-                "isFree": true
-            },
-            {
-                "name": "Oh My Zsh",
-                "link": "https://ohmyz.sh/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Powershell",
-                "link": "https://github.com/janikvonrotz/awesome-powershell#readme",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Shell Tools and Scripting",
-                "link": "https://missing.csail.mit.edu/2020/shell-tools/",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "SSH Essentials",
-                "link": "https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys",
-                "type": "Tutorial",
-                "isFree": true
-            },
-            {
-                "name": "The Art of the Command Line",
-                "link": "https://github.com/jlevy/the-art-of-command-line",
-                "type": "Guide",
-                "isFree": true
-            },
-            {
-                "name": "The Shell",
-                "link": "https://missing.csail.mit.edu/2020/course-shell/",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "tldr pages",
-                "link": "https://tldr.sh/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Windows Subsystem for Linux",
-                "link": "https://docs.microsoft.com/en-us/windows/wsl/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Bite Size Bash!",
-                "link": "https://wizardzines.com/zines/bite-size-bash/",
-                "type": "Book",
-                "isFree": false
-            },
-            {
-                "name": "Bite Size Command Line!",
-                "link": "https://wizardzines.com/zines/bite-size-command-line/",
-                "type": "Book",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Tooling",
-        "name": "Version Control",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about the importance of source control, Git commands, handling merge conflicts, popular branching strategies, and more.",
-        "skills": [
-            "Describe what source control is and its purpose",
-            "List typical source control providers",
-            "List common Git commands and their purpose",
-            "Describe Semantic Versioning and its purpose",
-            "Compare using source control and not using source control to manage a project"
-        ],
-        "resources": [
-            {
-                "name": "BitBucket",
-                "link": "https://bitbucket.org",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Git & GitHub Crash Course",
-                "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Git and Git Flow Cheat Sheet",
-                "link": "https://github.com/arslanbilal/git-cheat-sheet#readme",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Git Explained in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=hwP7WQkmECE",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Git Tips",
-                "link": "https://github.com/git-tips/tips#readme",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "GitHooks",
-                "link": "https://githooks.com/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "GitHub",
-                "link": "https://github.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "GitKraken",
-                "link": "https://www.gitkraken.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "GitLab",
-                "link": "https://about.gitlab.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "How To Use Git",
-                "link": "https://www.digitalocean.com/community/cheatsheets/how-to-use-git-a-reference-guide",
-                "type": "Guide",
-                "isFree": true
-            },
-            {
-                "name": "Make Atomic Git Commits",
-                "link": "https://www.aleksandrhovhannisyan.com/blog/atomic-git-commits/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Oh my git!",
-                "link": "https://ohmygit.org/",
-                "type": "Game",
-                "isFree": true
-            },
-            {
-                "name": "Pro Git",
-                "link": "https://git-scm.com/book/en/v2",
-                "type": "Book",
-                "isFree": true
-            },
-            {
-                "name": "Semantic Versioning 2.0.0",
-                "link": "https://semver.org/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Version Control (Git)",
-                "link": "https://missing.csail.mit.edu/2020/version-control/",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Introduction to Git",
-                "link": "https://teamtreehouse.com/library/introduction-to-git",
-                "type": "Course",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Tooling",
-        "name": "Productivity",
-        "status": "Active",
-        "overview": "With this topic, you'll learn about some productivity tools and how to estimate work effectively to set proper expectations with stakeholders.",
-        "skills": [
-            "List common productivity tools and their use case",
-            "Explain the Pomodoro technique and how it can help you stay on track",
-            "Use a time tracking tool to help you gain an understanding of how long a type of task takes you to complete",
-            "Describe the PERT estimation method",
-            "Theorize how you might properly set expectations with stakeholders to complete a task",
-            "Reflect on how long a task took you to complete and compare it to your original expectations"
-        ],
-        "resources": [
-            {
-                "name": "Awesome Productivity",
-                "link": "https://github.com/jyguyomarch/awesome-productivity#readme",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Estimato",
-                "link": "https://estimato.app/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Forest: Stay focused, be present",
-                "link": "https://www.forestapp.cc/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Learn agile estimation in 10 minutes",
-                "link": "https://www.youtube.com/watch?v=Hwu438QSb_g",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "PERT",
-                "link": "https://en.wikipedia.org/wiki/Program_evaluation_and_review_technique",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "Pomodoro Technique",
-                "link": "https://www.youtube.com/watch?v=mNBmG24djoY",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "Toggl",
-                "link": "https://toggl.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Clean Coders: Productivity",
-                "link": "https://cleancoders.com/episode/clean-code-episode-43",
-                "type": "Video",
-                "isFree": false
-            },
-            {
-                "name": "Clean Coders: Estimates",
-                "link": "https://cleancoders.com/episode/clean-code-episode-44",
-                "type": "Video",
-                "isFree": false
-            }
-        ]
-    },
-    {
-        "domain": "Tooling",
-        "name": "Managing your Local Environment",
-        "status": "Active",
-        "overview": "With this topic, you'll learn how to set up your local environment and streamline it to increase your productivity.",
-        "skills": [
-            "List what you need to be able to set up an existing project on your machine",
-            "Describe the role of configuration in an application",
-            "Demonstrate how you can use Docker to set up your project local environment"
-        ],
-        "resources": [
-            {
-                "name": "~/.dotfiles in 100 Seconds",
-                "link": "https://www.youtube.com/watch?v=r_MpUP6aKiQ",
-                "type": "Video",
-                "isFree": true
-            },
-            {
-                "name": "An unofficial guide to dotfiles on GitHub",
-                "link": "https://dotfiles.github.io/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Awesome dotfiles",
-                "link": "https://github.com/webpro/awesome-dotfiles",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Docker",
-                "link": "https://www.docker.com/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Docker Compose",
-                "link": "https://docs.docker.com/compose/overview/",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "Getting Started with Dotfiles",
-                "link": "https://driesvints.com/blog/getting-started-with-dotfiles/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "GitHub Codespaces",
-                "link": "https://docs.github.com/en/codespaces",
-                "type": "Resource",
-                "isFree": true
-            },
-            {
-                "name": "GitPod",
-                "link": "https://gitpod.io/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Dotfiles Are Meant to Be Forked",
-                "link": "https://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "holman/dotfiles",
-                "link": "https://github.com/holman/dotfiles",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Homebrew",
-                "link": "https://brew.sh/",
-                "type": "Tool",
-                "isFree": true
-            },
-            {
-                "name": "Managing my dotfiles as a git repository",
-                "link": "https://drewdevault.com/2019/12/30/dotfiles.html",
-                "type": "Article",
-                "isFree": true
-            },
-            {
-                "name": "thoughtbot/laptop",
-                "link": "https://github.com/thoughtbot/laptop",
-                "type": "Tool",
-                "isFree": true
-            }
-        ]
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000002"
+    },
+    "name": "History of Computing",
+    "status": "Active",
+    "description": "With this topic you'll learn about the history of computing and some of the most important events that shaped the Information Age.",
+    "catagory": "Foundations of ITSM",
+    "path": "EngineerKit",
+    "sequence": "Computing.01",
+    "resources": [
+      {"$oid": "CCCC00000000000000000002"},
+      {"$oid": "CCCC00000000000000000003"},
+      {"$oid": "CCCC00000000000000000004"},
+      {"$oid": "CCCC00000000000000000005"},
+      {"$oid": "CCCC00000000000000000006"},
+      {"$oid": "CCCC00000000000000000007"},
+      {"$oid": "CCCC00000000000000000008"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000003"},
+      {"$oid": "BBBB00000000000000000004"},
+      {"$oid": "BBBB00000000000000000005"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
     }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000003"
+    },
+    "name": "Hardware",
+    "status": "Active",
+    "description": "With this topic you will learn about the essential computer components and the different roles they play.",
+    "catagory": "Foundations of ITSM",
+    "path": "EngineerKit",
+    "sequence": "Computing.02",
+    "resources": [
+      {"$oid": "CCCC00000000000000000009"},
+      {"$oid": "CCCC00000000000000000010"},
+      {"$oid": "CCCC00000000000000000011"},
+      {"$oid": "CCCC00000000000000000012"},
+      {"$oid": "CCCC00000000000000000013"},
+      {"$oid": "CCCC00000000000000000014"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000006"},
+      {"$oid": "BBBB00000000000000000007"},
+      {"$oid": "BBBB00000000000000000008"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000004"
+    },
+    "name": "Operating Systems",
+    "status": "Active",
+    "description": "With this topic you will learn about the underlying software that coordinates the different components of a computer.",
+    "catagory": "Foundations of ITSM",
+    "path": "EngineerKit",
+    "sequence": "Computing.03",
+    "resources": [
+      {"$oid": "CCCC00000000000000000015"},
+      {"$oid": "CCCC00000000000000000016"},
+      {"$oid": "CCCC00000000000000000017"},
+      {"$oid": "CCCC00000000000000000018"},
+      {"$oid": "CCCC00000000000000000019"},
+      {"$oid": "CCCC00000000000000000020"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000009"},
+      {"$oid": "BBBB00000000000000000010"},
+      {"$oid": "BBBB00000000000000000011"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000005"
+    },
+    "name": "Runtimes",
+    "status": "Active",
+    "description": "With this topic you will learn about the process of turning human-readable code into commands that the computer can understand.",
+    "catagory": "Foundations of ITSM",
+    "path": "EngineerKit",
+    "sequence": "Computing.04",
+    "resources": [
+      {"$oid": "CCCC00000000000000000021"},
+      {"$oid": "CCCC00000000000000000022"},
+      {"$oid": "CCCC00000000000000000023"},
+      {"$oid": "CCCC00000000000000000024"},
+      {"$oid": "CCCC00000000000000000025"},
+      {"$oid": "CCCC00000000000000000026"},
+      {"$oid": "CCCC00000000000000000027"},
+      {"$oid": "CCCC00000000000000000028"},
+      {"$oid": "CCCC00000000000000000029"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000012"},
+      {"$oid": "BBBB00000000000000000013"},
+      {"$oid": "BBBB00000000000000000014"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000006"
+    },
+    "name": "Spectrum of Platforms",
+    "status": "Active",
+    "description": "With this topic you will learn about the different combinations of hardware operating systems and runtimes used to run software applications.",
+    "catagory": "Foundations of ITSM",
+    "path": "EngineerKit",
+    "sequence": "Computing.05",
+    "resources": [
+      {"$oid": "CCCC00000000000000000030"},
+      {"$oid": "CCCC00000000000000000031"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000015"},
+      {"$oid": "BBBB00000000000000000016"},
+      {"$oid": "BBBB00000000000000000017"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000007"
+    },
+    "name": "Types of Data",
+    "status": "Active",
+    "description": "With this topic you'll learn about the spectrum of unstructured to structured data types and how to classify data correctly.",
+    "catagory": "Data Management",
+    "path": "EngineerKit",
+    "sequence": "Data.1",
+    "resources": [
+      {"$oid": "CCCC00000000000000000032"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000018"},
+      {"$oid": "BBBB00000000000000000019"},
+      {"$oid": "BBBB00000000000000000020"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000008"
+    },
+    "name": "Data Storage",
+    "status": "Active",
+    "description": "With this topic you'll learn techniques to store data of all types for usage in an application.",
+    "catagory": "Data Management",
+    "path": "EngineerKit",
+    "sequence": "Data.2",
+    "resources": [
+      {"$oid": "CCCC00000000000000000033"},
+      {"$oid": "CCCC00000000000000000034"},
+      {"$oid": "CCCC00000000000000000035"},
+      {"$oid": "CCCC00000000000000000036"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000021"},
+      {"$oid": "BBBB00000000000000000022"},
+      {"$oid": "BBBB00000000000000000023"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000009"
+    },
+    "name": "Data Manipulation",
+    "status": "Active",
+    "description": "With this topic you'll learn how to interact with and manipulate data from storage providers using techniques such as SQL or SSH.",
+    "catagory": "Data Management",
+    "path": "EngineerKit",
+    "sequence": "Data.3",
+    "resources": [
+      {"$oid": "CCCC00000000000000000037"},
+      {"$oid": "CCCC00000000000000000038"},
+      {"$oid": "CCCC00000000000000000039"},
+      {"$oid": "CCCC00000000000000000040"},
+      {"$oid": "CCCC00000000000000000041"},
+      {"$oid": "CCCC00000000000000000042"},
+      {"$oid": "CCCC00000000000000000043"},
+      {"$oid": "CCCC00000000000000000044"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000024"},
+      {"$oid": "BBBB00000000000000000025"},
+      {"$oid": "BBBB00000000000000000026"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000010"
+    },
+    "name": "Data Wrangling",
+    "status": "Active",
+    "description": "With this topic you'll learn to convert data from one type to another using data wrangling techniques.",
+    "catagory": "Data Management",
+    "path": "EngineerKit",
+    "sequence": "Data.4",
+    "resources": [
+      {"$oid": "CCCC00000000000000000045"},
+      {"$oid": "CCCC00000000000000000046"},
+      {"$oid": "CCCC00000000000000000047"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000027"},
+      {"$oid": "BBBB00000000000000000028"},
+      {"$oid": "BBBB00000000000000000029"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000011"
+    },
+    "name": "Managing State",
+    "status": "Active",
+    "description": "With this topic you'll learn about effectively using different patterns to manage the state in an application.",
+    "catagory": "Data Management",
+    "path": "EngineerKit",
+    "sequence": "Data.5",
+    "resources": [
+      {"$oid": "CCCC00000000000000000048"},
+      {"$oid": "CCCC00000000000000000049"},
+      {"$oid": "CCCC00000000000000000050"},
+      {"$oid": "CCCC00000000000000000051"},
+      {"$oid": "CCCC00000000000000000052"},
+      {"$oid": "CCCC00000000000000000053"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000030"},
+      {"$oid": "BBBB00000000000000000031"},
+      {"$oid": "BBBB00000000000000000032"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000012"
+    },
+    "name": "OdinIntro",
+    "status": "Active",
+    "description": "An introduction to Web Development",
+    "catagory": "Foundations of ITSM",
+    "path": "Odin",
+    "sequence": "Foundations.01",
+    "resources": [
+      {"$oid": "CCCC00000000000000000054"},
+      {"$oid": "CCCC00000000000000000055"},
+      {"$oid": "CCCC00000000000000000056"},
+      {"$oid": "CCCC00000000000000000057"},
+      {"$oid": "CCCC00000000000000000058"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000033"},
+      {"$oid": "BBBB00000000000000000034"},
+      {"$oid": "BBBB00000000000000000035"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000013"
+    },
+    "name": "WebDevSetup",
+    "status": "Active",
+    "description": "Installing and configuring a developers environment",
+    "catagory": "Foundations of ITSM",
+    "path": "Odin",
+    "sequence": "Foundations.02",
+    "resources": [
+      {"$oid": "CCCC00000000000000000059"},
+      {"$oid": "CCCC00000000000000000060"},
+      {"$oid": "CCCC00000000000000000061"},
+      {"$oid": "CCCC00000000000000000062"},
+      {"$oid": "CCCC00000000000000000063"},
+      {"$oid": "CCCC00000000000000000064"},
+      {"$oid": "CCCC00000000000000000065"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000036"},
+      {"$oid": "BBBB00000000000000000037"},
+      {"$oid": "BBBB00000000000000000038"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000014"
+    },
+    "name": "GitBasics",
+    "status": "Active",
+    "description": "In introduction to git.",
+    "catagory": "Foundations of ITSM",
+    "path": "Odin",
+    "sequence": "Foundations.03",
+    "resources": [
+      {"$oid": "CCCC00000000000000000066"},
+      {"$oid": "CCCC00000000000000000067"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000039"},
+      {"$oid": "BBBB00000000000000000040"},
+      {"$oid": "BBBB00000000000000000041"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000015"
+    },
+    "name": "Intermediate HTML",
+    "status": "Active",
+    "description": "Intermediate HTML Concepts",
+    "catagory": "Foundations of ITSM",
+    "path": "Odin",
+    "sequence": "Intermediate.1",
+    "resources": [
+      {"$oid": "CCCC00000000000000000068"},
+      {"$oid": "CCCC00000000000000000069"},
+      {"$oid": "CCCC00000000000000000070"},
+      {"$oid": "CCCC00000000000000000071"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000042"},
+      {"$oid": "BBBB00000000000000000043"},
+      {"$oid": "BBBB00000000000000000044"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000016"
+    },
+    "name": "Intermediate CSS",
+    "status": "Active",
+    "description": "Intermediate CSS Concepts",
+    "catagory": "Foundations of ITSM",
+    "path": "Odin",
+    "sequence": "Intermediate.2",
+    "resources": [
+      {"$oid": "CCCC00000000000000000072"},
+      {"$oid": "CCCC00000000000000000073"},
+      {"$oid": "CCCC00000000000000000074"},
+      {"$oid": "CCCC00000000000000000075"},
+      {"$oid": "CCCC00000000000000000076"},
+      {"$oid": "CCCC00000000000000000077"},
+      {"$oid": "CCCC00000000000000000078"},
+      {"$oid": "CCCC00000000000000000079"},
+      {"$oid": "CCCC00000000000000000080"},
+      {"$oid": "CCCC00000000000000000081"}
+    ],
+    "skills": [
+      {"$oid": "BBBB00000000000000000045"},
+      {"$oid": "BBBB00000000000000000046"},
+      {"$oid": "BBBB00000000000000000047"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "4/3/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  }
 ]

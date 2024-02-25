@@ -8,14 +8,10 @@
         "description": "Members that are looking for junior level jobs",
         "contacts": [
             {
-                "$oid": "aaaa00000000000000000003",
-                "name": "Emily Smith",
-                "phone": "246-906-8608"
+                "$oid": "aaaa00000000000000000003"
             },
             {
-                "$oid": "bbbb00000000000000000001",
-                "name": "Michael Smith",
-                "phone": "875-959-5595"
+                "$oid": "bbbb00000000000000000001"
             }
         ]
     },
@@ -29,14 +25,10 @@
         "url": "https://www.enok.co/",
         "contacts": [
             {
-                "$oid": "aaaa00000000000000000005",
-                "name": "Samuel Smith",
-                "phone": "569-299-4436"
+                "$oid": "aaaa00000000000000000005"
             },
             {
-                "$oid": "aaaa00000000000000000006",
-                "name": "Jacob Smith",
-                "phone": "374-163-7218"
+                "$oid": "aaaa00000000000000000006"
             }
         ]
     },
@@ -66,14 +58,10 @@
         "url": "https://www.perseverenow.org/",
         "contacts": [
             {
-                "$oid": "aaaa00000000000000000011",
-                "name": "Alexander Smith",
-                "phone": "593-264-9430"
+                "$oid": "aaaa00000000000000000011"
             },
             {
-                "$oid": "aaaa00000000000000000012",
-                "name": "Noah Smith",
-                "phone": "325-858-2074"
+                "$oid": "aaaa00000000000000000012"
             }
         ]
     },
@@ -94,14 +82,10 @@
         "description": "Members that found us on Asheville Javascript Meetup",
         "contacts": [
             {
-                "$oid": "aaaa00000000000000000013",
-                "name": "Joshua Smith",
-                "phone": "268-595-5867"
+                "$oid": "aaaa00000000000000000013"
             },
             {
-                "$oid": "aaaa00000000000000000014",
-                "name": "Matthew Smith",
-                "phone": "259-687-4850"
+                "$oid": "aaaa00000000000000000014"
             }
         ]
     },
@@ -114,14 +98,10 @@
         "description": "Members that found us with Greenville",
         "contacts": [
             {
-                "$oid": "aaaa00000000000000000019",
-                "name": "Sophia Smith",
-                "phone": "546-925-3228"
+                "$oid": "aaaa00000000000000000019"
             },
             {
-                "$oid": "aaaa00000000000000000020",
-                "name": "Mia Smith",
-                "phone": "472-851-8320"
+                "$oid": "aaaa00000000000000000020"
             }
         ]
     }

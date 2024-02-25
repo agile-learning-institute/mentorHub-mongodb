@@ -1,0 +1,75 @@
+{
+	"description": "A skill",
+	"bsonType": "object",
+	"required": [
+		"name"
+	],
+	"properties": {
+		"_id": {
+			"description": "The unique identifier for a Skill",
+			"bsonType": "objectId"
+		},
+		"name": {
+			"description": "The short name (slug) for this skill",
+			"bsonType": "string",
+			"maxLength": 32
+		},
+		"status": {
+			"description": "The status of this skill",
+			"bsonType": "string",
+			"enum": [
+				"Active", 
+				"Archived"
+			]
+		},
+		"description": {
+			"description": "A description of the skill, a phrase that would go on a resume",
+			"bsonType": "string",
+			"maxLength": 256
+		},
+		"mastery": {
+			"description": "The level of mastery for this skill, it aligns with person.title",
+			"bsonType": "string",
+			"enum": [
+				"Candidate",
+				"Apprentice",
+				"Resident",
+				"Master",
+				"Distinguished"
+			]
+		},
+		"speciality": {
+			"description": "The speciality this skill applies to",
+			"bsonType": "string",
+			"enum": [
+				"Generalist",
+				"UI/UX Engineer",
+				"API Engineer",
+				"Data Engineer",
+				"SRE Engineer"
+			]
+        },
+        "lastSaved": {
+            "description": "The location where this person lives",
+            "bsonType": "object",
+            "properties": {
+                "fromIp": {
+                    "description": "Http Request remote IP address",
+                    "bsonType": "string"
+                },
+                "byUser": {
+                    "description": "UUID Of User",
+                    "bsonType": "objectId"
+                },
+                "atTime": {
+                    "description": "The date-time when last updated",
+                    "bsonType": "date"
+                },
+                "correlationId": {
+                    "description": "The logging correlation ID of the update transaction",
+                    "bsonType": "string"
+                }
+            }
+		}
+	}
+}

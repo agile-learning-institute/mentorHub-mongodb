@@ -1,0 +1,2491 @@
+[
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000002"
+        },
+        "status": "Active",
+        "name": "ComputerHistoryTimelineA",
+        "description": "Computer History Timeline Article",
+        "link": "https://somevalidlink.com",
+        "duration": 25,
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000005"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Exam",
+            "Interactive",
+            "Lesson",
+            "Tutorial",
+            "Video",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.39",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000003"
+        },
+        "status": "Active",
+        "name": "HistoryofComputingArticl",
+        "description": "History of Computing Article",
+        "link": "https://somevalidlink.com",
+        "duration": 333,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000003"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Reference",
+            "User Guide",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.3",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000004"
+        },
+        "status": "Active",
+        "name": "PiratesofSiliconValleyFi",
+        "description": "Pirates of Silicon Valley Film",
+        "link": "https://somevalidlink.com",
+        "duration": 219,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000004"
+            }
+        ],
+        "tags": [
+            "Exam",
+            "Lecture",
+            "Video",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.4",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000005"
+        },
+        "status": "Active",
+        "name": "Apple1984SuperBowlCommer",
+        "description": "Apple 1984 Super Bowl Commercial Video",
+        "link": "https://somevalidlink.com",
+        "duration": 367,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000004"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Interactive",
+            "Lecture",
+            "Lesson",
+            "User Guide",
+            "UI/UX",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.5",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000006"
+        },
+        "status": "Active",
+        "name": "BretVictorTheFutureofPro",
+        "description": "Bret Victor The Future of Programming Video",
+        "link": "https://somevalidlink.com",
+        "duration": 493,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000004"
+            }
+        ],
+        "tags": [
+            "Lecture",
+            "Lesson",
+            "Tutorial",
+            "User Guide",
+            "Video",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.6",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000007"
+        },
+        "status": "Active",
+        "name": "AwesomeComputerHistoryRe",
+        "description": "Awesome Computer History Resource",
+        "link": "https://somevalidlink.com",
+        "duration": 418,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000005"
+            }
+        ],
+        "tags": [
+            "Book",
+            "Lecture",
+            "Reference",
+            "User Guide",
+            "Video",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.7",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000008"
+        },
+        "status": "Active",
+        "name": "JeanBartikandtheENIACWom",
+        "description": "Jean Bartik and the ENIAC Women Video",
+        "link": "https://somevalidlink.com",
+        "duration": 188,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000005"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Tutorial",
+            "User Guide",
+            "UI/UX",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.8",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000009"
+        },
+        "status": "Active",
+        "name": "ExploringHowComputersWor",
+        "description": "Exploring How Computers Work Video",
+        "link": "https://somevalidlink.com",
+        "duration": 3,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000007"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Lesson",
+            "Tutorial",
+            "Video",
+            "UI/UX"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.9",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000010"
+        },
+        "status": "Active",
+        "name": "DigitalLogicSimTool",
+        "description": "Digital Logic Sim Tool",
+        "link": "https://somevalidlink.com",
+        "duration": 373,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000006"
+            }
+        ],
+        "tags": [
+            "$",
+            "Video",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.10",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000011"
+        },
+        "status": "Active",
+        "name": "HistoryandTheoryofElectr",
+        "description": "History and Theory of Electricity Video",
+        "link": "https://somevalidlink.com",
+        "duration": 205,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000008"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Tutorial",
+            "User Guide",
+            "Video",
+            "UI/UX",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.11",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000012"
+        },
+        "status": "Active",
+        "name": "Buildingan8-bitcomputerV",
+        "description": "Building an 8-bit computer Video Series",
+        "link": "https://somevalidlink.com",
+        "duration": 17,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000007"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Lesson",
+            "Reference",
+            "Tutorial",
+            "Video",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.12",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000013"
+        },
+        "status": "Active",
+        "name": "nand2tetris:buildingacom",
+        "description": "nand2tetris: building a computer from first principles Course",
+        "link": "https://somevalidlink.com",
+        "duration": 260,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000006"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Exam",
+            "Interactive",
+            "Lesson",
+            "Tutorial",
+            "Video",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.13",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000014"
+        },
+        "status": "Active",
+        "name": "8StandardComputerCompone",
+        "description": "8 Standard Computer Components Article",
+        "link": "https://somevalidlink.com",
+        "duration": 19,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000007"
+            }
+        ],
+        "tags": [
+            "Interactive",
+            "Lecture",
+            "Tutorial",
+            "Video",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.14",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000015"
+        },
+        "status": "Active",
+        "name": "DigitalOceanLearningLibr",
+        "description": "DigitalOcean Learning Library Resource",
+        "link": "https://somevalidlink.com",
+        "duration": 8,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000010"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Lesson",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.15",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000016"
+        },
+        "status": "Active",
+        "name": "Dockerin100SecondsVideo",
+        "description": "Docker in 100 Seconds Video",
+        "link": "https://somevalidlink.com",
+        "duration": 419,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000010"
+            }
+        ],
+        "tags": [
+            "Exam",
+            "Lecture",
+            "Lesson",
+            "Reference",
+            "Tutorial",
+            "User Guide",
+            "Video",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.16",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000017"
+        },
+        "status": "Active",
+        "name": "LearnDockerin7EasyStepsV",
+        "description": "Learn Docker in 7 Easy Steps Video",
+        "link": "https://somevalidlink.com",
+        "duration": 219,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000009"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Tutorial",
+            "Video"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.17",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000018"
+        },
+        "status": "Active",
+        "name": "UnderstandingOperatingSy",
+        "description": "Understanding Operating Systems Article",
+        "link": "https://somevalidlink.com",
+        "duration": 100,
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000009"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Lesson",
+            "Reference",
+            "Tutorial",
+            "UI/UX",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.18",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000019"
+        },
+        "status": "Active",
+        "name": "UsingDockerDevContainers",
+        "description": "Using Docker Dev Containers Resource",
+        "link": "https://somevalidlink.com",
+        "duration": 233,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000010"
+            }
+        ],
+        "tags": [
+            "$",
+            "Exam",
+            "Tutorial",
+            "User Guide",
+            "Video",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.19",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000020"
+        },
+        "status": "Active",
+        "name": "VirtualBoxTool",
+        "description": "VirtualBox Tool",
+        "link": "https://somevalidlink.com",
+        "duration": 464,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000010"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Exam",
+            "Interactive",
+            "Lesson",
+            "Reference",
+            "User Guide",
+            "Video",
+            "UI/UX",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.20",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000021"
+        },
+        "status": "Active",
+        "name": "TheProgrammingProcessArt",
+        "description": "The Programming Process Article",
+        "link": "https://somevalidlink.com",
+        "duration": 141,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000014"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Lesson",
+            "Reference",
+            "User Guide",
+            "Video",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.21",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000022"
+        },
+        "status": "Active",
+        "name": "Howdocomputersreadcode?V",
+        "description": "How do computers read code? Video",
+        "link": "https://somevalidlink.com",
+        "duration": 160,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000013"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Lesson",
+            "Reference",
+            "Tutorial",
+            "Video",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.22",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000023"
+        },
+        "status": "Active",
+        "name": "rbenvTool",
+        "description": "rbenv Tool",
+        "link": "https://somevalidlink.com",
+        "duration": 143,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000014"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Reference"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.23",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000024"
+        },
+        "status": "Active",
+        "name": "pyenvTool",
+        "description": "pyenv Tool",
+        "link": "https://somevalidlink.com",
+        "duration": 388,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000012"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Interactive",
+            "Lecture",
+            "User Guide",
+            "Video",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.24",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000025"
+        },
+        "status": "Active",
+        "name": "nodenvTool",
+        "description": "nodenv Tool",
+        "link": "https://somevalidlink.com",
+        "duration": 170,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000013"
+            }
+        ],
+        "tags": [
+            "$",
+            "Exam",
+            "Lecture",
+            "Lesson",
+            "Reference",
+            "User Guide",
+            "UI/UX"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.25",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000026"
+        },
+        "status": "Active",
+        "name": "goenvTool",
+        "description": "goenv Tool",
+        "link": "https://somevalidlink.com",
+        "duration": 304,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000014"
+            }
+        ],
+        "tags": [
+            "Exam",
+            "Lecture",
+            "Lesson",
+            "Tutorial",
+            "User Guide",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.26",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000027"
+        },
+        "status": "Active",
+        "name": "rustupTool",
+        "description": "rustup Tool",
+        "link": "https://somevalidlink.com",
+        "duration": 506,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000014"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Exam",
+            "Lesson",
+            "Reference",
+            "Tutorial",
+            "UI/UX",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.27",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000028"
+        },
+        "status": "Active",
+        "name": "C#languageversioning",
+        "description": "C# language versioning",
+        "link": "https://somevalidlink.com",
+        "duration": 277,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000014"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Lesson",
+            "Tutorial",
+            "User Guide",
+            "UI/UX"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.28",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000029"
+        },
+        "status": "Active",
+        "name": "ComputerBasicsCourseCour",
+        "description": "Computer Basics Course Course ($)",
+        "link": "https://somevalidlink.com",
+        "duration": 75,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000014"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Exam",
+            "Lesson",
+            "Reference",
+            "User Guide",
+            "Video",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.29",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000030"
+        },
+        "status": "Active",
+        "name": "BrowserStacklistofplatfo",
+        "description": "BrowserStack list of platforms Resource",
+        "link": "https://somevalidlink.com",
+        "duration": 82,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000016"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Book",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Lesson",
+            "Reference",
+            "Tutorial",
+            "User Guide",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.30",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000031"
+        },
+        "status": "Active",
+        "name": "ComputingplatformArticle",
+        "description": "Computing platform Article",
+        "link": "https://somevalidlink.com",
+        "duration": 94,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000017"
+            }
+        ],
+        "tags": [
+            "$",
+            "Lecture",
+            "Lesson",
+            "Tutorial",
+            "User Guide",
+            "UI/UX",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.31",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000032"
+        },
+        "status": "Active",
+        "name": "Structuredvs.Unstructure",
+        "description": "Structured vs. Unstructured Data Article",
+        "link": "https://somevalidlink.com",
+        "duration": 68,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000020"
+            }
+        ],
+        "tags": [
+            "Book",
+            "Interactive",
+            "Lecture",
+            "User Guide",
+            "UI/UX",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.32",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000033"
+        },
+        "status": "Active",
+        "name": "7DatabaseParadigmsVideo",
+        "description": "7 Database Paradigms Video",
+        "link": "https://somevalidlink.com",
+        "duration": 312,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000022"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Interactive",
+            "Tutorial",
+            "Video",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.33",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000034"
+        },
+        "status": "Active",
+        "name": "AWSDatabasesResource",
+        "description": "AWS Databases Resource",
+        "link": "https://somevalidlink.com",
+        "duration": 230,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000023"
+            }
+        ],
+        "tags": [
+            "Lesson",
+            "Reference",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.34",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000035"
+        },
+        "status": "Active",
+        "name": "AWSStorageResource",
+        "description": "AWS Storage Resource",
+        "link": "https://somevalidlink.com",
+        "duration": 342,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000023"
+            }
+        ],
+        "tags": [
+            "$",
+            "Book",
+            "Exam",
+            "Interactive",
+            "Tutorial",
+            "User Guide",
+            "UI/UX",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.35",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000036"
+        },
+        "status": "Active",
+        "name": "CloudFirestoreTool",
+        "description": "Cloud Firestore Tool",
+        "link": "https://somevalidlink.com",
+        "duration": 154,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000023"
+            }
+        ],
+        "tags": [
+            "$",
+            "Book",
+            "Exam",
+            "Lecture",
+            "User Guide"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.36",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000037"
+        },
+        "status": "Active",
+        "name": "DatabasenormalizationRes",
+        "description": "Database normalization Resource",
+        "link": "https://somevalidlink.com",
+        "duration": 280,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000025"
+            }
+        ],
+        "tags": [
+            "Book",
+            "Exam",
+            "Lecture",
+            "Tutorial",
+            "User Guide",
+            "UI/UX",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.37",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000038"
+        },
+        "status": "Active",
+        "name": "NormalDataFormsVideo",
+        "description": "Normal Data Forms Video",
+        "link": "https://somevalidlink.com",
+        "duration": 354,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000025"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Lecture",
+            "Lesson",
+            "Reference",
+            "Tutorial",
+            "User Guide",
+            "Video",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.38",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000039"
+        },
+        "status": "Active",
+        "name": "SQLExplainedin100Seconds",
+        "description": "SQL Explained in 100 Seconds Video",
+        "link": "https://somevalidlink.com",
+        "duration": 70,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000024"
+            }
+        ],
+        "tags": [
+            "Book",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "User Guide",
+            "Video",
+            "UI/UX",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.39",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000040"
+        },
+        "status": "Active",
+        "name": "SQLplaygroundTool",
+        "description": "SQL playground Tool",
+        "link": "https://somevalidlink.com",
+        "duration": 88,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000025"
+            }
+        ],
+        "tags": [
+            "$",
+            "Interactive",
+            "Lecture",
+            "Tutorial",
+            "User Guide",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.40",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000041"
+        },
+        "status": "Active",
+        "name": "SQLZOOTutorial",
+        "description": "SQLZOO Tutorial",
+        "link": "https://somevalidlink.com",
+        "duration": 363,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000025"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Lesson",
+            "User Guide",
+            "Video",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.41",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000042"
+        },
+        "status": "Active",
+        "name": "ModifyingDatawithSQLCour",
+        "description": "Modifying Data with SQL Course ($)",
+        "link": "https://somevalidlink.com",
+        "duration": 46,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000025"
+            }
+        ],
+        "tags": [
+            "$",
+            "Book",
+            "Exam",
+            "Interactive",
+            "Lesson",
+            "Tutorial",
+            "Video"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.42",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000043"
+        },
+        "status": "Active",
+        "name": "QueryingRelationalDataba",
+        "description": "Querying Relational Databases Course ($)",
+        "link": "https://somevalidlink.com",
+        "duration": 210,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000025"
+            }
+        ],
+        "tags": [
+            "Exam",
+            "Interactive",
+            "Reference",
+            "User Guide",
+            "UI/UX",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.43",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000044"
+        },
+        "status": "Active",
+        "name": "SQLBasicsCourse($)",
+        "description": "SQL Basics Course ($)",
+        "link": "https://somevalidlink.com",
+        "duration": 195,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000025"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Interactive",
+            "Reference",
+            "Tutorial",
+            "User Guide",
+            "Video",
+            "UI/UX"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.44",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000045"
+        },
+        "status": "Active",
+        "name": "MissingSemester:DataWran",
+        "description": "Missing Semester: Data Wrangling Video",
+        "link": "https://somevalidlink.com",
+        "duration": 363,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000028"
+            }
+        ],
+        "tags": [
+            "Lesson",
+            "Tutorial",
+            "User Guide",
+            "Video",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.45",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000046"
+        },
+        "status": "Active",
+        "name": "Regexin100SecondsVideo",
+        "description": "Regex in 100 Seconds Video",
+        "link": "https://somevalidlink.com",
+        "duration": 125,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000027"
+            }
+        ],
+        "tags": [
+            "$",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Lesson",
+            "Tutorial",
+            "User Guide"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.46",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000047"
+        },
+        "status": "Active",
+        "name": "WhatisETL?Article",
+        "description": "What is ETL? Article",
+        "link": "https://somevalidlink.com",
+        "duration": 113,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000028"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Exam",
+            "Lecture",
+            "Lesson",
+            "Tutorial",
+            "UI/UX"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.47",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000048"
+        },
+        "status": "Active",
+        "name": "3TipsThatWillSimplifyYou",
+        "description": "3 Tips That Will Simplify Your Application State Management Article",
+        "link": "https://somevalidlink.com",
+        "duration": 209,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000031"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Book",
+            "Interactive",
+            "Lesson",
+            "Reference",
+            "Video",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.48",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000049"
+        },
+        "status": "Active",
+        "name": "CachinginaPWATutorial",
+        "description": "Caching in a PWA Tutorial",
+        "link": "https://somevalidlink.com",
+        "duration": 123,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000031"
+            }
+        ],
+        "tags": [
+            "Interactive",
+            "Lecture",
+            "User Guide",
+            "UI/UX",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.49",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000050"
+        },
+        "status": "Active",
+        "name": "Event-drivenarchitecture",
+        "description": "Event-driven architecture Article",
+        "link": "https://somevalidlink.com",
+        "duration": 393,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000031"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Exam",
+            "Interactive",
+            "User Guide",
+            "UI/UX"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.50",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000051"
+        },
+        "status": "Active",
+        "name": "Implementingasimplestate",
+        "description": "Implementing a simple state machine library in JavaScript Article",
+        "link": "https://somevalidlink.com",
+        "duration": 213,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000031"
+            }
+        ],
+        "tags": [
+            "$",
+            "Interactive",
+            "Lecture",
+            "Lesson",
+            "Reference",
+            "User Guide",
+            "UI/UX",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.51",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000052"
+        },
+        "status": "Active",
+        "name": "WhatdoyoumeanbyEvent",
+        "description": "What do you mean by Event-Driven? Article",
+        "link": "https://somevalidlink.com",
+        "duration": 291,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000031"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Book",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Reference",
+            "Tutorial",
+            "User Guide",
+            "Video"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.52",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000053"
+        },
+        "status": "Active",
+        "name": "Whatiscaching?Article",
+        "description": "What is caching? Article",
+        "link": "https://somevalidlink.com",
+        "duration": 475,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000032"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Book",
+            "Exam",
+            "Lecture",
+            "Lesson",
+            "User Guide",
+            "Video",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.53",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000054"
+        },
+        "status": "Active",
+        "name": "HowThisCourseWillWork",
+        "description": "How This Course Will Work",
+        "link": "https://somevalidlink.com",
+        "duration": 356,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000035"
+            }
+        ],
+        "tags": [
+            "$",
+            "Book",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Reference",
+            "Tutorial",
+            "User Guide",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.54",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000055"
+        },
+        "status": "Active",
+        "name": "IntroductiontoWebDevelop",
+        "description": "Introduction to Web Development",
+        "link": "https://somevalidlink.com",
+        "duration": 70,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000033"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Lecture",
+            "Reference"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.55",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000056"
+        },
+        "status": "Active",
+        "name": "MotivationandMindset",
+        "description": "Motivation and Mindset",
+        "link": "https://somevalidlink.com",
+        "duration": 307,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000033"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Book",
+            "Exam",
+            "Lesson",
+            "Reference",
+            "User Guide",
+            "UI/UX",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.56",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000057"
+        },
+        "status": "Active",
+        "name": "AskingForHelp",
+        "description": "Asking For Help",
+        "link": "https://somevalidlink.com",
+        "duration": 330,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000034"
+            }
+        ],
+        "tags": [
+            "Book",
+            "Interactive",
+            "Reference",
+            "Video",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.57",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000058"
+        },
+        "status": "Active",
+        "name": "JointheOdinCommunity",
+        "description": "Join the Odin Community",
+        "link": "https://somevalidlink.com",
+        "duration": 217,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000035"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Book",
+            "Interactive",
+            "Lecture",
+            "Video",
+            "UI/UX",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.58",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000059"
+        },
+        "status": "Active",
+        "name": "ComputerBasics",
+        "description": "Computer Basics",
+        "link": "https://somevalidlink.com",
+        "duration": 105,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000038"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Interactive",
+            "Tutorial",
+            "User Guide",
+            "Video",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.59",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000060"
+        },
+        "status": "Active",
+        "name": "HowDoestheWebWork?",
+        "description": "How Does the Web Work?",
+        "link": "https://somevalidlink.com",
+        "duration": 362,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000036"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Book",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Lesson",
+            "User Guide",
+            "UI/UX"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.60",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000061"
+        },
+        "status": "Active",
+        "name": "InstallationOverview",
+        "description": "Installation Overview",
+        "link": "https://somevalidlink.com",
+        "duration": 243,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000037"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Book",
+            "Lesson",
+            "Video",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.61",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000062"
+        },
+        "status": "Active",
+        "name": "Installations",
+        "description": "Installations",
+        "link": "https://somevalidlink.com",
+        "duration": 109,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000037"
+            }
+        ],
+        "tags": [
+            "$",
+            "Exam",
+            "Reference",
+            "Tutorial",
+            "User Guide",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.62",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000063"
+        },
+        "status": "Active",
+        "name": "TextEditors",
+        "description": "Text Editors",
+        "link": "https://somevalidlink.com",
+        "duration": 137,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000038"
+            }
+        ],
+        "tags": [
+            "$",
+            "Book",
+            "Exam",
+            "Interactive",
+            "Lesson",
+            "Reference",
+            "Tutorial",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.63",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000064"
+        },
+        "status": "Active",
+        "name": "CommandLineBasics",
+        "description": "Command Line Basics",
+        "link": "https://somevalidlink.com",
+        "duration": 58,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000037"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Lecture",
+            "Lesson",
+            "Reference",
+            "User Guide",
+            "Video"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.64",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000065"
+        },
+        "status": "Active",
+        "name": "SettingupGit",
+        "description": "Setting up Git",
+        "link": "https://somevalidlink.com",
+        "duration": 247,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000037"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Lesson",
+            "Video",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.65",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000066"
+        },
+        "status": "Active",
+        "name": "IntroductiontoGit",
+        "description": "Introduction to Git",
+        "link": "https://somevalidlink.com",
+        "duration": 359,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000040"
+            }
+        ],
+        "tags": [
+            "$",
+            "Book",
+            "Interactive",
+            "Lecture",
+            "User Guide",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.66",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000067"
+        },
+        "status": "Active",
+        "name": "GitBasics",
+        "description": "Git Basics",
+        "link": "https://somevalidlink.com",
+        "duration": 104,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000039"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Interactive",
+            "Lecture",
+            "Tutorial",
+            "User Guide",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.67",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000068"
+        },
+        "status": "Active",
+        "name": "Introduction",
+        "description": "Introduction",
+        "link": "https://somevalidlink.com",
+        "duration": 128,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000043"
+            }
+        ],
+        "tags": [
+            "Exam",
+            "Tutorial",
+            "User Guide",
+            "UI/UX",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.68",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000069"
+        },
+        "status": "Active",
+        "name": "Emmet",
+        "description": "Emmet",
+        "link": "https://somevalidlink.com",
+        "duration": 465,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000043"
+            }
+        ],
+        "tags": [
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Reference",
+            "User Guide",
+            "UI/UX",
+            "API"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.69",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000070"
+        },
+        "status": "Active",
+        "name": "SVG",
+        "description": "SVG",
+        "link": "https://somevalidlink.com",
+        "duration": 48,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000043"
+            }
+        ],
+        "tags": [
+            "Book",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Reference",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.70",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000071"
+        },
+        "status": "Active",
+        "name": "Tables",
+        "description": "Tables",
+        "link": "https://somevalidlink.com",
+        "duration": 468,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000043"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Exam",
+            "Lesson",
+            "User Guide",
+            "UI/UX",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.71",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000072"
+        },
+        "status": "Active",
+        "name": "DefaultStyles",
+        "description": "Default Styles",
+        "link": "https://somevalidlink.com",
+        "duration": 480,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000046"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Lecture",
+            "Lesson",
+            "Tutorial",
+            "User Guide",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.72",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000073"
+        },
+        "status": "Active",
+        "name": "CSSUnits",
+        "description": "CSS Units",
+        "link": "https://somevalidlink.com",
+        "duration": 518,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000047"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Exam",
+            "Lecture",
+            "Lesson",
+            "Reference",
+            "Tutorial",
+            "User Guide",
+            "API",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.73",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000074"
+        },
+        "status": "Active",
+        "name": "MoreTextStyles",
+        "description": "More Text Styles",
+        "link": "https://somevalidlink.com",
+        "duration": 332,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000046"
+            }
+        ],
+        "tags": [
+            "$",
+            "Exam",
+            "Lecture",
+            "Lesson",
+            "Reference",
+            "Video",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.74",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000075"
+        },
+        "status": "Active",
+        "name": "MoreCSSProperties",
+        "description": "More CSS Properties",
+        "link": "https://somevalidlink.com",
+        "duration": 311,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000046"
+            }
+        ],
+        "tags": [
+            "Book",
+            "Exam",
+            "Lecture",
+            "User Guide",
+            "Video",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.75",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000076"
+        },
+        "status": "Active",
+        "name": "AdvancedSelectors",
+        "description": "Advanced Selectors",
+        "link": "https://somevalidlink.com",
+        "duration": 358,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000047"
+            }
+        ],
+        "tags": [
+            "Book",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Reference",
+            "Tutorial",
+            "User Guide"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.76",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000077"
+        },
+        "status": "Active",
+        "name": "Positioning",
+        "description": "Positioning",
+        "link": "https://somevalidlink.com",
+        "duration": 524,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000045"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Lecture",
+            "Reference",
+            "Tutorial",
+            "User Guide",
+            "Video",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.77",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000078"
+        },
+        "status": "Active",
+        "name": "CSSFunctions",
+        "description": "CSS Functions",
+        "link": "https://somevalidlink.com",
+        "duration": 402,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000046"
+            }
+        ],
+        "tags": [
+            "Book",
+            "Exam",
+            "Interactive",
+            "Lecture",
+            "Lesson",
+            "Reference",
+            "Video",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.78",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000079"
+        },
+        "status": "Active",
+        "name": "CustomProperties",
+        "description": "Custom Properties",
+        "link": "https://somevalidlink.com",
+        "duration": 143,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000046"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Book",
+            "Exam",
+            "Interactive",
+            "Lesson",
+            "Reference",
+            "Tutorial"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.79",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000080"
+        },
+        "status": "Active",
+        "name": "BrowserCompatibility",
+        "description": "Browser Compatibility",
+        "link": "https://somevalidlink.com",
+        "duration": 79,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000046"
+            }
+        ],
+        "tags": [
+            "$",
+            "Article",
+            "Interactive",
+            "Lesson",
+            "Tutorial",
+            "Video",
+            "UI/UX",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.80",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "CCCC00000000000000000081"
+        },
+        "status": "Active",
+        "name": "FrameworksandPreprocesso",
+        "description": "Frameworks and Preprocessors",
+        "link": "https://somevalidlink.com",
+        "duration": 288,
+        
+        "skills": [
+            {
+                "$oid": "BBBB00000000000000000045"
+            }
+        ],
+        "tags": [
+            "Article",
+            "Interactive",
+            "Lecture",
+            "Tutorial",
+            "User Guide",
+            "Video",
+            "Data"
+        ],
+        "lastSaved": {
+            "atTime": {"$date": "4/3/2024 18:17:58"},
+            "byUser": {"$oid": 1},
+            "fromIp": "192.168.1.81",
+            "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+        }
+    }
+]

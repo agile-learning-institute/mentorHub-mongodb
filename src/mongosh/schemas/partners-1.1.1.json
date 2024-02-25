@@ -42,28 +42,7 @@
       "description": "Array of contacts associated with this partner",
       "bsonType": "array",
       "items": {
-        "bsonType": "object",
-        "required": [
-          "_id",
-          "name",
-          "phone"
-        ],
-        "properties": {
-          "_id": {
-            "description": "The unique identifier for a contact",
-            "bsonType": "objectId"
-          },
-          "name": {
-            "description": "The name of the contact",
-            "bsonType": "string",
-            "maxLength": 64
-          },
-          "phone": {
-            "description": "The phone number of the contact",
-            "bsonType": "string",
-            "maxLength": 16
-          }
-        }
+        "bsonType": "objectId"
       }
     },
     "lastSaved": {
