@@ -2,6 +2,7 @@
 function applySchema(config) {
   const schemaFile = "./schemas/" + config.name + "-" + config.version + ".json";
   const enumeratorsFile = "./data/enumerators.json";
+  const breadcrumbFile = "./schemas/breadcrumb.json";
 
   // Check to see if a Version document exits
   var versionDoc = db[config.name].findOne({ name: "VERSION" });
@@ -26,7 +27,13 @@ function applySchema(config) {
         console.log("-Enumerators Loading ", attribute);
         element.enum = keys;
       })
+
+      // Add last saved breadcrumb to schema
+      console.log("-Adding Breadcrumb")
+      const breadcrumb = require(breadcrumbFile);
+      schema.properties["lastSaved"] = breadcrumb;
     }
+
 
     // Configure schema validation
     db.runCommand({
