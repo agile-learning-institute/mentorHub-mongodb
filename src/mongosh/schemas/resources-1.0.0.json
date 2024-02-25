@@ -9,6 +9,11 @@
 			"description": "The unique identifier for a resource",
 			"bsonType": "objectId"
 		},
+        "version": {
+            "description": "Scehma Version (only on Version document",
+            "bsonType": "string",
+            "maxLength": 20
+        },
 		"name": {
 			"description": "The Resource Shrot Name (slug)",
 			"bsonType": "string",
@@ -91,5 +96,6 @@
 				}
 			}
 		}
-	}
+	},
+	"additionalProperties": false
 }
