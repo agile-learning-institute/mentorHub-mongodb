@@ -1,57 +1,692 @@
 [
-    {
-      "_id": { "$oid": "61fc4fc54b752829b61a14c4" },
-      "name": "Introduction to Incident Management",
-      "status": "Active",
-      "description": "This topic provides an introduction to incident management.",
-      "catagory": "Foundations of ITSM",
-      "skills": [{ "$oid": "61fc4fc54b752829b61a14c7" }],
-      "resources": []
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000002"
     },
-    {
-      "_id": { "$oid": "61fc4fc54b752829b61a14c6" },
-      "name": "Refactoring Techniques",
-      "status": "Active",
-      "description": "This topic covers various refactoring techniques in software development.",
-      "catagory": "Design and Development",
-      "skills": [{ "$oid": "61fc4fc54b752829b61a14c7" }],
-      "resources": []
-    },
-    {
-      "_id": { "$oid": "61fc4fc54b752829b61a14c8" },
-      "name": "Infrastructure as Code",
-      "status": "Active",
-      "description": "This topic explores the concept of infrastructure as code.",
-      "catagory": "Infrastructure and Operations",
-      "skills": [{ "$oid": "61fc4fc54b752829b61a14c9" }],
-      "resources": []
-    },
-    {
-      "_id": { "$oid": "61fc4fc54b752829b61a14ca" },
-      "name": "Networking Fundamentals",
-      "status": "Active",
-      "description": "This topic provides an description of networking fundamentals.",
-      "catagory": "Networking and Security",
-      "skills": [{ "$oid": "61fc4fc54b752829b61a14cb" }],
-      "resources": []
-    },
-    {
-      "_id": { "$oid": "61fc4fc54b752829b61a14cc" },
-      "name": "Continuous Integration Basics",
-      "status": "Active",
-      "description": "This topic covers the basics of continuous integration.",
-      "catagory": "Continuous Integration and Deployment",
-      "skills": [{ "$oid": "61fc4fc54b752829b61a14cd" }],
-      "resources": []
-    },
-    {
-      "_id": { "$oid": "61fc4fc54b752829b61a14ce" },
-      "name": "Monitoring and Performance Best Practices",
-      "status": "Active",
-      "description": "This topic discusses best practices for monitoring and performance management.",
-      "catagory": "Monitoring and Performance",
-      "skills": [{ "$oid": "61fc4fc54b752829b61a14cf" }],
-      "resources": []
+    "name": "History of Computing",
+    "status": "Active",
+    "description": "With this topic you'll learn about the history of computing and some of the most important events that shaped the Information Age.",
+    "catagory": "Foundations of ITSM",
+    "path": "EngineerKit",
+    "sequence": "Computing.01",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000002"
+      },
+      {
+        "$oid": "CCCC00000000000000000003"
+      },
+      {
+        "$oid": "CCCC00000000000000000004"
+      },
+      {
+        "$oid": "CCCC00000000000000000005"
+      },
+      {
+        "$oid": "CCCC00000000000000000006"
+      },
+      {
+        "$oid": "CCCC00000000000000000007"
+      },
+      {
+        "$oid": "CCCC00000000000000000008"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000003"
+      },
+      {
+        "$oid": "BBBB00000000000000000004"
+      },
+      {
+        "$oid": "BBBB00000000000000000005"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "2/26/2024 20:04:14",
+      "byUser": "09f27bb1a7174350bc60534ca437280a",
+      "fromIp": "192.168.1.2",
+      "correlationId": "0284bbfa438641daa4cc15b233cdd285"
     }
-  ]
-  
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000003"
+    },
+    "name": "Hardware",
+    "status": "Active",
+    "description": "With this topic you will learn about the essential computer components and the different roles they play.",
+    "catagory": "Foundations of ITSM",
+    "path": "EngineerKit",
+    "sequence": "Computing.02",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000009"
+      },
+      {
+        "$oid": "CCCC00000000000000000010"
+      },
+      {
+        "$oid": "CCCC00000000000000000011"
+      },
+      {
+        "$oid": "CCCC00000000000000000012"
+      },
+      {
+        "$oid": "CCCC00000000000000000013"
+      },
+      {
+        "$oid": "CCCC00000000000000000014"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000006"
+      },
+      {
+        "$oid": "BBBB00000000000000000007"
+      },
+      {
+        "$oid": "BBBB00000000000000000008"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "2/27/2024 20:04:14",
+      "byUser": "c72e67f7c7864390850ece9802d9e1c5",
+      "fromIp": "192.168.1.3",
+      "correlationId": "09f27bb1a7174350bc60534ca437280a"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000004"
+    },
+    "name": "Operating Systems",
+    "status": "Active",
+    "description": "With this topic you will learn about the underlying software that coordinates the different components of a computer.",
+    "catagory": "Foundations of ITSM",
+    "path": "EngineerKit",
+    "sequence": "Computing.03",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000015"
+      },
+      {
+        "$oid": "CCCC00000000000000000016"
+      },
+      {
+        "$oid": "CCCC00000000000000000017"
+      },
+      {
+        "$oid": "CCCC00000000000000000018"
+      },
+      {
+        "$oid": "CCCC00000000000000000019"
+      },
+      {
+        "$oid": "CCCC00000000000000000020"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000009"
+      },
+      {
+        "$oid": "BBBB00000000000000000010"
+      },
+      {
+        "$oid": "BBBB00000000000000000011"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "2/28/2024 20:04:14",
+      "byUser": "a46583746c6d45588771d9dda4f72db4",
+      "fromIp": "192.168.1.4",
+      "correlationId": "0b46ae5ec4574addb93c0b561cc16acc"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000005"
+    },
+    "name": "Runtimes",
+    "status": "Active",
+    "description": "With this topic you will learn about the process of turning human-readable code into commands that the computer can understand.",
+    "catagory": "Foundations of ITSM",
+    "path": "EngineerKit",
+    "sequence": "Computing.04",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000021"
+      },
+      {
+        "$oid": "CCCC00000000000000000022"
+      },
+      {
+        "$oid": "CCCC00000000000000000023"
+      },
+      {
+        "$oid": "CCCC00000000000000000024"
+      },
+      {
+        "$oid": "CCCC00000000000000000025"
+      },
+      {
+        "$oid": "CCCC00000000000000000026"
+      },
+      {
+        "$oid": "CCCC00000000000000000027"
+      },
+      {
+        "$oid": "CCCC00000000000000000028"
+      },
+      {
+        "$oid": "CCCC00000000000000000029"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000012"
+      },
+      {
+        "$oid": "BBBB00000000000000000013"
+      },
+      {
+        "$oid": "BBBB00000000000000000014"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "2/29/2024 20:04:14",
+      "byUser": "5eb5f48fcbfb4f6ea15700e6538c3ac9",
+      "fromIp": "192.168.1.5",
+      "correlationId": "1177b104bf5a4a239620487a243af14f"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000006"
+    },
+    "name": "Spectrum of Platforms",
+    "status": "Active",
+    "description": "With this topic you will learn about the different combinations of hardware operating systems and runtimes used to run software applications.",
+    "catagory": "Foundations of ITSM",
+    "path": "EngineerKit",
+    "sequence": "Computing.05",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000030"
+      },
+      {
+        "$oid": "CCCC00000000000000000031"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000015"
+      },
+      {
+        "$oid": "BBBB00000000000000000016"
+      },
+      {
+        "$oid": "BBBB00000000000000000017"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "3/1/2024 20:04:14",
+      "byUser": "0284bbfa438641daa4cc15b233cdd285",
+      "fromIp": "192.168.1.6",
+      "correlationId": "140605d5f3fa4d42b22cd5bd68a13daf"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000007"
+    },
+    "name": "Types of Data",
+    "status": "Active",
+    "description": "With this topic you'll learn about the spectrum of unstructured to structured data types and how to classify data correctly.",
+    "catagory": "Data Management",
+    "path": "EngineerKit",
+    "sequence": "Data.1",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000032"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000018"
+      },
+      {
+        "$oid": "BBBB00000000000000000019"
+      },
+      {
+        "$oid": "BBBB00000000000000000020"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "3/2/2024 20:04:14",
+      "byUser": "4c315a73be7a4f0a8840708136f9567a",
+      "fromIp": "192.168.1.7",
+      "correlationId": "22797b7ec58c46dca95963d22cf51856"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000008"
+    },
+    "name": "Data Storage",
+    "status": "Active",
+    "description": "With this topic you'll learn techniques to store data of all types for usage in an application.",
+    "catagory": "Data Management",
+    "path": "EngineerKit",
+    "sequence": "Data.2",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000033"
+      },
+      {
+        "$oid": "CCCC00000000000000000034"
+      },
+      {
+        "$oid": "CCCC00000000000000000035"
+      },
+      {
+        "$oid": "CCCC00000000000000000036"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000021"
+      },
+      {
+        "$oid": "BBBB00000000000000000022"
+      },
+      {
+        "$oid": "BBBB00000000000000000023"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "3/3/2024 20:04:14",
+      "byUser": "350792fd10c5444cb284eeeb2e9be60e",
+      "fromIp": "192.168.1.8",
+      "correlationId": "2637e3a6bebe4918b4a64f306a477b08"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000009"
+    },
+    "name": "Data Manipulation",
+    "status": "Active",
+    "description": "With this topic you'll learn how to interact with and manipulate data from storage providers using techniques such as SQL or SSH.",
+    "catagory": "Data Management",
+    "path": "EngineerKit",
+    "sequence": "Data.3",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000037"
+      },
+      {
+        "$oid": "CCCC00000000000000000038"
+      },
+      {
+        "$oid": "CCCC00000000000000000039"
+      },
+      {
+        "$oid": "CCCC00000000000000000040"
+      },
+      {
+        "$oid": "CCCC00000000000000000041"
+      },
+      {
+        "$oid": "CCCC00000000000000000042"
+      },
+      {
+        "$oid": "CCCC00000000000000000043"
+      },
+      {
+        "$oid": "CCCC00000000000000000044"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000024"
+      },
+      {
+        "$oid": "BBBB00000000000000000025"
+      },
+      {
+        "$oid": "BBBB00000000000000000026"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "3/4/2024 20:04:14",
+      "byUser": "6321b1e12d384f768fd0826cd20116ea",
+      "fromIp": "192.168.1.9",
+      "correlationId": "2e8338b1b9cd4522b37d650385fb73c1"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000010"
+    },
+    "name": "Data Wrangling",
+    "status": "Active",
+    "description": "With this topic you'll learn to convert data from one type to another using data wrangling techniques.",
+    "catagory": "Data Management",
+    "path": "EngineerKit",
+    "sequence": "Data.4",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000045"
+      },
+      {
+        "$oid": "CCCC00000000000000000046"
+      },
+      {
+        "$oid": "CCCC00000000000000000047"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000027"
+      },
+      {
+        "$oid": "BBBB00000000000000000028"
+      },
+      {
+        "$oid": "BBBB00000000000000000029"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "3/5/2024 20:04:14",
+      "byUser": "52c8e9132eb1485b96e34a9a128907bc",
+      "fromIp": "192.168.1.10",
+      "correlationId": "34f39a608a5a465987f5407fbf5a0c03"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000011"
+    },
+    "name": "Managing State",
+    "status": "Active",
+    "description": "With this topic you'll learn about effectively using different patterns to manage the state in an application.",
+    "catagory": "Data Management",
+    "path": "EngineerKit",
+    "sequence": "Data.5",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000048"
+      },
+      {
+        "$oid": "CCCC00000000000000000049"
+      },
+      {
+        "$oid": "CCCC00000000000000000050"
+      },
+      {
+        "$oid": "CCCC00000000000000000051"
+      },
+      {
+        "$oid": "CCCC00000000000000000052"
+      },
+      {
+        "$oid": "CCCC00000000000000000053"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000030"
+      },
+      {
+        "$oid": "BBBB00000000000000000031"
+      },
+      {
+        "$oid": "BBBB00000000000000000032"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "3/6/2024 20:04:14",
+      "byUser": "7e9dbf79696b489bb4b023b8d3576662",
+      "fromIp": "192.168.1.11",
+      "correlationId": "350792fd10c5444cb284eeeb2e9be60e"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000012"
+    },
+    "name": "OdinIntro",
+    "status": "Active",
+    "description": "An introduction to Web Development",
+    "catagory": "Foundations of ITSM",
+    "path": "Odin",
+    "sequence": "Foundations.01",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000054"
+      },
+      {
+        "$oid": "CCCC00000000000000000055"
+      },
+      {
+        "$oid": "CCCC00000000000000000056"
+      },
+      {
+        "$oid": "CCCC00000000000000000057"
+      },
+      {
+        "$oid": "CCCC00000000000000000058"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000033"
+      },
+      {
+        "$oid": "BBBB00000000000000000034"
+      },
+      {
+        "$oid": "BBBB00000000000000000035"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "3/7/2024 20:04:14",
+      "byUser": "1177b104bf5a4a239620487a243af14f",
+      "fromIp": "192.168.1.12",
+      "correlationId": "4c315a73be7a4f0a8840708136f9567a"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000013"
+    },
+    "name": "WebDevSetup",
+    "status": "Active",
+    "description": "Installing and configuring a developers environment",
+    "catagory": "Foundations of ITSM",
+    "path": "Odin",
+    "sequence": "Foundations.02",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000059"
+      },
+      {
+        "$oid": "CCCC00000000000000000060"
+      },
+      {
+        "$oid": "CCCC00000000000000000061"
+      },
+      {
+        "$oid": "CCCC00000000000000000062"
+      },
+      {
+        "$oid": "CCCC00000000000000000063"
+      },
+      {
+        "$oid": "CCCC00000000000000000064"
+      },
+      {
+        "$oid": "CCCC00000000000000000065"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000036"
+      },
+      {
+        "$oid": "BBBB00000000000000000037"
+      },
+      {
+        "$oid": "BBBB00000000000000000038"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "3/8/2024 20:04:14",
+      "byUser": "60fb97f5b2fa4360934c45756b8be998",
+      "fromIp": "192.168.1.13",
+      "correlationId": "52c8e9132eb1485b96e34a9a128907bc"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000014"
+    },
+    "name": "GitBasics",
+    "status": "Active",
+    "description": "In introduction to git.",
+    "catagory": "Foundations of ITSM",
+    "path": "Odin",
+    "sequence": "Foundations.03",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000066"
+      },
+      {
+        "$oid": "CCCC00000000000000000067"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000039"
+      },
+      {
+        "$oid": "BBBB00000000000000000040"
+      },
+      {
+        "$oid": "BBBB00000000000000000041"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "3/9/2024 20:04:14",
+      "byUser": "81de0a0766cb4e78bbb0d514a3a062f8",
+      "fromIp": "192.168.1.14",
+      "correlationId": "5686f2ba7369467798d6e467e969c60e"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000015"
+    },
+    "name": "Intermediate HTML",
+    "status": "Active",
+    "description": "Intermediate HTML Concepts",
+    "catagory": "Foundations of ITSM",
+    "path": "Odin",
+    "sequence": "Intermediate.1",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000068"
+      },
+      {
+        "$oid": "CCCC00000000000000000069"
+      },
+      {
+        "$oid": "CCCC00000000000000000070"
+      },
+      {
+        "$oid": "CCCC00000000000000000071"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000042"
+      },
+      {
+        "$oid": "BBBB00000000000000000043"
+      },
+      {
+        "$oid": "BBBB00000000000000000044"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "3/10/2024 20:04:14",
+      "byUser": "672f6e60a81c422fb3a9d45f03f90e63",
+      "fromIp": "192.168.1.15",
+      "correlationId": "5eb5f48fcbfb4f6ea15700e6538c3ac9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000016"
+    },
+    "name": "Intermediate CSS",
+    "status": "Active",
+    "description": "Intermediate CSS Concepts",
+    "catagory": "Foundations of ITSM",
+    "path": "Odin",
+    "sequence": "Intermediate.2",
+    "resources": [
+      {
+        "$oid": "CCCC00000000000000000072"
+      },
+      {
+        "$oid": "CCCC00000000000000000073"
+      },
+      {
+        "$oid": "CCCC00000000000000000074"
+      },
+      {
+        "$oid": "CCCC00000000000000000075"
+      },
+      {
+        "$oid": "CCCC00000000000000000076"
+      },
+      {
+        "$oid": "CCCC00000000000000000077"
+      },
+      {
+        "$oid": "CCCC00000000000000000078"
+      },
+      {
+        "$oid": "CCCC00000000000000000079"
+      },
+      {
+        "$oid": "CCCC00000000000000000080"
+      },
+      {
+        "$oid": "CCCC00000000000000000081"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "BBBB00000000000000000045"
+      },
+      {
+        "$oid": "BBBB00000000000000000046"
+      },
+      {
+        "$oid": "BBBB00000000000000000047"
+      }
+    ],
+    "lastSaved": {
+      "atTime": "3/11/2024 20:04:14",
+      "byUser": "140605d5f3fa4d42b22cd5bd68a13daf",
+      "fromIp": "192.168.1.16",
+      "correlationId": "60fb97f5b2fa4360934c45756b8be998"
+    }
+  }
+]

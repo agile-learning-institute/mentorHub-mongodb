@@ -45,7 +45,7 @@
 			"description": "A learning path through topics, list to grow as needed",
 			"bsonType": "string",
 			"enum": [
-				"Odin Full Stack JS",
+				"Odin",
 				"EngineerKit",
 				"SRE speciality",
 				"Data speciality",

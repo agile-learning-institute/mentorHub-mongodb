@@ -12,7 +12,7 @@
 		"name": {
 			"description": "The Resource Shrot Name (slug)",
 			"bsonType": "string",
-			"maxLength": 32
+			"maxLength": 64
 		},
 		"status": {
 			"description": "The status of this resource",
@@ -65,8 +65,7 @@
 					"Video",
 					"UI/UX",
 					"API",
-					"Data",
-					"started"					
+					"Data"
 				]
 			}
 		},

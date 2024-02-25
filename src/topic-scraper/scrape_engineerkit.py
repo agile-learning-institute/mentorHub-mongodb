@@ -1,3 +1,13 @@
+# NOTES for Scraper Updates
+# EK:
+#   Module: -> Map to Catagory
+#     Topic: -> Harvest
+#       Resource: -> Harvest
+# Odin:
+#   Course: -> Map to Catagory
+#     Lesson Group: -> Topic
+#       Lessons: -> Resources
+
 import markdown
 import requests
 import json
