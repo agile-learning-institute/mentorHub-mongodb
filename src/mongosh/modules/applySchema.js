@@ -1,24 +1,21 @@
 // Function to check and create constraints (if no VERSION document exists)
 function applySchema(config) {
-  const schemaFile = "./schemas/" + config.name + "-" + config.version + ".json";
-  const enumeratorsFile = "./data/enumerators.json";
-  const breadcrumbFile = "./schemas/breadcrumb.json";
-
+  
   // Check to see if a Version document exits
   var versionDoc = db[config.name].findOne({ name: "VERSION" });
   if (versionDoc) {
     console.log("-Version Found:", versionDoc.version);
   } else {
     console.log("-Version Not Found, Configuring:", config.name);
-
+    
     // create name index
     db[config.name].createIndex({ name: 1 }, { unique: true });
     console.log("-Name Index created");
-
+    
     // Add Enumerators to Schema
-    const schema = require(schemaFile);
+    const schema = require("./schemas/" + config.name + "-" + config.version + ".json");
+    const enumerators = require("./data/enumerators.json");
     if (config.name !== "enumerators") {
-      const enumerators = require(enumeratorsFile);
       Object.keys(enumerators[0][config.name]).forEach(attribute => {
         const keys = Object.keys(enumerators[0][config.name][attribute]);
         const type = schema.properties[attribute].bsonType;
@@ -27,10 +24,10 @@ function applySchema(config) {
         console.log("-Enumerators Loading ", attribute);
         element.enum = keys;
       })
-
+      
       // Add last saved breadcrumb to schema
       console.log("-Adding Breadcrumb")
-      const breadcrumb = require(breadcrumbFile);
+      const breadcrumb = require("./schemas/breadcrumb.json");
       schema.properties["lastSaved"] = breadcrumb;
     }
 
