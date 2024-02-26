@@ -1,6 +1,7 @@
 {
     "bsonType": "object",
     "required": [
+        "_id",
         "name"
     ],
     "properties": {
@@ -25,13 +26,7 @@
         },
         "status": {
             "description": "The status of this member",
-            "bsonType": "string",
-            "enum": [
-                "Pending",
-                "Active",
-                "Inactive",
-                "Archived"
-            ]
+            "bsonType": "string"
         },
         "member": {
             "description": "Is this person a Member",
@@ -59,28 +54,11 @@
         },
         "title": {
             "description": "The person's title in the career path",
-            "bsonType": "string",
-            "enum": [
-                "Apprentice Candidate",
-                "Apprentice",
-                "Resident",
-                "Associate",
-                "Senior",
-                "Distinguished",
-                "N/A"
-            ]
+            "bsonType": "string"
         },
         "cadence": {
             "description": "This person's preferred meeting cadence",
-            "bsonType": "string",
-            "enum": [
-                "As Needed",
-                "Monthly",
-                "Every 2 Weeks",
-                "Weekly",
-                "Twice a Week",
-                "Daily"
-            ]
+            "bsonType": "string"
         },
         "eMail": {
             "description": "The person's eMail address",
@@ -100,40 +78,12 @@
         },
         "device": {
             "description": "The type of PC this person is using",
-            "bsonType": "string",
-            "enum": [
-                "Mac Intel",
-                "Mac Apple",
-                "Linux",
-                "Windows / WSL"
-            ]
+            "bsonType": "string"
         },
         "location": {
             "description": "The location where this person lives",
             "bsonType": "string",
             "maxLength": 64
-        },
-        "lastSaved": {
-            "description": "The location where this person lives",
-            "bsonType": "object",
-            "properties": {
-                "fromIp": {
-                    "description": "Http Request remote IP address",
-                    "bsonType": "string"
-                },
-                "byUser": {
-                    "description": "UUID Of User",
-                    "bsonType": "string"
-                },
-                "atTime": {
-                    "description": "The date-time when last updated",
-                    "bsonType": "string"
-                },
-                "correlationId": {
-                    "description": "The logging correlation ID of the update transaction",
-                    "bsonType": "string"
-                }
-            }
         }
     }
 }

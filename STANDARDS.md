@@ -7,6 +7,7 @@
 - [Scehma Versioning pattern](#scehma-versioning-pattern)
 - [Name attribute and unique index](#name-attribute-and-unique-index)
 - [Status Attribute](#status-attribute)
+- [Last Saved Attribute](#lastsaved-attribute)
 - [Test Data](#test-data)
 - [ObjectId's](#objectids)
 - [Breadcrumbs](#breadcrumbs)
@@ -22,9 +23,26 @@
 - **EncounterPlans**: A template for an encounter
 - **Enumerators**: Master lists for enumerated values and descriptions.
 
+### Future Collections
+
+- **Curriculum**: A members learning roadmap
+- **Reviews**: A members review of a learning resource
+- **Identity**: An identity syncronized with identity provider
+- **Message**: An outbound eMail, SMS, or other outbound message 
+
 ## Enumerations and Data Quality
 
-Many schema's specify an enumerated list of valid values to ensure high data quality. In order to provide additional context about the meaning of the individual values, and to support user interfaces that frequently need the list of valid values, we have the enumerators collection. This collection hosts a single document that identifies all of the enumerated values by collection, with a description for each.
+The [enumerators.json](./src/mongosh/data/enumerators.json) data file containes the enumerators used by all the different collections. This file is organized as 
+```json
+"collection": {
+    "attribute": {
+        "value1":"description1",
+        "value2":"description2",
+        "value3":"description3"
+    }
+}
+```
+and the migrate.js script will add enumerator constraints to all listed attributes with the key values from this file. If the attribute is an array, the enumerators are applied to the items of that array. This allows us to specify enumerator values in a single source of truth. Use of enumerated values is encouraged to ensure high data quality. Adding new enumerators is typically a non-breaking patch level change. 
 
 ## Scehma Versioning pattern
 
@@ -41,6 +59,10 @@ Every collection has a ``name`` attribute, with a unique index. Any string value
 ## Status attribute
 
 Every collection has a status attribute with an enumerated list of valid values. Every collection should support at least ``Active`` and ``Archived`` statuses. The archived status is our soft delete indicator.
+
+## lastSaved attribute
+
+Every collection will have a lastSaved attribute automatically added to the schema when it is being loaded. This attribute is a [breadcrumb](./src/mongosh/schemas/breadcrumb.json) that supports collection and analysis of documents over time, sometimes refered to as the ability to "time-travel" the history of a document.
 
 ## Test Data
 
@@ -59,7 +81,3 @@ Our scripts take advantage of mongodb EJSON (extended JSON) standards. This allo
     `"_id": {
     "$oid": "bbbb00000000000000000001"
     }`
-
-## BreadCrumbs
-
-- Every collection should have a "lastSaved" object, that identifies the IP address, user UUID, timestamp, and http correlation ID that was responsible for the most recent updates to the document. This will support both issue root cause investigations, as well as a data lake that allows you to "time-travel" across the history of a document.

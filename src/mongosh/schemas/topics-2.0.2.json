@@ -2,6 +2,7 @@
 	"description": "A Learning Topic",
 	"bsonType": "object",
 	"required": [
+		"_id",
 		"name"
 	],
 	"properties": {
@@ -21,11 +22,7 @@
 		},
 		"status": {
 			"description": "The status of this topic",
-			"bsonType": "string",
-			"enum": [
-				"Active",
-				"Archived"
-			]
+			"bsonType": "string"
 		},
 		"description": {
 			"description": "The Topic overview paragraph",
@@ -34,29 +31,11 @@
 		},
 		"catagory": {
 			"description": "A simple catagorization of topics based on ITIL and ITSM best practices",
-			"bsonType": "string",
-			"enum": [
-				"Foundations of ITSM",
-				"Design and Development",
-				"Infrastructure and Operations",
-				"Networking and Security",
-				"Development Tools and Practices",
-				"Data Management",
-				"Continuous Integration and Deployment",
-				"Monitoring and Performance"
-			]
+			"bsonType": "string"
 		},
 		"path": {
 			"description": "A learning path through topics, list to grow as needed",
-			"bsonType": "string",
-			"enum": [
-				"Odin",
-				"EngineerKit",
-				"SRE speciality",
-				"Data speciality",
-				"AWS Cloud Hosting",
-				"Salesforce"
-			]
+			"bsonType": "string"
 		},
 		"sequence": {
 			"description": "A sortable string value used to organize topics on a path",
@@ -75,28 +54,6 @@
 			"bsonType": "array",
 			"items": {
 				"bsonType": "objectId"
-			}
-		},
-		"lastSaved": {
-			"description": "The location where this person lives",
-			"bsonType": "object",
-			"properties": {
-				"fromIp": {
-					"description": "Http Request remote IP address",
-					"bsonType": "string"
-				},
-				"byUser": {
-					"description": "UUID Of User",
-					"bsonType": "objectId"
-				},
-				"atTime": {
-					"description": "The date-time when last updated",
-					"bsonType": "date"
-				},
-				"correlationId": {
-					"description": "The logging correlation ID of the update transaction",
-					"bsonType": "string"
-				}
 			}
 		}
 	},
