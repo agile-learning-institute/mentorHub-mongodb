@@ -23,6 +23,13 @@
 - **EncounterPlans**: A template for an encounter
 - **Enumerators**: Master lists for enumerated values and descriptions.
 
+### Future Collections
+
+- **Curriculum**: A members learning roadmap
+- **Reviews**: A members review of a learning resource
+- **Identity**: An identity syncronized with identity provider
+- **Message**: An outbound eMail, SMS, or other outbound message 
+
 ## Enumerations and Data Quality
 
 The [enumerators.json](./src/mongosh/data/enumerators.json) data file containes the enumerators used by all the different collections. This file is organized as 
