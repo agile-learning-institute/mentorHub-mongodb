@@ -74,7 +74,3 @@ Our scripts take advantage of mongodb EJSON (extended JSON) standards. This allo
     `"_id": {
     "$oid": "bbbb00000000000000000001"
     }`
-
-## BreadCrumbs
-
-- Every collection should have a "lastSaved" object, that identifies the IP address, user UUID, timestamp, and http correlation ID that was responsible for the most recent updates to the document. This will support both issue root cause investigations, as well as a data lake that allows you to "time-travel" across the history of a document.
