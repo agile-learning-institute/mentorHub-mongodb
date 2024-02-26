@@ -5,42 +5,43 @@ function applySchema(config) {
   var versionDoc = db[config.name].findOne({ name: "VERSION" });
   if (versionDoc) {
     console.log("-Version Found:", versionDoc.version);
-  } else {
-    console.log("-Version Not Found, Configuring:", config.name);
-    
-    // create name index
-    db[config.name].createIndex({ name: 1 }, { unique: true });
-    console.log("-Name Index created");
-    
-    // Add Enumerators to Schema
-    const schema = require("./schemas/" + config.name + "-" + config.version + ".json");
-    const enumerators = require("./data/enumerators.json");
-    if (config.name !== "enumerators") {
-      Object.keys(enumerators[0][config.name]).forEach(attribute => {
-        const keys = Object.keys(enumerators[0][config.name][attribute]);
-        const type = schema.properties[attribute].bsonType;
-        var element = schema.properties[attribute];
-        if (type === "array") {element = element.items;}
-        console.log("-Enumerators Loading ", attribute);
-        element.enum = keys;
-      })
-      
-      // Add last saved breadcrumb to schema
-      console.log("-Adding Breadcrumb")
-      const breadcrumb = require("./schemas/breadcrumb.json");
-      schema.properties["lastSaved"] = breadcrumb;
-    }
-
-
-    // Configure schema validation
-    db.runCommand({
-      collMod: config.name,
-      validator: { $jsonSchema: schema },
-    });
-    console.log("- Schema Configured");
-
-    // Insert version document
-    db[config.name].insertOne({ name: "VERSION", version: config.version });
-    console.log("-Version Set", config.version);
+    return;
   }
+    
+  console.log("-Version Not Found, Configuring:", config.name);
+    
+  // create name index
+  db[config.name].createIndex({ name: 1 }, { unique: true });
+  console.log("-Name Index created");
+  
+  // Add Enumerators to Schema
+  const schema = require("./schemas/" + config.name + "-" + config.version + ".json");
+  const enumerators = require("./data/enumerators.json");
+  if (config.name !== "enumerators") {
+    Object.keys(enumerators[0][config.name]).forEach(attribute => {
+      const keys = Object.keys(enumerators[0][config.name][attribute]);
+      const type = schema.properties[attribute].bsonType;
+      var element = schema.properties[attribute];
+      if (type === "array") {element = element.items;}
+      console.log("-Enumerators Loading ", attribute);
+      element.enum = keys;
+    })
+    
+    // Add last saved breadcrumb to schema
+    console.log("-Adding Breadcrumb")
+    const breadcrumb = require("./schemas/breadcrumb.json");
+    schema.properties["lastSaved"] = breadcrumb;
+  }
+
+
+  // Configure schema validation
+  db.runCommand({
+    collMod: config.name,
+    validator: { $jsonSchema: schema },
+  });
+  console.log("- Schema Configured");
+
+  // Insert version document
+  db[config.name].insertOne({ name: "VERSION", version: config.version });
+  console.log("-Version Set", config.version);
 }
