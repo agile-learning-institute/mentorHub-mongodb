@@ -48,7 +48,7 @@
                 "Active": "An active topic",
                 "Archived": "Soft Delete Indicator"
             },
-            "catagory": {
+            "category": {
                 "Foundations of ITSM": "This category encompasses foundational knowledge and practices essential for effective IT service management.",
                 "Design and Development": "In the ITIL framework, design and development align with the service design phase, where services and processes are designed to meet business requirements.",
                 "Infrastructure and Operations": "Infrastructure and operations are key components of IT service delivery, encompassing hardware, operating systems, and cloud infrastructure.",
