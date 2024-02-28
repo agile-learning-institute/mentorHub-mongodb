@@ -13,6 +13,10 @@
             }
         },
         "plans": {
+            "status": {
+                "Active":"An active plan",
+                "Archived":"Soft Delete Indicator"
+            },
             "checklist": {
                 "type": {
                     "radio": "Select one option",
