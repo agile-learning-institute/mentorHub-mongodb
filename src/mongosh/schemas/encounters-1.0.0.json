@@ -26,6 +26,10 @@
 			"description": "The ID of the mentor in the encounter",
 			"bsonType": "objectId"
 		},
+		"planId": {
+			"description": "The ID of the plan used to start this encounter",
+			"bsonType": "objectId"
+		},
 		"status": {
 			"description": "The status of this encounter",
 			"bsonType": "string"
