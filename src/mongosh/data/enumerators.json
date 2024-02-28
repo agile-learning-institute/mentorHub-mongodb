@@ -10,6 +10,10 @@
                     "check": "Select multiple options",
                     "text": "Enter a text string"
                 }
+            },
+            "status": {
+                "Active":"Not Deleted",
+                "Archived":"Soft Delete Indicator"
             }
         },
         "plans": {
