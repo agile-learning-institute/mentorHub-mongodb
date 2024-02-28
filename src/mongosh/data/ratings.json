@@ -1,0 +1,22 @@
+[
+    {
+        "_id": {"$oid": "ABCD00000000000000000002"},
+        "resourceId": {"$oid": "CCCC00000000000000000002"},
+        "rating": {"count": 10, "sum": 45}
+    },
+    {
+        "_id": {"$oid": "ABCD00000000000000000003"},
+        "resourceId": {"$oid": "CCCC00000000000000000003"},
+        "rating": {"count": 10, "sum": 45}
+    },
+    {
+        "_id": {"$oid": "ABCD00000000000000000004"},
+        "resourceId": {"$oid": "CCCC00000000000000000004"},
+        "rating": {"count": 10, "sum": 45}
+    },
+    {
+        "_id": {"$oid": "ABCD00000000000000000005"},
+        "resourceId": {"$oid": "CCCC00000000000000000005"},
+        "rating": {"count": 10, "sum": 45}
+    }
+]

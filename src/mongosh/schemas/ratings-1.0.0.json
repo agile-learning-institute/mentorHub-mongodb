@@ -1,0 +1,37 @@
+{
+	"description": "Resource Rating - Accumulated from resource reviews in the curriculum collection",
+	"bsonType": "object",
+	"required": [
+		"_id"
+	],
+	"properties": {
+		"_id": {
+			"description": "The unique identifier for a resource Rating",
+			"bsonType": "objectId"
+		},
+        "version": {
+			"description": "Scehma Version (only on Version document)",
+            "bsonType": "string",
+            "maxLength": 20
+        },
+		"resourceId": {
+			"description": "The ID of the resource rated",
+			"bsonType": "objectId"
+		},
+		"rating": {
+			"description": "The rating values - final rating is sum/count",
+			"bsonType": "object",
+			"properties": {
+				"count": {
+					"description": "The number of ratings submitted",
+					"bsonType": "int"
+				},
+				"sum":{
+					"description": "The sum of all ratings submitted",
+					"bsonType": "int"
+				}
+			}
+		}
+	},
+	"additionalProperties": false
+}

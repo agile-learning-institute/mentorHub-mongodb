@@ -2,6 +2,22 @@
     {
         "name": "Enumerations",
         "status": "Active",
+        "ratings": {
+        },
+        "curriculum": {
+            "status": {
+                "Archived":"", 
+                "Assigned":"", 
+                "Started":"", 
+                "Complete":""
+            },
+            "roadmapGroup": {
+                "Now": "Current focus of effort, attainable goal",
+                "Next": "Things we think we will do next. A new 'now' will come from here",
+                "Later": "Long term strategic goals or plans",
+                "Celebrated": "Completed work"
+            }
+        },
         "people": {
             "title": {
                 "Candidate":"An Apprentice Candidate learning a full-stack",
