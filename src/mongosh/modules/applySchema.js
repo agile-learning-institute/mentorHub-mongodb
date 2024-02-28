@@ -12,11 +12,16 @@ function applySchema(config) {
   db[config.name].insertOne({ name: "VERSION", version: config.version });
   console.log("-Version Set", config.version);
 
-  // create name index
-  db[config.name].createIndex({ name: 1 }, { unique: true });
-  console.log("-Name Index created");
+  // create indexes
+  console.log("-Creating Indexes", config.version);
+  config.indexes.forEach(index => {
+    const keys = index.keys;
+    const options = index.options;
+    db[config.name].createIndex(index.keys, index.options);
+    console.log("  -Created Index", index.keys);
+  });
   
-  // Skip Enumerators Config of Enumerators collection 
+  // Skip Schema Constraints for Enumerators 
   if (config.name === "enumerators") {
     console.log("-Enumerators - Skipping enumerators load");
     return;

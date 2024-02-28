@@ -52,10 +52,6 @@ The [migrate.js](./src/mongosh/migrate.js) file automates schema deployment, and
 - Minor changes are non-breaking schema updates that support new functionality. Minor updates do not require schema migration logic.
 - Patch level updates are non-breaking schema updates that require no new downstream coding, such as adding new a enumerator value.
 
-## Name attribute and unique index
-
-Every collection has a ``name`` attribute, with a unique index. Any string value is allowed, but we prefer to use a 'slug'. A slug is a short, user-friendly, spaceless string that facilitates automation. This approach enhances the usability and accessibility of our data. A common pattern used for slugs is ``"^\S{32}$"``
-
 ## Status attribute
 
 Every collection has a status attribute with an enumerated list of valid values. Every collection should support at least ``Active`` and ``Archived`` statuses. The archived status is our soft delete indicator.

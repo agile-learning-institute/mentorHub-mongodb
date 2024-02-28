@@ -1,6 +1,12 @@
 {
   "name": "topics",
   "version": "2.0.2",
+  "indexes": [
+    {
+      "keys": { "name": 1 },
+      "options":{ "unique": true }
+    }
+  ],
   "migrations": [
   ]
 }
