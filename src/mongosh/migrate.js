@@ -9,6 +9,8 @@
 load('./modules/createCollection.js');
 load('./modules/applySchema.js');
 load('./modules/loadTestData.js');
+load('./modules/addEnumerators.js');
+
 const config = require(configFile);
 
 console.log("############ STARTING ################");
