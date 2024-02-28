@@ -4,6 +4,10 @@
         "status": "Active",
         "ratings": {
         },
+        "encounters": {
+        },
+        "plans": {
+        },
         "curriculum": {
             "status": {
                 "Archived":"", 

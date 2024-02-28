@@ -1,0 +1,31 @@
+{
+	"description": "An encounter between a member and a mentor",
+	"bsonType": "object",
+	"required": [
+		"_id"
+	],
+	"properties": {
+		"_id": {
+			"description": "The unique identifier for an encounter",
+			"bsonType": "objectId"
+		},
+        "version": {
+			"description": "Scehma Version (only on Version document)",
+            "bsonType": "string",
+            "maxLength": 20
+        },
+		"personId": {
+			"description": "The ID of the member in the encounter",
+			"bsonType": "objectId"
+		},
+		"mentorId": {
+			"description": "The ID of the mentor in the encounter",
+			"bsonType": "objectId"
+		},
+		"observations": {
+			"description": "a list of observations",
+			"bsonType": "array"
+		}
+	},
+	"additionalProperties": false
+}

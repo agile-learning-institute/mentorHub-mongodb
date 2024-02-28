@@ -1,0 +1,25 @@
+{
+	"description": "A plan for an encounter between a member and a mentor",
+	"bsonType": "object",
+	"required": [
+		"_id", 
+		"name"
+	],
+	"properties": {
+		"_id": {
+			"description": "The unique identifier for an encounter plan",
+			"bsonType": "objectId"
+		},
+        "version": {
+			"description": "Scehma Version (only on Version document)",
+            "bsonType": "string",
+            "maxLength": 20
+        },
+		"name": {
+			"description": "The short name of the plan",
+			"bsonType": "string",
+			"maxLength": 32
+		}
+	},
+	"additionalProperties": false
+}
