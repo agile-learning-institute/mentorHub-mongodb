@@ -6,7 +6,7 @@
     "name": "History of Computing",
     "status": "Active",
     "description": "With this topic you'll learn about the history of computing and some of the most important events that shaped the Information Age.",
-    "catagory": "Foundations of ITSM",
+    "category": "Foundations of ITSM",
     "path": "EngineerKit",
     "sequence": "Computing.01",
     "resources": [
@@ -37,7 +37,7 @@
     "name": "Hardware",
     "status": "Active",
     "description": "With this topic you will learn about the essential computer components and the different roles they play.",
-    "catagory": "Foundations of ITSM",
+    "category": "Foundations of ITSM",
     "path": "EngineerKit",
     "sequence": "Computing.02",
     "resources": [
@@ -67,7 +67,7 @@
     "name": "Operating Systems",
     "status": "Active",
     "description": "With this topic you will learn about the underlying software that coordinates the different components of a computer.",
-    "catagory": "Foundations of ITSM",
+    "category": "Foundations of ITSM",
     "path": "EngineerKit",
     "sequence": "Computing.03",
     "resources": [
@@ -97,7 +97,7 @@
     "name": "Runtimes",
     "status": "Active",
     "description": "With this topic you will learn about the process of turning human-readable code into commands that the computer can understand.",
-    "catagory": "Foundations of ITSM",
+    "category": "Foundations of ITSM",
     "path": "EngineerKit",
     "sequence": "Computing.04",
     "resources": [
@@ -130,7 +130,7 @@
     "name": "Spectrum of Platforms",
     "status": "Active",
     "description": "With this topic you will learn about the different combinations of hardware operating systems and runtimes used to run software applications.",
-    "catagory": "Foundations of ITSM",
+    "category": "Foundations of ITSM",
     "path": "EngineerKit",
     "sequence": "Computing.05",
     "resources": [
@@ -156,7 +156,7 @@
     "name": "Types of Data",
     "status": "Active",
     "description": "With this topic you'll learn about the spectrum of unstructured to structured data types and how to classify data correctly.",
-    "catagory": "Data Management",
+    "category": "Data Management",
     "path": "EngineerKit",
     "sequence": "Data.1",
     "resources": [
@@ -181,7 +181,7 @@
     "name": "Data Storage",
     "status": "Active",
     "description": "With this topic you'll learn techniques to store data of all types for usage in an application.",
-    "catagory": "Data Management",
+    "category": "Data Management",
     "path": "EngineerKit",
     "sequence": "Data.2",
     "resources": [
@@ -209,7 +209,7 @@
     "name": "Data Manipulation",
     "status": "Active",
     "description": "With this topic you'll learn how to interact with and manipulate data from storage providers using techniques such as SQL or SSH.",
-    "catagory": "Data Management",
+    "category": "Data Management",
     "path": "EngineerKit",
     "sequence": "Data.3",
     "resources": [
@@ -241,7 +241,7 @@
     "name": "Data Wrangling",
     "status": "Active",
     "description": "With this topic you'll learn to convert data from one type to another using data wrangling techniques.",
-    "catagory": "Data Management",
+    "category": "Data Management",
     "path": "EngineerKit",
     "sequence": "Data.4",
     "resources": [
@@ -268,7 +268,7 @@
     "name": "Managing State",
     "status": "Active",
     "description": "With this topic you'll learn about effectively using different patterns to manage the state in an application.",
-    "catagory": "Data Management",
+    "category": "Data Management",
     "path": "EngineerKit",
     "sequence": "Data.5",
     "resources": [
@@ -298,7 +298,7 @@
     "name": "OdinIntro",
     "status": "Active",
     "description": "An introduction to Web Development",
-    "catagory": "Foundations of ITSM",
+    "category": "Foundations of ITSM",
     "path": "Odin",
     "sequence": "Foundations.01",
     "resources": [
@@ -327,7 +327,7 @@
     "name": "WebDevSetup",
     "status": "Active",
     "description": "Installing and configuring a developers environment",
-    "catagory": "Foundations of ITSM",
+    "category": "Foundations of ITSM",
     "path": "Odin",
     "sequence": "Foundations.02",
     "resources": [
@@ -358,7 +358,7 @@
     "name": "GitBasics",
     "status": "Active",
     "description": "In introduction to git.",
-    "catagory": "Foundations of ITSM",
+    "category": "Foundations of ITSM",
     "path": "Odin",
     "sequence": "Foundations.03",
     "resources": [
@@ -384,7 +384,7 @@
     "name": "Intermediate HTML",
     "status": "Active",
     "description": "Intermediate HTML Concepts",
-    "catagory": "Foundations of ITSM",
+    "category": "Foundations of ITSM",
     "path": "Odin",
     "sequence": "Intermediate.1",
     "resources": [
@@ -412,7 +412,7 @@
     "name": "Intermediate CSS",
     "status": "Active",
     "description": "Intermediate CSS Concepts",
-    "catagory": "Foundations of ITSM",
+    "category": "Foundations of ITSM",
     "path": "Odin",
     "sequence": "Intermediate.2",
     "resources": [

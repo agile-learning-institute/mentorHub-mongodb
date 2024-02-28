@@ -45,12 +45,21 @@ Each config file is a json data file, that describes a collection to be initiali
 {
     "name": "documents",        // Collection Name
     "version": "1.0.0",         // Version to Initialize
+    "indexes": [                // Indexes to create
+        {
+          "keys": { "name": 1 },        // Index keys
+          "options":{ "unique": true }  // Index Options
+        }
+      ],
+    ]    
     "migrations": [             // Migration scripts
         "documents-1.0.0-to-1.0.1.js",
         "documents-1.0.1-to-1.2.0.js",
     ]
 }
 ```
+
+See [the official MongoDB Docs](https://www.mongodb.com/docs/manual/reference/method/db.collection.createIndex/) for additional information about indexes.
 
 NOTE: Migration script support is not yet implemented.
 

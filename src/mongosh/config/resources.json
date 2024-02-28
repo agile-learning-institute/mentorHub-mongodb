@@ -1,6 +1,6 @@
 {
   "name": "resources",
   "version": "1.0.2",
-  "migrations": [
-  ]
+  "indexes": [],
+  "migrations": []
 }
