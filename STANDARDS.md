@@ -22,11 +22,11 @@
 - **Encounters**: An encounter between a mentor and mentee
 - **EncounterPlans**: A template for an encounter
 - **Enumerators**: Master lists for enumerated values and descriptions.
+- **Curriculum**: A members learning/career roadmap
+- **Reviews**: A summary of members reviews of a learning resource
 
 ### Future Collections
 
-- **Curriculum**: A members learning roadmap
-- **Reviews**: A members review of a learning resource
 - **Identity**: An identity syncronized with identity provider
 - **Message**: An outbound eMail, SMS, or other outbound message 
 
