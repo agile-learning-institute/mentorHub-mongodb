@@ -2,7 +2,7 @@
 	"description": "A plan for an encounter between a member and a mentor",
 	"bsonType": "object",
 	"required": [
-		"_id", 
+		"_id",
 		"name"
 	],
 	"properties": {
@@ -10,15 +10,41 @@
 			"description": "The unique identifier for an encounter plan",
 			"bsonType": "objectId"
 		},
-        "version": {
+		"version": {
 			"description": "Scehma Version (only on Version document)",
-            "bsonType": "string",
-            "maxLength": 20
-        },
+			"bsonType": "string",
+			"maxLength": 20
+		},
 		"name": {
 			"description": "The short name of the plan",
 			"bsonType": "string",
 			"maxLength": 32
+		},
+		"checklist": {
+			"description": "a checklist of planned observations",
+			"bsonType": "array",
+			"items": {
+				"description": "An prompt to uncover information, and possible options to accelerate note taking",
+				"bsonType": "object",
+				"properties": {
+					"type": {
+						"description": "The type of observation control, from an enumerated list",
+						"bsonType": "string"
+					},
+					"prompt": {
+						"description": "The question asked",
+						"bsonType": "string",
+						"maxLength": 256
+					},
+					"options": {
+						"description": "The options for an answer (on radio and check type observations)",
+						"bsonType": "array",
+						"items": {
+							"bsonType": "string"
+						}
+					}
+				}
+			}
 		}
 	},
 	"additionalProperties": false

@@ -2,18 +2,31 @@
     {
         "name": "Enumerations",
         "status": "Active",
-        "ratings": {
-        },
+        "ratings": {},
         "encounters": {
+            "observations": {
+                "type": {
+                    "radio": "Select one option",
+                    "check": "Select multiple options",
+                    "text": "Enter a text string"
+                }
+            }
         },
         "plans": {
+            "checklist": {
+                "type": {
+                    "radio": "Select one option",
+                    "check": "Select multiple options",
+                    "text": "Enter a text string"
+                }
+            }
         },
         "curriculum": {
             "status": {
-                "Archived":"", 
-                "Assigned":"", 
-                "Started":"", 
-                "Complete":""
+                "Archived": "A soft delete indicator",
+                "Assigned": "A curriculum assignment not yet started",
+                "Started": "A curriculum assignment currently started but not marked complete",
+                "Complete": "A curriculum assignment that has been marked complete"
             },
             "roadmapGroup": {
                 "Now": "Current focus of effort, attainable goal",
@@ -24,7 +37,7 @@
         },
         "people": {
             "title": {
-                "Candidate":"An Apprentice Candidate learning a full-stack",
+                "Candidate": "An Apprentice Candidate learning a full-stack",
                 "Apprentice": "A software engineer gaining broad skills",
                 "Resident": "A well-rounded software engineer with a grasp of technologies across all ITIL/ITSM domains and an area of Specialization",
                 "Master": "A senior software engineer recognized as a leader within their specialty",
@@ -79,13 +92,13 @@
                 "Monitoring and Performance": "Monitoring and performance management ensure the availability, reliability, and performance of IT services."
             },
             "path": {
-                "Odin":"The Odin Full Stack Javascript developer program",
-                "EngineerKit":"The GitHub EngineerKit program",
-                "SRE speciality":"Speciality Resources for SRE",
-                "Data speciality":"Speciality Resources for Data",
-                "AWS Cloud Hosting":"AWS Certification Paths",
-                "Salesforce":"Salesforce Certification Paths"
-            }    
+                "Odin": "The Odin Full Stack Javascript developer program",
+                "EngineerKit": "The GitHub EngineerKit program",
+                "SRE speciality": "Speciality Resources for SRE",
+                "Data speciality": "Speciality Resources for Data",
+                "AWS Cloud Hosting": "AWS Certification Paths",
+                "Salesforce": "Salesforce Certification Paths"
+            }
         },
         "skills": {
             "status": {
@@ -93,7 +106,7 @@
                 "Archived": "Soft Delete Indicator"
             },
             "mastery": {
-                "Candidate":"An Apprentice Candidate learning a full-stack",
+                "Candidate": "An Apprentice Candidate learning a full-stack",
                 "Apprentice": "A software engineer gaining broad skills",
                 "Resident": "A well-rounded software engineer with a grasp of technologies across all ITIL/ITSM domains and an area of Specialization",
                 "Master": "A senior software engineer recognized as a leader within their specialty",
@@ -124,10 +137,10 @@
                 "Tutorial": "A step-by-step guided tutorial",
                 "User Guide": "An official user guide or getting started guide",
                 "Video": "Video",
-                "UI/UX":"Resource of interest for UI/UX Engineers",
-                "API":"Resource of interest for API Engineers",
-                "Data":"Resource of interest for Data Engineers",
-                "SRE":"Resource of interest for SRE"
+                "UI/UX": "Resource of interest for UI/UX Engineers",
+                "API": "Resource of interest for API Engineers",
+                "Data": "Resource of interest for Data Engineers",
+                "SRE": "Resource of interest for SRE"
             }
         }
     }
