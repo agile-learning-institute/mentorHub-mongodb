@@ -18,7 +18,7 @@ function applySchema(config) {
     const keys = index.keys;
     const options = index.options;
     db[config.name].createIndex(index.keys, index.options);
-    console.log("  -Created Index", index.keys);
+    console.log("  - Created Index", index.keys);
   });
   
   // Skip Schema Constraints for Enumerators 
@@ -28,20 +28,13 @@ function applySchema(config) {
   }
   
   // Configure Schema Enumerators
-  console.log("-Loading Enumerators");
+  console.log("- Loading Enumerators");
   const schema = require("./schemas/" + config.name + "-" + config.version + ".json");
   const enumerators = require("./data/enumerators.json");
-  Object.keys(enumerators[0][config.name]).forEach(attribute => {
-    const keys = Object.keys(enumerators[0][config.name][attribute]);
-    const type = schema.properties[attribute].bsonType;
-    var element = schema.properties[attribute];
-    if (type === "array") {element = element.items;}
-    console.log("-Enumerators Loading ", attribute);
-    element.enum = keys;
-  })
-  
+  addEnumerators(enumerators[0][config.name], schema.properties, ' -');
+
   // Add last saved breadcrumb to schema
-  console.log("-Adding Breadcrumb")
+  console.log("- Adding Breadcrumb")
   const breadcrumb = require("./schemas/breadcrumb.json");
   schema.properties["lastSaved"] = breadcrumb;
 

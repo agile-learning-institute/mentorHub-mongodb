@@ -1,0 +1,72 @@
+{
+	"description": "An encounter between a member and a mentor",
+	"bsonType": "object",
+	"required": [
+		"_id"
+	],
+	"properties": {
+		"_id": {
+			"description": "The unique identifier for an encounter",
+			"bsonType": "objectId"
+		},
+		"version": {
+			"description": "Scehma Version (only on Version document)",
+			"bsonType": "string",
+			"maxLength": 20
+		},
+		"date": {
+			"description": "The date/time of the encounter",
+			"bsonType": "date"
+		},
+		"personId": {
+			"description": "The ID of the member in the encounter",
+			"bsonType": "objectId"
+		},
+		"mentorId": {
+			"description": "The ID of the mentor in the encounter",
+			"bsonType": "objectId"
+		},
+		"planId": {
+			"description": "The ID of the plan used to start this encounter",
+			"bsonType": "objectId"
+		},
+		"status": {
+			"description": "The status of this encounter",
+			"bsonType": "string"
+		},
+		"observations": {
+			"description": "a list of observations",
+			"bsonType": "array",
+			"items": {
+				"description": "An prompt to uncover information, and the observation made",
+				"bsonType": "object",
+				"properties": {
+					"type": {
+						"description": "The type of observation control, from an enumerated list",
+						"bsonType": "string"
+					},
+					"prompt": {
+						"description": "The question asked",
+						"bsonType": "string",
+						"maxLength": 256
+					},
+					"options": {
+						"description": "The options for an answer (on radio and check type observations)",
+						"bsonType": "array",
+						"items": {
+							"bsonType": "string"
+						}
+					},
+					"values": {
+						"description": "The values selected or entered (will be a single value for radio and text observations)",
+						"bsonType": "array",
+						"items": {
+							"bsonType": "string"
+						}
+					}
+				}
+			}
+		}
+	},
+	"additionalProperties": false
+}

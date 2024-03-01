@@ -1,0 +1,1741 @@
+[
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000001"
+        },
+        "date": {
+            "$date": "1/1/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000004"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000027"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000002"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "Introductions",
+                "options": ["Mike", "Institute"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Tell me about you",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Who is involved",
+                "options": ["Spouse", "Children", "Extended Family", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "What's happening now, why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What matters most?",
+                "options": ["Employment", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Agreements",
+                "options": ["Now Scope", "Onboarding Scheduled"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "GitHub ID",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Discord ID",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000002"
+        },
+        "date": {
+            "$date": "1/8/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000004"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000027"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000003"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "Review",
+                "options": ["Agile Manifesto", "Craftsmanship Manifesto", "Design Thinking", "Toolkit", "Odin", "Engineerkit"],
+                "values": []
+            },
+            {
+                "type": "radio",
+                "prompt": "Choose One",
+                "options": ["One", "Two", "Three"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "What are your goals (6-month, 1-yr)",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Commitment hrs/week",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Agreements",
+                "options": ["Now Scope", "Recurring Invite"]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000003"
+        },
+        "date": {
+            "$date": "1/15/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000004"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000027"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000004"
+        },
+        "date": {
+            "$date": "1/22/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000004"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000027"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000005"
+        },
+        "date": {
+            "$date": "3/1/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000012"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000027"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000002"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "Introductions",
+                "options": ["Mike", "Institute"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Tell me about you",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Who is involved",
+                "options": ["Spouse", "Children", "Extended Family", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "What's happening now, why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What matters most?",
+                "options": ["Employment", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Agreements",
+                "options": ["Now Scope", "Onboarding Scheduled"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "GitHub ID",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Discord ID",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000006"
+        },
+        "date": {
+            "$date": "3/8/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000012"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000027"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000003"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "Review",
+                "options": ["Agile Manifesto", "Craftsmanship Manifesto", "Design Thinking", "Toolkit", "Odin", "Engineerkit"],
+                "values": []
+            },
+            {
+                "type": "radio",
+                "prompt": "Choose One",
+                "options": ["One", "Two", "Three"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "What are your goals (6-month, 1-yr)",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Commitment hrs/week",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Agreements",
+                "options": ["Now Scope", "Recurring Invite"]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000007"
+        },
+        "date": {
+            "$date": "3/15/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000012"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000027"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000008"
+        },
+        "date": {
+            "$date": "3/22/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000012"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000027"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000009"
+        },
+        "date": {
+            "$date": "10/23/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000022"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000007"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000002"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "Introductions",
+                "options": ["Mike", "Institute"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Tell me about you",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Who is involved",
+                "options": ["Spouse", "Children", "Extended Family", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "What's happening now, why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What matters most?",
+                "options": ["Employment", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Agreements",
+                "options": ["Now Scope", "Onboarding Scheduled"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "GitHub ID",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Discord ID",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000010"
+        },
+        "date": {
+            "$date": "10/30/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000022"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000007"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000003"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "Review",
+                "options": ["Agile Manifesto", "Craftsmanship Manifesto", "Design Thinking", "Toolkit", "Odin", "Engineerkit"],
+                "values": []
+            },
+            {
+                "type": "radio",
+                "prompt": "Choose One",
+                "options": ["One", "Two", "Three"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "What are your goals (6-month, 1-yr)",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Commitment hrs/week",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Agreements",
+                "options": ["Now Scope", "Recurring Invite"]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000011"
+        },
+        "date": {
+            "$date": "11/6/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000022"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000007"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000012"
+        },
+        "date": {
+            "$date": "11/13/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000022"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000007"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000013"
+        },
+        "date": {
+            "$date": "11/20/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000022"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000007"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000014"
+        },
+        "date": {
+            "$date": "12/5/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000018"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000007"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000002"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "Introductions",
+                "options": ["Mike", "Institute"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Tell me about you",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Who is involved",
+                "options": ["Spouse", "Children", "Extended Family", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "What's happening now, why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What matters most?",
+                "options": ["Employment", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Agreements",
+                "options": ["Now Scope", "Onboarding Scheduled"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "GitHub ID",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Discord ID",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000015"
+        },
+        "date": {
+            "$date": "12/12/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000018"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000007"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000003"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "Review",
+                "options": ["Agile Manifesto", "Craftsmanship Manifesto", "Design Thinking", "Toolkit", "Odin", "Engineerkit"],
+                "values": []
+            },
+            {
+                "type": "radio",
+                "prompt": "Choose One",
+                "options": ["One", "Two", "Three"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "What are your goals (6-month, 1-yr)",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Commitment hrs/week",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Agreements",
+                "options": ["Now Scope", "Recurring Invite"]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000016"
+        },
+        "date": {
+            "$date": "12/19/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000018"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000007"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000017"
+        },
+        "date": {
+            "$date": "12/26/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000018"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000007"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000018"
+        },
+        "date": {
+            "$date": "1/2/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000018"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000007"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000019"
+        },
+        "date": {
+            "$date": "11/1/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000024"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000005"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000002"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "Introductions",
+                "options": ["Mike", "Institute"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Tell me about you",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Who is involved",
+                "options": ["Spouse", "Children", "Extended Family", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "What's happening now, why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What matters most?",
+                "options": ["Employment", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Agreements",
+                "options": ["Now Scope", "Onboarding Scheduled"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "GitHub ID",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Discord ID",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000020"
+        },
+        "date": {
+            "$date": "11/8/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000024"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000005"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000003"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "Review",
+                "options": ["Agile Manifesto", "Craftsmanship Manifesto", "Design Thinking", "Toolkit", "Odin", "Engineerkit"],
+                "values": []
+            },
+            {
+                "type": "radio",
+                "prompt": "Choose One",
+                "options": ["One", "Two", "Three"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "What are your goals (6-month, 1-yr)",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "Commitment hrs/week",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "Agreements",
+                "options": ["Now Scope", "Recurring Invite"]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000021"
+        },
+        "date": {
+            "$date": "11/15/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000024"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000005"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000022"
+        },
+        "date": {
+            "$date": "11/22/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000024"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000005"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000023"
+        },
+        "date": {
+            "$date": "11/29/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000024"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000005"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000024"
+        },
+        "date": {
+            "$date": "12/6/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000024"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000005"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000025"
+        },
+        "date": {
+            "$date": "12/13/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000024"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000005"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000026"
+        },
+        "date": {
+            "$date": "12/20/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000024"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000005"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000027"
+        },
+        "date": {
+            "$date": "12/27/2023 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000024"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000005"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000028"
+        },
+        "date": {
+            "$date": "1/3/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000024"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000005"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "eeee00000000000000000029"
+        },
+        "date": {
+            "$date": "1/10/2024 0:00:00"
+        },
+        "personId": {
+            "$oid": "aaaa00000000000000000024"
+        },
+        "mentorId": {
+            "$oid": "aaaa00000000000000000005"
+        },
+        "planId": {
+            "$oid": "EEFF00000000000000000004"
+        },
+        "status": "Active",
+        "observations": [
+            {
+                "type": "check",
+                "prompt": "What do you want to focus on today?",
+                "options": ["Now Questions", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you describe what's happeningn now? Why?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "During out time together, what woud you like to acomplish?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What are some ideas to try, what one thing can we start with?",
+                "options": ["Now Scope", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "check",
+                "prompt": "What would you like to be able to share next time?",
+                "options": ["New Now", "OTHER"],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How are your discoveries making a difference?",
+                "options": [],
+                "values": []
+            },
+            {
+                "type": "text",
+                "prompt": "How would you like to close today?",
+                "options": []
+            }
+        ]
+    }
+]
