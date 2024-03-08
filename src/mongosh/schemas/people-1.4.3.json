@@ -28,6 +28,13 @@
             "description": "The status of this member",
             "bsonType": "string"
         },
+        "roles": {
+			"description": "RBAC Roles for this person",
+			"bsonType": "array",
+			"items": {
+				"bsonType": "string"
+			}
+        },
         "member": {
             "description": "Is this person a Member",
             "bsonType": "bool"
