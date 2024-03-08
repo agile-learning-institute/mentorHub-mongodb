@@ -3,8 +3,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000000"
     },
-    "name": "James Smith",
-    "status": "Pending",
+    "userName": "JamesSmith",
+    "firstName": "James",
+    "lastName": "Smith",
+    "Status": "Pending",
     "Member": true,
     "Mentor": false,
     "Donor": false,
@@ -41,8 +43,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000001"
     },
-    "name": "Michael Smith",
-    "status": "Active",
+    "userName": "MichaelSmith",
+    "firstName": "Michael",
+    "lastName": "Smith",
+    "Status": "Active",
     "Member": true,
     "Mentor": false,
     "Donor": false,
@@ -79,8 +83,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000002"
     },
-    "name": "Thomas Smith",
-    "status": "Archived",
+    "userName": "ThomasSmith",
+    "firstName": "Thomas",
+    "lastName": "Smith",
+    "Status": "Archived",
     "Member": true,
     "Mentor": false,
     "Donor": true,
@@ -118,8 +124,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000003"
     },
-    "name": "Emily Smith",
-    "status": "Inactive",
+    "userName": "EmilySmith",
+    "firstName": "Emily",
+    "lastName": "Smith",
+    "Status": "Inactive",
     "Member": true,
     "Mentor": false,
     "Donor": true,
@@ -157,8 +165,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000004"
     },
-    "name": "Elizabeth Smith",
-    "status": "Pending",
+    "userName": "ElizabethSmith",
+    "firstName": "Elizabeth",
+    "lastName": "Smith",
+    "Status": "Pending",
     "Member": false,
     "Mentor": false,
     "Donor": true,
@@ -191,8 +201,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000005"
     },
-    "name": "Samuel Smith",
-    "status": "Active",
+    "userName": "SamuelSmith",
+    "firstName": "Samuel",
+    "lastName": "Smith",
+    "Status": "Active",
     "Member": false,
     "Mentor": true,
     "Donor": true,
@@ -225,8 +237,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000006"
     },
-    "name": "Jacob Smith",
-    "status": "Archived",
+    "userName": "Jacobmith",
+    "firstName": "Jacob",
+    "lastName": "Smith",
+    "Status": "Archived",
     "Member": false,
     "Mentor": false,
     "Donor": false,
@@ -258,8 +272,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000007"
     },
-    "name": "Emma Smith",
-    "status": "Inactive",
+    "userName": "EmmaSmith",
+    "firstName": "Emma",
+    "lastName": "Smith",
+    "Status": "Inactive",
     "Member": false,
     "Mentor": true,
     "Donor": false,
@@ -288,8 +304,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000008"
     },
-    "name": "Benjamin Smith",
-    "status": "Pending",
+    "userName": "BenjaminSmith",
+    "firstName": "Benjamin",
+    "lastName": "Smith",
+    "Status": "Pending",
     "Member": true,
     "Mentor": false,
     "Donor": false,
@@ -326,8 +344,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000009"
     },
-    "name": "Olivia Smith",
-    "status": "Active",
+    "userName": "OliviaSmith",
+    "firstName": "Olivia",
+    "lastName": "Smith",
+    "Status": "Active",
     "Member": true,
     "Mentor": false,
     "Donor": false,
@@ -364,8 +384,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000010"
     },
-    "name": "David Smith",
-    "status": "Archived",
+    "userName": "DavidSmith",
+    "firstName": "David",
+    "lastName": "Smith",
+    "Status": "Archived",
     "Member": true,
     "Mentor": false,
     "Donor": true,
@@ -402,8 +424,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000011"
     },
-    "name": "Alexander Smith",
-    "status": "Inactive",
+    "userName": "AlexanderSmith",
+    "firstName": "Alexande",
+    "lastName": "Smith",
+    "Status": "Inactive",
     "Member": true,
     "Mentor": false,
     "Donor": true,
@@ -441,8 +465,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000012"
     },
-    "name": "Noah Smith",
-    "status": "Pending",
+    "userName": "NoahSmith",
+    "firstName": "Noah",
+    "lastName": "Smith",
+    "Status": "Pending",
     "Member": false,
     "Mentor": false,
     "Donor": true,
@@ -474,8 +500,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000013"
     },
-    "name": "Joshua Smith",
-    "status": "Active",
+    "userName": "JoshuaSmith",
+    "firstName": "Joshua",
+    "lastName": "Smith",
+    "Status": "Active",
     "Member": false,
     "Mentor": false,
     "Donor": true,
@@ -507,8 +535,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000014"
     },
-    "name": "Matthew Smith",
-    "status": "Archived",
+    "userName": "MatthewSmith",
+    "firstName": "Matthew",
+    "lastName": "Smith",
+    "Status": "Archived",
     "Member": false,
     "Mentor": false,
     "Donor": false,
@@ -540,8 +570,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000015"
     },
-    "name": "Isabella Smith",
-    "status": "Inactive",
+    "userName": "IsabellaSmith",
+    "firstName": "Isabell",
+    "lastName": "Smith",
+    "Status": "Inactive",
     "Member": false,
     "Mentor": false,
     "Donor": false,
@@ -571,8 +603,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000016"
     },
-    "name": "Ethan Smith",
-    "status": "Pending",
+    "userName": "EthanSmith",
+    "firstName": "Etha",
+    "lastName": "Smith",
+    "Status": "Pending",
     "Member": true,
     "Mentor": false,
     "Donor": false,
@@ -606,8 +640,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000017"
     },
-    "name": "Anthony Smith",
-    "status": "Active",
+    "userName": "AnthonySmith",
+    "firstName": "Anthony",
+    "lastName": "Smith",
+    "Status": "Active",
     "Member": true,
     "Mentor": false,
     "Donor": false,
@@ -645,8 +681,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000018"
     },
-    "name": "Grace Smith",
-    "status": "Archived",
+    "userName": "GraceSmith",
+    "firstName": "race",
+    "lastName": "Smith",
+    "Status": "Archived",
     "Member": true,
     "Mentor": false,
     "Donor": true,
@@ -684,8 +722,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000019"
     },
-    "name": "Sophia Smith",
-    "status": "Inactive",
+    "userName": "SophiaSmith",
+    "firstName": "Sophia",
+    "lastName": "Smith",
+    "Status": "Inactive",
     "Member": true,
     "Mentor": false,
     "Donor": true,
@@ -722,8 +762,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000020"
     },
-    "name": "Mia Smith",
-    "status": "Pending",
+    "userName": "MiaSmith",
+    "firstName": "Mia",
+    "lastName": "Smith",
+    "Status": "Pending",
     "Member": false,
     "Mentor": false,
     "Donor": true,
@@ -755,8 +797,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000021"
     },
-    "name": "Abigail Smith",
-    "status": "Active",
+    "userName": "AbigailSmith",
+    "firstName": "Abigail",
+    "lastName": "Smith",
+    "Status": "Active",
     "Member": false,
     "Mentor": false,
     "Donor": true,
@@ -788,8 +832,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000022"
     },
-    "name": "Ava Smith",
-    "status": "Archived",
+    "userName": "AvSmith",
+    "firstName": "Ava",
+    "lastName": "Smith",
+    "Status": "Archived",
     "Member": false,
     "Mentor": false,
     "Donor": false,
@@ -821,8 +867,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000023"
     },
-    "name": "Lucas Smith",
-    "status": "Inactive",
+    "userName": "LucasSmith",
+    "firstName": "Lucas",
+    "lastName": "Smith",
+    "Status": "Inactive",
     "Member": false,
     "Mentor": false,
     "Donor": false,
@@ -852,8 +900,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000024"
     },
-    "name": "James Jones",
-    "status": "Pending",
+    "userName": "JamesJones",
+    "firstName": "Jame",
+    "lastName": "Jones",
+    "Status": "Pending",
     "Member": true,
     "Mentor": false,
     "Donor": false,
@@ -891,8 +941,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000025"
     },
-    "name": "Michael Jones",
-    "status": "Active",
+    "userName": "MichaelJones",
+    "firstName": "Michael",
+    "lastName": "Jones",
+    "Status": "Active",
     "Member": true,
     "Mentor": false,
     "Donor": false,
@@ -930,8 +982,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000026"
     },
-    "name": "Thomas Jones",
-    "status": "Archived",
+    "userName": "ThomasJones",
+    "firstName": "Thomas",
+    "lastName": "Jones",
+    "Status": "Archived",
     "Member": true,
     "Mentor": false,
     "Donor": true,
@@ -969,8 +1023,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000027"
     },
-    "name": "Emily Jones",
-    "status": "Inactive",
+    "userName": "EmilyJones",
+    "firstName": "Emily",
+    "lastName": "Jones",
+    "Status": "Inactive",
     "Member": true,
     "Mentor": true,
     "Donor": true,
@@ -1004,8 +1060,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000028"
     },
-    "name": "Elizabeth Jones",
-    "status": "Pending",
+    "userName": "ElizabethJones",
+    "firstName": "Elizabeth",
+    "lastName": "Jones",
+    "Status": "Pending",
     "Member": false,
     "Mentor": false,
     "Donor": true,
@@ -1037,8 +1095,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000029"
     },
-    "name": "Samuel Jones",
-    "status": "Active",
+    "userName": "SamuelJones",
+    "firstName": "Samuel",
+    "lastName": "Jones",
+    "Status": "Active",
     "Member": false,
     "Mentor": false,
     "Donor": true,
@@ -1070,8 +1130,10 @@
     "_id": {
       "$oid": "aaaa00000000000000000030"
     },
-    "name": "Jacob Jones",
-    "status": "Archived",
+    "userName": "JacobJones",
+    "firstName": "Jacob",
+    "lastName": "Jones",
+    "Status": "Archived",
     "Member": false,
     "Mentor": false,
     "Donor": false,

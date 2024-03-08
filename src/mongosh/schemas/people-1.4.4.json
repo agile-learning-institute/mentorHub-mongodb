@@ -2,7 +2,7 @@
     "bsonType": "object",
     "required": [
         "_id",
-        "name"
+        "userName"
     ],
     "properties": {
         "_id": {
@@ -10,19 +10,34 @@
             "bsonType": "objectId"
         },
         "name": {
-            "description": "The persons name, first and last, or VERSION for the Schema Version document",
+            "description": "VERSION document only",
             "bsonType": "string",
             "maxLength": 32
+        },
+        "version": {
+            "description": "VERSION document only",
+            "bsonType": "string",
+            "maxLength": 20
+        },
+        "userName": {
+            "description": "Username",
+            "bsonType": "string",
+            "pattern": "\\S{0,64}"
+        },
+        "firstName": {
+            "description": "The persons first name",
+            "bsonType": "string",
+            "pattern": "\\S{0,64}"
+        },
+        "lastName": {
+            "description": "The persons last name",
+            "bsonType": "string",
+            "pattern": "\\S{0,64}"
         },
         "description": {
             "description": "Notes or other descriptive text",
             "bsonType": "string",
             "maxLength": 256
-        },
-        "version": {
-            "description": "",
-            "bsonType": "string",
-            "maxLength": 20
         },
         "status": {
             "description": "The status of this member",

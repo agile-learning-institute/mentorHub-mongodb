@@ -1,9 +1,9 @@
 {
   "name": "people",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "indexes": [
     {
-      "keys": {"name": 1},
+      "keys": {"userName": 1},
       "options": {"unique": true}
     }
   ],
