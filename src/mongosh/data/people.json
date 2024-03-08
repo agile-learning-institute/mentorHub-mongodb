@@ -86,7 +86,8 @@
     "Donor": true,
     "Partner": false,
     "roles": [
-      "Mentor"
+      "Mentor",
+      "Staff"
     ],
     "mentorId": {
       "$oid": "aaaa00000000000000000005"
