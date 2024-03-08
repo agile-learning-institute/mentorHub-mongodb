@@ -44,6 +44,12 @@
             }
         },
         "people": {
+            "roles": {
+                "Member": "A member",
+                "Mentor": "A mentor",
+                "Partner": "A partner contact",
+                "Donor": "A donor or supporter"
+            },
             "title": {
                 "Candidate": "An Apprentice Candidate learning a full-stack",
                 "Apprentice": "A software engineer gaining broad skills",
