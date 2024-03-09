@@ -22,17 +22,17 @@
         "userName": {
             "description": "Username",
             "bsonType": "string",
-            "pattern": "\\S{0,64}"
+            "pattern": "^[^\\s]{0,64}$"
         },
         "firstName": {
             "description": "The persons first name",
             "bsonType": "string",
-            "pattern": "\\S{0,64}"
+            "pattern": "^[^\\s]{0,64}$"
         },
         "lastName": {
             "description": "The persons last name",
             "bsonType": "string",
-            "pattern": "\\S{0,64}"
+            "pattern": "^[^\\s]{0,64}$"
         },
         "description": {
             "description": "Notes or other descriptive text",
