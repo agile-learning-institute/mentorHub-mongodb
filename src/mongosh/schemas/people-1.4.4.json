@@ -107,5 +107,6 @@
             "bsonType": "string",
             "maxLength": 64
         }
-    }
+    },
+    "additionalProperties": false
 }
