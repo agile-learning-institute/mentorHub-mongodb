@@ -91,7 +91,7 @@
         "gitHub": {
             "description": "The person's gitHub User ID",
             "bsonType": "string",
-            "maxLength": 32
+            "pattern": "^[^\\s]{0,32}$"
         },
         "phone": {
             "description": "The person's phone number",
