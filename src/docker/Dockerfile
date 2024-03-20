@@ -1,5 +1,5 @@
 # From MongoDB Offical Image
-FROM mongo:latest
+FROM mongo:7.0.5
 
 # Set the stage
 WORKDIR /mongosh
