@@ -6,7 +6,7 @@
         "status": "Active",
         "name": "ComputerHistoryTimelineA",
         "description": "Computer History Timeline Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink02.com",
         "duration": 25,
         "skills": [
             {
@@ -37,7 +37,7 @@
         "status": "Active",
         "name": "HistoryofComputingArticl",
         "description": "History of Computing Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink03.com",
         "duration": 333,
         
         "skills": [
@@ -67,7 +67,7 @@
         "status": "Active",
         "name": "PiratesofSiliconValleyFi",
         "description": "Pirates of Silicon Valley Film",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink04.com",
         "duration": 219,
         
         "skills": [
@@ -96,7 +96,7 @@
         "status": "Active",
         "name": "Apple1984SuperBowlCommer",
         "description": "Apple 1984 Super Bowl Commercial Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink05.com",
         "duration": 367,
         
         "skills": [
@@ -129,7 +129,7 @@
         "status": "Active",
         "name": "BretVictorTheFutureofPro",
         "description": "Bret Victor The Future of Programming Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink06.com",
         "duration": 493,
         
         "skills": [
@@ -160,7 +160,7 @@
         "status": "Active",
         "name": "AwesomeComputerHistoryRe",
         "description": "Awesome Computer History Resource",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink07.com",
         "duration": 418,
         
         "skills": [
@@ -191,7 +191,7 @@
         "status": "Active",
         "name": "JeanBartikandtheENIACWom",
         "description": "Jean Bartik and the ENIAC Women Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink08.com",
         "duration": 188,
         
         "skills": [
@@ -224,7 +224,7 @@
         "status": "Active",
         "name": "ExploringHowComputersWor",
         "description": "Exploring How Computers Work Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink09.com",
         "duration": 3,
         
         "skills": [
@@ -256,7 +256,7 @@
         "status": "Active",
         "name": "DigitalLogicSimTool",
         "description": "Digital Logic Sim Tool",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink10.com",
         "duration": 373,
         
         "skills": [
@@ -284,7 +284,7 @@
         "status": "Active",
         "name": "HistoryandTheoryofElectr",
         "description": "History and Theory of Electricity Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlin11.com",
         "duration": 205,
         
         "skills": [
@@ -315,7 +315,7 @@
         "status": "Active",
         "name": "Buildingan8-bitcomputerV",
         "description": "Building an 8-bit computer Video Series",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink12.com",
         "duration": 17,
         
         "skills": [
@@ -346,7 +346,7 @@
         "status": "Active",
         "name": "nand2tetris:buildingacom",
         "description": "nand2tetris: building a computer from first principles Course",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink13.com",
         "duration": 260,
         
         "skills": [
@@ -379,7 +379,7 @@
         "status": "Active",
         "name": "8StandardComputerCompone",
         "description": "8 Standard Computer Components Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink14.com",
         "duration": 19,
         
         "skills": [
@@ -408,7 +408,7 @@
         "status": "Active",
         "name": "DigitalOceanLearningLibr",
         "description": "DigitalOcean Learning Library Resource",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink15.com",
         "duration": 8,
         
         "skills": [
@@ -435,7 +435,7 @@
         "status": "Active",
         "name": "Dockerin100SecondsVideo",
         "description": "Docker in 100 Seconds Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.16.com",
         "duration": 419,
         
         "skills": [
@@ -467,7 +467,7 @@
         "status": "Active",
         "name": "LearnDockerin7EasyStepsV",
         "description": "Learn Docker in 7 Easy Steps Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.17.com",
         "duration": 219,
         
         "skills": [
@@ -497,7 +497,7 @@
         "status": "Active",
         "name": "UnderstandingOperatingSy",
         "description": "Understanding Operating Systems Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.18.com",
         "duration": 100,
         "skills": [
             {
@@ -526,7 +526,7 @@
         "status": "Active",
         "name": "UsingDockerDevContainers",
         "description": "Using Docker Dev Containers Resource",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.19.com",
         "duration": 233,
         
         "skills": [
@@ -556,7 +556,7 @@
         "status": "Active",
         "name": "VirtualBoxTool",
         "description": "VirtualBox Tool",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.20.com",
         "duration": 464,
         
         "skills": [
@@ -590,7 +590,7 @@
         "status": "Active",
         "name": "TheProgrammingProcessArt",
         "description": "The Programming Process Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.21.com",
         "duration": 141,
         
         "skills": [
@@ -620,7 +620,7 @@
         "status": "Active",
         "name": "Howdocomputersreadcode?V",
         "description": "How do computers read code? Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.22.com",
         "duration": 160,
         
         "skills": [
@@ -653,7 +653,7 @@
         "status": "Active",
         "name": "rbenvTool",
         "description": "rbenv Tool",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.23.com",
         "duration": 143,
         
         "skills": [
@@ -682,7 +682,7 @@
         "status": "Active",
         "name": "pyenvTool",
         "description": "pyenv Tool",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.24.com",
         "duration": 388,
         
         "skills": [
@@ -714,7 +714,7 @@
         "status": "Active",
         "name": "nodenvTool",
         "description": "nodenv Tool",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.25.com",
         "duration": 170,
         
         "skills": [
@@ -745,7 +745,7 @@
         "status": "Active",
         "name": "goenvTool",
         "description": "goenv Tool",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.26.com",
         "duration": 304,
         
         "skills": [
@@ -776,7 +776,7 @@
         "status": "Active",
         "name": "rustupTool",
         "description": "rustup Tool",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.27.com",
         "duration": 506,
         
         "skills": [
@@ -809,7 +809,7 @@
         "status": "Active",
         "name": "C#languageversioning",
         "description": "C# language versioning",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.28.com",
         "duration": 277,
         
         "skills": [
@@ -839,7 +839,7 @@
         "status": "Active",
         "name": "ComputerBasicsCourseCour",
         "description": "Computer Basics Course Course ($)",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.29.com",
         "duration": 75,
         
         "skills": [
@@ -870,7 +870,7 @@
         "status": "Active",
         "name": "BrowserStacklistofplatfo",
         "description": "BrowserStack list of platforms Resource",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.30.com",
         "duration": 82,
         
         "skills": [
@@ -906,7 +906,7 @@
         "status": "Active",
         "name": "ComputingplatformArticle",
         "description": "Computing platform Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.31.com",
         "duration": 94,
         
         "skills": [
@@ -937,7 +937,7 @@
         "status": "Active",
         "name": "Structuredvs.Unstructure",
         "description": "Structured vs. Unstructured Data Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.32.com",
         "duration": 68,
         
         "skills": [
@@ -968,7 +968,7 @@
         "status": "Active",
         "name": "7DatabaseParadigmsVideo",
         "description": "7 Database Paradigms Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.33.com",
         "duration": 312,
         
         "skills": [
@@ -997,7 +997,7 @@
         "status": "Active",
         "name": "AWSDatabasesResource",
         "description": "AWS Databases Resource",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.34.com",
         "duration": 230,
         
         "skills": [
@@ -1025,7 +1025,7 @@
         "status": "Active",
         "name": "AWSStorageResource",
         "description": "AWS Storage Resource",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.35.com",
         "duration": 342,
         
         "skills": [
@@ -1057,7 +1057,7 @@
         "status": "Active",
         "name": "CloudFirestoreTool",
         "description": "Cloud Firestore Tool",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.36.com",
         "duration": 154,
         
         "skills": [
@@ -1086,7 +1086,7 @@
         "status": "Active",
         "name": "DatabasenormalizationRes",
         "description": "Database normalization Resource",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.37.com",
         "duration": 280,
         
         "skills": [
@@ -1117,7 +1117,7 @@
         "status": "Active",
         "name": "NormalDataFormsVideo",
         "description": "Normal Data Forms Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.38.com",
         "duration": 354,
         
         "skills": [
@@ -1151,7 +1151,7 @@
         "status": "Active",
         "name": "SQLExplainedin100Seconds",
         "description": "SQL Explained in 100 Seconds Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.39.com",
         "duration": 70,
         
         "skills": [
@@ -1183,7 +1183,7 @@
         "status": "Active",
         "name": "SQLplaygroundTool",
         "description": "SQL playground Tool",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.40.com",
         "duration": 88,
         
         "skills": [
@@ -1213,7 +1213,7 @@
         "status": "Active",
         "name": "SQLZOOTutorial",
         "description": "SQLZOO Tutorial",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.41.com",
         "duration": 363,
         
         "skills": [
@@ -1244,7 +1244,7 @@
         "status": "Active",
         "name": "ModifyingDatawithSQLCour",
         "description": "Modifying Data with SQL Course ($)",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.42.com",
         "duration": 46,
         
         "skills": [
@@ -1275,7 +1275,7 @@
         "status": "Active",
         "name": "QueryingRelationalDataba",
         "description": "Querying Relational Databases Course ($)",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.43.com",
         "duration": 210,
         
         "skills": [
@@ -1306,7 +1306,7 @@
         "status": "Active",
         "name": "SQLBasicsCourse($)",
         "description": "SQL Basics Course ($)",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.44.com",
         "duration": 195,
         
         "skills": [
@@ -1338,7 +1338,7 @@
         "status": "Active",
         "name": "MissingSemester:DataWran",
         "description": "Missing Semester: Data Wrangling Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.45.com",
         "duration": 363,
         
         "skills": [
@@ -1367,7 +1367,7 @@
         "status": "Active",
         "name": "Regexin100SecondsVideo",
         "description": "Regex in 100 Seconds Video",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.46.com",
         "duration": 125,
         
         "skills": [
@@ -1398,7 +1398,7 @@
         "status": "Active",
         "name": "WhatisETL?Article",
         "description": "What is ETL? Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.47.com",
         "duration": 113,
         
         "skills": [
@@ -1428,7 +1428,7 @@
         "status": "Active",
         "name": "3TipsThatWillSimplifyYou",
         "description": "3 Tips That Will Simplify Your Application State Management Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.48.com",
         "duration": 209,
         
         "skills": [
@@ -1460,7 +1460,7 @@
         "status": "Active",
         "name": "CachinginaPWATutorial",
         "description": "Caching in a PWA Tutorial",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.49.com",
         "duration": 123,
         
         "skills": [
@@ -1489,7 +1489,7 @@
         "status": "Active",
         "name": "Event-drivenarchitecture",
         "description": "Event-driven architecture Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.50.com",
         "duration": 393,
         
         "skills": [
@@ -1519,7 +1519,7 @@
         "status": "Active",
         "name": "Implementingasimplestate",
         "description": "Implementing a simple state machine library in JavaScript Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.51.com",
         "duration": 213,
         
         "skills": [
@@ -1551,7 +1551,7 @@
         "status": "Active",
         "name": "WhatdoyoumeanbyEvent",
         "description": "What do you mean by Event-Driven? Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.52.com",
         "duration": 291,
         
         "skills": [
@@ -1585,7 +1585,7 @@
         "status": "Active",
         "name": "Whatiscaching?Article",
         "description": "What is caching? Article",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.53.com",
         "duration": 475,
         
         "skills": [
@@ -1618,7 +1618,7 @@
         "status": "Active",
         "name": "HowThisCourseWillWork",
         "description": "How This Course Will Work",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.54.com",
         "duration": 356,
         
         "skills": [
@@ -1652,7 +1652,7 @@
         "status": "Active",
         "name": "IntroductiontoWebDevelop",
         "description": "Introduction to Web Development",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.55.com",
         "duration": 70,
         
         "skills": [
@@ -1680,7 +1680,7 @@
         "status": "Active",
         "name": "MotivationandMindset",
         "description": "Motivation and Mindset",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.56.com",
         "duration": 307,
         
         "skills": [
@@ -1713,7 +1713,7 @@
         "status": "Active",
         "name": "AskingForHelp",
         "description": "Asking For Help",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.57.com",
         "duration": 330,
         
         "skills": [
@@ -1743,7 +1743,7 @@
         "status": "Active",
         "name": "JointheOdinCommunity",
         "description": "Join the Odin Community",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.58.com",
         "duration": 217,
         
         "skills": [
@@ -1776,7 +1776,7 @@
         "status": "Active",
         "name": "ComputerBasics",
         "description": "Computer Basics",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.59.com",
         "duration": 105,
         
         "skills": [
@@ -1808,7 +1808,7 @@
         "status": "Active",
         "name": "HowDoestheWebWork?",
         "description": "How Does the Web Work?",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.60.com",
         "duration": 362,
         
         "skills": [
@@ -1841,7 +1841,7 @@
         "status": "Active",
         "name": "InstallationOverview",
         "description": "Installation Overview",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.61.com",
         "duration": 243,
         
         "skills": [
@@ -1872,7 +1872,7 @@
         "status": "Active",
         "name": "Installations",
         "description": "Installations",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.62.com",
         "duration": 109,
         
         "skills": [
@@ -1903,7 +1903,7 @@
         "status": "Active",
         "name": "TextEditors",
         "description": "Text Editors",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.63.com",
         "duration": 137,
         
         "skills": [
@@ -1935,7 +1935,7 @@
         "status": "Active",
         "name": "CommandLineBasics",
         "description": "Command Line Basics",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.64.com",
         "duration": 58,
         
         "skills": [
@@ -1966,7 +1966,7 @@
         "status": "Active",
         "name": "SettingupGit",
         "description": "Setting up Git",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.65.com",
         "duration": 247,
         
         "skills": [
@@ -1998,7 +1998,7 @@
         "status": "Active",
         "name": "IntroductiontoGit",
         "description": "Introduction to Git",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.66.com",
         "duration": 359,
         
         "skills": [
@@ -2028,7 +2028,7 @@
         "status": "Active",
         "name": "GitBasics",
         "description": "Git Basics",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.67.com",
         "duration": 104,
         
         "skills": [
@@ -2058,7 +2058,7 @@
         "status": "Active",
         "name": "Introduction",
         "description": "Introduction",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.68.com",
         "duration": 128,
         
         "skills": [
@@ -2088,7 +2088,7 @@
         "status": "Active",
         "name": "Emmet",
         "description": "Emmet",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.69.com",
         "duration": 465,
         
         "skills": [
@@ -2119,7 +2119,7 @@
         "status": "Active",
         "name": "SVG",
         "description": "SVG",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.70.com",
         "duration": 48,
         
         "skills": [
@@ -2149,7 +2149,7 @@
         "status": "Active",
         "name": "Tables",
         "description": "Tables",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.71.com",
         "duration": 468,
         
         "skills": [
@@ -2180,7 +2180,7 @@
         "status": "Active",
         "name": "DefaultStyles",
         "description": "Default Styles",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.72.com",
         "duration": 480,
         
         "skills": [
@@ -2210,7 +2210,7 @@
         "status": "Active",
         "name": "CSSUnits",
         "description": "CSS Units",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.73.com",
         "duration": 518,
         
         "skills": [
@@ -2244,7 +2244,7 @@
         "status": "Active",
         "name": "MoreTextStyles",
         "description": "More Text Styles",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.74.com",
         "duration": 332,
         
         "skills": [
@@ -2276,7 +2276,7 @@
         "status": "Active",
         "name": "MoreCSSProperties",
         "description": "More CSS Properties",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.75.com",
         "duration": 311,
         
         "skills": [
@@ -2306,7 +2306,7 @@
         "status": "Active",
         "name": "AdvancedSelectors",
         "description": "Advanced Selectors",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.76.com",
         "duration": 358,
         
         "skills": [
@@ -2337,7 +2337,7 @@
         "status": "Active",
         "name": "Positioning",
         "description": "Positioning",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.77.com",
         "duration": 524,
         
         "skills": [
@@ -2369,7 +2369,7 @@
         "status": "Active",
         "name": "CSSFunctions",
         "description": "CSS Functions",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.78.com",
         "duration": 402,
         
         "skills": [
@@ -2401,7 +2401,7 @@
         "status": "Active",
         "name": "CustomProperties",
         "description": "Custom Properties",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.79.com",
         "duration": 143,
         
         "skills": [
@@ -2432,7 +2432,7 @@
         "status": "Active",
         "name": "BrowserCompatibility",
         "description": "Browser Compatibility",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.80.com",
         "duration": 79,
         
         "skills": [
@@ -2464,7 +2464,7 @@
         "status": "Active",
         "name": "FrameworksandPreprocesso",
         "description": "Frameworks and Preprocessors",
-        "link": "https://somevalidlink.com",
+        "link": "https://somevalidlink.81.com",
         "duration": 288,
         
         "skills": [
