@@ -1,6 +1,11 @@
 {
   "name": "resources",
   "version": "1.0.2",
-  "indexes": [],
+  "indexes": [
+    {
+      "keys": {"name": 1},
+      "options": {"unique": true}
+    }
+  ],
   "migrations": []
 }
