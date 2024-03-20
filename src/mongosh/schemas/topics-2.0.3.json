@@ -33,18 +33,6 @@
 			"description": "A simple categorization of topics based on ITIL and ITSM best practices",
 			"bsonType": "string"
 		},
-		"path": {
-			"description": "A learning path through topics, list to grow as needed",
-			"bsonType": "string"
-		},
-		"segment": {
-			"description": "The segment within the Path",
-			"bsonType": "string"
-		},
-		"sequence": {
-			"description": "The sequence within the Segment",
-			"bsonType": "int"
-		},
 		"skills": {
 			"description": "The list of skills related to this topic",
 			"bsonType": "array",

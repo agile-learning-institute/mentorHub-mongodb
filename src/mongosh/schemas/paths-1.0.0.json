@@ -27,8 +27,22 @@
 			"bsonType": "array",
 			"items": {
 				"description": "A grouping of Topics within a Path",
-				"bsonType": "string",
-				"maxLength": 64
+				"bsonType": "object",
+				"properties": {
+					"name": {
+						"description": "The Segment Name",
+						"bsonType": "string",
+						"maxLength": 64
+					},
+					"topics": {
+						"description": "The list of topics in this Segment",
+						"bsonType": "array",
+						"items": {
+							"description": "The Topic ID",
+							"bsonType": "objectId"
+						}
+					}
+				}
 			}
 		}
 	},
