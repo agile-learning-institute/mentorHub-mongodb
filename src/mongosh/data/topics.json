@@ -8,7 +8,8 @@
     "description": "With this topic you'll learn about the history of computing and some of the most important events that shaped the Information Age.",
     "category": "Foundations of ITSM",
     "path": "EngineerKit",
-    "sequence": "Computing.01",
+    "segment": "Craftsmanship",
+    "sequence": 1,
     "resources": [
       {"$oid": "CCCC00000000000000000002"},
       {"$oid": "CCCC00000000000000000003"},
@@ -39,7 +40,8 @@
     "description": "With this topic you will learn about the essential computer components and the different roles they play.",
     "category": "Foundations of ITSM",
     "path": "EngineerKit",
-    "sequence": "Computing.02",
+    "segment": "Craftsmanship",
+    "sequence": 2,
     "resources": [
       {"$oid": "CCCC00000000000000000009"},
       {"$oid": "CCCC00000000000000000010"},
@@ -69,7 +71,8 @@
     "description": "With this topic you will learn about the underlying software that coordinates the different components of a computer.",
     "category": "Foundations of ITSM",
     "path": "EngineerKit",
-    "sequence": "Computing.03",
+    "segment": "Computing",
+    "sequence": 1,
     "resources": [
       {"$oid": "CCCC00000000000000000015"},
       {"$oid": "CCCC00000000000000000016"},
@@ -99,7 +102,8 @@
     "description": "With this topic you will learn about the process of turning human-readable code into commands that the computer can understand.",
     "category": "Foundations of ITSM",
     "path": "EngineerKit",
-    "sequence": "Computing.04",
+    "segment": "Computing",
+    "sequence": 2,
     "resources": [
       {"$oid": "CCCC00000000000000000021"},
       {"$oid": "CCCC00000000000000000022"},
@@ -132,7 +136,8 @@
     "description": "With this topic you will learn about the different combinations of hardware operating systems and runtimes used to run software applications.",
     "category": "Foundations of ITSM",
     "path": "EngineerKit",
-    "sequence": "Computing.05",
+    "segment": "Computing",
+    "sequence": 5,
     "resources": [
       {"$oid": "CCCC00000000000000000030"},
       {"$oid": "CCCC00000000000000000031"}
@@ -158,7 +163,8 @@
     "description": "With this topic you'll learn about the spectrum of unstructured to structured data types and how to classify data correctly.",
     "category": "Data Management",
     "path": "EngineerKit",
-    "sequence": "Data.1",
+    "segment": "Data",
+    "sequence": 1,
     "resources": [
       {"$oid": "CCCC00000000000000000032"}
     ],
@@ -183,7 +189,8 @@
     "description": "With this topic you'll learn techniques to store data of all types for usage in an application.",
     "category": "Data Management",
     "path": "EngineerKit",
-    "sequence": "Data.2",
+    "segment": "Data",
+    "sequence": 2,
     "resources": [
       {"$oid": "CCCC00000000000000000033"},
       {"$oid": "CCCC00000000000000000034"},
@@ -211,7 +218,8 @@
     "description": "With this topic you'll learn how to interact with and manipulate data from storage providers using techniques such as SQL or SSH.",
     "category": "Data Management",
     "path": "EngineerKit",
-    "sequence": "Data.3",
+    "segment": "Data",
+    "sequence": 3,
     "resources": [
       {"$oid": "CCCC00000000000000000037"},
       {"$oid": "CCCC00000000000000000038"},
@@ -243,7 +251,8 @@
     "description": "With this topic you'll learn to convert data from one type to another using data wrangling techniques.",
     "category": "Data Management",
     "path": "EngineerKit",
-    "sequence": "Data.4",
+    "segment": "Data",
+    "sequence": 4,
     "resources": [
       {"$oid": "CCCC00000000000000000045"},
       {"$oid": "CCCC00000000000000000046"},
@@ -270,7 +279,8 @@
     "description": "With this topic you'll learn about effectively using different patterns to manage the state in an application.",
     "category": "Data Management",
     "path": "EngineerKit",
-    "sequence": "Data.5",
+    "segment": "Data",
+    "sequence": 5,
     "resources": [
       {"$oid": "CCCC00000000000000000048"},
       {"$oid": "CCCC00000000000000000049"},
@@ -299,8 +309,9 @@
     "status": "Active",
     "description": "An introduction to Web Development",
     "category": "Foundations of ITSM",
-    "path": "Odin",
-    "sequence": "Foundations.01",
+    "path": "The Odin Project",
+    "segment": "Foundations",
+    "sequence": 1,
     "resources": [
       {"$oid": "CCCC00000000000000000054"},
       {"$oid": "CCCC00000000000000000055"},
@@ -328,8 +339,9 @@
     "status": "Active",
     "description": "Installing and configuring a developers environment",
     "category": "Foundations of ITSM",
-    "path": "Odin",
-    "sequence": "Foundations.02",
+    "path": "The Odin Project",
+    "segment": "Foundations",
+    "sequence": 2,
     "resources": [
       {"$oid": "CCCC00000000000000000059"},
       {"$oid": "CCCC00000000000000000060"},
@@ -359,8 +371,9 @@
     "status": "Active",
     "description": "In introduction to git.",
     "category": "Foundations of ITSM",
-    "path": "Odin",
-    "sequence": "Foundations.03",
+    "path": "The Odin Project",
+    "segment": "Foundations",
+    "sequence": 3,
     "resources": [
       {"$oid": "CCCC00000000000000000066"},
       {"$oid": "CCCC00000000000000000067"}
@@ -385,8 +398,9 @@
     "status": "Active",
     "description": "Intermediate HTML Concepts",
     "category": "Foundations of ITSM",
-    "path": "Odin",
-    "sequence": "Intermediate.1",
+    "path": "The Odin Project",
+    "segment": "Intermediate HTML and CSS",
+    "sequence": 1,
     "resources": [
       {"$oid": "CCCC00000000000000000068"},
       {"$oid": "CCCC00000000000000000069"},
@@ -413,8 +427,9 @@
     "status": "Active",
     "description": "Intermediate CSS Concepts",
     "category": "Foundations of ITSM",
-    "path": "Odin",
-    "sequence": "Intermediate.2",
+    "path": "The Odin Project",
+    "segment": "Intermediate HTML and CSS",
+    "sequence": 2,
     "resources": [
       {"$oid": "CCCC00000000000000000072"},
       {"$oid": "CCCC00000000000000000073"},

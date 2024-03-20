@@ -37,10 +37,13 @@
 			"description": "A learning path through topics, list to grow as needed",
 			"bsonType": "string"
 		},
+		"segment": {
+			"description": "The segment within the Path",
+			"bsonType": "string"
+		},
 		"sequence": {
-			"description": "A sortable string value used to organize topics on a path",
-			"bsonType": "string",
-			"maxLength": 256
+			"description": "The sequence within the Segment",
+			"bsonType": "int"
 		},
 		"skills": {
 			"description": "The list of skills related to this topic",
