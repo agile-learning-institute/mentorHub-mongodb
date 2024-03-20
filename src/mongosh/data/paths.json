@@ -3,154 +3,61 @@
         "name": "The Odin Project",
         "status": "Active",
         "segments": [
-            {
-                "name": "Foundations",
-                "sequence": 1
-            },
-            {
-                "name": "Intermediate HTML and CSS",
-                "sequence": 2
-            },
-            {
-                "name": "JavaScript",
-                "sequence": 3
-            },
-            {
-                "name": "Advanced HTML and CSS",
-                "sequence": 4
-            },
-            {
-                "name": "React",
-                "sequence": 5
-            },
-            {
-                "name": "NodeJS",
-                "sequence": 6
-            },
-            {
-                "name": "Getting Hired",
-                "sequence": 7
-            }
+            "Foundations",
+            "Intermediate HTML and CSS",
+            "JavaScript",
+            "Advanced HTML and CSS",
+            "React",
+            "NodeJS",
+            "Getting Hired"
         ]
     },
     {
         "name": "EngineerKit",
         "status": "Active",
         "segments": [
-            {
-                "name": "Craftsmanship",
-                "sequence": 1
-            },
-            {
-                "name": "Human Experience",
-                "sequence": 2
-            },
-            {
-                "name": "Product Life Cycle",
-                "sequence": 3
-            },
-            {
-                "name": "Computing",
-                "sequence": 4
-            },
-            {
-                "name": "Internet",
-                "sequence": 5
-            },
-            {
-                "name": "Tooling",
-                "sequence": 6
-            },
-            {
-                "name": "Programming Languages",
-                "sequence": 7
-            },
-            {
-                "name": "Automated Testing",
-                "sequence": 8
-            },
-            {
-                "name": "Clean Code",
-                "sequence": 9
-            },
-            {
-                "name": "Data",
-                "sequence": 10
-            },
-            {
-                "name": "Infrastructure",
-                "sequence": 11
-            },
-            {
-                "name": "Security",
-                "sequence": 12
-            },
-            {
-                "name": "Monitoring",
-                "sequence": 13
-            },
-            {
-                "name": "Operations",
-                "sequence": 14
-            },
-            {
-                "name": "Architecture",
-                "sequence": 15
-            }
+            "Craftsmanship",
+            "Human Experience",
+            "Product Life Cycle",
+            "Computing",
+            "Internet",
+            "Tooling",
+            "Programming Languages",
+            "Automated Testing",
+            "Clean Code",
+            "Data",
+            "Infrastructure",
+            "Security",
+            "Monitoring",
+            "Operations",
+            "Architecture"
         ]
     },
     {
         "name": "Salesforce",
         "status": "Active",
         "segments": [
-            {
-                "name": "Developer",
-                "sequence": 1
-            }
+            "Developer"
         ]
     },
     {
         "name": "Cantrillo",
         "status": "Active",
         "segments": [
-            {
-                "name": "Fundamentals",
-                "sequence": 1
-            }
+            "Fundamentals"
         ]
     },
     {
         "name": "SRE Speciality",
         "status": "Active",
         "segments": [
-            {
-                "name": "SRE Fundamentals",
-                "sequence": 1
-            },
-            {
-                "name": "AWS Cloud Services",
-                "sequence": 2
-            },
-            {
-                "name": "Asure Cloud Services",
-                "sequence": 3
-            },
-            {
-                "name": "Google Cloud Services",
-                "sequence": 4
-            },
-            {
-                "name": "IBM Cloud Services",
-                "sequence": 5
-            },
-            {
-                "name": "K8S Certification",
-                "sequence": 6
-            },
-            {
-                "name": "Docker Certification",
-                "sequence": 7
-            }
+            "SRE Fundamentals",
+            "AWS Cloud Services",
+            "Asure Cloud Services",
+            "Google Cloud Services",
+            "IBM Cloud Services",
+            "K8S Certification",
+            "Docker Certification"
         ]
     }
 ]
