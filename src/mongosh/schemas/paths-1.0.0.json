@@ -1,0 +1,46 @@
+{
+	"description": "Path - Segment grouping",
+	"bsonType": "object",
+	"required": [
+		"_id"
+	],
+	"properties": {
+		"_id": {
+			"description": "The unique identifier for the grouping",
+			"bsonType": "objectId"
+		},
+		"version": {
+			"description": "Scehma Version (only on Version document",
+			"bsonType": "string",
+			"maxLength": 20
+        },
+        "status": {
+            "description": "The status of this Path",
+            "bsonType": "string"
+		},
+		"name": {
+			"description": "The Path Name",
+			"bsonType": "string",
+			"maxLength": 64
+		},
+		"segments": {
+			"bsonType": "array",
+			"items": {
+				"description": "A grouping of Topics within a Path",
+				"bsonType": "object",
+				"properties": {
+					"name": {
+						"description": "The Segment Name",
+						"bsonType": "string",
+						"maxLength": 64
+					},
+					"sequence": {
+						"description": "The sequence of this Segment within the Path",
+						"bsonType": "int"
+					}
+				}
+			}
+		}
+	},
+	"additionalProperties": false
+}
