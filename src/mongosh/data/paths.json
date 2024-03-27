@@ -1,0 +1,252 @@
+[
+    {
+        "name": "The Odin Project",
+        "status": "Active",
+        "segments": [
+            {
+                "name": "Foundations",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"},
+                    {"$oid": "AAAA00000000000000000004"}
+                ]
+            },
+            {
+                "name": "Intermediate HTML and CSS",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000005"},
+                    {"$oid": "AAAA00000000000000000006"},
+                    {"$oid": "AAAA00000000000000000007"}
+                ]
+            },
+            {
+                "name": "JavaScript",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000008"},
+                    {"$oid": "AAAA00000000000000000009"},
+                    {"$oid": "AAAA00000000000000000010"}
+                ]
+            },
+            {
+                "name": "Advanced HTML and CSS",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000011"},
+                    {"$oid": "AAAA00000000000000000012"},
+                    {"$oid": "AAAA00000000000000000013"}
+                ]
+            },
+            {
+                "name": "React",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000014"},
+                    {"$oid": "AAAA00000000000000000015"},
+                    {"$oid": "AAAA00000000000000000016"}
+                ]
+            },
+            {
+                "name": "NodeJS",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Getting Hired",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000004"},
+                    {"$oid": "AAAA00000000000000000005"},
+                    {"$oid": "AAAA00000000000000000006"}
+                ]
+            }
+        ]
+    },
+    {
+        "name": "EngineerKit",
+        "status": "Active",
+        "segments": [
+            {
+                "name": "Craftsmanship",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Human Experience",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Product Life Cycle",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Computing",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Internet",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Tooling",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Programming Languages",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Automated Testing",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Clean Code",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Data",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Infrastructure",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Security",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Monitoring",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Operations",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            },
+            {
+                "name": "Architecture",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Salesforce",
+        "status": "Active",
+        "segments": [
+            {
+                "name": "Developer",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            }            
+        ]
+    },
+    {
+        "name": "Cantrillo",
+        "status": "Active",
+        "segments": [
+            {
+                "name": "Fundamentals",
+                "topics": [
+                    {"$oid": "AAAA00000000000000000001"},
+                    {"$oid": "AAAA00000000000000000002"},
+                    {"$oid": "AAAA00000000000000000003"}
+                ]
+            }            
+        ]
+    },
+    {
+        "name": "SRE Speciality",
+        "status": "Active",
+        "segments": [
+            {
+                "name": "SRE Fundamentals",
+                "topics": []
+            },            
+            {
+                "name": "AWS Cloud Services",
+                "topics": []
+            },            
+            {
+                "name": "Azure Cloud Services",
+                "topics": []
+            },            
+            {
+                "name": "Google Cloud Services",
+                "topics": []
+            },            
+            {
+                "name": "IBM Cloud Services",
+                "topics": []
+            },            
+            {
+                "name": "K8S Certification",
+                "topics": []
+            },            
+            {
+                "name": "Docker Certification",
+                "topics": []
+            }
+        ]
+    }
+]

@@ -105,14 +105,6 @@
                 "Data Management": "Data management encompasses the storage, manipulation, and analysis of data to support business operations and decision-making.",
                 "Continuous Integration and Deployment": "Continuous integration and deployment (CI/CD) practices automate the process of building, testing, and deploying software changes.",
                 "Monitoring and Performance": "Monitoring and performance management ensure the availability, reliability, and performance of IT services."
-            },
-            "path": {
-                "Odin": "The Odin Full Stack Javascript developer program",
-                "EngineerKit": "The GitHub EngineerKit program",
-                "SRE speciality": "Speciality Resources for SRE",
-                "Data speciality": "Speciality Resources for Data",
-                "AWS Cloud Hosting": "AWS Certification Paths",
-                "Salesforce": "Salesforce Certification Paths"
             }
         },
         "skills": {
@@ -156,6 +148,12 @@
                 "API": "Resource of interest for API Engineers",
                 "Data": "Resource of interest for Data Engineers",
                 "SRE": "Resource of interest for SRE"
+            }
+        },
+        "paths": {
+            "status": {
+                "Active": "An active path",
+                "Archived": "Soft Delete Indicator"
             }
         }
     }

@@ -3,7 +3,8 @@
 	"bsonType": "object",
 	"required": [
 		"_id",
-		"name"
+		"name",
+		"link"
 	],
 	"properties": {
 		"_id": {
