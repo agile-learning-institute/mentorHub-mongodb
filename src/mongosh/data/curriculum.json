@@ -1,6 +1,10 @@
 [
     {
-        "adhoc": true,
-        "name": "test"
+        "resources": [
+            {
+                "adhoc": true,
+                "name": "test"
+            }
+        ]
     }
 ]

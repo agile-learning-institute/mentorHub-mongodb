@@ -1,33 +1,49 @@
 {
-	"description": "A Learning resource or other activity that is on a persons career or learning roadmap",
+	"description": "A Learning resource or other activity that is on a person's career or learning roadmap",
 	"bsonType": "object",
 	"required": [
-		"_id"
+		"_id",
+		"personId",
+		"resources"
 	],
 	"properties": {
 		"_id": {
 			"description": "The unique identifier for a resource used by a person",
 			"bsonType": "objectId"
 		},
-        "version": {
-			"description": "Scehma Version (only on Version document)",
-            "bsonType": "string",
-            "maxLength": 20
-        },
+		"version": {
+			"description": "Schema Version (only on Version document)",
+			"bsonType": "string",
+			"maxLength": 20
+		},
 		"personId": {
-			"description": "The ID of the person this item was asigned to",
+			"description": "The ID of the person this item was assigned to",
 			"bsonType": "objectId"
 		},
-		"resourceId": {
-			"description": "The ID of the resource asigned",
-			"bsonType": "objectId"
+		"resources": {
+			"description": "An array of resources",
+			"bsonType": "array",
+			"items": {
+				"bsonType": "object",
+				"properties": {
+					"resourceId": {
+						"description": "The ID of the resource assigned",
+						"bsonType": "objectId"
+					},
+					"topicId": {
+						"description": "The ID of the topic associated with the resource",
+						"bsonType": "objectId"
+					}
+				},
+				"required": ["resourceId", "topicId"]
+			}
 		},
 		"adhoc": {
 			"description": "This is an adhoc assignment. This document will not have a resourceId and will use a one-off name/link",
 			"bsonType": "bool"
 		},
 		"name": {
-			"description": "The Resource Shrot Name for adhoc resources",
+			"description": "The Resource Short Name for adhoc resources",
 			"bsonType": "string",
 			"maxLength": 64
 		},
@@ -63,7 +79,7 @@
 			"maximum": 5
 		},
 		"review": {
-			"description": "Free text review of the persons experience with this resource",
+			"description": "Free text review of the person's experience with this resource",
 			"bsonType": "string",
 			"maxLength": 256
 		}
