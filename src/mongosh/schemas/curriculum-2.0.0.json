@@ -3,7 +3,6 @@
 	"bsonType": "object",
 	"required": [
 		"_id",
-		"personId",
 		"resources"
 	],
 	"properties": {
@@ -16,16 +15,17 @@
 			"bsonType": "string",
 			"maxLength": 20
 		},
-		"personId": {
-			"description": "The ID of the person this item was assigned to",
-			"bsonType": "objectId"
-		},
 		"resources": {
 			"description": "An array of resources",
 			"bsonType": "array",
 			"items": {
 				"bsonType": "object",
+				"required": ["type", "review", "roadmap"],
 				"properties": {
+					"type": {
+						"description": "Type of the resource (topic or adhoc)",
+						"enum": ["topic", "adhoc"]
+					},
 					"resourceId": {
 						"description": "The ID of the resource assigned",
 						"bsonType": "objectId"
@@ -33,28 +33,44 @@
 					"topicId": {
 						"description": "The ID of the topic associated with the resource",
 						"bsonType": "objectId"
+					},
+					"name": {
+						"description": "The Resource Short Name for adhoc resources",
+						"bsonType": "string",
+						"maxLength": 64
+					},
+					"link": {
+						"description": "The Resource Link for adhoc resources",
+						"bsonType": "string",
+						"maxLength": 64
+					},
+					"review": {
+						"description": "Free text review of the person's experience with this resource",
+						"bsonType": "string",
+						"maxLength": 256
+					},
+					"roadmap": {
+						"description": "The top level grouping Now, Next, Later, Celebrated",
+						"enum": ["completed", "Celebrated", "now", "next", "later"]
 					}
 				},
-				"required": ["resourceId", "topicId"]
+				"oneOf": [
+					{
+						"properties": {
+							"type": { "const": "topic" },
+							"resourceId": { "bsonType": "objectId" },
+							"topicId": { "bsonType": "objectId" }
+						}
+					},
+					{
+						"properties": {
+							"type": { "const": "adhoc" },
+							"name": { "bsonType": "string", "maxLength": 64 },
+							"link": { "bsonType": "string", "maxLength": 64 }
+						}
+					}
+				]
 			}
-		},
-		"adhoc": {
-			"description": "This is an adhoc assignment. This document will not have a resourceId and will use a one-off name/link",
-			"bsonType": "bool"
-		},
-		"name": {
-			"description": "The Resource Short Name for adhoc resources",
-			"bsonType": "string",
-			"maxLength": 64
-		},
-		"link": {
-			"description": "The Resource Link for adhoc resources",
-			"bsonType": "string",
-			"maxLength": 64
-		},
-		"roadmapGroup": {
-			"description": "The top level grouping Now, Next, Later, Celebrated",
-			"bsonType": "string"
 		},
 		"status": {
 			"description": "Archived, Assigned, Started, Completed",
@@ -77,11 +93,6 @@
 			"bsonType": "int",
 			"minimum": 0,
 			"maximum": 5
-		},
-		"review": {
-			"description": "Free text review of the person's experience with this resource",
-			"bsonType": "string",
-			"maxLength": 256
 		}
 	},
 	"additionalProperties": false
