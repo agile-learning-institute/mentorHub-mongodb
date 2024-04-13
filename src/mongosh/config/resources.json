@@ -1,6 +1,6 @@
 {
   "name": "resources",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "indexes": [
     {
       "keys": {"name": 1},
