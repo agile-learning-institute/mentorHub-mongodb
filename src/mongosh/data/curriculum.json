@@ -1,6 +1,106 @@
 [
     {
-        "adhoc": true,
-        "name": "test"
+      "curriculumId": "CURR001",
+      "name": "Introduction to Programming",
+      "description": "Learn the basics of programming",
+      "topics": [
+        {
+          "topicId": "TOPIC001",
+          "resourceId": "RES001",
+          "title": "Introduction to Python",
+          "description": "Learn the fundamentals of Python programming language",
+          "duration": 60
+        },
+        {
+          "topicId": "TOPIC002",
+          "resourceId": "RES002",
+          "title": "Variables and Data Types",
+          "description": "Understand variables and different data types in Python",
+          "duration": 90
+        }
+      ],
+      "assignedTo": [
+        "PERSON001",
+        "PERSON002",
+        "PERSON003"
+      ]
+    },
+    {
+      "curriculumId": "CURR002",
+      "name": "Web Development Basics",
+      "description": "Introduction to web development concepts",
+      "topics": [
+        {
+          "topicId": "TOPIC003",
+          "resourceId": "RES003",
+          "title": "HTML Basics",
+          "description": "Learn the basics of HTML for web development",
+          "duration": 45
+        },
+        {
+          "topicId": "TOPIC004",
+          "resourceId": "RES004",
+          "title": "CSS Styling",
+          "description": "Understand CSS for styling web pages",
+          "duration": 60
+        }
+      ],
+      "assignedTo": [
+        "PERSON004",
+        "PERSON005",
+        "PERSON006"
+      ]
+    },
+    {
+      "curriculumId": "CURR003",
+      "name": "Data Science Fundamentals",
+      "description": "Introduction to data science concepts",
+      "topics": [
+        {
+          "topicId": "TOPIC005",
+          "resourceId": "RES005",
+          "title": "Data Analysis with Pandas",
+          "description": "Learn data analysis using Pandas library in Python",
+          "duration": 75
+        },
+        {
+          "topicId": "TOPIC006",
+          "resourceId": "RES006",
+          "title": "Data Visualization with Matplotlib",
+          "description": "Understand data visualization using Matplotlib library",
+          "duration": 60
+        }
+      ],
+      "assignedTo": [
+        "PERSON007",
+        "PERSON008",
+        "PERSON009"
+      ]
+    },
+    {
+      "curriculumId": "CURR004",
+      "name": "Machine Learning Basics",
+      "description": "Introduction to machine learning algorithms",
+      "topics": [
+        {
+          "topicId": "TOPIC007",
+          "resourceId": "RES007",
+          "title": "Linear Regression",
+          "description": "Learn linear regression algorithm for machine learning",
+          "duration": 90
+        },
+        {
+          "topicId": "TOPIC008",
+          "resourceId": "RES008",
+          "title": "Classification Algorithms",
+          "description": "Understand various classification algorithms",
+          "duration": 120
+        }
+      ],
+      "assignedTo": [
+        "PERSON010",
+        "PERSON011",
+        "PERSON012"
+      ]
     }
 ]
