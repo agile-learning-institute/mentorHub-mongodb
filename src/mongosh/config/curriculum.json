@@ -1,11 +1,6 @@
 {
   "name": "curriculum",
   "version": "2.0.0",
-  "indexes": [
-    {
-      "keys": {"_id": 1, "roadmap": 1},
-      "options": {"unique": false}
-    }
-  ],
+  "indexes": [],
   "migrations": []
 }

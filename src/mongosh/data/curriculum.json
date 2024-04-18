@@ -1,106 +1,144 @@
 [
-    {
-      "curriculumId": "CURR001",
+  {
+      "_id": "61f7ea8e2cb0f04b0b8e4612",
       "name": "Introduction to Programming",
-      "description": "Learn the basics of programming",
-      "topics": [
-        {
-          "topicId": "TOPIC001",
-          "resourceId": "RES001",
-          "title": "Introduction to Python",
-          "description": "Learn the fundamentals of Python programming language",
-          "duration": 60
-        },
-        {
-          "topicId": "TOPIC002",
-          "resourceId": "RES002",
-          "title": "Variables and Data Types",
-          "description": "Understand variables and different data types in Python",
-          "duration": 90
-        }
-      ],
-      "assignedTo": [
-        "PERSON001",
-        "PERSON002",
-        "PERSON003"
+      "version": "2.0.0",
+      "resources": [
+          {
+              "type": "topic",
+              "resourceId": "61f7eb7d2cb0f04b0b8e4615",
+              "topicId": "TOPIC001",
+              "name": "Python Basics",
+              "review": "Great introduction to Python programming.",
+              "roadmap": "completed",
+              "status": "Completed",
+              "statusDate": "2024-04-12T08:00:00Z",
+              "started": "2024-04-10T08:00:00Z",
+              "completed": "2024-04-12T08:00:00Z",
+              "rating": 4
+          },
+          {
+              "type": "adhoc",
+              "name": "JavaScript Tutorial",
+              "link": "https://www.example.com/javascript-tutorial",
+              "review": "Helpful tutorial for learning JavaScript.",
+              "roadmap": "next"
+          }
       ]
-    },
-    {
-      "curriculumId": "CURR002",
+  },
+  {
+      "_id": "61f7eb362cb0f04b0b8e4613",
       "name": "Web Development Basics",
-      "description": "Introduction to web development concepts",
-      "topics": [
+      "version": "2.0.0",
+      "resources": [
+          {
+              "type": "topic",
+              "resourceId": "61f7eb7d2cb0f04b0b8e4616",
+              "topicId": "TOPIC002",
+              "name": "HTML Fundamentals",
+              "review": "Clear explanation of HTML basics.",
+              "roadmap": "completed",
+              "status": "Completed",
+              "statusDate": "2024-04-10T08:00:00Z",
+              "started": "2024-04-08T08:00:00Z",
+              "completed": "2024-04-10T08:00:00Z",
+              "rating": 4
+          },
+          {
+              "type": "adhoc",
+              "name": "Bootstrap Documentation",
+              "link": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+              "review": "Extensive documentation for Bootstrap framework.",
+              "roadmap": "now"
+          }
+      ]
+  },
+
+  {
+    "_id": "61f7ea8e2cb0f04b0b8e4612",
+    "name": "Introduction to Programming",
+    "version": "2.0.0",
+    "resources": [
         {
-          "topicId": "TOPIC003",
-          "resourceId": "RES003",
-          "title": "HTML Basics",
-          "description": "Learn the basics of HTML for web development",
-          "duration": 45
+            "type": "topic",
+            "resourceId": "61f7eb7d2cb0f04b0b8e4615",
+            "topicId": "TOPIC001",
+            "name": "Python Basics",
+            "review": "Great introduction to Python programming.",
+            "roadmap": "completed",
+            "status": "Completed",
+            "statusDate": "2024-04-12T08:00:00Z",
+            "started": "2024-04-10T08:00:00Z",
+            "completed": "2024-04-12T08:00:00Z",
+            "rating": 4
         },
         {
-          "topicId": "TOPIC004",
-          "resourceId": "RES004",
-          "title": "CSS Styling",
-          "description": "Understand CSS for styling web pages",
-          "duration": 60
+            "type": "adhoc",
+            "name": "JavaScript Tutorial",
+            "link": "https://www.example.com/javascript-tutorial",
+            "review": "Helpful tutorial for learning JavaScript.",
+            "roadmap": "next"
         }
-      ],
-      "assignedTo": [
-        "PERSON004",
-        "PERSON005",
-        "PERSON006"
-      ]
-    },
-    {
-      "curriculumId": "CURR003",
-      "name": "Data Science Fundamentals",
-      "description": "Introduction to data science concepts",
-      "topics": [
+    ]
+},
+{
+    "_id": "61f7eb362cb0f04b0b8e4613",
+    "name": "Web Development Basics",
+    "version": "2.0.0",
+    "resources": [
         {
-          "topicId": "TOPIC005",
-          "resourceId": "RES005",
-          "title": "Data Analysis with Pandas",
-          "description": "Learn data analysis using Pandas library in Python",
-          "duration": 75
+            "type": "topic",
+            "resourceId": "61f7eb7d2cb0f04b0b8e4616",
+            "topicId": "TOPIC002",
+            "name": "HTML Fundamentals",
+            "review": "Clear explanation of HTML basics.",
+            "roadmap": "completed",
+            "status": "Completed",
+            "statusDate": "2024-04-10T08:00:00Z",
+            "started": "2024-04-08T08:00:00Z",
+            "completed": "2024-04-10T08:00:00Z",
+            "rating": 4
         },
         {
-          "topicId": "TOPIC006",
-          "resourceId": "RES006",
-          "title": "Data Visualization with Matplotlib",
-          "description": "Understand data visualization using Matplotlib library",
-          "duration": 60
+            "type": "adhoc",
+            "name": "Bootstrap Documentation",
+            "link": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+            "review": "Extensive documentation for Bootstrap framework.",
+            "roadmap": "now"
         }
-      ],
-      "assignedTo": [
-        "PERSON007",
-        "PERSON008",
-        "PERSON009"
-      ]
-    },
-    {
-      "curriculumId": "CURR004",
-      "name": "Machine Learning Basics",
-      "description": "Introduction to machine learning algorithms",
-      "topics": [
+    ]
+},
+{
+    "_id": "61f7ebd22cb0f04b0b8e4614",
+    "name": "Data Science Basics",
+    "version": "2.0.0",
+    "resources": [
         {
-          "topicId": "TOPIC007",
-          "resourceId": "RES007",
-          "title": "Linear Regression",
-          "description": "Learn linear regression algorithm for machine learning",
-          "duration": 90
+            "type": "topic",
+            "resourceId": "61f7eb7d2cb0f04b0b8e4617",
+            "topicId": "TOPIC003",
+            "name": "Data Wrangling with Pandas",
+            "review": "Comprehensive guide to data wrangling using Pandas library.",
+            "roadmap": "completed",
+            "status": "Completed",
+            "statusDate": "2024-04-15T08:00:00Z",
+            "started": "2024-04-12T08:00:00Z",
+            "completed": "2024-04-15T08:00:00Z",
+            "rating": 5
         },
         {
-          "topicId": "TOPIC008",
-          "resourceId": "RES008",
-          "title": "Classification Algorithms",
-          "description": "Understand various classification algorithms",
-          "duration": 120
+            "type": "topic",
+            "resourceId": "61f7eb7d2cb0f04b0b8e4618",
+            "topicId": "TOPIC004",
+            "name": "Data Visualization with Seaborn",
+            "review": "Excellent tutorial on data visualization with Seaborn library.",
+            "roadmap": "completed",
+            "status": "Completed",
+            "statusDate": "2024-04-18T08:00:00Z",
+            "started": "2024-04-15T08:00:00Z",
+            "completed": "2024-04-18T08:00:00Z",
+            "rating": 5
         }
-      ],
-      "assignedTo": [
-        "PERSON010",
-        "PERSON011",
-        "PERSON012"
-      ]
-    }
+    ]
+}
 ]

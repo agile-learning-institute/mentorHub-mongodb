@@ -10,6 +10,10 @@
 			"description": "The unique identifier for a resource used by a person",
 			"bsonType": "objectId"
 		},
+		"name": {
+			"description": "Temporary property for future removal",
+			"bsonType": "string"
+		},
 		"version": {
 			"description": "Schema Version (only on Version document)",
 			"bsonType": "string",
@@ -52,6 +56,28 @@
 					"roadmap": {
 						"description": "The top level grouping Now, Next, Later, Celebrated",
 						"enum": ["completed", "Celebrated", "now", "next", "later"]
+					},
+					"status": {
+						"description": "Archived, Assigned, Started, Completed",
+						"bsonType": "string"
+					},
+					"statusDate": {
+						"description": "Date the status was last changed",
+						"bsonType": "date"
+					},
+					"started": {
+						"description": "Date/time the link was clicked",
+						"bsonType": "date"
+					},
+					"completed": {
+						"description": "Date/time the item was checked off",
+						"bsonType": "date"
+					},
+					"rating": {
+						"description": "Rating 0-5",
+						"bsonType": "int",
+						"minimum": 0,
+						"maximum": 5
 					}
 				},
 				"oneOf": [
@@ -71,28 +97,6 @@
 					}
 				]
 			}
-		},
-		"status": {
-			"description": "Archived, Assigned, Started, Completed",
-			"bsonType": "string"
-		},
-		"statusDate": {
-			"description": "Date the status was last changed",
-			"bsonType": "date"
-		},
-		"started": {
-			"description": "Date/time the link was clicked",
-			"bsonType": "date"
-		},
-		"completed": {
-			"description": "Date/time the item was checked off",
-			"bsonType": "date"
-		},
-		"rating": {
-			"description": "Rating 0-5",
-			"bsonType": "int",
-			"minimum": 0,
-			"maximum": 5
 		}
 	},
 	"additionalProperties": false
