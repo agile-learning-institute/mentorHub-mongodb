@@ -1,144 +1,143 @@
 [
   {
-      "_id": "61f7ea8e2cb0f04b0b8e4612",
-      "name": "Introduction to Programming",
-      "version": "2.0.0",
-      "resources": [
-          {
-              "type": "topic",
-              "resourceId": "61f7eb7d2cb0f04b0b8e4615",
-              "topicId": "TOPIC001",
-              "name": "Python Basics",
-              "review": "Great introduction to Python programming.",
-              "roadmap": "completed",
-              "status": "Completed",
-              "statusDate": "2024-04-12T08:00:00Z",
-              "started": "2024-04-10T08:00:00Z",
-              "completed": "2024-04-12T08:00:00Z",
-              "rating": 4
-          },
-          {
-              "type": "adhoc",
-              "name": "JavaScript Tutorial",
-              "link": "https://www.example.com/javascript-tutorial",
-              "review": "Helpful tutorial for learning JavaScript.",
-              "roadmap": "next"
-          }
-      ]
+    "_id": "61f7ea8e2cb0f04b0b8e4612",
+    "name": "Introduction to Programming",
+    "version": "2.0.0",
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": "61f7eb7d2cb0f04b0b8e4615",
+        "topicId": "TOPIC001",
+        "name": "Python Basics",
+        "review": "Great introduction to Python programming.",
+        "roadmap": "completed",
+        "status": "Completed",
+        "statusDate": "2024-04-12T08:00:00Z",
+        "started": "2024-04-10T08:00:00Z",
+        "completed": "2024-04-12T08:00:00Z",
+        "rating": 4
+      },
+      {
+        "type": "adhoc",
+        "name": "JavaScript Tutorial",
+        "link": "https://www.example.com/javascript-tutorial",
+        "review": "Helpful tutorial for learning JavaScript.",
+        "roadmap": "next"
+      }
+    ]
   },
   {
-      "_id": "61f7eb362cb0f04b0b8e4613",
-      "name": "Web Development Basics",
-      "version": "2.0.0",
-      "resources": [
-          {
-              "type": "topic",
-              "resourceId": "61f7eb7d2cb0f04b0b8e4616",
-              "topicId": "TOPIC002",
-              "name": "HTML Fundamentals",
-              "review": "Clear explanation of HTML basics.",
-              "roadmap": "completed",
-              "status": "Completed",
-              "statusDate": "2024-04-10T08:00:00Z",
-              "started": "2024-04-08T08:00:00Z",
-              "completed": "2024-04-10T08:00:00Z",
-              "rating": 4
-          },
-          {
-              "type": "adhoc",
-              "name": "Bootstrap Documentation",
-              "link": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
-              "review": "Extensive documentation for Bootstrap framework.",
-              "roadmap": "now"
-          }
-      ]
+    "_id": "61f7eb362cb0f04b0b8e4613",
+    "name": "Web Development Basics",
+    "version": "2.0.0",
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": "61f7eb7d2cb0f04b0b8e4616",
+        "topicId": "TOPIC002",
+        "name": "HTML Fundamentals",
+        "review": "Clear explanation of HTML basics.",
+        "roadmap": "completed",
+        "status": "Completed",
+        "statusDate": "2024-04-10T08:00:00Z",
+        "started": "2024-04-08T08:00:00Z",
+        "completed": "2024-04-10T08:00:00Z",
+        "rating": 4
+      },
+      {
+        "type": "adhoc",
+        "name": "Bootstrap Documentation",
+        "link": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+        "review": "Extensive documentation for Bootstrap framework.",
+        "roadmap": "now"
+      }
+    ]
   },
-
   {
     "_id": "61f7ea8e2cb0f04b0b8e4612",
     "name": "Introduction to Programming",
     "version": "2.0.0",
     "resources": [
-        {
-            "type": "topic",
-            "resourceId": "61f7eb7d2cb0f04b0b8e4615",
-            "topicId": "TOPIC001",
-            "name": "Python Basics",
-            "review": "Great introduction to Python programming.",
-            "roadmap": "completed",
-            "status": "Completed",
-            "statusDate": "2024-04-12T08:00:00Z",
-            "started": "2024-04-10T08:00:00Z",
-            "completed": "2024-04-12T08:00:00Z",
-            "rating": 4
-        },
-        {
-            "type": "adhoc",
-            "name": "JavaScript Tutorial",
-            "link": "https://www.example.com/javascript-tutorial",
-            "review": "Helpful tutorial for learning JavaScript.",
-            "roadmap": "next"
-        }
+      {
+        "type": "topic",
+        "resourceId": "61f7eb7d2cb0f04b0b8e4615",
+        "topicId": "TOPIC001",
+        "name": "Python Basics",
+        "review": "Great introduction to Python programming.",
+        "roadmap": "completed",
+        "status": "Completed",
+        "statusDate": "2024-04-12T08:00:00Z",
+        "started": "2024-04-10T08:00:00Z",
+        "completed": "2024-04-12T08:00:00Z",
+        "rating": 4
+      },
+      {
+        "type": "adhoc",
+        "name": "JavaScript Tutorial",
+        "link": "https://www.example.com/javascript-tutorial",
+        "review": "Helpful tutorial for learning JavaScript.",
+        "roadmap": "next"
+      }
     ]
-},
-{
+  },
+  {
     "_id": "61f7eb362cb0f04b0b8e4613",
     "name": "Web Development Basics",
     "version": "2.0.0",
     "resources": [
-        {
-            "type": "topic",
-            "resourceId": "61f7eb7d2cb0f04b0b8e4616",
-            "topicId": "TOPIC002",
-            "name": "HTML Fundamentals",
-            "review": "Clear explanation of HTML basics.",
-            "roadmap": "completed",
-            "status": "Completed",
-            "statusDate": "2024-04-10T08:00:00Z",
-            "started": "2024-04-08T08:00:00Z",
-            "completed": "2024-04-10T08:00:00Z",
-            "rating": 4
-        },
-        {
-            "type": "adhoc",
-            "name": "Bootstrap Documentation",
-            "link": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
-            "review": "Extensive documentation for Bootstrap framework.",
-            "roadmap": "now"
-        }
+      {
+        "type": "topic",
+        "resourceId": "61f7eb7d2cb0f04b0b8e4616",
+        "topicId": "TOPIC002",
+        "name": "HTML Fundamentals",
+        "review": "Clear explanation of HTML basics.",
+        "roadmap": "completed",
+        "status": "Completed",
+        "statusDate": "2024-04-10T08:00:00Z",
+        "started": "2024-04-08T08:00:00Z",
+        "completed": "2024-04-10T08:00:00Z",
+        "rating": 4
+      },
+      {
+        "type": "adhoc",
+        "name": "Bootstrap Documentation",
+        "link": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+        "review": "Extensive documentation for Bootstrap framework.",
+        "roadmap": "now"
+      }
     ]
-},
-{
+  },
+  {
     "_id": "61f7ebd22cb0f04b0b8e4614",
     "name": "Data Science Basics",
     "version": "2.0.0",
     "resources": [
-        {
-            "type": "topic",
-            "resourceId": "61f7eb7d2cb0f04b0b8e4617",
-            "topicId": "TOPIC003",
-            "name": "Data Wrangling with Pandas",
-            "review": "Comprehensive guide to data wrangling using Pandas library.",
-            "roadmap": "completed",
-            "status": "Completed",
-            "statusDate": "2024-04-15T08:00:00Z",
-            "started": "2024-04-12T08:00:00Z",
-            "completed": "2024-04-15T08:00:00Z",
-            "rating": 5
-        },
-        {
-            "type": "topic",
-            "resourceId": "61f7eb7d2cb0f04b0b8e4618",
-            "topicId": "TOPIC004",
-            "name": "Data Visualization with Seaborn",
-            "review": "Excellent tutorial on data visualization with Seaborn library.",
-            "roadmap": "completed",
-            "status": "Completed",
-            "statusDate": "2024-04-18T08:00:00Z",
-            "started": "2024-04-15T08:00:00Z",
-            "completed": "2024-04-18T08:00:00Z",
-            "rating": 5
-        }
+      {
+        "type": "topic",
+        "resourceId": "61f7eb7d2cb0f04b0b8e4617",
+        "topicId": "TOPIC003",
+        "name": "Data Wrangling with Pandas",
+        "review": "Comprehensive guide to data wrangling using Pandas library.",
+        "roadmap": "completed",
+        "status": "Completed",
+        "statusDate": "2024-04-15T08:00:00Z",
+        "started": "2024-04-12T08:00:00Z",
+        "completed": "2024-04-15T08:00:00Z",
+        "rating": 5
+      },
+      {
+        "type": "topic",
+        "resourceId": "61f7eb7d2cb0f04b0b8e4618",
+        "topicId": "TOPIC004",
+        "name": "Data Visualization with Seaborn",
+        "review": "Excellent tutorial on data visualization with Seaborn library.",
+        "roadmap": "completed",
+        "status": "Completed",
+        "statusDate": "2024-04-18T08:00:00Z",
+        "started": "2024-04-15T08:00:00Z",
+        "completed": "2024-04-18T08:00:00Z",
+        "rating": 5
+      }
     ]
-}
+  }
 ]
