@@ -2,8 +2,7 @@
 	"description": "A Learning resource or other activity that is on a person's career or learning roadmap",
 	"bsonType": "object",
 	"required": [
-		"_id",
-		"resources"
+		"_id"
 	],
 	"properties": {
 		"_id": {
@@ -24,10 +23,10 @@
 			"bsonType": "array",
 			"items": {
 				"bsonType": "object",
-				"required": ["type", "review", "roadmap"],
 				"properties": {
 					"type": {
 						"description": "Type of the resource (topic or adhoc)",
+						"bsonType": "string",
 						"enum": ["topic", "adhoc"]
 					},
 					"resourceId": {
@@ -55,11 +54,13 @@
 					},
 					"roadmap": {
 						"description": "The top level grouping Now, Next, Later, Celebrated",
-						"enum": ["completed", "Celebrated", "now", "next", "later"]
+						"bsonType": "string",
+						"enum": ["completed", "now", "next", "later"]
 					},
 					"status": {
 						"description": "Archived, Assigned, Started, Completed",
-						"bsonType": "string"
+						"bsonType": "string",
+						"enum": ["completed", "now", "next", "later"]
 					},
 					"statusDate": {
 						"description": "Date the status was last changed",
@@ -79,23 +80,7 @@
 						"minimum": 0,
 						"maximum": 5
 					}
-				},
-				"oneOf": [
-					{
-						"properties": {
-							"type": { "const": "topic" },
-							"resourceId": { "bsonType": "objectId" },
-							"topicId": { "bsonType": "objectId" }
-						}
-					},
-					{
-						"properties": {
-							"type": { "const": "adhoc" },
-							"name": { "bsonType": "string", "maxLength": 64 },
-							"link": { "bsonType": "string", "maxLength": 64 }
-						}
-					}
-				]
+				}
 			}
 		}
 	},
