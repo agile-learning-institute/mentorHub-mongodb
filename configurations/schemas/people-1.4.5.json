@@ -9,62 +9,29 @@
             "description": "The unique identifier for a person",
             "bsonType": "objectId"
         },
-        "name": {
-            "description": "VERSION document only",
-            "bsonType": "string",
-            "maxLength": 32
-        },
-        "version": {
-            "description": "VERSION document only",
-            "bsonType": "string",
-            "maxLength": 20
-        },
         "userName": {
             "description": "Username",
-            "bsonType": "string",
-            "pattern": "^[^\\s]{0,64}$"
+			"msmType": "msmWord"
         },
         "firstName": {
             "description": "The persons first name",
-            "bsonType": "string",
-            "pattern": "^[^\\s]{0,64}$"
+			"msmType": "msmWord"
         },
         "lastName": {
             "description": "The persons last name",
-            "bsonType": "string",
-            "pattern": "^[^\\s]{0,64}$"
+			"msmType": "msmWord"
         },
         "description": {
             "description": "Notes or other descriptive text",
-            "bsonType": "string",
-            "maxLength": 256
+			"msmType": "msmSentence"
         },
         "status": {
             "description": "The status of this member",
-            "bsonType": "string"
+            "msmEnums": "personStatus"
         },
         "roles": {
 			"description": "RBAC Roles for this person",
-			"bsonType": "array",
-			"items": {
-				"bsonType": "string"
-			}
-        },
-        "member": {
-            "description": "Is this person a Member",
-            "bsonType": "bool"
-        },
-        "mentor": {
-            "description": "Is this person a Mentor",
-            "bsonType": "bool"
-        },
-        "donor": {
-            "description": "Is this person a Donor",
-            "bsonType": "bool"
-        },
-        "contact": {
-            "description": "Is this person a Partner Contact",
-            "bsonType": "bool"
+			"msmEnumList": "roles"
         },
         "mentorId": {
             "description": "the _id of this persons Mentor if they have one",
@@ -76,36 +43,35 @@
         },
         "title": {
             "description": "The person's title in the career path",
-            "bsonType": "string"
+            "msmEnums": "title"
         },
         "cadence": {
             "description": "This person's preferred meeting cadence",
-            "bsonType": "string"
+            "msmEnums": "cadence"
         },
         "eMail": {
             "description": "The person's eMail address",
-            "bsonType": "string",
-            "maxLength": 256,
-            "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+            "msmType": "msmEmail"
         },
         "gitHub": {
             "description": "The person's gitHub User ID",
-            "bsonType": "string",
-            "pattern": "^[^\\s]{0,32}$"
+			"msmType": "msmWord"
         },
         "phone": {
             "description": "The person's phone number",
-            "bsonType": "string",
-            "pattern": "^\\d{3}[-.\\s]?\\d{3}[-.\\s]?\\d{4}$"
+            "msmType": "msmUsaPhone"
         },
         "device": {
             "description": "The type of PC this person is using",
-            "bsonType": "string"
+            "msmEnums": "device"
         },
         "location": {
             "description": "The location where this person lives",
-            "bsonType": "string",
-            "maxLength": 64
+            "msmType": "msmSentence"
+        },
+        "lastSaved": {
+            "description": "Change Tracking breadcrumb",
+            "msmType": "msmBreadcrumb"
         }
     },
     "additionalProperties": false

@@ -7,10 +7,6 @@
     "firstName": "James",
     "lastName": "Smith",
     "status": "Pending",
-    "member": true,
-    "mentor": false,
-    "donor": false,
-    "contact": false,
     "roles": [
       "Member"
     ],
@@ -47,10 +43,6 @@
     "firstName": "Michael",
     "lastName": "Smith",
     "status": "Active",
-    "member": true,
-    "mentor": false,
-    "donor": false,
-    "contact": false,
     "roles": [
       "Member"
     ],
@@ -87,10 +79,6 @@
     "firstName": "Thomas",
     "lastName": "Smith",
     "status": "Archived",
-    "member": true,
-    "mentor": false,
-    "donor": true,
-    "contact": false,
     "roles": [
       "Mentor",
       "Staff"
@@ -128,10 +116,6 @@
     "firstName": "Emily",
     "lastName": "Smith",
     "status": "Inactive",
-    "member": true,
-    "mentor": false,
-    "donor": true,
-    "contact": true,
     "roles": [
       "Member",
       "Donor"
@@ -169,10 +153,6 @@
     "firstName": "Elizabeth",
     "lastName": "Smith",
     "status": "Pending",
-    "member": false,
-    "mentor": false,
-    "donor": true,
-    "contact": true,
     "roles": [
       "Donor",
       "Partner"
@@ -205,10 +185,6 @@
     "firstName": "Samuel",
     "lastName": "Smith",
     "status": "Active",
-    "member": false,
-    "mentor": true,
-    "donor": true,
-    "contact": true,
     "roles": [
       "Mentor",
       "Donor"
@@ -241,10 +217,6 @@
     "firstName": "Jacob",
     "lastName": "Smith",
     "status": "Archived",
-    "member": false,
-    "mentor": false,
-    "donor": false,
-    "contact": true,
     "roles": [
       "Partner"
     ],
@@ -276,10 +248,6 @@
     "firstName": "Emma",
     "lastName": "Smith",
     "status": "Inactive",
-    "member": false,
-    "mentor": true,
-    "donor": false,
-    "contact": false,
     "roles": [
       "Partner"
     ],
@@ -308,10 +276,6 @@
     "firstName": "Benjamin",
     "lastName": "Smith",
     "status": "Pending",
-    "member": true,
-    "mentor": false,
-    "donor": false,
-    "contact": false,
     "roles": [
       "Partner"
     ],
@@ -348,10 +312,6 @@
     "firstName": "Olivia",
     "lastName": "Smith",
     "status": "Active",
-    "member": true,
-    "mentor": false,
-    "donor": false,
-    "contact": false,
     "roles": [
       "Partner"
     ],
@@ -388,10 +348,6 @@
     "firstName": "David",
     "lastName": "Smith",
     "status": "Archived",
-    "member": true,
-    "mentor": false,
-    "donor": true,
-    "contact": false,
     "roles": [
       "Partner"
     ],
@@ -428,10 +384,6 @@
     "firstName": "Alexande",
     "lastName": "Smith",
     "status": "Inactive",
-    "member": true,
-    "mentor": false,
-    "donor": true,
-    "contact": true,
     "roles": [
       "Mentor",
       "Member"
@@ -469,10 +421,6 @@
     "firstName": "Noah",
     "lastName": "Smith",
     "status": "Pending",
-    "member": false,
-    "mentor": false,
-    "donor": true,
-    "contact": true,
     "roles": [
       "Member"
     ],
@@ -504,10 +452,6 @@
     "firstName": "Joshua",
     "lastName": "Smith",
     "status": "Active",
-    "member": false,
-    "mentor": false,
-    "donor": true,
-    "contact": true,
     "roles": [
       "Member"
     ],
@@ -539,10 +483,6 @@
     "firstName": "Matthew",
     "lastName": "Smith",
     "status": "Archived",
-    "member": false,
-    "mentor": false,
-    "donor": false,
-    "contact": true,
     "roles": [
       "Member"
     ],
@@ -574,10 +514,6 @@
     "firstName": "Isabell",
     "lastName": "Smith",
     "status": "Inactive",
-    "member": false,
-    "mentor": false,
-    "donor": false,
-    "contact": false,
     "roles": [
       "Mentor",
       "Member"
@@ -607,10 +543,6 @@
     "firstName": "Etha",
     "lastName": "Smith",
     "status": "Pending",
-    "member": true,
-    "mentor": false,
-    "donor": false,
-    "contact": false,
     "mentorId": {
       "$oid": "aaaa00000000000000000007"
     },
@@ -644,10 +576,6 @@
     "firstName": "Anthony",
     "lastName": "Smith",
     "status": "Active",
-    "member": true,
-    "mentor": false,
-    "donor": false,
-    "contact": false,
     "roles": [
       "Mentor",
       "Member"
@@ -682,13 +610,9 @@
       "$oid": "aaaa00000000000000000018"
     },
     "userName": "GraceSmith",
-    "firstName": "race",
+    "firstName": "Grace",
     "lastName": "Smith",
     "status": "Archived",
-    "member": true,
-    "mentor": false,
-    "donor": true,
-    "contact": false,
     "roles": [
       "Mentor",
       "Member"
@@ -706,7 +630,7 @@
     "device": "Mac (Intel)",
     "location": "",
     "phone": "915-510-2884",
-    "description": "Thigh-high in the water, the fisherman’s hope for dinner soon turned to despair.",
+    "description": "Thigh-high in the water, the fisherman's hope for dinner soon turned to despair.",
     "lastSaved": {
       "atTime": {
         "$date": "2/27/2024 18:17:58"
@@ -726,10 +650,6 @@
     "firstName": "Sophia",
     "lastName": "Smith",
     "status": "Inactive",
-    "member": true,
-    "mentor": false,
-    "donor": true,
-    "contact": true,
     "roles": [
       "Member"
     ],
@@ -766,10 +686,6 @@
     "firstName": "Mia",
     "lastName": "Smith",
     "status": "Pending",
-    "member": false,
-    "mentor": false,
-    "donor": true,
-    "contact": true,
     "roles": [
       "Member"
     ],
@@ -801,10 +717,6 @@
     "firstName": "Abigail",
     "lastName": "Smith",
     "status": "Active",
-    "member": false,
-    "mentor": false,
-    "donor": true,
-    "contact": true,
     "roles": [
       "Member"
     ],
@@ -836,10 +748,6 @@
     "firstName": "Ava",
     "lastName": "Smith",
     "status": "Archived",
-    "member": false,
-    "mentor": false,
-    "donor": false,
-    "contact": true,
     "roles": [
       "Member"
     ],
@@ -871,10 +779,6 @@
     "firstName": "Lucas",
     "lastName": "Smith",
     "status": "Inactive",
-    "member": false,
-    "mentor": false,
-    "donor": false,
-    "contact": false,
     "roles": [
       "Mentor",
       "Member"
@@ -904,10 +808,6 @@
     "firstName": "Jame",
     "lastName": "Jones",
     "status": "Pending",
-    "member": true,
-    "mentor": false,
-    "donor": false,
-    "contact": false,
     "roles": [
       "Mentor",
       "Member"
@@ -945,10 +845,6 @@
     "firstName": "Michael",
     "lastName": "Jones",
     "status": "Active",
-    "member": true,
-    "mentor": false,
-    "donor": false,
-    "contact": false,
     "roles": [
       "Mentor",
       "Member"
@@ -986,10 +882,6 @@
     "firstName": "Thomas",
     "lastName": "Jones",
     "status": "Archived",
-    "member": true,
-    "mentor": false,
-    "donor": true,
-    "contact": false,
     "roles": [
       "Mentor",
       "Member"
@@ -1027,10 +919,6 @@
     "firstName": "Emily",
     "lastName": "Jones",
     "status": "Inactive",
-    "member": true,
-    "mentor": true,
-    "donor": true,
-    "contact": true,
     "roles": [
       "Member"
     ],
@@ -1064,10 +952,6 @@
     "firstName": "Elizabeth",
     "lastName": "Jones",
     "status": "Pending",
-    "member": false,
-    "mentor": false,
-    "donor": true,
-    "contact": true,
     "roles": [
       "Member"
     ],
@@ -1099,10 +983,6 @@
     "firstName": "Samuel",
     "lastName": "Jones",
     "status": "Active",
-    "member": false,
-    "mentor": false,
-    "donor": true,
-    "contact": true,
     "roles": [
       "Member"
     ],
@@ -1134,10 +1014,6 @@
     "firstName": "Jacob",
     "lastName": "Jones",
     "status": "Archived",
-    "member": false,
-    "mentor": false,
-    "donor": false,
-    "contact": true,
     "roles": [
       "Member"
     ],

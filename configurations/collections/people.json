@@ -3,6 +3,7 @@
   "versions": [
     {
       "version": "1.4.5.1",
+      "testData": "people",
       "addIndexes": [
         {
           "name": "userNameIndex",
