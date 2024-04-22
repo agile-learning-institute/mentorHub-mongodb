@@ -3,6 +3,7 @@
   "versions": [
     {
       "version": "2.0.3.1",
+      "testData": "topics",
       "addIndexes": [
         {
           "name": "nameIndex",
