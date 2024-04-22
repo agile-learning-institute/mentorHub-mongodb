@@ -1,11 +1,15 @@
 {
   "name": "ratings",
-  "version": "1.0.0",
-  "indexes": [
+  "versions": [
     {
-      "keys": {"resourceId": 1},
-      "options": {"unique": true}
+      "version": "1.0.0.1",
+      "addIndexes": [
+        {
+          "name": "resourceIndex",
+          "keys": {"resourceId": 1},
+          "options": {"unique": true}
+        }
+      ]
     }
-  ],
-  "migrations": []
+  ]
 }

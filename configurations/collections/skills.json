@@ -1,6 +1,8 @@
 {
   "name": "skills",
-  "version": "1.0.2",
-  "indexes": [],
-  "migrations": []
+  "versions": [
+    {
+      "version": "1.0.2.1",
+    }
+  ]
 }

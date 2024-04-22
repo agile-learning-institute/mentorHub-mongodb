@@ -1,11 +1,15 @@
 {
   "name": "plans",
-  "version": "1.0.0",
-  "indexes": [
+  "versions": [
     {
-      "keys": {"name": 1},
-      "options": {"unique": true}
+      "version": "1.0.0.1",
+      "addIndexes": [
+        {
+          "name": "nameIndex",
+          "keys": {"name": 1},
+          "options": {"unique": true}
+        }
+      ]
     }
-  ],
-  "migrations": []
+  ]
 }

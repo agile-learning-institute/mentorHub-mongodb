@@ -1,11 +1,15 @@
 {
   "name": "people",
-  "version": "1.4.5",
-  "indexes": [
+  "versions": [
     {
-      "keys": {"userName": 1},
-      "options": {"unique": true}
+      "version": "1.4.5.1",
+      "addIndexes": [
+        {
+          "name": "userNameIndex",
+          "keys": {"userName": 1},
+          "options": {"unique": true}
+            }
+      ]
     }
-  ],
-  "migrations": []
+  ]
 }

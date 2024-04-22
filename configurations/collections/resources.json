@@ -1,15 +1,20 @@
 {
   "name": "resources",
-  "version": "1.0.3",
-  "indexes": [
+  "versions": [
     {
-      "keys": {"name": 1},
-      "options": {"unique": true}
-    },
-    {
-      "keys": {"link": 1},
-      "options": {"unique": true}
+      "version": "1.0.3.1",
+      "addIndexes": [
+        {
+          "name": "nameIndex",
+          "keys": {"name": 1},
+          "options": {"unique": true}
+        },
+        {
+          "name": "linkIndex",
+          "keys": {"link": 1},
+          "options": {"unique": true}
+        }
+      ]
     }
-  ],
-  "migrations": []
+  ]
 }
