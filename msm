@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Main switch for handling different commands
+case $1 in 
+    "test")
+
+        case $2 in
+            "local")
+                mh up msm
+                docker-compose logs -f "msm"
+                ;;
+            "container")
+                docker build --tag ghcr.io/agile-learning-institute/mentorhub-msm:latest .
+                mh up mongodb
+                docker-compose logs -f "mentorhub-mongomsm"
+                mv ./configurations/openApi/* ./docs/
+                ;;
+            *)
+                echo "Usage: msm test [local | container]"
+                exit 1
+                ;;
+        esac
+        ;;
+
+        echo "Usage: msm test [local | container]"
+esac

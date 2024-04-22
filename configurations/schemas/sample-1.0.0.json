@@ -1,0 +1,21 @@
+{
+    "bsonType": "object",
+    "required": [
+        "_id"
+    ],
+    "properties": {
+        "_id": {
+            "description": "The unique identifier for a person",
+            "bsonType": "objectId"
+        },
+        "name": {
+            "description": "VERSION document name",
+            "msmType": "msmWord"
+        },
+        "version": {
+            "description": "VERSION document version number",
+            "msmType": "msmWord"
+        }
+    },
+    "additionalProperties": false
+}
