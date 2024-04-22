@@ -6,12 +6,12 @@
       "addIndexes": [
         {
           "name": "nameIndex",
-          "keys": {"name": 1},
+          "key": {"name": 1},
           "options": {"unique": true}
         },
         {
           "name": "linkIndex",
-          "keys": {"link": 1},
+          "key": {"link": 1},
           "options": {"unique": true}
         }
       ]

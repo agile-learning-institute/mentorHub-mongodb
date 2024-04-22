@@ -6,7 +6,7 @@
       "addIndexes": [
         {
           "name": "nameIndex",
-          "keys": {"name": 1},
+          "key": {"name": 1},
           "options": {"unique": true}
             }
       ]

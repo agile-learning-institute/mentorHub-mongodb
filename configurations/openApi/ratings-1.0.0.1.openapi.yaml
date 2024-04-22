@@ -1,0 +1,45 @@
+openapi: 3.0.3
+info:
+  title: ratings
+  version: 1.0.0.1
+paths:
+  /ratings/:
+    get:
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ratings'
+components:
+  schemas:
+    ratings:
+      description: >-
+        Resource Rating - Accumulated from resource reviews in the curriculum
+        collection
+      required:
+        - _id
+      properties:
+        _id:
+          description: The unique identifier for a resource Rating
+          type: string
+        version:
+          description: Scehma Version (only on Version document)
+          maxLength: 20
+          type: string
+        resourceId:
+          description: The ID of the resource rated
+          type: string
+        rating:
+          description: The rating values - final rating is sum/count
+          properties:
+            count:
+              description: The number of ratings submitted
+              type: number
+            sum:
+              description: The sum of all ratings submitted
+              type: number
+          type: object
+      additionalProperties: false
+      type: object

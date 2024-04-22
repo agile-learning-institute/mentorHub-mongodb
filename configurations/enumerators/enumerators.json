@@ -87,6 +87,21 @@
                 "Data Engineer": "Data Engineer",
                 "SRE Engineer": "Site Reliability Engineer"
             },
+            "curriculumResourceStatus": {
+                "Assigned": "Assigned, but not yet started",
+                "Started": "Started",
+                "Completed": "Marked Complete"
+            },
+            "roadmap": {
+                "completed": "A resource that has been marked as completed",
+                "now": "A resources that an apprentice is currently assigned",
+                "next": "Resources we think we may do next",
+                "later": "Resources that might come later"
+            },
+            "resourceType": {
+                "topic": "A resource from the Topics service",
+                "adhoc": "A resources assigned by mentor without a Topic"
+            },
             "resourceTags": {
                 "$": "this resource is not free",
                 "Article": "A blog post or news article about a subject",

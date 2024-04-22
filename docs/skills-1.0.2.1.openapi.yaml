@@ -1,0 +1,51 @@
+openapi: 3.0.3
+info:
+  title: skills
+  version: 1.0.2.1
+paths:
+  /skills/:
+    get:
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/skills'
+components:
+  schemas:
+    skills:
+      description: A skill
+      required:
+        - _id
+        - name
+      properties:
+        _id:
+          description: The unique identifier for a Skill
+          type: string
+        version:
+          description: Scehma Version (only on Version document
+          maxLength: 20
+          type: string
+        name:
+          description: The short name (slug) for this skill
+          maxLength: 32
+          type: string
+        status:
+          description: The status of this skill
+          enum:
+            - Active
+            - Archived
+          type: string
+        description:
+          description: A description of the skill, a phrase that would go on a resume
+          maxLength: 256
+          type: string
+        mastery:
+          description: The level of mastery for this skill, it aligns with person.title
+          type: string
+        speciality:
+          description: The speciality this skill applies to
+          type: string
+      additionalProperties: false
+      type: object

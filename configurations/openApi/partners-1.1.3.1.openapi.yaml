@@ -1,0 +1,52 @@
+openapi: 3.0.3
+info:
+  title: partners
+  version: 1.1.3.1
+paths:
+  /partners/:
+    get:
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/partners'
+components:
+  schemas:
+    partners:
+      required:
+        - _id
+        - name
+      properties:
+        _id:
+          description: The unique identifier for a partner
+          type: string
+        name:
+          description: >-
+            VERSION is the key that identifies a document as a Schema Version
+            document, otherwise it's just the name
+          maxLength: 32
+          type: string
+        description:
+          description: Description of the partner
+          maxLength: 256
+          type: string
+        version:
+          description: The Schema Version number (only on VERSION document)
+          maxLength: 20
+          type: string
+        status:
+          description: The status of this partnership
+          type: string
+        url:
+          description: Partner Company website
+          maxLength: 256
+          pattern: ^(https?|ftp)://[^\s/$.?#].[^\s]*$
+          type: string
+        contacts:
+          description: Array of contacts associated with this partner
+          items:
+            type: string
+          type: array
+      type: object

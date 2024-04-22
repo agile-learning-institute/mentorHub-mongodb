@@ -6,7 +6,7 @@
       "addIndexes": [
         {
           "name": "userNameIndex",
-          "keys": {"userName": 1},
+          "key": {"userName": 1},
           "options": {"unique": true}
             }
       ]

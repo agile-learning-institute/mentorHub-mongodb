@@ -6,7 +6,7 @@
       "addIndexes": [
         {
           "name": "resourceIndex",
-          "keys": {"resourceId": 1},
+          "key": {"resourceId": 1},
           "options": {"unique": true}
         }
       ]

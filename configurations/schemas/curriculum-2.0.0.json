@@ -9,15 +9,6 @@
 			"description": "The unique identifier for a resource used by a person",
 			"bsonType": "objectId"
 		},
-		"name": {
-			"description": "Temporary property for future removal",
-			"bsonType": "string"
-		},
-		"version": {
-			"description": "Schema Version (only on Version document)",
-			"bsonType": "string",
-			"maxLength": 20
-		},
 		"resources": {
 			"description": "An array of resources",
 			"bsonType": "array",
@@ -26,8 +17,7 @@
 				"properties": {
 					"type": {
 						"description": "Type of the resource (topic or adhoc)",
-						"bsonType": "string",
-						"enum": ["topic", "adhoc"]
+						"msmEnums": "resourceType"
 					},
 					"resourceId": {
 						"description": "The ID of the resource assigned",
@@ -39,28 +29,23 @@
 					},
 					"name": {
 						"description": "The Resource Short Name for adhoc resources",
-						"bsonType": "string",
-						"maxLength": 64
+						"msmType": "msmWord"
 					},
 					"link": {
 						"description": "The Resource Link for adhoc resources",
-						"bsonType": "string",
-						"maxLength": 64
+						"msmType": "msmUrl"
 					},
 					"review": {
 						"description": "Free text review of the person's experience with this resource",
-						"bsonType": "string",
-						"maxLength": 256
+						"msmType": "msmSentence"
 					},
 					"roadmap": {
 						"description": "The top level grouping Now, Next, Later, Celebrated",
-						"bsonType": "string",
-						"enum": ["completed", "now", "next", "later"]
+						"msmEnums": "roadmap"
 					},
 					"status": {
-						"description": "Archived, Assigned, Started, Completed",
-						"bsonType": "string",
-						"enum": ["completed", "now", "next", "later"]
+						"description": "Status of this resource",
+						"msmEnums": "curriculumResourceStatus"
 					},
 					"statusDate": {
 						"description": "Date the status was last changed",
