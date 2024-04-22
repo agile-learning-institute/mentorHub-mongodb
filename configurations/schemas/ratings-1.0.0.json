@@ -9,11 +9,6 @@
 			"description": "The unique identifier for a resource Rating",
 			"bsonType": "objectId"
 		},
-        "version": {
-			"description": "Scehma Version (only on Version document)",
-            "bsonType": "string",
-            "maxLength": 20
-        },
 		"resourceId": {
 			"description": "The ID of the resource rated",
 			"bsonType": "objectId"
