@@ -14,6 +14,40 @@
                 "Active": "Not Deleted",
                 "Archived": "Soft Delete Indicator"
             },
+            "personStatus": {
+                "Pending": "Registered Online",
+                "Onboarding": "Introduction Call Scheduled",
+                "Matching": "Completed introduction, waiting on mentor match",
+                "Active": "Matched with a mentor and having regular encounters",
+                "Hold": "Member who was active, initiated pause in mentor work",
+                "Inactive": "Member who was active, has indicated that they are no long interested in mentorship services",
+                "TimedOut": "Member did not schedule introduction call within 2-weeks.",
+                "Archived": "Soft Delete Indicator"
+            },
+            "partnerStatus": {
+                "Active": "An active partner",
+                "Inactive": "A partner that has discontinued relationships",
+                "Archived": "Soft Delete Indicator"
+            },
+            "curriculumResourceStatus": {
+                "Assigned": "Assigned, but not yet started",
+                "Started": "Started",
+                "Completed": "Marked Complete"
+            },
+            "device": {
+                "Mac (Intel)": "Mac with Intel silicon",
+                "Mac (Apple)": "Mac with Apple sillicon",
+                "Linux": "Boots to Linux (dual boot or vm)",
+                "Windows": "Uses WSL for bash/linux"
+            },
+            "cadence": {
+                "As Needed": "Meetings are not fixed",
+                "Monthly": "Meetings are once a month",
+                "Every 2 Weeks": "Meetings are once every two weeks",
+                "Weekly": "Meetings are once every week",
+                "Twice a Week": "Meetings are twice every week",
+                "Daily": "Meetings are every day"
+            },
             "observationType": {
                 "radio": "Select one option",
                 "check": "Select multiple options",
@@ -33,35 +67,6 @@
                 "Master": "A senior software engineer recognized as a leader within their specialty",
                 "Distinguished": "A senior software engineer that has been recognized by their peers as a distinguished contributor",
                 "N/A": "Not a software engineer"
-            },
-            "personStatus": {
-                "Pending": "Registered Online",
-                "Onboarding": "Introduction Call Scheduled",
-                "Matching": "Completed introduction, waiting on mentor match",
-                "Active": "Matched with a mentor and having regular encounters",
-                "Hold": "Member who was active, initiated pause in mentor work",
-                "Inactive": "Member who was active, has indicated that they are no long interested in mentorship services",
-                "TimedOut": "Member did not schedule introduction call within 2-weeks.",
-                "Archived": "Soft Delete Indicator"
-            },
-            "device": {
-                "Mac (Intel)": "Mac with Intel silicon",
-                "Mac (Apple)": "Mac with Apple sillicon",
-                "Linux": "Boots to Linux (dual boot or vm)",
-                "Windows": "Uses WSL for bash/linux"
-            },
-            "cadence": {
-                "As Needed": "Meetings are not fixed",
-                "Monthly": "Meetings are once a month",
-                "Every 2 Weeks": "Meetings are once every two weeks",
-                "Weekly": "Meetings are once every week",
-                "Twice a Week": "Meetings are twice every week",
-                "Daily": "Meetings are every day"
-            },
-            "partnerStatus": {
-                "Active": "An active partner",
-                "Inactive": "A partner that has discontinued relationships",
-                "Archived": "Soft Delete Indicator"
             },
             "category": {
                 "Foundations of ITSM": "This category encompasses foundational knowledge and practices essential for effective IT service management.",
@@ -86,11 +91,6 @@
                 "API Engineer": "API Engineer",
                 "Data Engineer": "Data Engineer",
                 "SRE Engineer": "Site Reliability Engineer"
-            },
-            "curriculumResourceStatus": {
-                "Assigned": "Assigned, but not yet started",
-                "Started": "Started",
-                "Completed": "Marked Complete"
             },
             "roadmap": {
                 "completed": "A resource that has been marked as completed",

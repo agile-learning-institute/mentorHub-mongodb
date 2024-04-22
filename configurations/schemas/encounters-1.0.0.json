@@ -9,11 +9,6 @@
 			"description": "The unique identifier for an encounter",
 			"bsonType": "objectId"
 		},
-		"version": {
-			"description": "Scehma Version (only on Version document)",
-			"bsonType": "string",
-			"maxLength": 20
-		},
 		"date": {
 			"description": "The date/time of the encounter",
 			"bsonType": "date"
@@ -32,7 +27,7 @@
 		},
 		"status": {
 			"description": "The status of this encounter",
-			"bsonType": "string"
+			"msmEnums": "defaultStatus"
 		},
 		"observations": {
 			"description": "a list of observations",
@@ -43,29 +38,32 @@
 				"properties": {
 					"type": {
 						"description": "The type of observation control, from an enumerated list",
-						"bsonType": "string"
+						"msmEnums": "observationType"
 					},
 					"prompt": {
 						"description": "The question asked",
-						"bsonType": "string",
-						"maxLength": 256
+						"msmType": "msmSentence"
 					},
 					"options": {
 						"description": "The options for an answer (on radio and check type observations)",
 						"bsonType": "array",
 						"items": {
-							"bsonType": "string"
+							"msmType": "msmSentence"
 						}
 					},
 					"values": {
 						"description": "The values selected or entered (will be a single value for radio and text observations)",
 						"bsonType": "array",
 						"items": {
-							"bsonType": "string"
+							"msmType": "msmSentence"
 						}
 					}
 				}
 			}
+		}, 
+		"lastSaved": {
+			"description": "Change tracking information",
+			"msmType": "msmBreadcrumb"
 		}
 	},
 	"additionalProperties": false
