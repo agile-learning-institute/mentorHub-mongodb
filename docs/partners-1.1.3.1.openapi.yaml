@@ -23,30 +23,47 @@ components:
           description: The unique identifier for a partner
           type: string
         name:
-          description: >-
-            VERSION is the key that identifies a document as a Schema Version
-            document, otherwise it's just the name
-          maxLength: 32
+          description: Partner name
+          pattern: ^[ -~]{0,256}$
           type: string
         description:
           description: Description of the partner
-          maxLength: 256
-          type: string
-        version:
-          description: The Schema Version number (only on VERSION document)
-          maxLength: 20
+          pattern: ^[ -~]{0,256}$
           type: string
         status:
           description: The status of this partnership
+          enum:
+            - Active
+            - Inactive
+            - Archived
           type: string
         url:
           description: Partner Company website
-          maxLength: 256
-          pattern: ^(https?|ftp)://[^\s/$.?#].[^\s]*$
+          pattern: >-
+            ^(https?:\/\/)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z-]{2,24}(:[0-9]{1,5})?(\/(([\w\-\.~]|%[a-fA-F0-9]{2}|[!\$&'\(\)\*\+,;=:@])*\/?)*)?
           type: string
         contacts:
           description: Array of contacts associated with this partner
           items:
             type: string
           type: array
+        lastSaved:
+          description: Change tracking breadcrumb
+          properties:
+            fromIp:
+              description: Http Request remote IP address
+              pattern: >-
+                ^(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}$
+              type: string
+            byUser:
+              description: UUID Of User
+              type: string
+            atTime:
+              description: The date-time when last updated
+              type: string
+            correlationId:
+              description: The logging correlation ID of the update transaction
+              type: string
+          additionalProperties: false
+          type: object
       type: object

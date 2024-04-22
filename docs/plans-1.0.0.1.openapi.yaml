@@ -23,20 +23,19 @@ components:
         _id:
           description: The unique identifier for an encounter plan
           type: string
-        version:
-          description: Scehma Version (only on Version document)
-          maxLength: 20
-          type: string
         name:
           description: The short name of the plan
-          maxLength: 32
+          pattern: ^[^\s]{0,32}$
           type: string
         description:
           description: Description of the Plan
-          maxLength: 256
+          pattern: ^[ -~]{0,256}$
           type: string
         status:
           description: The status of this plan
+          enum:
+            - Active
+            - Archived
           type: string
         checklist:
           description: a checklist of planned observations
@@ -47,19 +46,43 @@ components:
             properties:
               type:
                 description: The type of observation control, from an enumerated list
+                enum:
+                  - radio
+                  - check
+                  - text
                 type: string
               prompt:
                 description: The question asked
-                maxLength: 256
+                pattern: ^[ -~]{0,256}$
                 type: string
               options:
                 description: >-
                   The options for an answer (on radio and check type
                   observations)
                 items:
+                  pattern: ^[ -~]{0,256}$
                   type: string
                 type: array
             type: object
           type: array
+        lastSaved:
+          description: change tracking breadcrumb
+          properties:
+            fromIp:
+              description: Http Request remote IP address
+              pattern: >-
+                ^(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}$
+              type: string
+            byUser:
+              description: UUID Of User
+              type: string
+            atTime:
+              description: The date-time when last updated
+              type: string
+            correlationId:
+              description: The logging correlation ID of the update transaction
+              type: string
+          additionalProperties: false
+          type: object
       additionalProperties: false
       type: object

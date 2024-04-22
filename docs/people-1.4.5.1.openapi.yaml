@@ -22,50 +22,45 @@ components:
         _id:
           description: The unique identifier for a person
           type: string
-        name:
-          description: VERSION document only
-          maxLength: 32
-          type: string
-        version:
-          description: VERSION document only
-          maxLength: 20
-          type: string
         userName:
           description: Username
-          pattern: ^[^\s]{0,64}$
+          pattern: ^[^\s]{0,32}$
           type: string
         firstName:
           description: The persons first name
-          pattern: ^[^\s]{0,64}$
+          pattern: ^[^\s]{0,32}$
           type: string
         lastName:
           description: The persons last name
-          pattern: ^[^\s]{0,64}$
+          pattern: ^[^\s]{0,32}$
           type: string
         description:
           description: Notes or other descriptive text
-          maxLength: 256
+          pattern: ^[ -~]{0,256}$
           type: string
         status:
           description: The status of this member
+          enum:
+            - Pending
+            - Onboarding
+            - Matching
+            - Active
+            - Hold
+            - Inactive
+            - TimedOut
+            - Archived
           type: string
         roles:
           description: RBAC Roles for this person
           items:
+            enum:
+              - Member
+              - Mentor
+              - Partner
+              - Donor
+              - Staff
             type: string
           type: array
-        member:
-          description: Is this person a Member
-          type: boolean
-        mentor:
-          description: Is this person a Mentor
-          type: boolean
-        donor:
-          description: Is this person a Donor
-          type: boolean
-        contact:
-          description: Is this person a Partner Contact
-          type: boolean
         mentorId:
           description: the _id of this persons Mentor if they have one
           type: string
@@ -74,13 +69,26 @@ components:
           type: string
         title:
           description: The person's title in the career path
+          enum:
+            - Candidate
+            - Apprentice
+            - Resident
+            - Master
+            - Distinguished
+            - N/A
           type: string
         cadence:
           description: This person's preferred meeting cadence
+          enum:
+            - As Needed
+            - Monthly
+            - Every 2 Weeks
+            - Weekly
+            - Twice a Week
+            - Daily
           type: string
         eMail:
           description: The person's eMail address
-          maxLength: 256
           pattern: ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
           type: string
         gitHub:
@@ -89,14 +97,38 @@ components:
           type: string
         phone:
           description: The person's phone number
-          pattern: ^\d{3}[-.\s]?\d{3}[-.\s]?\d{4}$
+          pattern: ^\+?1?\s?(\([0-9]{3}\)|[0-9]{3})[-.\s]?[0-9]{3}[-.\s]?[0-9]{4}$
           type: string
         device:
           description: The type of PC this person is using
+          enum:
+            - Mac (Intel)
+            - Mac (Apple)
+            - Linux
+            - Windows
           type: string
         location:
           description: The location where this person lives
-          maxLength: 64
+          pattern: ^[ -~]{0,256}$
           type: string
+        lastSaved:
+          description: Change Tracking breadcrumb
+          properties:
+            fromIp:
+              description: Http Request remote IP address
+              pattern: >-
+                ^(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}$
+              type: string
+            byUser:
+              description: UUID Of User
+              type: string
+            atTime:
+              description: The date-time when last updated
+              type: string
+            correlationId:
+              description: The logging correlation ID of the update transaction
+              type: string
+          additionalProperties: false
+          type: object
       additionalProperties: false
       type: object

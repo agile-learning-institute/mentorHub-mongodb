@@ -23,13 +23,9 @@ components:
         _id:
           description: The unique identifier for a Skill
           type: string
-        version:
-          description: Scehma Version (only on Version document
-          maxLength: 20
-          type: string
         name:
           description: The short name (slug) for this skill
-          maxLength: 32
+          pattern: ^[^\s]{0,32}$
           type: string
         status:
           description: The status of this skill
@@ -39,13 +35,44 @@ components:
           type: string
         description:
           description: A description of the skill, a phrase that would go on a resume
-          maxLength: 256
+          pattern: ^[ -~]{0,256}$
           type: string
         mastery:
           description: The level of mastery for this skill, it aligns with person.title
+          enum:
+            - Candidate
+            - Apprentice
+            - Resident
+            - Master
+            - Distinguished
           type: string
         speciality:
           description: The speciality this skill applies to
+          enum:
+            - Generalist
+            - UI/UX Engineer
+            - API Engineer
+            - Data Engineer
+            - SRE Engineer
           type: string
+        lastSaved:
+          description: Tracking breadcrumb
+          properties:
+            fromIp:
+              description: Http Request remote IP address
+              pattern: >-
+                ^(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}$
+              type: string
+            byUser:
+              description: UUID Of User
+              type: string
+            atTime:
+              description: The date-time when last updated
+              type: string
+            correlationId:
+              description: The logging correlation ID of the update transaction
+              type: string
+          additionalProperties: false
+          type: object
       additionalProperties: false
       type: object

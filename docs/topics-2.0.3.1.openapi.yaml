@@ -23,25 +23,33 @@ components:
         _id:
           description: The Topic ID
           type: string
-        version:
-          description: Scehma Version (only on Version document
-          maxLength: 20
-          type: string
         name:
           description: The Topic Name
-          maxLength: 128
+          pattern: ^[ -~]{0,256}$
           type: string
         status:
           description: The status of this topic
+          enum:
+            - Active
+            - Archived
           type: string
         description:
           description: The Topic overview paragraph
-          maxLength: 512
+          pattern: ^[ -~]{0,256}$
           type: string
         category:
           description: >-
             A simple categorization of topics based on ITIL and ITSM best
             practices
+          enum:
+            - Foundations of ITSM
+            - Design and Development
+            - Infrastructure and Operations
+            - Networking and Security
+            - Development Tools and Practices
+            - Data Management
+            - Continuous Integration and Deployment
+            - Monitoring and Performance
           type: string
         skills:
           description: The list of skills related to this topic
@@ -53,5 +61,24 @@ components:
           items:
             type: string
           type: array
+        lastSaved:
+          description: Tracking breadcrumb
+          properties:
+            fromIp:
+              description: Http Request remote IP address
+              pattern: >-
+                ^(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}$
+              type: string
+            byUser:
+              description: UUID Of User
+              type: string
+            atTime:
+              description: The date-time when last updated
+              type: string
+            correlationId:
+              description: The logging correlation ID of the update transaction
+              type: string
+          additionalProperties: false
+          type: object
       additionalProperties: false
       type: object

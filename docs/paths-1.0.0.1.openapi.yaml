@@ -22,16 +22,15 @@ components:
         _id:
           description: The unique identifier for the grouping
           type: string
-        version:
-          description: Scehma Version (only on Version document
-          maxLength: 20
-          type: string
         status:
           description: The status of this Path
+          enum:
+            - Active
+            - Archived
           type: string
         name:
           description: The Path Name
-          maxLength: 64
+          pattern: ^[ -~]{0,256}$
           type: string
         segments:
           items:
@@ -39,7 +38,7 @@ components:
             properties:
               name:
                 description: The Segment Name
-                maxLength: 64
+                pattern: ^[ -~]{0,256}$
                 type: string
               topics:
                 description: The list of topics in this Segment
@@ -49,5 +48,24 @@ components:
                 type: array
             type: object
           type: array
+        lastSaved:
+          description: Change tracking breadcrumb
+          properties:
+            fromIp:
+              description: Http Request remote IP address
+              pattern: >-
+                ^(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}$
+              type: string
+            byUser:
+              description: UUID Of User
+              type: string
+            atTime:
+              description: The date-time when last updated
+              type: string
+            correlationId:
+              description: The logging correlation ID of the update transaction
+              type: string
+          additionalProperties: false
+          type: object
       additionalProperties: false
       type: object
