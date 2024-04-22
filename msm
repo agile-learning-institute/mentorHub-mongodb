@@ -10,13 +10,14 @@ case $1 in
             "local")
                 mh up msm
                 mh tail msm
+                rm -rf ./docs/
+                mkdir -p ./docs/
+                mv ./configurations/openApi/* ./docs/
                 ;;
             "container")
                 docker build --tag ghcr.io/agile-learning-institute/mentorhub-msm:latest .
                 mh up mongodb
                 mh tail mentorhub-mongomsm
-                mkdir -p ./docs/
-                # mv ./configurations/openApi/* ./docs/
                 ;;
             *)
                 echo "Usage: msm test [local | container]"

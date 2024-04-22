@@ -14,13 +14,13 @@ View [OpenApi specifications](https://github.com/agile-learning-institute/mentor
 ```
 This will start the mongodb, and a mongoSchemaManager container, mounting the configurations folder into the container for processing. The stdout of this container is tailed until the process completes.
 
+NOTE: This script will deploy the latest schema's into the /docs folder where they are published by GitHub Pages. You should **ALWAYS** test both local and container before submiting a pull request.
+
 ## Build and test the container 
 ```bash
 ./msm test container
 ```
 This will build your container locally, then start both the mongodb database, and your container. Your containers stdout will be tailed until processing completes. You should see the same output you did with ``./msm test local``. 
-
-NOTE: This script will deploy the latest schema's into the /docs folder where they are published by GitHub Pages. You should **ALWAYS** test your container before submiting a pull request.
 
 ## Shut down services after testing
 ```bash
