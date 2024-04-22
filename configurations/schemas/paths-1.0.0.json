@@ -9,19 +9,13 @@
 			"description": "The unique identifier for the grouping",
 			"bsonType": "objectId"
 		},
-		"version": {
-			"description": "Scehma Version (only on Version document",
-			"bsonType": "string",
-			"maxLength": 20
-		},
 		"status": {
 			"description": "The status of this Path",
-			"bsonType": "string"
+			"msmEnums": "defaultStatus"
 		},
 		"name": {
 			"description": "The Path Name",
-			"bsonType": "string",
-			"maxLength": 64
+			"msmType": "msmSentence"
 		},
 		"segments": {
 			"bsonType": "array",
@@ -31,8 +25,7 @@
 				"properties": {
 					"name": {
 						"description": "The Segment Name",
-						"bsonType": "string",
-						"maxLength": 64
+						"msmType": "msmSentence"
 					},
 					"topics": {
 						"description": "The list of topics in this Segment",
@@ -44,6 +37,10 @@
 					}
 				}
 			}
+		}, 
+		"lastSaved": {
+			"description": "Change tracking breadcrumb",
+			"msmType": "msmBreadcrumb"
 		}
 	},
 	"additionalProperties": false
