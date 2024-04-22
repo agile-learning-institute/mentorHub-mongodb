@@ -40,7 +40,7 @@
 		},
 		"tags": {
 			"description": "Tags to assist with classification of this resource",
-			"msmEnumList": "tags"
+			"msmEnumList": "resourceTags"
 		},
 		"lastSaved": {
 			"description": "Tracking breadcrumb",
