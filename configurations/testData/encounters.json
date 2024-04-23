@@ -18,49 +18,49 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Introductions",
                 "options": ["Mike", "Institute"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Tell me about you",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Who is involved",
                 "options": ["Spouse", "Children", "Extended Family", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "What's happening now, why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What matters most?",
                 "options": ["Employment", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Agreements",
                 "options": ["Now Scope", "Onboarding Scheduled"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "GitHub ID",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Discord ID",
                 "options": []
             }
@@ -85,31 +85,31 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Review",
                 "options": ["Agile Manifesto", "Craftsmanship Manifesto", "Design Thinking", "Toolkit", "Odin", "Engineerkit"],
                 "values": []
             },
             {
-                "type": "radio",
+                "type": "Radio",
                 "prompt": "Choose One",
                 "options": ["One", "Two", "Three"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "What are your goals (6-month, 1-yr)",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Commitment hrs/week",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Agreements",
                 "options": ["Now Scope", "Recurring Invite"]
             }
@@ -134,43 +134,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -195,43 +195,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -256,49 +256,49 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Introductions",
                 "options": ["Mike", "Institute"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Tell me about you",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Who is involved",
                 "options": ["Spouse", "Children", "Extended Family", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "What's happening now, why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What matters most?",
                 "options": ["Employment", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Agreements",
                 "options": ["Now Scope", "Onboarding Scheduled"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "GitHub ID",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Discord ID",
                 "options": []
             }
@@ -323,31 +323,31 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Review",
                 "options": ["Agile Manifesto", "Craftsmanship Manifesto", "Design Thinking", "Toolkit", "Odin", "Engineerkit"],
                 "values": []
             },
             {
-                "type": "radio",
+                "type": "Radio",
                 "prompt": "Choose One",
                 "options": ["One", "Two", "Three"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "What are your goals (6-month, 1-yr)",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Commitment hrs/week",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Agreements",
                 "options": ["Now Scope", "Recurring Invite"]
             }
@@ -372,43 +372,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -433,43 +433,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -494,49 +494,49 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Introductions",
                 "options": ["Mike", "Institute"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Tell me about you",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Who is involved",
                 "options": ["Spouse", "Children", "Extended Family", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "What's happening now, why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What matters most?",
                 "options": ["Employment", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Agreements",
                 "options": ["Now Scope", "Onboarding Scheduled"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "GitHub ID",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Discord ID",
                 "options": []
             }
@@ -561,31 +561,31 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Review",
                 "options": ["Agile Manifesto", "Craftsmanship Manifesto", "Design Thinking", "Toolkit", "Odin", "Engineerkit"],
                 "values": []
             },
             {
-                "type": "radio",
+                "type": "Radio",
                 "prompt": "Choose One",
                 "options": ["One", "Two", "Three"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "What are your goals (6-month, 1-yr)",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Commitment hrs/week",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Agreements",
                 "options": ["Now Scope", "Recurring Invite"]
             }
@@ -610,43 +610,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -671,43 +671,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -732,43 +732,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -793,49 +793,49 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Introductions",
                 "options": ["Mike", "Institute"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Tell me about you",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Who is involved",
                 "options": ["Spouse", "Children", "Extended Family", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "What's happening now, why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What matters most?",
                 "options": ["Employment", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Agreements",
                 "options": ["Now Scope", "Onboarding Scheduled"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "GitHub ID",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Discord ID",
                 "options": []
             }
@@ -860,31 +860,31 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Review",
                 "options": ["Agile Manifesto", "Craftsmanship Manifesto", "Design Thinking", "Toolkit", "Odin", "Engineerkit"],
                 "values": []
             },
             {
-                "type": "radio",
+                "type": "Radio",
                 "prompt": "Choose One",
                 "options": ["One", "Two", "Three"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "What are your goals (6-month, 1-yr)",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Commitment hrs/week",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Agreements",
                 "options": ["Now Scope", "Recurring Invite"]
             }
@@ -909,43 +909,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -970,43 +970,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -1031,43 +1031,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -1092,49 +1092,49 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Introductions",
                 "options": ["Mike", "Institute"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Tell me about you",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Who is involved",
                 "options": ["Spouse", "Children", "Extended Family", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "What's happening now, why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What matters most?",
                 "options": ["Employment", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Agreements",
                 "options": ["Now Scope", "Onboarding Scheduled"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "GitHub ID",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Discord ID",
                 "options": []
             }
@@ -1159,31 +1159,31 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Review",
                 "options": ["Agile Manifesto", "Craftsmanship Manifesto", "Design Thinking", "Toolkit", "Odin", "Engineerkit"],
                 "values": []
             },
             {
-                "type": "radio",
+                "type": "Radio",
                 "prompt": "Choose One",
                 "options": ["One", "Two", "Three"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "What are your goals (6-month, 1-yr)",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Commitment hrs/week",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Agreements",
                 "options": ["Now Scope", "Recurring Invite"]
             }
@@ -1208,43 +1208,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -1269,43 +1269,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -1330,43 +1330,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -1391,43 +1391,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -1452,43 +1452,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -1513,43 +1513,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -1574,43 +1574,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -1635,43 +1635,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
@@ -1696,43 +1696,43 @@
         "status": "Active",
         "observations": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"],
                 "values": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": [],
                 "values": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }

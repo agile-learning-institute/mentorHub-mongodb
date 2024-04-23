@@ -49,9 +49,9 @@
                 "Daily": "Meetings are every day"
             },
             "observationType": {
-                "radio": "Select one option",
-                "check": "Select multiple options",
-                "text": "Enter a text string"
+                "Radio": "Select one option",
+                "Check": "Select multiple options",
+                "Text": "Enter a text string"
             },
             "roles": {
                 "Member": "A member",
@@ -93,14 +93,14 @@
                 "SRE Engineer": "Site Reliability Engineer"
             },
             "roadmap": {
-                "completed": "A resource that has been marked as completed",
-                "now": "A resources that an apprentice is currently assigned",
-                "next": "Resources we think we may do next",
-                "later": "Resources that might come later"
+                "Completed": "A resource that has been marked as completed",
+                "Now": "A resources that an apprentice is currently assigned",
+                "Next": "Resources we think we may do next",
+                "Later": "Resources that might come later"
             },
             "resourceType": {
-                "topic": "A resource from the Topics service",
-                "adhoc": "A resources assigned by mentor without a Topic"
+                "Topic": "A resource from the Topics service",
+                "Adhoc": "A resources assigned by mentor without a Topic"
             },
             "resourceTags": {
                 "$": "this resource is not free",

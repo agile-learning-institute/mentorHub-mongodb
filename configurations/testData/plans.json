@@ -8,42 +8,42 @@
         "status": "Active",
         "checklist": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Introductions",
                 "options": ["Mike", "Institute"]
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Tell me about you",
                 "options": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Who is involved",
                 "options": ["Spouse", "Children", "Extended Family", "OTHER"]
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "What's happening now, why?",
                 "options": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What matters most?",
                 "options": ["Employment", "OTHER"]
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Agreements",
                 "options": ["Now Scope", "Onboarding Scheduled"]
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "GitHub ID",
                 "options": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Discord ID",
                 "options": []
             }
@@ -58,27 +58,27 @@
         "status": "Active",
         "checklist": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Review",
                 "options": ["Agile Manifesto", "Craftsmanship Manifesto", "Design Thinking", "Toolkit", "Odin", "Engineerkit"]
             },
             {
-                "type": "radio",
+                "type": "Radio",
                 "prompt": "Choose One",
                 "options": ["One", "Two", "Three"]
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "What are your goals (6-month, 1-yr)",
                 "options": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "Commitment hrs/week",
                 "options": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "Agreements",
                 "options": ["Now Scope", "Recurring Invite"]
             }
@@ -93,37 +93,37 @@
         "status": "Active",
         "checklist": [
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What do you want to focus on today?",
                 "options": ["Now Questions", "OTHER"]
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you describe what's happeningn now? Why?",
                 "options": []
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "During out time together, what woud you like to acomplish?",
                 "options": ["New Now", "OTHER"]
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What are some ideas to try, what one thing can we start with?",
                 "options": ["Now Scope", "OTHER"]
             },
             {
-                "type": "check",
+                "type": "Check",
                 "prompt": "What would you like to be able to share next time?",
                 "options": ["New Now", "OTHER"]
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How are your discoveries making a difference?",
                 "options": []
             },
             {
-                "type": "text",
+                "type": "Text",
                 "prompt": "How would you like to close today?",
                 "options": []
             }
