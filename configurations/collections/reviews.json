@@ -1,0 +1,15 @@
+{
+  "name": "reviews",
+  "versions": [
+    {
+      "version": "1.0.0.1",
+      "addIndexes": [
+        {
+          "name": "resourceIndex",
+          "key": {"resourceId": 1},
+          "options": {"unique": true}
+        }
+      ]
+    }
+  ]
+}
