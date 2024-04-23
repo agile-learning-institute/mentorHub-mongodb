@@ -30,18 +30,6 @@
             }
         },
         "curriculum": {
-            "status": {
-                "Archived": "A soft delete indicator",
-                "Assigned": "A curriculum assignment not yet started",
-                "Started": "A curriculum assignment currently started but not marked complete",
-                "Complete": "A curriculum assignment that has been marked complete"
-            },
-            "roadmapGroup": {
-                "Now": "Current focus of effort, attainable goal",
-                "Next": "Things we think we will do next. A new 'now' will come from here",
-                "Later": "Long term strategic goals or plans",
-                "Celebrated": "Completed work"
-            }
         },
         "people": {
             "roles": {
