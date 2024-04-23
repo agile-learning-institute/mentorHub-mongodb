@@ -25,7 +25,7 @@ components:
         resourceId:
           description: The ID of the resource rated
           type: string
-        personID:
+        personId:
           description: The ID of the person making the review
           type: string
         review:

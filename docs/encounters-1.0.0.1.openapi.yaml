@@ -48,9 +48,9 @@ components:
               type:
                 description: The type of observation control, from an enumerated list
                 enum:
-                  - radio
-                  - check
-                  - text
+                  - Radio
+                  - Check
+                  - Text
                 type: string
               prompt:
                 description: The question asked
