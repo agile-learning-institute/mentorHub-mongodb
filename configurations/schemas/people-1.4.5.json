@@ -1,0 +1,78 @@
+{
+    "bsonType": "object",
+    "required": [
+        "_id",
+        "userName"
+    ],
+    "properties": {
+        "_id": {
+            "description": "The unique identifier for a person",
+            "bsonType": "objectId"
+        },
+        "userName": {
+            "description": "Username",
+			"msmType": "msmWord"
+        },
+        "firstName": {
+            "description": "The persons first name",
+			"msmType": "msmWord"
+        },
+        "lastName": {
+            "description": "The persons last name",
+			"msmType": "msmWord"
+        },
+        "description": {
+            "description": "Notes or other descriptive text",
+			"msmType": "msmSentence"
+        },
+        "status": {
+            "description": "The status of this member",
+            "msmEnums": "personStatus"
+        },
+        "roles": {
+			"description": "RBAC Roles for this person",
+			"msmEnumList": "roles"
+        },
+        "mentorId": {
+            "description": "the _id of this persons Mentor if they have one",
+            "bsonType": "objectId"
+        },
+        "partnerId": {
+            "description": "the _id of this persons partner (contacts and members)",
+            "bsonType": "objectId"
+        },
+        "title": {
+            "description": "The person's title in the career path",
+            "msmEnums": "title"
+        },
+        "cadence": {
+            "description": "This person's preferred meeting cadence",
+            "msmEnums": "cadence"
+        },
+        "eMail": {
+            "description": "The person's eMail address",
+            "msmType": "msmEmail"
+        },
+        "gitHub": {
+            "description": "The person's gitHub User ID",
+			"msmType": "msmWord"
+        },
+        "phone": {
+            "description": "The person's phone number",
+            "msmType": "msmUsaPhone"
+        },
+        "device": {
+            "description": "The type of PC this person is using",
+            "msmEnums": "device"
+        },
+        "location": {
+            "description": "The location where this person lives",
+            "msmType": "msmSentence"
+        },
+        "lastSaved": {
+            "description": "Change Tracking breadcrumb",
+            "msmType": "msmBreadcrumb"
+        }
+    },
+    "additionalProperties": false
+}

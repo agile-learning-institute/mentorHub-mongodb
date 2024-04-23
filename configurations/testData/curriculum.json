@@ -1,0 +1,256 @@
+[
+  {
+    "_id": {"$oid": "AAAA00000000000000000002"},
+    "resources": [
+      {
+        "type": "Topic",
+        "topicId": {"$oid": "AAAA00000000000000000002"},
+        "resourceId": {"$oid": "CCCC00000000000000000002"},
+        "roadmap": "Completed",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-12T08:00:00Z"},
+        "started": {"$date": "2024-04-10T08:00:00Z"},
+        "completed": {"$date": "2024-04-12T08:00:00Z"}
+      },
+      {
+        "type": "Adhoc",
+        "name": "JavaScript Tutorial",
+        "link": "https://www.example.com/javascript-tutorial",
+        "roadmap": "Next"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "AAAA00000000000000000003"},
+    "resources": [
+      {
+        "type": "Topic",
+        "topicId": {"$oid": "AAAA00000000000000000003"},
+        "resourceId": {"$oid": "CCCC00000000000000000009"},
+        "roadmap": "Completed",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-10T08:00:00Z"},
+        "started": {"$date": "2024-04-08T08:00:00Z"},
+        "completed": {"$date": "2024-04-10T08:00:00Z"}
+      },
+      {
+        "type": "Adhoc",
+        "name": "Bootstrap Documentation",
+        "link": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+        "roadmap": "Now"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "aaaa00000000000000000000"},
+    "resources": [
+      {
+        "type": "Topic",
+        "topicId": {"$oid": "AAAA00000000000000000004"},
+        "resourceId": {"$oid": "CCCC00000000000000000016"},
+        "roadmap": "Completed",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-12T08:00:00Z"},
+        "started": {"$date": "2024-04-10T08:00:00Z"},
+        "completed": {"$date": "2024-04-12T08:00:00Z"}
+      },
+      {
+        "type": "Adhoc",
+        "name": "JavaScript Tutorial",
+        "link": "https://www.example.com/javascript-tutorial",
+        "roadmap": "Next"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "AAAA00000000000000000005"},
+    "resources": [
+      {
+        "type": "Topic",
+        "resourceId": {"$oid": "AAAA00000000000000000005"},
+        "topicId": {"$oid": "CCCC00000000000000000024"},
+        "roadmap": "Completed",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-10T08:00:00Z"},
+        "started": {"$date": "2024-04-08T08:00:00Z"},
+        "completed": {"$date": "2024-04-10T08:00:00Z"}
+      },
+      {
+        "type": "Adhoc",
+        "name": "Bootstrap Documentation",
+        "link": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+        "roadmap": "Now"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "AAAA00000000000000000004"},
+    "resources": [
+      {
+        "type": "Topic",
+        "topicId": {"$oid": "AAAA00000000000000000006"},
+        "resourceId": {"$oid": "CCCC00000000000000000030"},
+        "roadmap": "Completed",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-15T08:00:00Z"},
+        "started": {"$date": "2024-04-12T08:00:00Z"},
+        "completed": {"$date": "2024-04-15T08:00:00Z"}
+      },
+      {
+        "type": "Topic",
+        "topicId": {"$oid": "AAAA00000000000000000007"},
+        "resourceId": {"$oid": "CCCC00000000000000000032"},
+        "roadmap": "Completed",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-18T08:00:00Z"},
+        "started": {"$date": "2024-04-15T08:00:00Z"},
+        "completed": {"$date": "2024-04-18T08:00:00Z"}
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "AAAA00000000000000000006"},
+    "resources": [
+      {
+        "type": "Topic",
+        "topicId": {"$oid": "AAAA00000000000000000008"},
+        "resourceId": {"$oid": "CCCC00000000000000000036"},
+        "roadmap": "Next",
+        "status": "Started",
+        "statusDate": {"$date": "2024-04-20T08:00:00Z"},
+        "started": {"$date": "2024-04-18T08:00:00Z"}
+      },
+      {
+        "type": "Topic",
+        "topicId": {"$oid": "AAAA00000000000000000009"},
+        "resourceId": {"$oid": "CCCC00000000000000000041"},
+        "roadmap": "Later"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "AAAA00000000000000000007"},
+    "resources": [
+      {
+        "type": "Topic",
+        "topicId": {"$oid": "AAAA00000000000000000010"},
+        "resourceId": {"$oid": "CCCC00000000000000000047"},
+        "roadmap": "Next",
+        "status": "Started",
+        "statusDate": {"$date": "2024-04-22T08:00:00Z"},
+        "started": {"$date": "2024-04-20T08:00:00Z"}
+      },
+      {
+        "type": "Topic",
+        "resourceId": {"$oid": "AAAA00000000000000000011"},
+        "topicId": {"$oid": "CCCC00000000000000000051"},
+        "roadmap": "Later"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "AAAA00000000000000000008"},
+    "resources": [
+      {
+        "type": "Topic",
+        "topicId": {"$oid": "AAAA00000000000000000012"},
+        "resourceId": {"$oid": "CCCC00000000000000000056"},
+        "roadmap": "Now",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-25T08:00:00Z"},
+        "started": {"$date": "2024-04-22T08:00:00Z"},
+        "completed": {"$date": "2024-04-25T08:00:00Z"}
+      },
+      {
+        "type": "Topic",
+        "resourceId": {"$oid": "AAAA00000000000000000013"},
+        "topicId": {"$oid": "CCCC00000000000000000062"},
+        "roadmap": "Later"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "AAAA00000000000000000009"},
+    "resources": [
+      {
+        "type": "Topic",
+        "resourceId": {"$oid": "CCCC00000000000000000008"},
+        "topicId": {"$oid": "CCCC00000000000000000009"},
+        "roadmap": "Now",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-12T08:00:00Z"},
+        "started": {"$date": "2024-04-10T08:00:00Z"},
+        "completed": {"$date": "2024-04-12T08:00:00Z"}
+      },
+      {
+        "type": "Adhoc",
+        "name": "React Hooks Tutorial",
+        "link": "https://reactjs.org/docs/hooks-intro.html",
+        "roadmap": "Next"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "AAAA00000000000000000010"},
+    "resources": [
+      {
+        "type": "Topic",
+        "topicId": {"$oid": "AAAA00000000000000000014"},
+        "resourceId": {"$oid": "CCCC00000000000000000067"},
+        "roadmap": "Now",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-10T08:00:00Z"},
+        "started": {"$date": "2024-04-08T08:00:00Z"},
+        "completed": {"$date": "2024-04-10T08:00:00Z"}
+      },
+      {
+        "type": "Adhoc",
+        "name": "GraphQL Server Tutorial",
+        "link": "https://www.apollographql.com/docs/apollo-server/getting-started/",
+        "roadmap": "Next"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "AAAA00000000000000000011"},
+    "resources": [
+      {
+        "type": "Topic",
+        "topicId": {"$oid": "AAAA00000000000000000015"},
+        "resourceId": {"$oid": "CCCC00000000000000000070"},
+        "roadmap": "Now",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-15T08:00:00Z"},
+        "started": {"$date": "2024-04-12T08:00:00Z"},
+        "completed": {"$date": "2024-04-15T08:00:00Z"}
+      },
+      {
+        "type": "Adhoc",
+        "name": "Git Branching Tutorial",
+        "link": "https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows",
+        "roadmap": "Next"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "AAAA00000000000000000012"},
+    "resources": [
+      {
+        "type": "Topic",
+        "topicId": {"$oid": "AAAA00000000000000000016"},
+        "resourceId": {"$oid": "CCCC00000000000000000077"},
+        "roadmap": "Completed",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-28T08:00:00Z"},
+        "started": {"$date": "2024-04-26T08:00:00Z"},
+        "completed": {"$date": "2024-04-28T08:00:00Z"}
+      },
+      {
+        "type": "Adhoc",
+        "name": "SQL Documentation",
+        "link": "https://dev.mysql.com/doc/",
+        "roadmap": "Later"
+      }
+    ]
+  }
+]

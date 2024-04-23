@@ -1,0 +1,64 @@
+{
+	"description": "A Learning resource or other activity that is on a person's career or learning roadmap",
+	"bsonType": "object",
+	"required": [
+		"_id"
+	],
+	"properties": {
+		"_id": {
+			"description": "The unique identifier for a resource used by a person",
+			"bsonType": "objectId"
+		},
+		"resources": {
+			"description": "An array of resources",
+			"bsonType": "array",
+			"items": {
+				"bsonType": "object",
+				"properties": {
+					"type": {
+						"description": "Type of the resource (topic or adhoc)",
+						"msmEnums": "resourceType"
+					},
+					"resourceId": {
+						"description": "The ID of the resource assigned",
+						"bsonType": "objectId"
+					},
+					"topicId": {
+						"description": "The ID of the topic associated with the resource",
+						"bsonType": "objectId"
+					},
+					"name": {
+						"description": "The Resource Short Name for adhoc resources",
+						"msmType": "msmSentence"
+					},
+					"link": {
+						"description": "The Resource Link for adhoc resources",
+						"msmType": "msmUrl"
+					},
+					"roadmap": {
+						"description": "The top level grouping Now, Next, Later, Celebrated",
+						"msmEnums": "roadmap"
+					},
+					"status": {
+						"description": "Status of this resource",
+						"msmEnums": "curriculumResourceStatus"
+					},
+					"statusDate": {
+						"description": "Date the status was last changed",
+						"bsonType": "date"
+					},
+					"started": {
+						"description": "Date/time the link was clicked",
+						"bsonType": "date"
+					},
+					"completed": {
+						"description": "Date/time the item was checked off",
+						"bsonType": "date"
+					}
+				},
+				"additionalProperties": false
+			}
+		}
+	},
+	"additionalProperties": false
+}

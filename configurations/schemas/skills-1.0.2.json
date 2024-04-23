@@ -1,0 +1,39 @@
+{
+	"description": "A skill",
+	"bsonType": "object",
+	"required": [
+		"_id",
+		"name"
+	],
+	"properties": {
+		"_id": {
+			"description": "The unique identifier for a Skill",
+			"bsonType": "objectId"
+		},
+		"name": {
+			"description": "The short name (slug) for this skill",
+			"msmType": "msmWord"
+		},
+		"status": {
+			"description": "The status of this skill",
+			"msmEnums": "defaultStatus"
+		},
+		"description": {
+			"description": "A description of the skill, a phrase that would go on a resume",
+			"msmType": "msmSentence"
+		},
+		"mastery": {
+			"description": "The level of mastery for this skill, it aligns with person.title",
+			"msmEnums": "mastery"
+		},
+		"speciality": {
+			"description": "The speciality this skill applies to",
+			"msmEnums": "speciality"
+		},
+		"lastSaved": {
+			"description": "Tracking breadcrumb",
+			"msmType": "msmBreadcrumb"
+		}
+	},
+	"additionalProperties": false
+}

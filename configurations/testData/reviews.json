@@ -1,0 +1,30 @@
+[
+    {
+        "_id": {"$oid": "ABCD00000000000000000001"},
+        "resourceId": {"$oid": "CCCC00000000000000000001"},
+        "personId": {"$oid": "CCCC00000000000000000002"},
+        "review": "Review 1",
+        "rating": 1
+    },
+    {
+        "_id": {"$oid": "ABCD00000000000000000002"},
+        "resourceId": {"$oid": "CCCC00000000000000000002"},
+        "personId": {"$oid": "CCCC00000000000000000002"},
+        "review": "Review 2",
+        "rating": 1
+    },
+    {
+        "_id": {"$oid": "ABCD00000000000000000003"},
+        "resourceId": {"$oid": "CCCC00000000000000000002"},
+        "personId": {"$oid": "CCCC00000000000000000002"},
+        "review": "Review 3",
+        "rating": 1
+    },
+    {
+        "_id": {"$oid": "ABCD00000000000000000004"},
+        "resourceId": {"$oid": "CCCC00000000000000000002"},
+        "personId": {"$oid": "CCCC00000000000000000002"},
+        "review": "Review 4",
+        "rating": 1
+    }
+]

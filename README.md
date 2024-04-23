@@ -1,50 +1,45 @@
-# mentorhub-mongodb
+# mentorHub MongoDB
 
-This project contains the data model for all collections in the mentorHub database, along with code and sample data to support testing and migration.
+This repo contains the mongoDb configurations that are deployed for the mentorHub platform. We are using the [mongoSchemaManager](https://github.com/agile-learning-institute/mongoSchemaManager/blob/main/docs/REFERENCE.md) open source tool to create a container that configures a MongoDB database by defining collections, schema validation, and loading test data. When you use the ``mh up`` command to start a service that uses a mongoDB database, both the mongoDB container and this msm container are started so that the database is initilized with test data for your use.
 
-- See [Contributing to Mongosh](./CONTRIBUTING.mongosh.md) for instructions on contributing to the mongosh container.
-- See [Contributing to the Topic Scraper](./CONTRIBUTING.topic-scraper.md) for instructions on that automation.
-- See [Database Standards](./STANDARDS.md) for information about our Mongodb standards.
+## Prerequisites
+- [Mentorhub Desktop Edition](https://github.com/agile-learning-institute/mentorHub/blob/main/mentorHub-developer-edition/README.md)
 
-## Layout
+## Currently Deployed Schema documentation
+View the [OpenApi specifications](https://github.com/agile-learning-institute/mentorhub-mongodb/) page for a list of the currently deployed collections, the currentVersion, and a sample openAPI schema specification for each.
 
-`src/docker` contains files relevant to building the `mentorhub-mongosh` docker image. This container is used to initialize a mongo database by defining the datatabase, creating collections, assigning schemas, and optionally loading test data.
+## Collections
+Here is a quick reference of the collections in the database
+- Curriculum: A document used by an apprentice and mentor to manage a learning roadmap.
+- Encounters: An encounter between a mentor and apprentice. 
+- Partners: A partner or referral source for the institute.
+- Paths: A path through learning topics (EngineerKit, Odin, etc.)
+- People: A person associated with the institute
+- Plans: A plan for a Encounter
+- Ratings: Summarized ratings for resources
+- Resources: A learning resource
+- Skills: A skill that would be listed on a resume
+- Topics: A categorized collection of skills and related resources
 
-`src/mongosh` contains the scripts that initilize the database, along with the [MongoDB JSON Schema](https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema/#json-schema) definitions and test data for each collection. See [Contributing to mongosh](./CONTRIBUTING.mongosh.md) for details on how to contribute to this work.
+## Contributing
+If you need to update a schema, or possibly enumerated list values, you should start by familiarizing yourself with the mongoSchemaManager reference, linked above. Once you are familar with msmTypes and msmEnums you should be able to make changes in the ``configurations`` folders as needed.  Before creating a pull request, make sure you have tested your changes both locally and containerized. 
 
-`src/topic-scraper` contains a depricated python script to extract data for the topics collection from EngineerKit Markdown files. See the [Contributing to topic-scraper](./CONTRIBUTING.topic-scraper.md) for details on how to contribute to this work.
-
-## Running the database locally
-
-### Mongo Prerequisites
-
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-
-### Starting the Database Container
-
-See ["Run the MongoDB backing database"](https://github.com/agile-learning-institute/mentorHub/tree/main/docker-configurations#run-the-mongodb-backing-database) in the mentorHub repo for instructions on running the database container locally with test data.
-
-### Other resources
-
-- [Mongo Compass](https://www.mongodb.com/try/download/compass) - for a graphical user interface to inspect the database
-
-You will need to use the following connection string with Compass to access the database:
-
+## Testing your configuration changes locally
 ```bash
-mongodb://root:example@localhost:27017/?tls=false&directConnection=true
+./msm test local
 ```
+This will start the mongodb, and a mongoSchemaManager container, mounting the configurations folder into the container for processing. The stdout of this container is tailed until the process completes.
 
-## Running the Topic Scraper
+NOTE: This script will deploy the latest schema's into the /docs folder where they are published by GitHub Pages. You should **ALWAYS** use ``test local`` and ``test container`` to confirm successful execution before opening a pull request.
 
-### Python Prerequisites
-
-- [Python](https://www.python.org/downloads/) - to run the Topic scraper
-
-### Execution
-
-From the `src/topic-scraper` directory, install the dependencies as follows
-
+## Build and test the container 
 ```bash
-pip install -r requirements.txt
-python scrape_engineerkit.py
+./msm test container
 ```
+This will build your container locally, then start both the mongodb database, and your container. Your containers stdout will be tailed until processing completes. You should see the same output you saw with ``./msm test local``. 
+
+## Shut down services after testing
+```bash
+mh down
+```
+NOTE: This is only critical if you are testing non mentorHub configurations that use the default MongoDB port: 27017

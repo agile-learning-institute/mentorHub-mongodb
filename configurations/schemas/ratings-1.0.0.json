@@ -1,0 +1,32 @@
+{
+	"description": "Average Resource Rating data - Accumulated from Reviews",
+	"bsonType": "object",
+	"required": [
+		"_id"
+	],
+	"properties": {
+		"_id": {
+			"description": "The unique identifier for a resource Rating",
+			"bsonType": "objectId"
+		},
+		"resourceId": {
+			"description": "The ID of the resource rated",
+			"bsonType": "objectId"
+		},
+		"rating": {
+			"description": "The rating values - final rating is sum/count",
+			"bsonType": "object",
+			"properties": {
+				"count": {
+					"description": "The number of ratings submitted",
+					"bsonType": "int"
+				},
+				"sum":{
+					"description": "The sum of all ratings submitted",
+					"bsonType": "int"
+				}
+			}
+		}
+	},
+	"additionalProperties": false
+}

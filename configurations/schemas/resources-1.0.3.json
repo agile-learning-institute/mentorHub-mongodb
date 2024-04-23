@@ -1,0 +1,51 @@
+{
+	"description": "A Learning resource",
+	"bsonType": "object",
+	"required": [
+		"_id"
+	],
+	"properties": {
+		"_id": {
+			"description": "The unique identifier for a resource",
+			"bsonType": "objectId"
+		},
+		"name": {
+			"description": "The Resource Shrot Name (slug)",
+			"msmType": "msmWord"
+		},
+		"status": {
+			"description": "The status of this resource",
+			"msmEnums": "defaultStatus"
+		},
+		"description": {
+			"description": "The Resource description",
+			"msmType": "msmSentence"
+		},
+		"duration": {
+			"description": "The estimated time in minutes to consume this resource",
+			"bsonType": "int",
+			"minimum": 1,
+			"maximum": 2880
+		},
+		"link": {
+			"description": "Link to Resource, must be https",
+			"msmType": "msmUrl"
+		},
+		"skills": {
+			"description": "The list of skills this resource contributes to",
+			"bsonType": "array",
+			"items": {
+				"bsonType": "objectId"
+			}
+		},
+		"tags": {
+			"description": "Tags to assist with classification of this resource",
+			"msmEnumList": "resourceTags"
+		},
+		"lastSaved": {
+			"description": "Tracking breadcrumb",
+			"msmType": "msmBreadcrumb"
+		}
+	},
+	"additionalProperties": false
+}

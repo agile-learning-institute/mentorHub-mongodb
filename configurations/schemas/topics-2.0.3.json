@@ -1,0 +1,49 @@
+{
+	"description": "A Learning Topic",
+	"bsonType": "object",
+	"required": [
+		"_id",
+		"name"
+	],
+	"properties": {
+		"_id": {
+			"description": "The Topic ID",
+			"bsonType": "objectId"
+		},
+		"name": {
+			"description": "The Topic Name",
+			"msmType": "msmSentence"
+		},
+		"status": {
+			"description": "The status of this topic",
+			"msmEnums": "defaultStatus"
+		},
+		"description": {
+			"description": "The Topic overview paragraph",
+			"msmType": "msmSentence"
+		},
+		"category": {
+			"description": "A simple categorization of topics based on ITIL and ITSM best practices",
+			"msmEnums": "category"
+		},
+		"skills": {
+			"description": "The list of skills related to this topic",
+			"bsonType": "array",
+			"items": {
+				"bsonType": "objectId"
+			}
+		},
+		"resources": {
+			"description": "List of resources related to this topic",
+			"bsonType": "array",
+			"items": {
+				"bsonType": "objectId"
+			}
+		},
+		"lastSaved": {
+			"description": "Tracking breadcrumb",
+			"msmType": "msmBreadcrumb"
+		}
+	},
+	"additionalProperties": false
+}

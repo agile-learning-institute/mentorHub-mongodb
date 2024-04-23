@@ -1,0 +1,56 @@
+{
+	"description": "A plan for an encounter between a member and a mentor",
+	"bsonType": "object",
+	"required": [
+		"_id",
+		"name"
+	],
+	"properties": {
+		"_id": {
+			"description": "The unique identifier for an encounter plan",
+			"bsonType": "objectId"
+		},
+		"name": {
+			"description": "The short name of the plan",
+			"msmType": "msmWord"
+		},
+		"description": {
+			"description": "Description of the Plan",
+			"msmType": "msmSentence"
+		},
+		"status": {
+			"description": "The status of this plan",
+			"msmEnums": "defaultStatus"
+		},
+		"checklist": {
+			"description": "a checklist of planned observations",
+			"bsonType": "array",
+			"items": {
+				"description": "An prompt to uncover information, and possible options to accelerate note taking",
+				"bsonType": "object",
+				"properties": {
+					"type": {
+						"description": "The type of observation control, from an enumerated list",
+						"msmEnums": "observationType"
+					},
+					"prompt": {
+						"description": "The question asked",
+						"msmType": "msmSentence"
+					},
+					"options": {
+						"description": "The options for an answer (on radio and check type observations)",
+						"bsonType": "array",
+						"items": {
+							"msmType": "msmSentence"
+						}
+					}
+				}
+			}
+		},
+		"lastSaved": {
+			"description": "change tracking breadcrumb",
+			"msmType": "msmBreadcrumb"
+		}
+	},
+	"additionalProperties": false
+}

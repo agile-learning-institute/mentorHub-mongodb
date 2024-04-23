@@ -1,0 +1,47 @@
+{
+	"description": "Path - Segment grouping",
+	"bsonType": "object",
+	"required": [
+		"_id"
+	],
+	"properties": {
+		"_id": {
+			"description": "The unique identifier for the grouping",
+			"bsonType": "objectId"
+		},
+		"status": {
+			"description": "The status of this Path",
+			"msmEnums": "defaultStatus"
+		},
+		"name": {
+			"description": "The Path Name",
+			"msmType": "msmSentence"
+		},
+		"segments": {
+			"bsonType": "array",
+			"items": {
+				"description": "A grouping of Topics within a Path",
+				"bsonType": "object",
+				"properties": {
+					"name": {
+						"description": "The Segment Name",
+						"msmType": "msmSentence"
+					},
+					"topics": {
+						"description": "The list of topics in this Segment",
+						"bsonType": "array",
+						"items": {
+							"description": "The Topic ID",
+							"bsonType": "objectId"
+						}
+					}
+				}
+			}
+		}, 
+		"lastSaved": {
+			"description": "Change tracking breadcrumb",
+			"msmType": "msmBreadcrumb"
+		}
+	},
+	"additionalProperties": false
+}
