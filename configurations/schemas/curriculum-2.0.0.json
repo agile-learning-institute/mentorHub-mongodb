@@ -35,10 +35,6 @@
 						"description": "The Resource Link for adhoc resources",
 						"msmType": "msmUrl"
 					},
-					"review": {
-						"description": "Free text review of the person's experience with this resource",
-						"msmType": "msmSentence"
-					},
 					"roadmap": {
 						"description": "The top level grouping Now, Next, Later, Celebrated",
 						"msmEnums": "roadmap"
@@ -58,12 +54,6 @@
 					"completed": {
 						"description": "Date/time the item was checked off",
 						"bsonType": "date"
-					},
-					"rating": {
-						"description": "Rating 0-5",
-						"bsonType": "int",
-						"minimum": 0,
-						"maximum": 5
 					}
 				}
 			}

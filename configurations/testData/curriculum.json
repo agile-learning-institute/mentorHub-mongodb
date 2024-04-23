@@ -1,142 +1,258 @@
 [
   {
-    "_id": "61f7ea8e2cb0f04b0b8e4612",
-    "name": "Introduction to Programming",
-    "version": "2.0.0",
+    "_id": {"$oid": "CCCC00000000000000000002"},
     "resources": [
       {
         "type": "topic",
-        "resourceId": "61f7eb7d2cb0f04b0b8e4615",
-        "topicId": "TOPIC001",
-        "name": "Python Basics",
-        "review": "Great introduction to Python programming.",
+        "resourceId": {"$oid": "CCCC00000000000000000001"},
+        "topicId": {"$oid": "CCCC00000000000000000010"},
         "roadmap": "completed",
         "status": "Completed",
-        "statusDate": "2024-04-12T08:00:00Z",
-        "started": "2024-04-10T08:00:00Z",
-        "completed": "2024-04-12T08:00:00Z",
-        "rating": 4
+        "statusDate": {"$date": "2024-04-12T08:00:00Z"},
+        "started": {"$date": "2024-04-10T08:00:00Z"},
+        "completed": {"$date": "2024-04-12T08:00:00Z"}
       },
       {
         "type": "adhoc",
         "name": "JavaScript Tutorial",
         "link": "https://www.example.com/javascript-tutorial",
-        "review": "Helpful tutorial for learning JavaScript.",
         "roadmap": "next"
       }
     ]
   },
   {
-    "_id": "61f7eb362cb0f04b0b8e4613",
-    "name": "Web Development Basics",
-    "version": "2.0.0",
+    "_id": {"$oid": "CCCC00000000000000000003"},
     "resources": [
       {
         "type": "topic",
-        "resourceId": "61f7eb7d2cb0f04b0b8e4616",
-        "topicId": "TOPIC002",
-        "name": "HTML Fundamentals",
-        "review": "Clear explanation of HTML basics.",
+        "resourceId": {"$oid": "CCCC00000000000000000004"},
+        "topicId": {"$oid": "CCCC00000000000000000011"},
         "roadmap": "completed",
         "status": "Completed",
-        "statusDate": "2024-04-10T08:00:00Z",
-        "started": "2024-04-08T08:00:00Z",
-        "completed": "2024-04-10T08:00:00Z",
-        "rating": 4
+        "statusDate": {"$date": "2024-04-10T08:00:00Z"},
+        "started": {"$date": "2024-04-08T08:00:00Z"},
+        "completed": {"$date": "2024-04-10T08:00:00Z"}
       },
       {
         "type": "adhoc",
         "name": "Bootstrap Documentation",
         "link": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
-        "review": "Extensive documentation for Bootstrap framework.",
         "roadmap": "now"
       }
     ]
   },
   {
-    "_id": "61f7ea8e2cb0f04b0b8e4612",
-    "name": "Introduction to Programming",
-    "version": "2.0.0",
+    "_id": {"$oid": "CCCC00000000000000000002"},
     "resources": [
       {
         "type": "topic",
-        "resourceId": "61f7eb7d2cb0f04b0b8e4615",
-        "topicId": "TOPIC001",
-        "name": "Python Basics",
-        "review": "Great introduction to Python programming.",
+        "resourceId": {"$oid": "CCCC00000000000000000001"},
+        "topicId": {"$oid": "CCCC00000000000000000010"},
         "roadmap": "completed",
         "status": "Completed",
-        "statusDate": "2024-04-12T08:00:00Z",
-        "started": "2024-04-10T08:00:00Z",
-        "completed": "2024-04-12T08:00:00Z",
-        "rating": 4
+        "statusDate": {"$date": "2024-04-12T08:00:00Z"},
+        "started": {"$date": "2024-04-10T08:00:00Z"},
+        "completed": {"$date": "2024-04-12T08:00:00Z"}
       },
       {
         "type": "adhoc",
         "name": "JavaScript Tutorial",
         "link": "https://www.example.com/javascript-tutorial",
-        "review": "Helpful tutorial for learning JavaScript.",
         "roadmap": "next"
       }
     ]
   },
   {
-    "_id": "61f7eb362cb0f04b0b8e4613",
-    "name": "Web Development Basics",
-    "version": "2.0.0",
+    "_id": {"$oid": "CCCC00000000000000000003"},
     "resources": [
       {
         "type": "topic",
-        "resourceId": "61f7eb7d2cb0f04b0b8e4616",
-        "topicId": "TOPIC002",
-        "name": "HTML Fundamentals",
-        "review": "Clear explanation of HTML basics.",
+        "resourceId": {"$oid": "CCCC00000000000000000004"},
+        "topicId": {"$oid": "CCCC00000000000000000011"},
         "roadmap": "completed",
         "status": "Completed",
-        "statusDate": "2024-04-10T08:00:00Z",
-        "started": "2024-04-08T08:00:00Z",
-        "completed": "2024-04-10T08:00:00Z",
-        "rating": 4
+        "statusDate": {"$date": "2024-04-10T08:00:00Z"},
+        "started": {"$date": "2024-04-08T08:00:00Z"},
+        "completed": {"$date": "2024-04-10T08:00:00Z"}
       },
       {
         "type": "adhoc",
         "name": "Bootstrap Documentation",
         "link": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
-        "review": "Extensive documentation for Bootstrap framework.",
         "roadmap": "now"
       }
     ]
   },
   {
-    "_id": "61f7ebd22cb0f04b0b8e4614",
-    "name": "Data Science Basics",
-    "version": "2.0.0",
+    "_id": {"$oid": "CCCC00000000000000000005"},
     "resources": [
       {
         "type": "topic",
-        "resourceId": "61f7eb7d2cb0f04b0b8e4617",
-        "topicId": "TOPIC003",
-        "name": "Data Wrangling with Pandas",
-        "review": "Comprehensive guide to data wrangling using Pandas library.",
+        "resourceId": {"$oid": "CCCC00000000000000000006"},
+        "topicId": {"$oid": "CCCC00000000000000000012"},
         "roadmap": "completed",
         "status": "Completed",
-        "statusDate": "2024-04-15T08:00:00Z",
-        "started": "2024-04-12T08:00:00Z",
-        "completed": "2024-04-15T08:00:00Z",
-        "rating": 5
+        "statusDate": {"$date": "2024-04-15T08:00:00Z"},
+        "started": {"$date": "2024-04-12T08:00:00Z"},
+        "completed": {"$date": "2024-04-15T08:00:00Z"}
       },
       {
         "type": "topic",
-        "resourceId": "61f7eb7d2cb0f04b0b8e4618",
-        "topicId": "TOPIC004",
-        "name": "Data Visualization with Seaborn",
-        "review": "Excellent tutorial on data visualization with Seaborn library.",
+        "resourceId": {"$oid": "CCCC00000000000000000007"},
+        "topicId": {"$oid": "CCCC00000000000000000013"},
         "roadmap": "completed",
         "status": "Completed",
-        "statusDate": "2024-04-18T08:00:00Z",
-        "started": "2024-04-15T08:00:00Z",
-        "completed": "2024-04-18T08:00:00Z",
-        "rating": 5
+        "statusDate": {"$date": "2024-04-18T08:00:00Z"},
+        "started": {"$date": "2024-04-15T08:00:00Z"},
+        "completed": {"$date": "2024-04-18T08:00:00Z"}
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000006"},
+    "name": "Advanced Python Programming",
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000014"},
+        "topicId": {"$oid": "CCCC00000000000000000020"},
+        "roadmap": "next",
+        "status": "Started",
+        "statusDate": {"$date": "2024-04-20T08:00:00Z"},
+        "started": {"$date": "2024-04-18T08:00:00Z"}
+      },
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000015"},
+        "topicId": {"$oid": "CCCC00000000000000000021"},
+        "roadmap": "later"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000007"},
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000016"},
+        "topicId": {"$oid": "CCCC00000000000000000022"},
+        "roadmap": "next",
+        "status": "Started",
+        "statusDate": {"$date": "2024-04-22T08:00:00Z"},
+        "started": {"$date": "2024-04-20T08:00:00Z"}
+      },
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000017"},
+        "topicId": {"$oid": "CCCC00000000000000000023"},
+        "roadmap": "later"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000008"},
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000018"},
+        "topicId": {"$oid": "CCCC00000000000000000024"},
+        "roadmap": "now",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-25T08:00:00Z"},
+        "started": {"$date": "2024-04-22T08:00:00Z"},
+        "completed": {"$date": "2024-04-25T08:00:00Z"}
+      },
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000019"},
+        "topicId": {"$oid": "CCCC00000000000000000025"},
+        "roadmap": "later"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000003"},
+    "name": "React Tutorial",
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000008"},
+        "topicId": {"$oid": "CCCC00000000000000000009"},
+        "roadmap": "now",
+        "status": "completed",
+        "statusDate": {"$date": "2024-04-12T08:00:00Z"},
+        "started": {"$date": "2024-04-10T08:00:00Z"},
+        "completed": {"$date": "2024-04-12T08:00:00Z"}
+      },
+      {
+        "type": "adhoc",
+        "name": "React Hooks Tutorial",
+        "link": "https://reactjs.org/docs/hooks-intro.html",
+        "roadmap": "next"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000004"},
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000011"},
+        "topicId": {"$oid": "CCCC00000000000000000012"},
+        "roadmap": "now",
+        "status": "completed",
+        "statusDate": {"$date": "2024-04-10T08:00:00Z"},
+        "started": {"$date": "2024-04-08T08:00:00Z"},
+        "completed": {"$date": "2024-04-10T08:00:00Z"}
+      },
+      {
+        "type": "adhoc",
+        "name": "GraphQL Server Tutorial",
+        "link": "https://www.apollographql.com/docs/apollo-server/getting-started/",
+        "roadmap": "next"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000005"},
+    "name": "Docker Essentials",
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000014"},
+        "topicId": {"$oid": "CCCC00000000000000000015"},
+        "roadmap": "now",
+        "status": "completed",
+        "statusDate": {"$date": "2024-04-15T08:00:00Z"},
+        "started": {"$date": "2024-04-12T08:00:00Z"},
+        "completed": {"$date": "2024-04-15T08:00:00Z"}
+      },
+      {
+        "type": "adhoc",
+        "name": "Git Branching Tutorial",
+        "link": "https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows",
+        "roadmap": "next"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000007"},
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000020"},
+        "topicId": {"$oid": "CCCC00000000000000000021"},
+        "roadmap": "completed",
+        "status": "completed",
+        "statusDate": {"$date": "2024-04-28T08:00:00Z"},
+        "started": {"$date": "2024-04-26T08:00:00Z"},
+        "completed": {"$date": "2024-04-28T08:00:00Z"}
+      },
+      {
+        "type": "adhoc",
+        "name": "SQL Documentation",
+        "link": "https://dev.mysql.com/doc/",
+        "roadmap": "later"
       }
     ]
   }
