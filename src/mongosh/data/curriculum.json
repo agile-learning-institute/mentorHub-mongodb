@@ -1,20 +1,19 @@
 [
   {
-    "_id": "61f7ea8e2cb0f04b0b8e4612",
+    "_id": {"$oid": "CCCC00000000000000000002"},
     "name": "Introduction to Programming",
-    "version": "2.0.0",
     "resources": [
       {
         "type": "topic",
-        "resourceId": "61f7eb7d2cb0f04b0b8e4615",
-        "topicId": "TOPIC001",
+        "resourceId": {"$oid": "CCCC00000000000000000001"},
+        "topicId": {"$oid": "CCCC00000000000000000010"},
         "name": "Python Basics",
         "review": "Great introduction to Python programming.",
         "roadmap": "completed",
         "status": "Completed",
-        "statusDate": "2024-04-12T08:00:00Z",
-        "started": "2024-04-10T08:00:00Z",
-        "completed": "2024-04-12T08:00:00Z",
+        "statusDate": {"$date": "2024-04-12T08:00:00Z"},
+        "started": {"$date": "2024-04-10T08:00:00Z"},
+        "completed": {"$date": "2024-04-12T08:00:00Z"},
         "rating": 4
       },
       {
@@ -27,21 +26,20 @@
     ]
   },
   {
-    "_id": "61f7eb362cb0f04b0b8e4613",
+    "_id": {"$oid": "CCCC00000000000000000003"},
     "name": "Web Development Basics",
-    "version": "2.0.0",
     "resources": [
       {
         "type": "topic",
-        "resourceId": "61f7eb7d2cb0f04b0b8e4616",
-        "topicId": "TOPIC002",
+        "resourceId": {"$oid": "CCCC00000000000000000004"},
+        "topicId": {"$oid": "CCCC00000000000000000011"},
         "name": "HTML Fundamentals",
         "review": "Clear explanation of HTML basics.",
         "roadmap": "completed",
         "status": "Completed",
-        "statusDate": "2024-04-10T08:00:00Z",
-        "started": "2024-04-08T08:00:00Z",
-        "completed": "2024-04-10T08:00:00Z",
+        "statusDate": {"$date": "2024-04-10T08:00:00Z"},
+        "started": {"$date": "2024-04-08T08:00:00Z"},
+        "completed": {"$date": "2024-04-10T08:00:00Z"},
         "rating": 4
       },
       {
@@ -54,21 +52,20 @@
     ]
   },
   {
-    "_id": "61f7ea8e2cb0f04b0b8e4612",
+    "_id": {"$oid": "CCCC00000000000000000002"},
     "name": "Introduction to Programming",
-    "version": "2.0.0",
     "resources": [
       {
         "type": "topic",
-        "resourceId": "61f7eb7d2cb0f04b0b8e4615",
-        "topicId": "TOPIC001",
+        "resourceId": {"$oid": "CCCC00000000000000000001"},
+        "topicId": {"$oid": "CCCC00000000000000000010"},
         "name": "Python Basics",
         "review": "Great introduction to Python programming.",
         "roadmap": "completed",
         "status": "Completed",
-        "statusDate": "2024-04-12T08:00:00Z",
-        "started": "2024-04-10T08:00:00Z",
-        "completed": "2024-04-12T08:00:00Z",
+        "statusDate": {"$date": "2024-04-12T08:00:00Z"},
+        "started": {"$date": "2024-04-10T08:00:00Z"},
+        "completed": {"$date": "2024-04-12T08:00:00Z"},
         "rating": 4
       },
       {
@@ -81,21 +78,20 @@
     ]
   },
   {
-    "_id": "61f7eb362cb0f04b0b8e4613",
+    "_id": {"$oid": "CCCC00000000000000000003"},
     "name": "Web Development Basics",
-    "version": "2.0.0",
     "resources": [
       {
         "type": "topic",
-        "resourceId": "61f7eb7d2cb0f04b0b8e4616",
-        "topicId": "TOPIC002",
+        "resourceId": {"$oid": "CCCC00000000000000000004"},
+        "topicId": {"$oid": "CCCC00000000000000000011"},
         "name": "HTML Fundamentals",
         "review": "Clear explanation of HTML basics.",
         "roadmap": "completed",
         "status": "Completed",
-        "statusDate": "2024-04-10T08:00:00Z",
-        "started": "2024-04-08T08:00:00Z",
-        "completed": "2024-04-10T08:00:00Z",
+        "statusDate": {"$date": "2024-04-10T08:00:00Z"},
+        "started": {"$date": "2024-04-08T08:00:00Z"},
+        "completed": {"$date": "2024-04-10T08:00:00Z"},
         "rating": 4
       },
       {
@@ -108,35 +104,221 @@
     ]
   },
   {
-    "_id": "61f7ebd22cb0f04b0b8e4614",
+    "_id": {"$oid": "CCCC00000000000000000005"},
     "name": "Data Science Basics",
-    "version": "2.0.0",
     "resources": [
       {
         "type": "topic",
-        "resourceId": "61f7eb7d2cb0f04b0b8e4617",
-        "topicId": "TOPIC003",
+        "resourceId": {"$oid": "CCCC00000000000000000006"},
+        "topicId": {"$oid": "CCCC00000000000000000012"},
         "name": "Data Wrangling with Pandas",
         "review": "Comprehensive guide to data wrangling using Pandas library.",
         "roadmap": "completed",
         "status": "Completed",
-        "statusDate": "2024-04-15T08:00:00Z",
-        "started": "2024-04-12T08:00:00Z",
-        "completed": "2024-04-15T08:00:00Z",
+        "statusDate": {"$date": "2024-04-15T08:00:00Z"},
+        "started": {"$date": "2024-04-12T08:00:00Z"},
+        "completed": {"$date": "2024-04-15T08:00:00Z"},
         "rating": 5
       },
       {
         "type": "topic",
-        "resourceId": "61f7eb7d2cb0f04b0b8e4618",
-        "topicId": "TOPIC004",
+        "resourceId": {"$oid": "CCCC00000000000000000007"},
+        "topicId": {"$oid": "CCCC00000000000000000013"},
         "name": "Data Visualization with Seaborn",
         "review": "Excellent tutorial on data visualization with Seaborn library.",
         "roadmap": "completed",
         "status": "Completed",
-        "statusDate": "2024-04-18T08:00:00Z",
-        "started": "2024-04-15T08:00:00Z",
-        "completed": "2024-04-18T08:00:00Z",
+        "statusDate": {"$date": "2024-04-18T08:00:00Z"},
+        "started": {"$date": "2024-04-15T08:00:00Z"},
+        "completed": {"$date": "2024-04-18T08:00:00Z"},
         "rating": 5
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000006"},
+    "name": "Advanced Python Programming",
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000014"},
+        "topicId": {"$oid": "CCCC00000000000000000020"},
+        "name": "Concurrency with asyncio",
+        "review": "In-depth exploration of asynchronous programming with Python.",
+        "roadmap": "next",
+        "status": "Started",
+        "statusDate": {"$date": "2024-04-20T08:00:00Z"},
+        "started": {"$date": "2024-04-18T08:00:00Z"},
+        "rating": 4
+      },
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000015"},
+        "topicId": {"$oid": "CCCC00000000000000000021"},
+        "name": "Data Science Applications",
+        "review": "Practical applications of Python for data analysis and visualization.",
+        "roadmap": "later"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000007"},
+    "name": "Advanced Web Development",
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000016"},
+        "topicId": {"$oid": "CCCC00000000000000000022"},
+        "name": "React.js Fundamentals",
+        "review": "Comprehensive guide to building user interfaces with React.js.",
+        "roadmap": "next",
+        "status": "Started",
+        "statusDate": {"$date": "2024-04-22T08:00:00Z"},
+        "started": {"$date": "2024-04-20T08:00:00Z"},
+        "rating": 5
+      },
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000017"},
+        "topicId": {"$oid": "CCCC00000000000000000023"},
+        "name": "GraphQL API Development",
+        "review": "Building efficient APIs with GraphQL for modern web applications.",
+        "roadmap": "later"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000008"},
+    "name": "Machine Learning Essentials",
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000018"},
+        "topicId": {"$oid": "CCCC00000000000000000024"},
+        "name": "Supervised Learning Algorithms",
+        "review": "Introduction to supervised learning algorithms and their applications.",
+        "roadmap": "now",
+        "status": "Completed",
+        "statusDate": {"$date": "2024-04-25T08:00:00Z"},
+        "started": {"$date": "2024-04-22T08:00:00Z"},
+        "completed": {"$date": "2024-04-25T08:00:00Z"},
+        "rating": 5
+      },
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000019"},
+        "topicId": {"$oid": "CCCC00000000000000000025"},
+        "name": "Unsupervised Learning Techniques",
+        "review": "Exploration of unsupervised learning methods for data analysis.",
+        "roadmap": "later"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000003"},
+    "name": "React Tutorial",
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000008"},
+        "topicId": {"$oid": "CCCC00000000000000000009"},
+        "name": "React Basics",
+        "review": "Comprehensive tutorial for learning React.js basics.",
+        "roadmap": "now",
+        "status": "completed",
+        "statusDate": {"$date": "2024-04-12T08:00:00Z"},
+        "started": {"$date": "2024-04-10T08:00:00Z"},
+        "completed": {"$date": "2024-04-12T08:00:00Z"},
+        "rating": 5
+      },
+      {
+        "type": "adhoc",
+        "resourceId": {"$oid": "CCCC00000000000000000010"},
+        "name": "React Hooks Tutorial",
+        "link": "https://reactjs.org/docs/hooks-intro.html",
+        "review": "In-depth tutorial for learning React.js hooks.",
+        "roadmap": "next"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000004"},
+    "name": "GraphQL Fundamentals",
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000011"},
+        "topicId": {"$oid": "CCCC00000000000000000012"},
+        "name": "GraphQL Basics",
+        "review": "Introduction to GraphQL and its core concepts.",
+        "roadmap": "now",
+        "status": "completed",
+        "statusDate": {"$date": "2024-04-10T08:00:00Z"},
+        "started": {"$date": "2024-04-08T08:00:00Z"},
+        "completed": {"$date": "2024-04-10T08:00:00Z"},
+        "rating": 4
+      },
+      {
+        "type": "adhoc",
+        "resourceId": {"$oid": "CCCC00000000000000000013"},
+        "name": "GraphQL Server Tutorial",
+        "link": "https://www.apollographql.com/docs/apollo-server/getting-started/",
+        "review": "Tutorial for setting up a GraphQL server with Apollo.",
+        "roadmap": "next"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000005"},
+    "name": "Docker Essentials",
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000014"},
+        "topicId": {"$oid": "CCCC00000000000000000015"},
+        "name": "Docker Basics",
+        "review": "Introduction to Docker and containerization.",
+        "roadmap": "now",
+        "status": "completed",
+        "statusDate": {"$date": "2024-04-15T08:00:00Z"},
+        "started": {"$date": "2024-04-12T08:00:00Z"},
+        "completed": {"$date": "2024-04-15T08:00:00Z"},
+        "rating": 5
+      },
+      {
+        "type": "adhoc",
+        "resourceId": {"$oid": "CCCC00000000000000000016"},
+        "name": "Git Branching Tutorial",
+        "link": "https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows",
+        "review": "In-depth tutorial for Git branching strategies.",
+        "roadmap": "next"
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "CCCC00000000000000000007"},
+    "name": "SQL Fundamentals",
+    "resources": [
+      {
+        "type": "topic",
+        "resourceId": {"$oid": "CCCC00000000000000000020"},
+        "topicId": {"$oid": "CCCC00000000000000000021"},
+        "name": "SQL Basics",
+        "review": "Comprehensive guide to SQL language fundamentals.",
+        "roadmap": "completed",
+        "status": "completed",
+        "statusDate": {"$date": "2024-04-28T08:00:00Z"},
+        "started": {"$date": "2024-04-26T08:00:00Z"},
+        "completed": {"$date": "2024-04-28T08:00:00Z"},
+        "rating": 5
+      },
+      {
+        "type": "adhoc",
+        "resourceId": {"$oid": "CCCC00000000000000000022"},
+        "name": "SQL Documentation",
+        "link": "https://dev.mysql.com/doc/",
+        "review": "Official documentation for MySQL database.",
+        "roadmap": "later"
       }
     ]
   }

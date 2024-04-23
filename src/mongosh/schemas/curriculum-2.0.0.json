@@ -60,7 +60,7 @@
 					"status": {
 						"description": "Archived, Assigned, Started, Completed",
 						"bsonType": "string",
-						"enum": ["completed", "now", "next", "later"]
+						"enum": ["archived", "assigned", "started", "completed"]
 					},
 					"statusDate": {
 						"description": "Date the status was last changed",
