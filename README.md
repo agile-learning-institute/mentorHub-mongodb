@@ -6,7 +6,7 @@ This repo contains the mongoDb configurations that are deployed for the mentorHu
 - [Mentorhub Desktop Edition](https://github.com/agile-learning-institute/mentorHub/blob/main/mentorHub-developer-edition/README.md)
 
 ## Currently Deployed Schema documentation
-View the [OpenApi specifications](https://github.com/agile-learning-institute/mentorhub-mongodb/) page for a list of the currently deployed collections, the currentVersion, and a sample openAPI schema specification for each.
+View the [OpenApi specifications](https://agile-learning-institute.github.io/mentorHub-mongodb/) page for a list of the currently deployed collections, the currentVersion, and a sample openAPI schema specification for each.
 
 ## Collections
 Here is a quick reference of the collections in the database
