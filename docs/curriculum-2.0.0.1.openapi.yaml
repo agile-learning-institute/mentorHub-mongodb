@@ -49,10 +49,6 @@ components:
                 pattern: >-
                   ^(https?:\/\/)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z-]{2,24}(:[0-9]{1,5})?(\/(([\w\-\.~]|%[a-fA-F0-9]{2}|[!\$&'\(\)\*\+,;=:@])*\/?)*)?
                 type: string
-              review:
-                description: Free text review of the person's experience with this resource
-                pattern: ^[ -~]{0,256}$
-                type: string
               roadmap:
                 description: The top level grouping Now, Next, Later, Celebrated
                 enum:
@@ -77,11 +73,6 @@ components:
               completed:
                 description: Date/time the item was checked off
                 type: string
-              rating:
-                description: Rating 0-5
-                minimum: 0
-                maximum: 5
-                type: number
             type: object
           type: array
       additionalProperties: false
