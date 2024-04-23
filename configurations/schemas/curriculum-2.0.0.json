@@ -29,7 +29,7 @@
 					},
 					"name": {
 						"description": "The Resource Short Name for adhoc resources",
-						"msmType": "msmWord"
+						"msmType": "msmSentence"
 					},
 					"link": {
 						"description": "The Resource Link for adhoc resources",
@@ -55,7 +55,8 @@
 						"description": "Date/time the item was checked off",
 						"bsonType": "date"
 					}
-				}
+				},
+				"additionalProperties": false
 			}
 		}
 	},
