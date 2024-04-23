@@ -15,9 +15,7 @@ paths:
 components:
   schemas:
     ratings:
-      description: >-
-        Resource Rating - Accumulated from resource reviews in the curriculum
-        collection
+      description: Average Resource Rating data - Accumulated from Reviews
       required:
         - _id
       properties:

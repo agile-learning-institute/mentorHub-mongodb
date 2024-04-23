@@ -1,5 +1,5 @@
 {
-	"description": "Resource Rating - Accumulated from resource reviews in the curriculum collection",
+	"description": "Average Resource Rating data - Accumulated from Reviews",
 	"bsonType": "object",
 	"required": [
 		"_id"
