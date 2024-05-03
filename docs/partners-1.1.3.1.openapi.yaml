@@ -52,8 +52,6 @@ components:
           properties:
             fromIp:
               description: Http Request remote IP address
-              pattern: >-
-                ^(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}$
               type: string
             byUser:
               description: UUID Of User
