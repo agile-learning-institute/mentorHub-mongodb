@@ -26,7 +26,7 @@ If you need to update a schema, or possibly enumerated list values, you should s
 
 ## Testing your configuration changes locally
 ```bash
-./msm test local
+make local
 ```
 This will start the mongodb, and a mongoSchemaManager container, mounting the configurations folder into the container for processing. The stdout of this container is tailed until the process completes.
 
@@ -34,7 +34,7 @@ NOTE: This script will deploy the latest schema's into the /docs folder where th
 
 ## Build and test the container 
 ```bash
-./msm test container
+make container
 ```
 This will build your container locally, then start both the mongodb database, and your container. Your containers stdout will be tailed until processing completes. You should see the same output you saw with ``./msm test local``. 
 
