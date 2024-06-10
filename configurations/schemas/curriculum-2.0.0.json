@@ -1,62 +1,101 @@
 {
-	"description": "A Learning resource or other activity that is on a person's career or learning roadmap",
+	"description": "A personalized roadmap for learning",
 	"bsonType": "object",
 	"required": [
 		"_id"
 	],
 	"properties": {
 		"_id": {
-			"description": "The unique identifier for a resource used by a person",
+			"description": "Curriculum _id values are === the person _id",
 			"bsonType": "objectId"
 		},
-		"resources": {
-			"description": "An array of resources",
+		"Introduction Report shake": {
+			"description": "The Roadmap",
 			"bsonType": "array",
 			"items": {
 				"bsonType": "object",
 				"properties": {
-					"type": {
-						"description": "Type of the resource (topic or adhoc)",
-						"msmEnums": "resourceType"
-					},
-					"resourceId": {
-						"description": "The ID of the resource assigned",
-						"bsonType": "objectId"
-					},
-					"topicId": {
-						"description": "The ID of the topic associated with the resource",
-						"bsonType": "objectId"
-					},
-					"name": {
-						"description": "The Resource Short Name for adhoc resources",
-						"msmType": "msmSentence"
-					},
-					"link": {
-						"description": "The Resource Link for adhoc resources",
-						"msmType": "msmUrl"
-					},
-					"roadmap": {
-						"description": "The top level grouping Now, Next, Later, Celebrated",
+					"map": {
+						"description": "Now, Next, Later, or Celebrated",
 						"msmEnums": "roadmap"
 					},
-					"status": {
-						"description": "Status of this resource",
-						"msmEnums": "curriculumResourceStatus"
-					},
-					"statusDate": {
-						"description": "Date the status was last changed",
-						"bsonType": "date"
-					},
-					"started": {
-						"description": "Date/time the link was clicked",
-						"bsonType": "date"
-					},
-					"completed": {
-						"description": "Date/time the item was checked off",
-						"bsonType": "date"
+					"paths": {
+						"description": "The learning path list",
+						"bsonType": "array",
+						"items": {
+							"description": "A learning path",
+							"type": "object", 
+							"properties": {
+								"path": {
+									"description": "The path name",
+									"msmType": "word"
+								},
+								"segments": {
+									"description": "The segments list",
+									"bsonType": "array",
+									"items" : {
+										"bsonType": "object",
+										"properties": {
+											"segment": {
+												"description": "The segments name",
+												"msmtype": "word"
+											},
+											"resources": {
+												"description": "list of Resources",
+												"bsontype": "array",
+												"items": {
+													"type": "object",
+													"properties": {
+														"resource": {
+															"description": "resource name",
+															"msmType": "msmSentence"
+														},
+														"type": {
+															"description": "resource type - topic or adhoc",
+															"msmEnums": "resourceType"
+														},
+														"resource_url": {
+															"description": "resource link",
+															"msmType": "msmUrl"
+														},
+														"topic_id": {
+															"description": "topic id",
+															"bsonType": "objectId"
+														},
+														"resource_id": {
+															"description": "resource id",
+															"bsonType": "objectId"
+														},
+														"status":{
+															"description": "resource short name",
+															"msmEnums": "curriculumResourceStatus"
+														},
+														"started":{
+															"description": "resource short name",
+															"bsonType": "date"
+														},
+														"completed": {
+															"description": "resource short name",
+															"bsonType": "date"
+														},
+														"rating": {
+															"description": "resource short name",
+															"bsonType": "integer"
+														},
+														"review": {
+															"description": "resource short name",
+															"msmType": "msmSentence"
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
 					}
-				},
-				"additionalProperties": false
+				}
 			}
 		}
 	},
