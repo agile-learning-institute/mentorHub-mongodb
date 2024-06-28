@@ -1,0 +1,74 @@
+[
+  {
+    "_id": {"$oid": "AAAA00000000000000000001"},
+    "celebrated": [
+      {
+        "type": "topic",
+        "resource_id": "",
+        "started": "",
+        "completed": "",
+        "rating": "",
+        "review": ""
+      },
+      {
+        "type": "adhoc",
+        "resource_name": "",
+        "resource_url": "",
+        "started": "",
+        "completed": "",
+        "rating": "",
+        "review": ""
+      }
+    ],
+    "now": [
+      {
+        "topic_name": "",
+        "resources": [
+          {
+            "type": "topic",
+            "resource_id": "",
+            "started": ""
+          },
+          {
+            "type": "adhoc",
+            "resource_name": "",
+            "resource_url": "",
+            "started": ""
+          }
+        ]
+      },
+      {}
+    ],
+    "next": [
+      {
+        "path_name": "",
+        "segments": [
+          {
+            "segment_name": "",
+            "topics": [
+              {
+                "topic_name":"",
+                "resources": [
+                  {
+                    "type": "topic",
+                    "resource_id": ""
+                  },
+                  {
+                    "type": "adhoc",
+                    "resource_name": "",
+                    "resource_url": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "later": [
+      {"$oid": "AAAA00000000000000000002"},
+      {"$oid": "AAAA00000000000000000002"},
+      {"$oid": "AAAA00000000000000000002"}
+    ]
+  }
+]

@@ -30,13 +30,13 @@ make local
 ```
 This will start the mongodb, and a mongoSchemaManager container, mounting the configurations folder into the container for processing. The stdout of this container is tailed until the process completes.
 
-NOTE: This script will deploy the latest schema's into the /docs folder where they are published by GitHub Pages. You should **ALWAYS** use ``test local`` and ``test container`` to confirm successful execution before opening a pull request.
+NOTE: This script will deploy the latest schema's into the /docs folder where they are published by GitHub Pages. You should **ALWAYS** use ``make local`` and ``make container`` to confirm successful execution before opening a pull request.
 
 ## Build and test the container 
 ```bash
 make container
 ```
-This will build your container locally, then start both the mongodb database, and your container. Your containers stdout will be tailed until processing completes. You should see the same output you saw with ``./msm test local``. 
+This will build your container locally, then start both the mongodb database, and your container. Your containers stdout will be tailed until processing completes. You should see the same output you saw with ``./make local``. 
 
 ## Shut down services after testing
 ```bash
