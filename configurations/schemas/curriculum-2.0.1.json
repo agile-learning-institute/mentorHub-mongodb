@@ -9,15 +9,35 @@
 			"description": "Curriculum _id values are === the person _id",
 			"bsonType": "objectId"
 		},
-		"celebrated": {
-			"description": "List of Completed Resources",
+		"resources": {
+			"description": "List of Resources",
 			"bsonType": "array",
 			"items": {
-				"description": "A completed resource",
+				"description": "A learning resource",
 				"bsonType": "object",
 				"properties": {
+					"sequence": {
+						"description": "Sequence for ordering",
+						"type": "number"
+					},
+					"roadmap": {
+						"description": "roadmap status - now/next/later/celebrated",
+						"msmEnums": "roadmap"
+					},
+					"path": {
+						"description": "A path to group segments",
+						"bsonType": "word"
+					},
+					"segment": {
+						"description": "A segment to group topics",
+						"bsonType": "word"
+					},
+					"topoic": {
+						"description": "A topic to group resources",
+						"bsonType": "word"
+					},
 					"type": {
-						"description": "resource type - topic or adhoc",
+						"description": "resource type - Resource or Adhoc",
 						"msmEnums": "resourceType"
 					},
 					"resource_id": {
@@ -33,7 +53,7 @@
 						"msmType": "msmUrl"
 					},
 					"started": {
-						"description": "resource short name",
+						"description": "When did they start this resource",
 						"bsonType": "date"
 					},
 					"completed": {
@@ -52,130 +72,9 @@
 				"additionalProperties": false
 			}
 		},
-		"now": {
-			"description": "The resources a person is currently working on",
-			"bsonType": "array",
-			"items": {
-				"description": "A learning Topic and list of assigned Resources",
-				"bsonType": "object",
-				"properties": {
-					"topic_name": {
-						"description": "A Topic Name",
-						"msmType": "msmSentence"
-					},
-					"resources": {
-						"description": "list of Resources assigned",
-						"bsontype": "array",
-						"items": {
-							"description": "An assigned resource",
-							"type": "object",
-							"properties": {
-								"type": {
-									"description": "resource type - topic or adhoc",
-									"msmEnums": "resourceType"
-								},
-								"resource_id": {
-									"description": "resource id for topic resources",
-									"bsonType": "objectId"
-								},
-								"resource_name": {
-									"description": "resource name for adHoc resources",
-									"msmType": "msmSentence"
-								},
-								"resource_url": {
-									"description": "resource link for adHoc resources",
-									"msmType": "msmUrl"
-								},
-								"started": {
-									"description": "",
-									"bsonType": "date"
-								}
-							},
-							"additionalProperties": false
-						}
-					}
-				},
-				"additionalProperties": false
-			}
-		},
-		"next": {
-			"description": "List of Paths for future work",
-			"bsonType": "array",
-			"items": {
-				"description": "A Path with Segments",
-				"bsonType": "object",
-				"properties": {
-					"path_name": {
-						"description": "The path name",
-						"msmType": "word"
-					},
-					"segments": {
-						"description": "The segments list",
-						"bsonType": "array",
-						"items": {
-							"description": "A Segment with Topics",
-							"bsonType": "object",
-							"properties": {
-								"segment_name": {
-									"description": "The segments name",
-									"msmtype": "word"
-								},
-								"topics": {
-									"description": "A list of Topics",
-									"bsonType": "array",
-									"items": {
-										"description": "A topic with a list of Resources",
-										"bsonType": "object",
-										"properties": {
-											"topic_name": {
-												"description": "",
-												"msmType": "msmSentence"
-											},
-											"resources": {
-												"description": "List of resources",
-												"bsonType": "array",
-												"items": {
-													"description": "A resource to be assigned",
-													"bsonType": "object",
-													"properties": {
-														"type": {
-															"description": "resource type - topic or adhoc",
-															"msmEnums": "resourceType"
-														},
-														"resource_id": {
-															"description": "resource id for topic resources",
-															"bsonType": "objectId"
-														},
-														"resource_name": {
-															"description": "resource name for adHoc resources",
-															"msmType": "msmSentence"
-														},
-														"resource_url": {
-															"description": "resource link for adHoc resources",
-															"msmType": "msmUrl"
-														}
-													},
-													"additionalProperties": false
-												}
-											}
-										},
-										"additionalProperties": false
-									}
-								}
-							},
-							"additionalProperties": false
-						}
-					}
-				},
-				"additionalProperties": false
-			}
-		},
-		"later": {
-			"description": "List of Future Paths",
-			"bsonType": "array",
-			"items": {
-				"bsonType": "objectId"
-			}
+		"lastSaved": {
+			"description": "Last Updated breadcrumb",
+			"msmType": "msmBreadcrumb"
 		}
 	},
 	"additionalProperties": false

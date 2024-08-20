@@ -1,74 +1,94 @@
 [
   {
-    "_id": {"$oid": "AAAA00000000000000000001"},
-    "celebrated": [
+    "_id": {
+      "$oid": "AAAA00000000000000000001"
+    },
+    "resources": [
       {
+        "sequence": 1,
+        "roadmap": "Completed",
+        "path": "The Odin Project",
+        "segment": "Foundations",
+        "topic": "OdinIntro",
+        "type": "Resource",
+        "resource_id": "CCCC00000000000000000008",
+        "started": "2024-07-01 1:00PM",
+        "completed": "2024-07-01 4:30PM",
+        "rating": "4",
+        "review": "This was a great intro"
+      },
+      {
+        "sequence": 2,
+        "roadmap": "Completed",
+        "path": "The Odin Project",
+        "segment": "Foundations",
+        "topic": "OdinIntro",
+        "type": "Adhoc",
+        "resource_name": "Markdown Tutorial",
+        "resource_url": "https://www.markdowntutorial.com/lesson/1/",
+        "started": "2024-07-02 1:00 PM",
+        "completed": "2024-07-03 7:36 PM",
+        "rating": "3",
+        "review": "I had to read this twice before it made sense"
+      },
+      {
+        "sequence": 3,
+        "roadmap": "Now",
+        "path": "The Odin Project",
+        "segment": "Foundations",
+        "topic": "OdinIntro",
         "type": "topic",
-        "resource_id": "",
-        "started": "",
-        "completed": "",
-        "rating": "",
-        "review": ""
+        "resource_id": "CCCC00000000000000000035",
+        "started": "2024-07-15 1:00 PM"
       },
       {
+        "sequence": 4,
+        "roadmap": "Now",
+        "path": "The Odin Project",
+        "segment": "Foundations",
+        "topic": "OdinIntro",
         "type": "adhoc",
-        "resource_name": "",
-        "resource_url": "",
-        "started": "",
-        "completed": "",
-        "rating": "",
-        "review": ""
-      }
-    ],
-    "now": [
-      {
-        "topic_name": "",
-        "resources": [
-          {
-            "type": "topic",
-            "resource_id": "",
-            "started": ""
-          },
-          {
-            "type": "adhoc",
-            "resource_name": "",
-            "resource_url": "",
-            "started": ""
-          }
-        ]
+        "resource_name": "Some Unique Resource",
+        "resource_url": "https://some.com/resource",
+        "started": ""
       },
-      {}
-    ],
-    "next": [
       {
-        "path_name": "",
-        "segments": [
-          {
-            "segment_name": "",
-            "topics": [
-              {
-                "topic_name":"",
-                "resources": [
-                  {
-                    "type": "topic",
-                    "resource_id": ""
-                  },
-                  {
-                    "type": "adhoc",
-                    "resource_name": "",
-                    "resource_url": ""
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+        "sequence": 5,
+        "roadmap": "Next",
+        "path": "The Odin Project",
+        "segment": "Intermediate HTML and CSS",
+        "topic": "Intermediate HTML",
+        "type": "topic",
+        "resource_id": "CCCC00000000000000000022"
+      },
+      {
+        "sequence": 6,
+        "roadmap": "Next",
+        "path": "The Odin Project",
+        "segment": "Intermediate HTML and CSS",
+        "topic": "Intermediate HTML",
+        "type": "adhoc",
+        "resource_name": "A one-off resource",
+        "resource_url": "https://some.com/resource"
+      },
+      {
+        "sequence": 7,
+        "roadmap": "Later",
+        "path": "EngineerKit",
+        "segment": "Craftsmanship",
+        "type": "Resource",
+        "resource_id": "CCCC00000000000000000010"
       }
     ],
-    "later": [
-      {"$oid": "AAAA00000000000000000002"},
-      {"$oid": "AAAA00000000000000000002"},
-      {"$oid": "AAAA00000000000000000002"}
-    ]
+    "lastSaved": {
+      "atTime": {
+        "$date": "2/27/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": "AAAA00000000000000000001"
+      },
+      "fromIp": "192.168.1.3",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
   }
 ]
