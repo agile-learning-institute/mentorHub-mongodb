@@ -18,7 +18,7 @@
 				"properties": {
 					"sequence": {
 						"description": "Sequence for ordering",
-						"type": "number"
+						"bsonType": "number"
 					},
 					"roadmap": {
 						"description": "roadmap status - now/next/later/celebrated",
@@ -26,15 +26,15 @@
 					},
 					"path": {
 						"description": "A path to group segments",
-						"bsonType": "word"
+						"msmType": "msmWord"
 					},
 					"segment": {
 						"description": "A segment to group topics",
-						"bsonType": "word"
+						"msmType": "msmWord"
 					},
 					"topoic": {
 						"description": "A topic to group resources",
-						"bsonType": "word"
+						"msmType": "msmWord"
 					},
 					"type": {
 						"description": "resource type - Resource or Adhoc",
@@ -62,7 +62,7 @@
 					},
 					"rating": {
 						"description": "resource short name",
-						"bsonType": "integer"
+						"bsonType": "number"
 					},
 					"review": {
 						"description": "resource short name",
