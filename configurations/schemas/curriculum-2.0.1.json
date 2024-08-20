@@ -26,15 +26,15 @@
 					},
 					"path": {
 						"description": "A path to group segments",
-						"msmType": "msmWord"
+						"msmType": "msmSentence"
 					},
 					"segment": {
 						"description": "A segment to group topics",
-						"msmType": "msmWord"
+						"msmType": "msmSentence"
 					},
-					"topoic": {
+					"topic": {
 						"description": "A topic to group resources",
-						"msmType": "msmWord"
+						"msmType": "msmSentence"
 					},
 					"type": {
 						"description": "resource type - Resource or Adhoc",

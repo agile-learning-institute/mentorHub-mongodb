@@ -1,0 +1,41 @@
+openapi: 3.0.3
+info:
+  title: reviews
+  version: 1.0.0.1
+paths:
+  /reviews/:
+    get:
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/reviews'
+components:
+  schemas:
+    reviews:
+      description: Resource Review
+      required:
+        - _id
+      properties:
+        _id:
+          description: The unique identifier for a resource Rating
+          type: string
+        resourceId:
+          description: The ID of the resource rated
+          type: string
+        personId:
+          description: The ID of the person making the review
+          type: string
+        review:
+          description: Free text review of the person's experience with this resource
+          pattern: ^[ -~]{0,256}$
+          type: string
+        rating:
+          description: Rating 1-5
+          minimum: 1
+          maximum: 5
+          type: number
+      additionalProperties: false
+      type: object

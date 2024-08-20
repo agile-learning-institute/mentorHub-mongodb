@@ -1,0 +1,86 @@
+openapi: 3.0.3
+info:
+  title: plans
+  version: 1.0.0.1
+paths:
+  /plans/:
+    get:
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/plans'
+components:
+  schemas:
+    plans:
+      description: A plan for an encounter between a member and a mentor
+      required:
+        - _id
+        - name
+      properties:
+        _id:
+          description: The unique identifier for an encounter plan
+          type: string
+        name:
+          description: The short name of the plan
+          pattern: ^[^\s]{0,32}$
+          type: string
+        description:
+          description: Description of the Plan
+          pattern: ^[ -~]{0,256}$
+          type: string
+        status:
+          description: The status of this plan
+          enum:
+            - Active
+            - Archived
+          type: string
+        checklist:
+          description: a checklist of planned observations
+          items:
+            description: >-
+              An prompt to uncover information, and possible options to
+              accelerate note taking
+            properties:
+              type:
+                description: The type of observation control, from an enumerated list
+                enum:
+                  - Radio
+                  - Check
+                  - Text
+                type: string
+              prompt:
+                description: The question asked
+                pattern: ^[ -~]{0,256}$
+                type: string
+              options:
+                description: >-
+                  The options for an answer (on radio and check type
+                  observations)
+                items:
+                  pattern: ^[ -~]{0,256}$
+                  type: string
+                type: array
+            type: object
+          type: array
+        lastSaved:
+          description: change tracking breadcrumb
+          properties:
+            fromIp:
+              description: Http Request remote IP address
+              type: string
+            byUser:
+              description: UUID Of User
+              type: string
+            atTime:
+              description: The date-time when last updated
+              type: string
+            correlationId:
+              description: The logging correlation ID of the update transaction
+              type: string
+          additionalProperties: false
+          type: object
+      additionalProperties: false
+      type: object
