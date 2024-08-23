@@ -36,7 +36,7 @@ NOTE: This script will deploy the latest schema's into the /docs folder where th
 ```bash
 make container
 ```
-This will build your container locally, then start both the mongodb database, and your container. Your containers stdout will be tailed until processing completes. You should see the same output you saw with ``./msm test local``. 
+This will build your container locally, then start both the mongodb database, and your container. Your containers stdout will be tailed until processing completes. You should see the same output you saw with ``./make local``. 
 
 ## Shut down services after testing
 ```bash

@@ -99,7 +99,7 @@
                 "Later": "Resources that might come later"
             },
             "resourceType": {
-                "Topic": "A resource from the Topics service",
+                "Resource": "A resource from the Topics service",
                 "Adhoc": "A resources assigned by mentor without a Topic"
             },
             "resourceTags": {

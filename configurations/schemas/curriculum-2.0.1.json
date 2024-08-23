@@ -1,0 +1,81 @@
+{
+	"description": "A personalized roadmap for learning",
+	"bsonType": "object",
+	"required": [
+		"_id"
+	],
+	"properties": {
+		"_id": {
+			"description": "Curriculum _id values are === the person _id",
+			"bsonType": "objectId"
+		},
+		"resources": {
+			"description": "List of Resources",
+			"bsonType": "array",
+			"items": {
+				"description": "A learning resource",
+				"bsonType": "object",
+				"properties": {
+					"sequence": {
+						"description": "Sequence for ordering",
+						"bsonType": "number"
+					},
+					"roadmap": {
+						"description": "roadmap status - now/next/later/celebrated",
+						"msmEnums": "roadmap"
+					},
+					"path": {
+						"description": "A path to group segments",
+						"msmType": "msmSentence"
+					},
+					"segment": {
+						"description": "A segment to group topics",
+						"msmType": "msmSentence"
+					},
+					"topic": {
+						"description": "A topic to group resources",
+						"msmType": "msmSentence"
+					},
+					"type": {
+						"description": "resource type - Resource or Adhoc",
+						"msmEnums": "resourceType"
+					},
+					"resource_id": {
+						"description": "resource id for topic resources",
+						"bsonType": "objectId"
+					},
+					"resource_name": {
+						"description": "resource name for adHoc resources",
+						"msmType": "msmSentence"
+					},
+					"resource_url": {
+						"description": "resource link for adHoc resources",
+						"msmType": "msmUrl"
+					},
+					"started": {
+						"description": "When did they start this resource",
+						"bsonType": "date"
+					},
+					"completed": {
+						"description": "resource short name",
+						"bsonType": "date"
+					},
+					"rating": {
+						"description": "resource short name",
+						"bsonType": "number"
+					},
+					"review": {
+						"description": "resource short name",
+						"msmType": "msmSentence"
+					}
+				},
+				"additionalProperties": false
+			}
+		},
+		"lastSaved": {
+			"description": "Last Updated breadcrumb",
+			"msmType": "msmBreadcrumb"
+		}
+	},
+	"additionalProperties": false
+}

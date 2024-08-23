@@ -1,0 +1,105 @@
+openapi: 3.0.3
+info:
+  title: curriculum
+  version: 2.0.1.1
+paths:
+  /curriculum/:
+    get:
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/curriculum'
+components:
+  schemas:
+    curriculum:
+      description: A personalized roadmap for learning
+      required:
+        - _id
+      properties:
+        _id:
+          description: Curriculum _id values are === the person _id
+          type: string
+        resources:
+          description: List of Resources
+          items:
+            description: A learning resource
+            properties:
+              sequence:
+                description: Sequence for ordering
+                type: number
+              roadmap:
+                description: roadmap status - now/next/later/celebrated
+                enum:
+                  - Completed
+                  - Now
+                  - Next
+                  - Later
+                type: string
+              path:
+                description: A path to group segments
+                pattern: ^[ -~]{0,256}$
+                type: string
+              segment:
+                description: A segment to group topics
+                pattern: ^[ -~]{0,256}$
+                type: string
+              topic:
+                description: A topic to group resources
+                pattern: ^[ -~]{0,256}$
+                type: string
+              type:
+                description: resource type - Resource or Adhoc
+                enum:
+                  - Resource
+                  - Adhoc
+                type: string
+              resource_id:
+                description: resource id for topic resources
+                type: string
+              resource_name:
+                description: resource name for adHoc resources
+                pattern: ^[ -~]{0,256}$
+                type: string
+              resource_url:
+                description: resource link for adHoc resources
+                pattern: >-
+                  ^(https?:\/\/)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z-]{2,24}(:[0-9]{1,5})?(\/(([\w\-\.~]|%[a-fA-F0-9]{2}|[!\$&'\(\)\*\+,;=:@])*\/?)*)?
+                type: string
+              started:
+                description: When did they start this resource
+                type: string
+              completed:
+                description: resource short name
+                type: string
+              rating:
+                description: resource short name
+                type: number
+              review:
+                description: resource short name
+                pattern: ^[ -~]{0,256}$
+                type: string
+            additionalProperties: false
+            type: object
+          type: array
+        lastSaved:
+          description: Last Updated breadcrumb
+          properties:
+            fromIp:
+              description: Http Request remote IP address
+              type: string
+            byUser:
+              description: UUID Of User
+              type: string
+            atTime:
+              description: The date-time when last updated
+              type: string
+            correlationId:
+              description: The logging correlation ID of the update transaction
+              type: string
+          additionalProperties: false
+          type: object
+      additionalProperties: false
+      type: object
