@@ -1,0 +1,146 @@
+openapi: 3.0.3
+info:
+  title: curriculum
+  version: 3.0.0.2
+paths:
+  /curriculum/:
+    get:
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/curriculum'
+components:
+  schemas:
+    curriculum:
+      description: A personalized roadmap for learning
+      required:
+        - _id
+      properties:
+        _id:
+          description: Curriculum _id values are === the person _id
+          type: string
+        completed:
+          description: List of Completed Resources
+          items:
+            description: A learning resource
+            properties:
+              name:
+                description: resource name for adHoc resources
+                pattern: ^[ -~]{0,256}$
+                type: string
+              link:
+                description: resource link for adHoc resources
+                pattern: >-
+                  ^(https?:\/\/)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z-]{2,24}(:[0-9]{1,5})?(\/(([\w\-\.~]|%[a-fA-F0-9]{2}|[!\$&'\(\)\*\+,;=:@])*\/?)*)?
+                type: string
+              started:
+                description: When did they start this resource
+                type: string
+              completed:
+                description: When was the resource completed
+                type: string
+              rating:
+                description: Resource Rating 1-4
+                type: number
+              review:
+                description: resource short review
+                pattern: ^[ -~]{0,256}$
+                type: string
+            additionalProperties: false
+            type: object
+          type: array
+        now:
+          description: List of Resources to work on NOW
+          items:
+            description: A learning resource
+            properties:
+              name:
+                description: resource name
+                pattern: ^[ -~]{0,256}$
+                type: string
+              link:
+                description: resource link
+                pattern: >-
+                  ^(https?:\/\/)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z-]{2,24}(:[0-9]{1,5})?(\/(([\w\-\.~]|%[a-fA-F0-9]{2}|[!\$&'\(\)\*\+,;=:@])*\/?)*)?
+                type: string
+              started:
+                description: When did they start this resource
+                type: string
+            type: object
+          type: array
+        next:
+          description: List of Resources Paths
+          items:
+            description: A learning path
+            properties:
+              path:
+                description: A learning path
+                pattern: ^[ -~]{0,256}$
+                type: string
+              segments:
+                description: The list of segments in the path
+                items:
+                  description: A learning segment
+                  properties:
+                    segment:
+                      description: The segment name
+                      pattern: ^[ -~]{0,256}$
+                      type: string
+                    topics:
+                      description: List of topics in the segment
+                      items:
+                        description: A topic (group of resources)
+                        properties:
+                          topic:
+                            description: A topic name
+                            pattern: ^[ -~]{0,256}$
+                            type: string
+                          resources:
+                            description: List of learning resources
+                            items:
+                              properties:
+                                name:
+                                  description: resource name for adHoc resources
+                                  pattern: ^[ -~]{0,256}$
+                                  type: string
+                                link:
+                                  description: resource link for adHoc resources
+                                  pattern: >-
+                                    ^(https?:\/\/)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z-]{2,24}(:[0-9]{1,5})?(\/(([\w\-\.~]|%[a-fA-F0-9]{2}|[!\$&'\(\)\*\+,;=:@])*\/?)*)?
+                                  type: string
+                              type: object
+                            type: array
+                        type: object
+                      type: array
+                  type: object
+                type: array
+            type: object
+          type: array
+        later:
+          description: List of paths for strategic goals
+          items:
+            description: Path ID
+            type: string
+          type: array
+        lastSaved:
+          description: Last Updated breadcrumb
+          properties:
+            fromIp:
+              description: Http Request remote IP address
+              type: string
+            byUser:
+              description: UUID Of User
+              type: string
+            atTime:
+              description: The date-time when last updated
+              type: string
+            correlationId:
+              description: The logging correlation ID of the update transaction
+              type: string
+          additionalProperties: false
+          type: object
+      additionalProperties: false
+      type: object
