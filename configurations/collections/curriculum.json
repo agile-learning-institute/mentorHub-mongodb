@@ -2,8 +2,8 @@
   "name": "curriculum",
   "versions": [
     {
-      "version": "3.0.0.2",
-      "testData": "curriculum-3.0.0"
+      "version": "3.0.1.2",
+      "testData": "curriculum-3.0.1"
     }
   ]
 }
