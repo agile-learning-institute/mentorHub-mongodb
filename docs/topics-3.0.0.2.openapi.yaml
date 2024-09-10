@@ -1,0 +1,160 @@
+openapi: 3.0.3
+info:
+  title: topics
+  version: 3.0.0.2
+paths:
+  /topics/:
+    get:
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/topics'
+components:
+  schemas:
+    topics:
+      description: A Learning Topic
+      required:
+        - _id
+        - name
+      properties:
+        _id:
+          description: The Topic ID
+          type: string
+        status:
+          description: The status of this topic
+          enum:
+            - Active
+            - Archived
+          type: string
+        name:
+          description: The Topic Name
+          pattern: ^[ -~]{0,256}$
+          type: string
+        description:
+          description: The Topic overview paragraph
+          pattern: ^[ -~]{0,256}$
+          type: string
+        category:
+          description: >-
+            A simple categorization of topics based on ITIL and ITSM best
+            practices
+          enum:
+            - Foundations of ITSM
+            - Design and Development
+            - Infrastructure and Operations
+            - Networking and Security
+            - Development Tools and Practices
+            - Data Management
+            - Continuous Integration and Deployment
+            - Monitoring and Performance
+          type: string
+        skills:
+          description: The list of skills related to this topic
+          items:
+            description: A Skill
+            properties:
+              index:
+                description: The index number referenced in resources
+                type: number
+              name:
+                description: The short name (slug) for this skill
+                pattern: ^[ -~]{0,256}$
+                type: string
+              description:
+                description: A description of the skill, a phrase that would go on a resume
+                pattern: ^[ -~]{0,256}$
+                type: string
+              mastery:
+                description: >-
+                  The level of mastery for this skill, it aligns with
+                  person.title
+                enum:
+                  - Candidate
+                  - Apprentice
+                  - Resident
+                  - Master
+                  - Distinguished
+                type: string
+              speciality:
+                description: The speciality this skill applies to
+                enum:
+                  - Generalist
+                  - UI/UX Engineer
+                  - API Engineer
+                  - Data Engineer
+                  - SRE Engineer
+                type: string
+            additionalProperties: false
+            type: object
+          type: array
+        resources:
+          description: List of resources related to this topic
+          items:
+            description: A Resource
+            properties:
+              name:
+                description: The Resource Name
+                pattern: ^[ -~]{0,256}$
+                type: string
+              link:
+                description: Link to Resource, must be https
+                pattern: >-
+                  ^(https?:\/\/)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z-]{2,24}(:[0-9]{1,5})?(\/(([\w\-\.~]|%[a-fA-F0-9]{2}|[!\$&'\(\)\*\+,;=:@])*\/?)*)?
+                type: string
+              description:
+                description: The Resource description
+                pattern: ^[ -~]{0,256}$
+                type: string
+              skills:
+                description: >-
+                  The list of skills (index numbers) this resource contributes
+                  to
+                items:
+                  type: number
+                type: array
+              tags:
+                description: Tags to assist with classification of this resource
+                items:
+                  enum:
+                    - $
+                    - Article
+                    - Book
+                    - Exam
+                    - Interactive
+                    - Lecture
+                    - Lesson
+                    - Reference
+                    - Tutorial
+                    - User Guide
+                    - Video
+                    - UI/UX
+                    - API
+                    - Data
+                    - SRE
+                  type: string
+                type: array
+            additionalProperties: false
+            type: object
+          type: array
+        lastSaved:
+          description: Tracking breadcrumb
+          properties:
+            fromIp:
+              description: Http Request remote IP address
+              type: string
+            byUser:
+              description: UUID Of User
+              type: string
+            atTime:
+              description: The date-time when last updated
+              type: string
+            correlationId:
+              description: The logging correlation ID of the update transaction
+              type: string
+          additionalProperties: false
+          type: object
+      additionalProperties: false
+      type: object

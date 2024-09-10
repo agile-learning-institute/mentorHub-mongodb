@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   title: curriculum
-  version: 3.0.0.2
+  version: 3.0.1.2
 paths:
   /curriculum/:
     get:
@@ -36,6 +36,10 @@ components:
                 pattern: >-
                   ^(https?:\/\/)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z-]{2,24}(:[0-9]{1,5})?(\/(([\w\-\.~]|%[a-fA-F0-9]{2}|[!\$&'\(\)\*\+,;=:@])*\/?)*)?
                 type: string
+              description:
+                description: The Topic overview paragraph
+                pattern: ^[ -~]{0,256}$
+                type: string
               started:
                 description: When did they start this resource
                 type: string
@@ -66,9 +70,14 @@ components:
                 pattern: >-
                   ^(https?:\/\/)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z-]{2,24}(:[0-9]{1,5})?(\/(([\w\-\.~]|%[a-fA-F0-9]{2}|[!\$&'\(\)\*\+,;=:@])*\/?)*)?
                 type: string
+              description:
+                description: The Topic overview paragraph
+                pattern: ^[ -~]{0,256}$
+                type: string
               started:
                 description: When did they start this resource
                 type: string
+            additionalProperties: false
             type: object
           type: array
         next:
@@ -111,12 +120,51 @@ components:
                                   pattern: >-
                                     ^(https?:\/\/)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z-]{2,24}(:[0-9]{1,5})?(\/(([\w\-\.~]|%[a-fA-F0-9]{2}|[!\$&'\(\)\*\+,;=:@])*\/?)*)?
                                   type: string
+                                description:
+                                  description: The Topic overview paragraph
+                                  pattern: ^[ -~]{0,256}$
+                                  type: string
+                                skills:
+                                  description: >-
+                                    The list of skills this resource contributes
+                                    to
+                                  items:
+                                    pattern: ^[ -~]{0,256}$
+                                    type: string
+                                  type: array
+                                tags:
+                                  description: >-
+                                    Tags to assist with classification of this
+                                    resource
+                                  items:
+                                    enum:
+                                      - $
+                                      - Article
+                                      - Book
+                                      - Exam
+                                      - Interactive
+                                      - Lecture
+                                      - Lesson
+                                      - Reference
+                                      - Tutorial
+                                      - User Guide
+                                      - Video
+                                      - UI/UX
+                                      - API
+                                      - Data
+                                      - SRE
+                                    type: string
+                                  type: array
+                              additionalProperties: false
                               type: object
                             type: array
+                        additionalProperties: false
                         type: object
                       type: array
+                  additionalProperties: false
                   type: object
                 type: array
+            additionalProperties: false
             type: object
           type: array
         later:

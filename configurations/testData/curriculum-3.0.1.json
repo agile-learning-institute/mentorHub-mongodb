@@ -1,0 +1,77 @@
+[
+  {
+    "_id": {"$oid": "aaaa00000000000000000001"},
+    "completed": [
+      {      
+        "name": "JeanBartikandtheENIACWom",
+        "link": "https://somevalidlink08.com",
+        "description": "The Description String",        
+        "started": {"$date": "2024-07-01T13:00:00"},
+        "completed": {"$date": "2024-07-01T14:30:00"},
+        "rating": 4,
+        "review": "This was a great intro"
+      },{
+        "name": "Markdown Tutorial",
+        "link": "https://www.markdowntutorial.com/lesson/1/",
+        "description": "The Description String",        
+        "started": {"$date": "2024-07-02T13:00:00"},
+        "completed": {"$date": "2024-07-03T19:36:00"},
+        "rating": 3,
+        "review": "I had to read this twice before it made sense"
+      }
+    ],
+    "now": [
+      {
+        "name": "AWSStorageResource",
+        "link": "https://somevalidlink.35.com",
+        "description": "The Description String",        
+        "started": {"$date": "2024-07-15T13:00:00"}
+      },{
+        "name": "Some Unique Resource",
+        "description": "The Description String",        
+        "link": "https://some.com/resource"    
+      }
+    ],
+    "next": [
+      {
+        "path": "The Odin Project",
+        "segments": [
+          {
+            "segment": "Intermediate HTML and CSS",
+            "topics": [
+              {
+                "topic": "Intermediate HTML",
+                "resources": [
+                  {
+                    "name": "Howdocomputersreadcode?V",
+                    "link": "https://somevalidlink.22.com",
+                    "description": "The Description String",        
+                    "skills": [],
+                    "tags": []
+                  },{
+                    "name": "A one-off resource",
+                    "link": "https://some.com/resource",
+                    "description": "The Description String",        
+                    "skills": [],
+                    "tags": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "later": [
+      {"$oid": "999900000000000000000000"},
+      {"$oid": "999900000000000000000001"},
+      {"$oid": "999900000000000000000003"}
+    ],
+    "lastSaved": {
+      "atTime": {"$date": "2024-02-27T18:17:58"},
+      "byUser": {"$oid": "aaaa00000000000000000001"},
+      "fromIp": "192.168.1.3",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  }
+]
