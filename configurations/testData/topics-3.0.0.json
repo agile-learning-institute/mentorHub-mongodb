@@ -137,6 +137,11 @@
     ],
     "skills": [
       {
+        "index": 0,
+        "name": "Skill-0",
+        "description": "not used"
+      },
+      {
         "index": 1,
         "name": "Skill-1",
         "description": "Basic use of the Unix/Linux command line and shell scripts",
@@ -280,6 +285,9 @@
       }
     ],
     "skills": [
+      {
+            "index":0, "name": "not used"
+      },
       {
         "index": 1,
         "name": "ECMAScript concepts ",
@@ -571,6 +579,8 @@
     ],
     "skills": [
       {
+      },
+      {
         "index": 1,
         "name": "Bash Scripting ",
         "description": "Working knowledge of Bash Scripting",
@@ -762,6 +772,9 @@
     ],
     "skills": [
       {
+            "index":0, "name": "not used"
+      },
+      {
         "index": 1,
         "name": "JVMs",
         "description": "Understanding of Java Runtimes",
@@ -838,6 +851,9 @@
     ],
     "skills": [
       {
+            "index":0, "name": "not used"
+      },
+      {
         "index": 1,
         "name": "Mainframes",
         "description": "Understanding of Z-Series Mainframes and z/OS conecpts",
@@ -884,6 +900,9 @@
       }
     ],
     "skills": [
+      {
+            "index":0, "name": "not used"
+      },
       {
         "index": 1,
         "name": "JSON Schema",
@@ -980,6 +999,9 @@
       }
     ],
     "skills": [
+      {
+            "index":0, "name": "not used"
+      },
       {
         "index": 1,
         "name": "SQL",
@@ -1159,6 +1181,9 @@
     ],
     "skills": [
       {
+            "index":0, "name": "not used"
+      },
+      {
         "index": 1,
         "name": "SQL and DDL",
         "description": "Understanding of Relational Databases Schema and Concepts",
@@ -1243,6 +1268,9 @@
       }
     ],
     "skills": [
+      {
+            "index":0, "name": "not used"
+      },
       {
         "index": 1,
         "name": "Data Lake Concepts",
@@ -1396,6 +1424,9 @@
     ],
     "skills": [
       {
+            "index":0, "name": "not used"
+      },
+      {
         "index": 1,
         "name": "Python ORM",
         "description": "Working Knoledge of Django ORM",
@@ -1520,6 +1551,9 @@
       }
     ],
     "skills": [
+      {
+            "index":0, "name": "not used"
+      },
       {
         "index": 1,
         "name": "Web Dev Basics",
@@ -1675,6 +1709,9 @@
     ],
     "skills": [
       {
+            "index":0, "name": "not used"
+      },
+      {
         "index": 1,
         "name": "Developer Environments",
         "description": "Experience with local development environments, IDEs, and Git configuration basics",
@@ -1736,6 +1773,9 @@
       }
     ],
     "skills": [
+      {
+            "index":0, "name": "not used"
+      },
       {
         "index": 1,
         "name": "Git Source Control",
@@ -1832,6 +1872,9 @@
       }
     ],
     "skills": [
+      {
+            "index":0, "name": "not used"
+      },
       {
         "index": 1,
         "name": "Intermediate HTML",
@@ -2017,6 +2060,9 @@
       }
     ],
     "skills": [
+      {
+            "index":0, "name": "not used"
+      },
       {
         "index": 1,
         "name": "Intermediate CSS",
