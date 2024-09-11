@@ -1,0 +1,2090 @@
+[
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000002"
+    },
+    "name": "History of Computing",
+    "status": "Active",
+    "description": "With this topic you'll learn about the history of computing and some of the most important events that shaped the Information Age.",
+    "category": "Foundations of ITSM",
+    "resources": [
+      {
+        "name": "ComputerHistoryTimelineA",
+        "description": "Computer History Timeline Article",
+        "link": "https://somevalidlink02.com",
+        "skills": [
+          0,
+          2
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Exam",
+          "Interactive",
+          "Lesson",
+          "Tutorial",
+          "Video",
+          "Data"
+        ]
+      },
+      {
+        "name": "HistoryofComputingArticl",
+        "description": "History of Computing Article",
+        "link": "https://somevalidlink03.com",
+        "skills": [
+          0,
+          3
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Reference",
+          "User Guide",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "PiratesofSiliconValleyFi",
+        "description": "Pirates of Silicon Valley Film",
+        "link": "https://somevalidlink04.com",
+        "skills": [
+          0,
+          3
+        ],
+        "tags": [
+          "Exam",
+          "Lecture",
+          "Video",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "Apple1984SuperBowlCommer",
+        "description": "Apple 1984 Super Bowl Commercial Video",
+        "link": "https://somevalidlink05.com",
+        "skills": [
+          0,
+          3
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Interactive",
+          "Lecture",
+          "Lesson",
+          "User Guide",
+          "UI/UX",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "BretVictorTheFutureofPro",
+        "description": "Bret Victor The Future of Programming Video",
+        "link": "https://somevalidlink06.com",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Lecture",
+          "Lesson",
+          "Tutorial",
+          "User Guide",
+          "Video",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "AwesomeComputerHistoryRe",
+        "description": "Awesome Computer History Resource",
+        "link": "https://somevalidlink07.com",
+        "skills": [
+          2
+        ],
+        "tags": [
+          "Book",
+          "Lecture",
+          "Reference",
+          "User Guide",
+          "Video",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "JeanBartikandtheENIACWom",
+        "description": "Jean Bartik and the ENIAC Women Video",
+        "link": "https://somevalidlink08.com",
+        "skills": [
+          0,
+          3
+        ],
+        "tags": [
+          "Article",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Tutorial",
+          "User Guide",
+          "UI/UX",
+          "API",
+          "Data"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Skill-0",
+        "description": "Some Skill with little info"
+      },
+      {
+        "name": "Skill-1",
+        "description": "Basic use of the Unix/Linux command line and shell scripts",
+        "mastery": "Candidate",
+        "speciality": "Generalist"
+      },
+      {
+        "name": "Skill-2",
+        "description": "Vue.js concepts with design system libraries",
+        "mastery": "Apprentice",
+        "speciality": "UI/UX Engineer"
+      },
+      {
+        "name": "Skill-3",
+        "description": "Python Data Structures and with Pandas",
+        "mastery": "Apprentice",
+        "speciality": "Data Engineer"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": "AAAA00000000000000000001"
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000003"
+    },
+    "name": "Hardware",
+    "status": "Active",
+    "description": "With this topic you will learn about the essential computer components and the different roles they play.",
+    "category": "Foundations of ITSM",
+    "resources": [
+      {
+        "name": "ExploringHowComputersWor",
+        "link": "https://somevalidlink09.com",
+        "description": "Exploring How Computers Work Video",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Lesson",
+          "Tutorial",
+          "Video",
+          "UI/UX"
+        ]
+      },
+      {
+        "name": "DigitalLogicSimTool",
+        "link": "https://somevalidlink10.com",
+        "description": "Digital Logic Sim Tool",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Video",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "HistoryandTheoryofElectr",
+        "link": "https://somevalidlin11.com",
+        "description": "History and Theory of Electricity Video",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Tutorial",
+          "User Guide",
+          "Video",
+          "UI/UX",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "Buildingan8-bitcomputerV",
+        "link": "https://somevalidlink12.com",
+        "description": "Building an 8-bit computer Video Series",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Lesson",
+          "Reference",
+          "Tutorial",
+          "Video",
+          "Data"
+        ]
+      },
+      {
+        "name": "nand2tetris:buildingacom",
+        "link": "https://somevalidlink13.com",
+        "description": "nand2tetris: building a computer from first principles Course",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Exam",
+          "Interactive",
+          "Lesson",
+          "Tutorial",
+          "Video",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "8StandardComputerCompone",
+        "link": "https://somevalidlink14.com",
+        "description": "8 Standard Computer Components Article",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Interactive",
+          "Lecture",
+          "Tutorial",
+          "Video",
+          "Data"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "ECMAScript concepts ",
+        "description": "Working knowledge of Javascript / Typescript fundamentals",
+        "mastery": "Apprentice",
+        "speciality": "API Engineer"
+      },
+      {
+        "name": "Docker Basics",
+        "description": "Working knowledge of Docker and Docker Compose concepts",
+        "mastery": "Apprentice",
+        "speciality": "Generalist"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": "AAAA00000000000000000001"
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000004"
+    },
+    "name": "Operating Systems",
+    "status": "Active",
+    "description": "With this topic you will learn about the underlying software that coordinates the different components of a computer.",
+    "category": "Foundations of ITSM",
+    "resources": [
+      {
+        "name": "DigitalOceanLearningLibr",
+        "link": "https://somevalidlink15.com",
+        "description": "DigitalOcean Learning Library Resource",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Lesson",
+          "Data"
+        ]
+      },
+      {
+        "name": "Dockerin100SecondsVideo",
+        "link": "https://somevalidlink.16.com",
+        "description": "Docker in 100 Seconds Video",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Exam",
+          "Lecture",
+          "Lesson",
+          "Reference",
+          "Tutorial",
+          "User Guide",
+          "Video",
+          "API"
+        ]
+      },
+      {
+        "name": "LearnDockerin7EasyStepsV",
+        "link": "https://somevalidlink.17.com",
+        "description": "Learn Docker in 7 Easy Steps Video",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Tutorial",
+          "Video"
+        ]
+      },
+      {
+        "name": "UnderstandingOperatingSy",
+        "link": "https://somevalidlink.18.com",
+        "description": "Understanding Operating Systems Article",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Lesson",
+          "Reference",
+          "Tutorial",
+          "UI/UX",
+          "API"
+        ]
+      },
+      {
+        "name": "UsingDockerDevContainers",
+        "link": "https://somevalidlink.19.com",
+        "description": "Using Docker Dev Containers Resource",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Exam",
+          "Tutorial",
+          "User Guide",
+          "Video",
+          "API"
+        ]
+      },
+      {
+        "name": "VirtualBoxTool",
+        "link": "https://somevalidlink.20.com",
+        "description": "VirtualBox Tool",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Exam",
+          "Interactive",
+          "Lesson",
+          "Reference",
+          "User Guide",
+          "Video",
+          "UI/UX",
+          "API"
+        ]
+      },
+      {
+        "name": "TheProgrammingProcessArt",
+        "link": "https://somevalidlink.21.com",
+        "description": "The Programming Process Article",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Lesson",
+          "Reference",
+          "User Guide",
+          "Video",
+          "Data"
+        ]
+      },
+      {
+        "name": "Howdocomputersreadcode?V",
+        "link": "https://somevalidlink.22.com",
+        "description": "How do computers read code? Video",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Lesson",
+          "Reference",
+          "Tutorial",
+          "Video",
+          "API"
+        ]
+      },
+      {
+        "name": "rbenvTool",
+        "link": "https://somevalidlink.23.com",
+        "description": "rbenv Tool",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Reference"
+        ]
+      },
+      {
+        "name": "pyenvTool",
+        "link": "https://somevalidlink.24.com",
+        "description": "pyenv Tool",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Interactive",
+          "Lecture",
+          "User Guide",
+          "Video",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "nodenvTool",
+        "link": "https://somevalidlink.25.com",
+        "description": "nodenv Tool",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Exam",
+          "Lecture",
+          "Lesson",
+          "Reference",
+          "User Guide",
+          "UI/UX"
+        ]
+      },
+      {
+        "name": "goenvTool",
+        "link": "https://somevalidlink.26.com",
+        "description": "goenv Tool",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Exam",
+          "Lecture",
+          "Lesson",
+          "Tutorial",
+          "User Guide",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "rustupTool",
+        "link": "https://somevalidlink.27.com",
+        "description": "rustup Tool",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Exam",
+          "Lesson",
+          "Reference",
+          "Tutorial",
+          "UI/UX",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "C#languageversioning",
+        "link": "https://somevalidlink.28.com",
+        "description": "C# language versioning",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Lesson",
+          "Tutorial",
+          "User Guide",
+          "UI/UX"
+        ]
+      },
+      {
+        "name": "ComputerBasicsCourseCour",
+        "link": "https://somevalidlink.29.com",
+        "description": "Computer Basics Course Course ($)",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Exam",
+          "Lesson",
+          "Reference",
+          "User Guide",
+          "Video",
+          "Data"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "Working knowledge of something simple"
+      },
+      {
+        "name": "Bash Scripting ",
+        "description": "Working knowledge of Bash Scripting",
+        "mastery": "Apprentice",
+        "speciality": "Generalist"
+      },
+      {
+        "name": "Powershell Basics",
+        "description": "Understanding of Powershell concepts",
+        "mastery": "Apprentice",
+        "speciality": "Generalist"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000005"
+    },
+    "name": "Runtimes",
+    "status": "Active",
+    "description": "With this topic you will learn about the process of turning human-readable code into commands that the computer can understand.",
+    "category": "Foundations of ITSM",
+    "resources": [
+      {
+        "name": "TheProgrammingProcessArt",
+        "link": "https://somevalidlink.21.com",
+        "description": "The Programming Process Article",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Lesson",
+          "Reference",
+          "User Guide",
+          "Video",
+          "Data"
+        ]
+      },
+      {
+        "name": "Howdocomputersreadcode?V",
+        "link": "https://somevalidlink.22.com",
+        "description": "How do computers read code? Video",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Lesson",
+          "Reference",
+          "Tutorial",
+          "Video",
+          "API"
+        ]
+      },
+      {
+        "name": "rbenvTool",
+        "link": "https://somevalidlink.23.com",
+        "description": "rbenv Tool",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Reference"
+        ]
+      },
+      {
+        "name": "pyenvTool",
+        "link": "https://somevalidlink.24.com",
+        "description": "pyenv Tool",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Interactive",
+          "Lecture",
+          "User Guide",
+          "Video",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "nodenvTool",
+        "link": "https://somevalidlink.25.com",
+        "description": "nodenv Tool",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Exam",
+          "Lecture",
+          "Lesson",
+          "Reference",
+          "User Guide",
+          "UI/UX"
+        ]
+      },
+      {
+        "name": "goenvTool",
+        "link": "https://somevalidlink.26.com",
+        "description": "goenv Tool",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Exam",
+          "Lecture",
+          "Lesson",
+          "Tutorial",
+          "User Guide",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "rustupTool",
+        "link": "https://somevalidlink.27.com",
+        "description": "rustup Tool",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Exam",
+          "Lesson",
+          "Reference",
+          "Tutorial",
+          "UI/UX",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "C#languageversioning",
+        "link": "https://somevalidlink.28.com",
+        "description": "C# language versioning",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Lesson",
+          "Tutorial",
+          "User Guide",
+          "UI/UX"
+        ]
+      },
+      {
+        "name": "ComputerBasicsCourseCour",
+        "link": "https://somevalidlink.29.com",
+        "description": "Computer Basics Course Course ($)",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Exam",
+          "Lesson",
+          "Reference",
+          "User Guide",
+          "Video",
+          "Data"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "A simple skill you can get"
+      },
+      {
+        "name": "JVMs",
+        "description": "Understanding of Java Runtimes",
+        "mastery": "Apprentice",
+        "speciality": "API Engineer"
+      },
+      {
+        "name": "Compilers",
+        "description": "Understanding of Compilers, Intreperters, and JIT concepts",
+        "mastery": "Apprentice",
+        "speciality": "Generalist"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000006"
+    },
+    "name": "Spectrum of Platforms",
+    "status": "Active",
+    "description": "With this topic you will learn about the different combinations of hardware operating systems and runtimes used to run software applications.",
+    "category": "Foundations of ITSM",
+    "resources": [
+      {
+        "name": "BrowserStacklistofplatfo",
+        "link": "https://somevalidlink.30.com",
+        "description": "BrowserStack list of platforms Resource",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Book",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Lesson",
+          "Reference",
+          "Tutorial",
+          "User Guide",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "ComputingplatformArticle",
+        "link": "https://somevalidlink.31.com",
+        "description": "Computing platform Article",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Lecture",
+          "Lesson",
+          "Tutorial",
+          "User Guide",
+          "UI/UX",
+          "API"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "A simple skill you can get"
+      },
+      {
+        "name": "Mainframes",
+        "description": "Understanding of Z-Series Mainframes and z/OS conecpts",
+        "mastery": "Apprentice",
+        "speciality": "SRE Engineer"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000007"
+    },
+    "name": "Types of Data",
+    "status": "Active",
+    "description": "With this topic you'll learn about the spectrum of unstructured to structured data types and how to classify data correctly.",
+    "category": "Data Management",
+    "resources": [
+      {
+        "name": "Structuredvs.Unstructure",
+        "link": "https://somevalidlink.32.com",
+        "description": "Structured vs. Unstructured Data Article",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Book",
+          "Interactive",
+          "Lecture",
+          "User Guide",
+          "UI/UX",
+          "API",
+          "Data"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "A simple skill you can get"
+      },
+      {
+        "name": "JSON Schema",
+        "description": "Working knowledge of JSON Schema",
+        "mastery": "Apprentice",
+        "speciality": "API Engineer"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000008"
+    },
+    "name": "Data Storage",
+    "status": "Active",
+    "description": "With this topic you'll learn techniques to store data of all types for usage in an application.",
+    "category": "Data Management",
+    "resources": [
+      {
+        "name": "7DatabaseParadigmsVideo",
+        "link": "https://somevalidlink.33.com",
+        "description": "7 Database Paradigms Video",
+        "skills": [
+          1,
+          2
+        ],
+        "tags": [
+          "Article",
+          "Interactive",
+          "Tutorial",
+          "Video",
+          "API"
+        ]
+      },
+      {
+        "name": "AWSDatabasesResource",
+        "link": "https://somevalidlink.34.com",
+        "description": "AWS Databases Resource",
+        "skills": [
+          0,
+          2
+        ],
+        "tags": [
+          "Lesson",
+          "Reference",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "AWSStorageResource",
+        "link": "https://somevalidlink.35.com",
+        "description": "AWS Storage Resource",
+        "skills": [
+          1,
+          2
+        ],
+        "tags": [
+          "$",
+          "Book",
+          "Exam",
+          "Interactive",
+          "Tutorial",
+          "User Guide",
+          "UI/UX",
+          "API"
+        ]
+      },
+      {
+        "name": "CloudFirestoreTool",
+        "link": "https://somevalidlink.36.com",
+        "description": "Cloud Firestore Tool",
+        "skills": [
+          0,
+          2
+        ],
+        "tags": [
+          "$",
+          "Book",
+          "Exam",
+          "Lecture",
+          "User Guide"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "A simple skill you can get"
+      },
+      {
+        "name": "SQL",
+        "description": "Understanding of Relational Databases and SQL conecpts",
+        "mastery": "Apprentice",
+        "speciality": "Data Engineer"
+      },
+      {
+        "name": "NO-SQL",
+        "description": "Understanding of Document Databases and Not Only SQL conecpts",
+        "mastery": "Apprentice",
+        "speciality": "Data Engineer"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000009"
+    },
+    "name": "Data Manipulation",
+    "status": "Active",
+    "description": "With this topic you'll learn how to interact with and manipulate data from storage providers using techniques such as SQL or SSH.",
+    "category": "Data Management",
+    "resources": [
+      {
+        "name": "DatabasenormalizationRes",
+        "link": "https://somevalidlink.37.com",
+        "description": "Database normalization Resource",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Book",
+          "Exam",
+          "Lecture",
+          "Tutorial",
+          "User Guide",
+          "UI/UX",
+          "API"
+        ]
+      },
+      {
+        "name": "NormalDataFormsVideo",
+        "link": "https://somevalidlink.38.com",
+        "description": "Normal Data Forms Video",
+        "skills": [
+          2
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Lecture",
+          "Lesson",
+          "Reference",
+          "Tutorial",
+          "User Guide",
+          "Video",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "SQLExplainedin100Seconds",
+        "link": "https://somevalidlink.39.com",
+        "description": "SQL Explained in 100 Seconds Video",
+        "skills": [
+          0,
+          2
+        ],
+        "tags": [
+          "Book",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "User Guide",
+          "Video",
+          "UI/UX",
+          "API"
+        ]
+      },
+      {
+        "name": "SQLplaygroundTool",
+        "link": "https://somevalidlink.40.com",
+        "description": "SQL playground Tool",
+        "skills": [
+          2
+        ],
+        "tags": [
+          "$",
+          "Interactive",
+          "Lecture",
+          "Tutorial",
+          "User Guide",
+          "API"
+        ]
+      },
+      {
+        "name": "SQLZOOTutorial",
+        "link": "https://somevalidlink.41.com",
+        "description": "SQLZOO Tutorial",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Lesson",
+          "User Guide",
+          "Video",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "ModifyingDatawithSQLCour",
+        "link": "https://somevalidlink.42.com",
+        "description": "Modifying Data with SQL Course ($)",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Book",
+          "Exam",
+          "Interactive",
+          "Lesson",
+          "Tutorial",
+          "Video"
+        ]
+      },
+      {
+        "name": "QueryingRelationalDataba",
+        "link": "https://somevalidlink.43.com",
+        "description": "Querying Relational Databases Course ($)",
+        "skills": [
+          2
+        ],
+        "tags": [
+          "Exam",
+          "Interactive",
+          "Reference",
+          "User Guide",
+          "UI/UX",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "SQLBasicsCourse($)",
+        "link": "https://somevalidlink.44.com",
+        "description": "SQL Basics Course ($)",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Interactive",
+          "Reference",
+          "Tutorial",
+          "User Guide",
+          "Video",
+          "UI/UX"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "A simple skill you can get"
+      },
+      {
+        "name": "SQL and DDL",
+        "description": "Understanding of Relational Databases Schema and Concepts",
+        "mastery": "Apprentice",
+        "speciality": "Data Engineer"
+      },
+      {
+        "name": "Mongo Schema",
+        "description": "Understanding of JSON and Mongo Schema Concepts",
+        "mastery": "Apprentice",
+        "speciality": "Data Engineer"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000010"
+    },
+    "name": "Data Wrangling",
+    "status": "Active",
+    "description": "With this topic you'll learn to convert data from one type to another using data wrangling techniques.",
+    "category": "Data Management",
+    "resources": [
+      {
+        "name": "MissingSemester:DataWran",
+        "link": "https://somevalidlink.45.com",
+        "description": "Missing Semester: Data Wrangling Video",
+        "skills": [
+          2
+        ],
+        "tags": [
+          "Lesson",
+          "Tutorial",
+          "User Guide",
+          "Video",
+          "API"
+        ]
+      },
+      {
+        "name": "Regexin100SecondsVideo",
+        "link": "https://somevalidlink.46.com",
+        "description": "Regex in 100 Seconds Video",
+        "skills": [
+          3
+        ],
+        "tags": [
+          "$",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Lesson",
+          "Tutorial",
+          "User Guide"
+        ]
+      },
+      {
+        "name": "WhatisETL?Article",
+        "link": "https://somevalidlink.47.com",
+        "description": "What is ETL? Article",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Exam",
+          "Lecture",
+          "Lesson",
+          "Tutorial",
+          "UI/UX"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "A simple skill you can get"
+      },
+      {
+        "name": "Data Lake Concepts",
+        "description": "Understanding of Data Lake and Ingest Pipeline Concepts",
+        "mastery": "Apprentice",
+        "speciality": "Data Engineer"
+      },
+      {
+        "name": "Data Quality",
+        "description": "Understanding of Data Management and Quality Concepts",
+        "mastery": "Apprentice",
+        "speciality": "Data Engineer"
+      },
+      {
+        "name": "Data Scrubbing",
+        "description": "Understanding Basic Data cleanup Concepts",
+        "mastery": "Apprentice",
+        "speciality": "Data Engineer"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000011"
+    },
+    "name": "Managing State",
+    "status": "Active",
+    "description": "With this topic you'll learn about effectively using different patterns to manage the state in an application.",
+    "category": "Data Management",
+    "resources": [
+      {
+        "name": "3TipsThatWillSimplifyYou",
+        "link": "https://somevalidlink.48.com",
+        "description": "3 Tips That Will Simplify Your Application State Management Article",
+        "skills": [
+          0,
+          2
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Book",
+          "Interactive",
+          "Lesson",
+          "Reference",
+          "Video",
+          "API"
+        ]
+      },
+      {
+        "name": "CachinginaPWATutorial",
+        "link": "https://somevalidlink.49.com",
+        "description": "Caching in a PWA Tutorial",
+        "skills": [
+          2
+        ],
+        "tags": [
+          "Interactive",
+          "Lecture",
+          "User Guide",
+          "UI/UX",
+          "API"
+        ]
+      },
+      {
+        "name": "Event-drivenarchitecture",
+        "link": "https://somevalidlink.50.com",
+        "description": "Event-driven architecture Article",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Exam",
+          "Interactive",
+          "User Guide",
+          "UI/UX"
+        ]
+      },
+      {
+        "name": "Implementingasimplestate",
+        "link": "https://somevalidlink.51.com",
+        "description": "Implementing a simple state machine library in JavaScript Article",
+        "skills": [
+          2
+        ],
+        "tags": [
+          "$",
+          "Interactive",
+          "Lecture",
+          "Lesson",
+          "Reference",
+          "User Guide",
+          "UI/UX",
+          "API"
+        ]
+      },
+      {
+        "name": "WhatdoyoumeanbyEvent",
+        "link": "https://somevalidlink.52.com",
+        "description": "What do you mean by Event-Driven? Article",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Book",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Reference",
+          "Tutorial",
+          "User Guide",
+          "Video"
+        ]
+      },
+      {
+        "name": "Whatiscaching?Article",
+        "link": "https://somevalidlink.53.com",
+        "description": "What is caching? Article",
+        "skills": [
+          1,
+          2
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Book",
+          "Exam",
+          "Lecture",
+          "Lesson",
+          "User Guide",
+          "Video",
+          "Data"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "A simple skill you can get"
+      },
+      {
+        "name": "Python ORM",
+        "description": "Working Knoledge of Django ORM",
+        "mastery": "Apprentice",
+        "speciality": "API Engineer"
+      },
+      {
+        "name": "SPA State Management",
+        "description": "Understanding of common Javascript state management libraries",
+        "mastery": "Apprentice",
+        "speciality": "UI/UX Engineer"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000012"
+    },
+    "name": "OdinIntro",
+    "status": "Active",
+    "description": "An introduction to Web Development",
+    "category": "Foundations of ITSM",
+    "resources": [
+      {
+        "name": "HowThisCourseWillWork",
+        "link": "https://somevalidlink.54.com",
+        "description": "How This Course Will Work",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Book",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Reference",
+          "Tutorial",
+          "User Guide",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "IntroductiontoWebDevelop",
+        "link": "https://somevalidlink.55.com",
+        "description": "Introduction to Web Development",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Lecture",
+          "Reference"
+        ]
+      },
+      {
+        "name": "MotivationandMindset",
+        "link": "https://somevalidlink.56.com",
+        "description": "Motivation and Mindset",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Book",
+          "Exam",
+          "Lesson",
+          "Reference",
+          "User Guide",
+          "UI/UX",
+          "API"
+        ]
+      },
+      {
+        "name": "AskingForHelp",
+        "link": "https://somevalidlink.57.com",
+        "description": "Asking For Help",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Book",
+          "Interactive",
+          "Reference",
+          "Video",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "JointheOdinCommunity",
+        "link": "https://somevalidlink.58.com",
+        "description": "Join the Odin Community",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Book",
+          "Interactive",
+          "Lecture",
+          "Video",
+          "UI/UX",
+          "API",
+          "Data"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "A simple skill you can get"
+      },
+      {
+        "name": "Web Dev Basics",
+        "description": "Understanding HTML and CSS concepts",
+        "mastery": "Apprentice",
+        "speciality": "UI/UX Engineer"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000013"
+    },
+    "name": "WebDevSetup",
+    "status": "Active",
+    "description": "Installing and configuring a developers environment",
+    "category": "Foundations of ITSM",
+    "resources": [
+      {
+        "name": "ComputerBasics",
+        "link": "https://somevalidlink.59.com",
+        "description": "Computer Basics",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Interactive",
+          "Tutorial",
+          "User Guide",
+          "Video",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "HowDoestheWebWork?",
+        "link": "https://somevalidlink.60.com",
+        "description": "How Does the Web Work?",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Book",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Lesson",
+          "User Guide",
+          "UI/UX"
+        ]
+      },
+      {
+        "name": "InstallationOverview",
+        "link": "https://somevalidlink.61.com",
+        "description": "Installation Overview",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Book",
+          "Lesson",
+          "Video",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "Installations",
+        "link": "https://somevalidlink.62.com",
+        "description": "Installations",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Exam",
+          "Reference",
+          "Tutorial",
+          "User Guide",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "TextEditors",
+        "link": "https://somevalidlink.63.com",
+        "description": "Text Editors",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Book",
+          "Exam",
+          "Interactive",
+          "Lesson",
+          "Reference",
+          "Tutorial",
+          "API"
+        ]
+      },
+      {
+        "name": "CommandLineBasics",
+        "link": "https://somevalidlink.64.com",
+        "description": "Command Line Basics",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Lecture",
+          "Lesson",
+          "Reference",
+          "User Guide",
+          "Video"
+        ]
+      },
+      {
+        "name": "SettingupGit",
+        "link": "https://somevalidlink.65.com",
+        "description": "Setting up Git",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Lesson",
+          "Video",
+          "UI/UX",
+          "Data"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "A simple skill you can get"
+      },
+      {
+        "name": "Developer Environments",
+        "description": "Experience with local development environments, IDEs, and Git configuration basics",
+        "mastery": "Apprentice",
+        "speciality": "Generalist"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000014"
+    },
+    "name": "GitBasics",
+    "status": "Active",
+    "description": "In introduction to git.",
+    "category": "Foundations of ITSM",
+    "resources": [
+      {
+        "name": "IntroductiontoGit",
+        "link": "https://somevalidlink.66.com",
+        "description": "Introduction to Git",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Book",
+          "Interactive",
+          "Lecture",
+          "User Guide",
+          "Data"
+        ]
+      },
+      {
+        "name": "GitBasics",
+        "link": "https://somevalidlink.67.com",
+        "description": "Git Basics",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Interactive",
+          "Lecture",
+          "Tutorial",
+          "User Guide",
+          "API"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "A simple skill you can get"
+      },
+      {
+        "name": "Git Source Control",
+        "description": "Experience with comandline git",
+        "mastery": "Apprentice",
+        "speciality": "Generalist"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000015"
+    },
+    "name": "Intermediate HTML",
+    "status": "Active",
+    "description": "Intermediate HTML Concepts",
+    "category": "Foundations of ITSM",
+    "resources": [
+      {
+        "name": "Introduction",
+        "link": "https://somevalidlink.68.com",
+        "description": "Introduction",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Exam",
+          "Tutorial",
+          "User Guide",
+          "UI/UX",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "Emmet",
+        "link": "https://somevalidlink.69.com",
+        "description": "Emmet",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Reference",
+          "User Guide",
+          "UI/UX",
+          "API"
+        ]
+      },
+      {
+        "name": "SVG",
+        "link": "https://somevalidlink.70.com",
+        "description": "SVG",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Book",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Reference",
+          "Data"
+        ]
+      },
+      {
+        "name": "Tables",
+        "link": "https://somevalidlink.71.com",
+        "description": "Tables",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Exam",
+          "Lesson",
+          "User Guide",
+          "UI/UX",
+          "API",
+          "Data"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "A simple skill you can get"
+      },
+      {
+        "name": "Intermediate HTML",
+        "description": "Experience with HTML intermediate concepts",
+        "mastery": "Apprentice",
+        "speciality": "Generalist"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "AAAA00000000000000000016"
+    },
+    "name": "Intermediate CSS",
+    "status": "Active",
+    "description": "Intermediate CSS Concepts",
+    "category": "Foundations of ITSM",
+    "resources": [
+      {
+        "name": "DefaultStyles",
+        "link": "https://somevalidlink.72.com",
+        "description": "Default Styles",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Lecture",
+          "Lesson",
+          "Tutorial",
+          "User Guide",
+          "Data"
+        ]
+      },
+      {
+        "name": "CSSUnits",
+        "link": "https://somevalidlink.73.com",
+        "description": "CSS Units",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Exam",
+          "Lecture",
+          "Lesson",
+          "Reference",
+          "Tutorial",
+          "User Guide",
+          "API",
+          "Data"
+        ]
+      },
+      {
+        "name": "MoreTextStyles",
+        "link": "https://somevalidlink.74.com",
+        "description": "More Text Styles",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Exam",
+          "Lecture",
+          "Lesson",
+          "Reference",
+          "Video",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "MoreCSSProperties",
+        "link": "https://somevalidlink.75.com",
+        "description": "More CSS Properties",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Book",
+          "Exam",
+          "Lecture",
+          "User Guide",
+          "Video",
+          "Data"
+        ]
+      },
+      {
+        "name": "AdvancedSelectors",
+        "link": "https://somevalidlink.76.com",
+        "description": "Advanced Selectors",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Book",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Reference",
+          "Tutorial",
+          "User Guide"
+        ]
+      },
+      {
+        "name": "Positioning",
+        "link": "https://somevalidlink.77.com",
+        "description": "Positioning",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Lecture",
+          "Reference",
+          "Tutorial",
+          "User Guide",
+          "Video",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "CSSFunctions",
+        "link": "https://somevalidlink.78.com",
+        "description": "CSS Functions",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Book",
+          "Exam",
+          "Interactive",
+          "Lecture",
+          "Lesson",
+          "Reference",
+          "Video",
+          "Data"
+        ]
+      },
+      {
+        "name": "CustomProperties",
+        "link": "https://somevalidlink.79.com",
+        "description": "Custom Properties",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Book",
+          "Exam",
+          "Interactive",
+          "Lesson",
+          "Reference",
+          "Tutorial"
+        ]
+      },
+      {
+        "name": "BrowserCompatibility",
+        "link": "https://somevalidlink.80.com",
+        "description": "Browser Compatibility",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "$",
+          "Article",
+          "Interactive",
+          "Lesson",
+          "Tutorial",
+          "Video",
+          "UI/UX",
+          "Data"
+        ]
+      },
+      {
+        "name": "FrameworksandPreprocesso",
+        "link": "https://somevalidlink.81.com",
+        "description": "Frameworks and Preprocessors",
+        "skills": [
+          1
+        ],
+        "tags": [
+          "Article",
+          "Interactive",
+          "Lecture",
+          "Tutorial",
+          "User Guide",
+          "Video",
+          "Data"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Simple Skill",
+        "description": "A simple skill you can get"
+      },
+      {
+        "name": "Intermediate CSS",
+        "description": "Experience with CSS intermediate concepts",
+        "mastery": "Apprentice",
+        "speciality": "Generalist"
+      }
+    ],
+    "lastSaved": {
+      "atTime": {
+        "$date": "4/3/2024 18:17:58"
+      },
+      "byUser": {
+        "$oid": 1
+      },
+      "fromIp": "192.168.1.39",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  }
+]

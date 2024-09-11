@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   title: topics
-  version: 3.0.0.2
+  version: 3.0.1.2
 paths:
   /topics/:
     get:
@@ -56,9 +56,6 @@ components:
           items:
             description: A Skill
             properties:
-              index:
-                description: The index number referenced in resources
-                type: number
               name:
                 description: The short name (slug) for this skill
                 pattern: ^[ -~]{0,256}$

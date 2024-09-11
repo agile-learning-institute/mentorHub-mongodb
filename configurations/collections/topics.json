@@ -2,8 +2,8 @@
   "name": "topics",
   "versions": [
     {
-      "version": "3.0.0.2",
-      "testData": "topics-3.0.0",
+      "version": "3.0.1.2",
+      "testData": "topics-3.0.1",
       "addIndexes": [
         {
           "name": "nameIndex",
