@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   title: curriculum
-  version: 3.0.1.2
+  version: 3.0.2.2
 paths:
   /curriculum/:
     get:
@@ -40,6 +40,33 @@ components:
                 description: The Topic overview paragraph
                 pattern: ^[ -~]{0,256}$
                 type: string
+              skills:
+                description: The list of skills this resource contributes to
+                items:
+                  pattern: ^[ -~]{0,256}$
+                  type: string
+                type: array
+              tags:
+                description: Tags to assist with classification of this resource
+                items:
+                  enum:
+                    - $
+                    - Article
+                    - Book
+                    - Exam
+                    - Interactive
+                    - Lecture
+                    - Lesson
+                    - Reference
+                    - Tutorial
+                    - User Guide
+                    - Video
+                    - UI/UX
+                    - API
+                    - Data
+                    - SRE
+                  type: string
+                type: array
               started:
                 description: When did they start this resource
                 type: string
@@ -47,7 +74,9 @@ components:
                 description: When was the resource completed
                 type: string
               rating:
-                description: Resource Rating 1-4
+                description: Resource Rating 1-5
+                minimum: 1
+                maximum: 5
                 type: number
               review:
                 description: resource short review
@@ -74,6 +103,33 @@ components:
                 description: The Topic overview paragraph
                 pattern: ^[ -~]{0,256}$
                 type: string
+              skills:
+                description: The list of skills this resource contributes to
+                items:
+                  pattern: ^[ -~]{0,256}$
+                  type: string
+                type: array
+              tags:
+                description: Tags to assist with classification of this resource
+                items:
+                  enum:
+                    - $
+                    - Article
+                    - Book
+                    - Exam
+                    - Interactive
+                    - Lecture
+                    - Lesson
+                    - Reference
+                    - Tutorial
+                    - User Guide
+                    - Video
+                    - UI/UX
+                    - API
+                    - Data
+                    - SRE
+                  type: string
+                type: array
               started:
                 description: When did they start this resource
                 type: string

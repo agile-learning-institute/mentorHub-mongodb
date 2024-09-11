@@ -1,0 +1,194 @@
+{
+	"description": "A personalized roadmap for learning",
+	"bsonType": "object",
+	"required": [
+		"_id"
+	],
+	"properties": {
+		"_id": {
+			"description": "Curriculum _id values are === the person _id",
+			"bsonType": "objectId"
+		},
+		"completed": {
+			"description": "List of Completed Resources",
+			"bsonType": "array",
+			"items": {
+				"description": "A learning resource",
+				"bsonType": "object",
+				"properties": {
+					"name": {
+						"description": "resource name for adHoc resources",
+						"msmType": "msmSentence"
+					},
+					"link": {
+						"description": "resource link for adHoc resources",
+						"msmType": "msmUrl"
+					},
+					"description": {
+						"description": "The Topic overview paragraph",
+						"msmType": "msmSentence"
+					},
+					"skills": {
+						"description": "The list of skills this resource contributes to",
+						"bsonType": "array",
+						"items": {
+							"msmType": "msmSentence"
+						}
+					},
+					"tags": {
+						"description": "Tags to assist with classification of this resource",
+						"msmEnumList": "resourceTags"
+					},
+					"started": {
+						"description": "When did they start this resource",
+						"bsonType": "date"
+					},
+					"completed": {
+						"description": "When was the resource completed",
+						"bsonType": "date"
+					},
+					"rating": {
+						"description": "Resource Rating 1-5",
+						"bsonType": "number",
+						"minimum": 1,
+						"maximum": 5
+					},
+					"review": {
+						"description": "resource short review",
+						"msmType": "msmSentence"
+					}
+				},
+				"additionalProperties": false
+			}
+		},
+		"now": {
+			"description": "List of Resources to work on NOW",
+			"bsonType": "array",
+			"items": {
+				"description": "A learning resource",
+				"bsonType": "object",
+				"properties": {
+					"name": {
+						"description": "resource name",
+						"msmType": "msmSentence"
+					},
+					"link": {
+						"description": "resource link",
+						"msmType": "msmUrl"
+					},
+					"description": {
+						"description": "The Topic overview paragraph",
+						"msmType": "msmSentence"
+					},			
+					"skills": {
+						"description": "The list of skills this resource contributes to",
+						"bsonType": "array",
+						"items": {
+							"msmType": "msmSentence"
+						}
+					},
+					"tags": {
+						"description": "Tags to assist with classification of this resource",
+						"msmEnumList": "resourceTags"
+					},
+					"started": {
+						"description": "When did they start this resource",
+						"bsonType": "date"
+					}
+				},
+				"additionalProperties": false
+			}
+		},
+		"next": {
+			"description": "List of Resources Paths",
+			"bsonType": "array",
+			"items": {
+				"description": "A learning path",
+				"bsonType": "object",
+				"properties": {
+					"path": {
+						"description": "A learning path",
+						"msmType": "msmSentence"
+					},
+					"segments": {
+						"description": "The list of segments in the path",
+						"bsonType": "array",
+						"items": {
+							"description": "A learning segment",
+							"bsonType": "object",
+							"properties": {
+								"segment": {
+									"description": "The segment name",
+									"msmType": "msmSentence"
+								},
+								"topics": {
+									"description": "List of topics in the segment",
+									"bsonType": "array",
+									"items": {
+										"description": "A topic (group of resources)",
+										"bsonType": "object",
+										"properties": {
+											"topic": {
+												"description": "A topic name",
+												"msmType": "msmSentence"
+											},
+											"resources": {
+												"description": "List of learning resources",
+												"bsonType": "array",
+												"items": {
+													"bsonType": "object",
+													"properties": {
+														"name": {
+															"description": "resource name for adHoc resources",
+															"msmType": "msmSentence"
+														},
+														"link": {
+															"description": "resource link for adHoc resources",
+															"msmType": "msmUrl"
+														},
+														"description": {
+															"description": "The Topic overview paragraph",
+															"msmType": "msmSentence"
+														},
+														"skills": {
+															"description": "The list of skills this resource contributes to",
+															"bsonType": "array",
+															"items": {
+																"msmType": "msmSentence"
+															}
+														},
+														"tags": {
+															"description": "Tags to assist with classification of this resource",
+															"msmEnumList": "resourceTags"
+														}					
+													},
+													"additionalProperties": false
+												}
+											}
+										},
+										"additionalProperties": false
+									}
+								}
+							},
+							"additionalProperties": false
+						}
+					}
+				},
+				"additionalProperties": false
+			}
+		},
+		"later": {
+			"description": "List of paths for strategic goals",
+			"bsonType": "array",
+			"items": {
+				"description": "Path ID",
+				"bsonType": "objectId"
+			}
+		},
+		"lastSaved": {
+			"description": "Last Updated breadcrumb",
+			"msmType": "msmBreadcrumb"
+		}
+	},
+	"additionalProperties": false
+}
