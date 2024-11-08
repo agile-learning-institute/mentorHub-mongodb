@@ -1,6 +1,10 @@
 # mentorHub MongoDB
 
-This repo contains the mongoDb configurations that are deployed for the mentorHub platform. We are using the [mongoSchemaManager](https://github.com/agile-learning-institute/mongoSchemaManager/blob/main/docs/REFERENCE.md) open source tool to create a container that configures a MongoDB database by defining collections, schema validation, and loading test data. When you use the ``mh up`` command to start a service that uses a mongoDB database, both the mongoDB container and this msm container are started so that the database is initilized with test data for your use.
+This repo builds a containerized utility that is used to configure the mongoDb database and load test data. 
+
+We are using the [mongoSchemaManager](https://github.com/agile-learning-institute/mongoSchemaManager/blob/main/docs/REFERENCE.md) open source tool
+
+When you use the ``mh up`` command to start a service that uses a mongoDB database, both the mongoDB container and this mentorhub-mongodb container are started so that the database is initilized with test data for your use.
 
 ## Prerequisites
 - [Mentorhub Desktop Edition](https://github.com/agile-learning-institute/mentorHub/blob/main/mentorHub-developer-edition/README.md)
