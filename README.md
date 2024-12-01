@@ -9,6 +9,14 @@ When you use the ``mh up`` command to start a service that uses a mongoDB databa
 ## Prerequisites
 - [Mentorhub Desktop Edition](https://github.com/agile-learning-institute/mentorHub/blob/main/mentorHub-developer-edition/README.md)
 
+- For local access you can use the connection string ``mongodb://mongodb:27017/?replicaSet=rs0``if the mongodb host-name is defined in your /etc/hosts file. You can use the following command to make this change. 
+```sh
+echo '127.0.0.1 mongodb' | sudo tee -a /etc/hosts
+```
+### Optional
+- [Mongo Compass](https://www.mongodb.com/try/download/compass) - if you want a way to look into the database. 
+
+
 ## Currently Deployed Schema documentation
 View the [OpenApi specifications](https://agile-learning-institute.github.io/mentorHub-mongodb/) page for a list of the currently deployed collections, the currentVersion, and a sample openAPI schema specification for each.
 
@@ -40,7 +48,7 @@ NOTE: This script will deploy the latest schema's into the /docs folder where th
 ```bash
 make container
 ```
-This will build your container locally, then start both the mongodb database, and your container. Your containers stdout will be tailed until processing completes. You should see the same output you saw with ``./make local``. 
+This will build your container locally, then start both the mongodb database, and your container. Your containers stdout will be tailed until processing completes. You should see the same output you saw with ``make local``. 
 
 ## Shut down services after testing
 ```bash
