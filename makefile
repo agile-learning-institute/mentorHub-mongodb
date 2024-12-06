@@ -16,4 +16,4 @@ container:
 	docker build --tag ghcr.io/agile-learning-institute/mentorhub-msm:latest .
 	mh down
 	mh up mongodb
-	mh tail mentorhub-mongomsm
+	mh tail initialize-mongodb
