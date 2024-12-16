@@ -144,19 +144,19 @@
         "name": "Skill-1",
         "description": "Basic use of the Unix/Linux command line and shell scripts",
         "mastery": "Candidate",
-        "speciality": "Generalist"
+        "specialty": "Generalist"
       },
       {
         "name": "Skill-2",
         "description": "Vue.js concepts with design system libraries",
         "mastery": "Apprentice",
-        "speciality": "UI/UX Engineer"
+        "specialty": "UI/UX Engineer"
       },
       {
         "name": "Skill-3",
         "description": "Python Data Structures and with Pandas",
         "mastery": "Apprentice",
-        "speciality": "Data Engineer"
+        "specialty": "Data Engineer"
       }
     ],
     "lastSaved": {
@@ -285,13 +285,13 @@
         "name": "ECMAScript concepts ",
         "description": "Working knowledge of Javascript / Typescript fundamentals",
         "mastery": "Apprentice",
-        "speciality": "API Engineer"
+        "specialty": "API Engineer"
       },
       {
         "name": "Docker Basics",
         "description": "Working knowledge of Docker and Docker Compose concepts",
         "mastery": "Apprentice",
-        "speciality": "Generalist"
+        "specialty": "Generalist"
       }
     ],
     "lastSaved": {
@@ -577,13 +577,13 @@
         "name": "Bash Scripting ",
         "description": "Working knowledge of Bash Scripting",
         "mastery": "Apprentice",
-        "speciality": "Generalist"
+        "specialty": "Generalist"
       },
       {
         "name": "Powershell Basics",
         "description": "Understanding of Powershell concepts",
         "mastery": "Apprentice",
-        "speciality": "Generalist"
+        "specialty": "Generalist"
       }
     ],
     "lastSaved": {
@@ -591,7 +591,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000004"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
@@ -770,13 +770,13 @@
         "name": "JVMs",
         "description": "Understanding of Java Runtimes",
         "mastery": "Apprentice",
-        "speciality": "API Engineer"
+        "specialty": "API Engineer"
       },
       {
         "name": "Compilers",
         "description": "Understanding of Compilers, Intreperters, and JIT concepts",
         "mastery": "Apprentice",
-        "speciality": "Generalist"
+        "specialty": "Generalist"
       }
     ],
     "lastSaved": {
@@ -784,7 +784,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000005"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
@@ -846,9 +846,9 @@
       },
       {
         "name": "Mainframes",
-        "description": "Understanding of Z-Series Mainframes and z/OS conecpts",
+        "description": "Understanding of Z-Series Mainframes and z/OS concepts",
         "mastery": "Apprentice",
-        "speciality": "SRE Engineer"
+        "specialty": "SRE Engineer"
       }
     ],
     "lastSaved": {
@@ -856,7 +856,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000006"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
@@ -898,7 +898,7 @@
         "name": "JSON Schema",
         "description": "Working knowledge of JSON Schema",
         "mastery": "Apprentice",
-        "speciality": "API Engineer"
+        "specialty": "API Engineer"
       }
     ],
     "lastSaved": {
@@ -906,7 +906,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000007"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
@@ -995,15 +995,15 @@
       },
       {
         "name": "SQL",
-        "description": "Understanding of Relational Databases and SQL conecpts",
+        "description": "Understanding of Relational Databases and SQL concepts",
         "mastery": "Apprentice",
-        "speciality": "Data Engineer"
+        "specialty": "Data Engineer"
       },
       {
         "name": "NO-SQL",
-        "description": "Understanding of Document Databases and Not Only SQL conecpts",
+        "description": "Understanding of Document Databases and Not Only SQL concepts",
         "mastery": "Apprentice",
-        "speciality": "Data Engineer"
+        "specialty": "Data Engineer"
       }
     ],
     "lastSaved": {
@@ -1011,7 +1011,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000008"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
@@ -1177,13 +1177,13 @@
         "name": "SQL and DDL",
         "description": "Understanding of Relational Databases Schema and Concepts",
         "mastery": "Apprentice",
-        "speciality": "Data Engineer"
+        "specialty": "Data Engineer"
       },
       {
         "name": "Mongo Schema",
         "description": "Understanding of JSON and Mongo Schema Concepts",
         "mastery": "Apprentice",
-        "speciality": "Data Engineer"
+        "specialty": "Data Engineer"
       }
     ],
     "lastSaved": {
@@ -1191,7 +1191,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000009"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
@@ -1264,19 +1264,19 @@
         "name": "Data Lake Concepts",
         "description": "Understanding of Data Lake and Ingest Pipeline Concepts",
         "mastery": "Apprentice",
-        "speciality": "Data Engineer"
+        "specialty": "Data Engineer"
       },
       {
         "name": "Data Quality",
         "description": "Understanding of Data Management and Quality Concepts",
         "mastery": "Apprentice",
-        "speciality": "Data Engineer"
+        "specialty": "Data Engineer"
       },
       {
         "name": "Data Scrubbing",
         "description": "Understanding Basic Data cleanup Concepts",
         "mastery": "Apprentice",
-        "speciality": "Data Engineer"
+        "specialty": "Data Engineer"
       }
     ],
     "lastSaved": {
@@ -1284,7 +1284,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000010"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
@@ -1417,13 +1417,13 @@
         "name": "Python ORM",
         "description": "Working Knoledge of Django ORM",
         "mastery": "Apprentice",
-        "speciality": "API Engineer"
+        "specialty": "API Engineer"
       },
       {
         "name": "SPA State Management",
         "description": "Understanding of common Javascript state management libraries",
         "mastery": "Apprentice",
-        "speciality": "UI/UX Engineer"
+        "specialty": "UI/UX Engineer"
       }
     ],
     "lastSaved": {
@@ -1431,7 +1431,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000011"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
@@ -1544,7 +1544,7 @@
         "name": "Web Dev Basics",
         "description": "Understanding HTML and CSS concepts",
         "mastery": "Apprentice",
-        "speciality": "UI/UX Engineer"
+        "specialty": "UI/UX Engineer"
       }
     ],
     "lastSaved": {
@@ -1552,7 +1552,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000012"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
@@ -1701,7 +1701,7 @@
         "name": "Developer Environments",
         "description": "Experience with local development environments, IDEs, and Git configuration basics",
         "mastery": "Apprentice",
-        "speciality": "Generalist"
+        "specialty": "Generalist"
       }
     ],
     "lastSaved": {
@@ -1709,7 +1709,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000012"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
@@ -1766,7 +1766,7 @@
         "name": "Git Source Control",
         "description": "Experience with comandline git",
         "mastery": "Apprentice",
-        "speciality": "Generalist"
+        "specialty": "Generalist"
       }
     ],
     "lastSaved": {
@@ -1774,7 +1774,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000012"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
@@ -1865,7 +1865,7 @@
         "name": "Intermediate HTML",
         "description": "Experience with HTML intermediate concepts",
         "mastery": "Apprentice",
-        "speciality": "Generalist"
+        "specialty": "Generalist"
       }
     ],
     "lastSaved": {
@@ -1873,7 +1873,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000012"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
@@ -2073,7 +2073,7 @@
         "name": "Intermediate CSS",
         "description": "Experience with CSS intermediate concepts",
         "mastery": "Apprentice",
-        "speciality": "Generalist"
+        "specialty": "Generalist"
       }
     ],
     "lastSaved": {
@@ -2081,7 +2081,7 @@
         "$date": "4/3/2024 18:17:58"
       },
       "byUser": {
-        "$oid": 1
+        "$oid": "AAAA00000000000000000012"
       },
       "fromIp": "192.168.1.39",
       "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
