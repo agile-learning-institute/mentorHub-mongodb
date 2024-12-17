@@ -1,7 +1,7 @@
 [
     {
         "name": "Enumerations",
-        "status": "Depricated",
+        "status": "Deprecated",
         "version": 0,
         "enumerators": {}
     },
@@ -36,7 +36,7 @@
             },
             "device": {
                 "Mac (Intel)": "Mac with Intel silicon",
-                "Mac (Apple)": "Mac with Apple sillicon",
+                "Mac (Apple)": "Mac with Apple silicon",
                 "Linux": "Boots to Linux (dual boot or vm)",
                 "Windows": "Uses WSL for bash/linux"
             },
@@ -85,7 +85,7 @@
                 "Master": "A senior software engineer recognized as a leader within their specialty",
                 "Distinguished": "A senior software engineer that has been recognized by their peers as a distinguished contributor"
             },
-            "speciality": {
+            "specialty": {
                 "Generalist": "General skills not associated with a specific specialty",
                 "UI/UX Engineer": "UI/UX software engineer",
                 "API Engineer": "API Engineer",
@@ -147,7 +147,7 @@
             },
             "device": {
                 "Mac (Intel)": "Mac with Intel silicon",
-                "Mac (Apple)": "Mac with Apple sillicon",
+                "Mac (Apple)": "Mac with Apple silicon",
                 "Linux": "Boots to Linux (dual boot or vm)",
                 "Windows": "Uses WSL for bash/linux"
             },
@@ -196,7 +196,7 @@
                 "Master": "A senior software engineer recognized as a leader within their specialty",
                 "Distinguished": "A senior software engineer that has been recognized by their peers as a distinguished contributor"
             },
-            "speciality": {
+            "specialty": {
                 "Generalist": "General skills not associated with a specific specialty",
                 "UI/UX Engineer": "UI/UX software engineer",
                 "API Engineer": "API Engineer",
