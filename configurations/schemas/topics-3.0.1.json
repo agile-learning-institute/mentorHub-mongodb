@@ -45,9 +45,9 @@
 						"description": "The level of mastery for this skill, it aligns with person.title",
 						"msmEnums": "mastery"
 					},
-					"speciality": {
-						"description": "The speciality this skill applies to",
-						"msmEnums": "speciality"
+					"specialty": {
+						"description": "The specialty this skill applies to",
+						"msmEnums": "specialty"
 					}
 				},
 				"additionalProperties": false
